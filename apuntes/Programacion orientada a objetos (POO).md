@@ -11,7 +11,7 @@ Para usar una clase se crea una instancia, cuando esta se almacena en una variab
 
 ## Herencia 
 
-La herencia de una clase se da cuando una clase obtiene todas las características y funcionalidades de otra clase, al hacerse la herencia hay dos partes fundamentales, la clase base y la clase hija donde  la clase hija hereda de la clase base.
+La herencia de una clase se da cuando una clase obtiene **todas** las características y funcionalidades de otra clase, al haber una herencia hay dos partes fundamentales, la clase padre y la clase hija donde la clase hija hereda de la clase padre.
 
 ## Polimorfismo 
 
@@ -25,4 +25,4 @@ El encapsulamiento en una clase pasa cuando se seleccionan partes de informació
 
 ## Abstracción 
 
-La abstracción sucede cuando se representan cosas complejas de una manera simple, ocultando los detalles complejos del exterior. 
+La abstracción es la menera en se reprecenta a un objeto para que sea simple por fuera, ocultando sus partes complejas, dicho de otra menera es representar cosas complejas de una manera simple para que otros la puedan usar. La forma en la que reprecentamos algo complejo como algo simple es usando una *interfaz*, por ejemplo, cuando encendemos un auto lo hacemos gitando una llave en vez de conectar cables, en este caso la interfaz es la llave y la cerradura que nos permiten ocultar lo complejo que es encender un auto. Cuando programamos clases dependiendo del lenguaje esta abstracción suele hacerce a traves de metodos e interfaces.
