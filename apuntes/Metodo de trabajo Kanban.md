@@ -12,8 +12,7 @@ Kanban
 
 # Tableros Kanban
 
-Un tablero Kanban permite visualizar fácilmente el flujo de trabajo y también gestionar el mismo, esto lo hace a través de columnas que representan las faces que tiene el trabajo y a su vez el trabajo es representado en pequeñas tareas llamadas tickets o tarjetas Kanban las cuales avanzan a lo largo del tablero desde la primer
- columna está la última. 
+Un tablero Kanban permite visualizar fácilmente el flujo de trabajo y también gestionar el mismo, esto lo hace a través de columnas que representan las faces que tiene el trabajo y a su vez el trabajo es representado en pequeñas tareas llamadas tickets o tarjetas Kanban las cuales avanzan a lo largo del tablero desde la primer columna hasta la última. 
 
 El tablero más simple podría tener tres columnas: En pendiente, en procesos y finalizado, pero al usar TDD podrías tener una columna "Escribir test".
 
