@@ -44,5 +44,3 @@ Las 3C de las historias de usuario son tres puntos de referencia que se debería
 ## Conclusión 
 
 Las historias de usuario son descripciones cortas y no técnicas de las cosas que un usuario puede hacer en una aplicación.
-___
-Como fuentes se usaron: [Una publicación de Asana](https://asana.com/es/resources/user-stories) y el libro Desarrollo ágil esencial de Robert C.Martin.

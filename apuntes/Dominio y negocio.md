@@ -15,5 +15,3 @@ Desarrollamos al "negocio" teniendo en cuenta el "dominio" del mismo, pero sobre
 Un componente debería tener una sola razón para cambiar, eso nos dice el principio, ahora bien esta "razón de cambio" mientras más grande sea el componente más relación tendrá con el dominio y/o negocio, no vamos a poder saber si cumplimos con este principio si no conocemos lo suficiente el dominio y negocio de la aplicación.
 
 Si comprendemos el negocio podemos identificar y comprender los motivos de cambio de cada componte.
-___
-Material usado: Un capitulo del libro *"código sostenible"* de *Carlos Blé Jurado*.

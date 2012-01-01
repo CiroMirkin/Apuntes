@@ -61,4 +61,3 @@ ___
 
 Un tablero Kanban virtual no es mala idea para tener en un portafolio.
 
-Material usado/recomendado sobre el tema: [La guía oficial del método Kanban - Kanban university](https://kanban.university/kanban-guide/#download), [Kanban: Metodología ágil de desarrollo de Software - Fabián Cabrera](https://cs.uns.edu.ar/~mc/disenio/downloads/Talleres/2019%20-%20Charla%20Kanban%20-%20Fabian%20Cabrera.pdf),  [¿Qué es la metodología Kanban y cómo funciona? - Asana](https://asana.com/es/resources/what-is-kanban).

@@ -14,6 +14,3 @@ Hay cosas que no deberiamos pensar cuando leemos un código, por ejemplo, si una
 **Para mi, para mi** este principio como un punto importante dentro del principio *no me hagas pensar*, porque la idea de este principio es: Que todo se comporte como cabe esperar. Ahora bien, si las cosas no se comportan como cabe esperar nos vemos obligados a pensar en el porque de esa decición.
 
 Hay veces en las que introducimos una *"sorpresa"* por accidente, sin pensar que es una *"sorpresa"*. Por ejemplo, vemos que hay dos funciones que siempre se llaman una despues de la otra, entonces, hacemos que la primera llame a la segunda. El problema con esto es que nadie espera eso, nadie esperaria que la función *guardarDatos* llame a *mostrarDatos*, todos esperan que *guardarDatos* lo uníco que haga sea guardar los datos y nada más, porque eso es lo que dice que hace y eso es lo que se espera.
-
-___
-Material usado: Un capitulo de "Código sostenible" de *Carlos Blé Juerado*.

@@ -46,5 +46,3 @@ Lo bueno de este patrón no es solo que fomenta el uso de funciones puras sino t
 
 Usar el resultado de una función como argumento de otra, eso es la composición de funciones. Cuando abusamos de la composición de funciones el código se vuelve difícil de leer y de seguir, a esto se le llama *"Composition hell"*. Salvo en casos concretos lo mejor seria que evites hacer composición de funciones.
 
-___
-Material usado: Algunos capitulos de "Código sostenible" de *Carlos Blé Jurado*.

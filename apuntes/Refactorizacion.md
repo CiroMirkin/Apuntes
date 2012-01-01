@@ -48,7 +48,4 @@ En su libro sobre refactorizacion Martin Fowler también separa la refactorizaci
 * ¿El equipo en el que trabajo va a enter la refactorizacion y la aceptara?
 * ¿Hará que consiga más clientes?
 * ¿Mejorara el rendimiento de la aplicación notablemente? Y esto hay que tenerlo en cuenta solo si el rendimiento es un problema a resolver.
-___
-Material usado: [Refactoring, improving the design of existing code - Martin Fowler](https://www.refactoring.com/), [Cuando refactorizar tu código? - Hola mundo](https://www.youtube.com/watch?v=Cd-tw8xxMu8), [¿Sabes lo que significa Refactorizar? - BettaTech](https://www.youtube.com/watch?v=6uBOlGrcj4A&t=3s), [El arte de la refactorización - Estefany Aguilar (PlatziConf)](https://www.youtube.com/watch?v=5nS6BI8Tc8A&t=18s), [Repasando los clásicos: Refactoring, de Martin Fowler - Adictos al trabajo](https://www.adictosaltrabajo.com/2015/09/28/repasando-los-clasicos-refactoring-de-martin-fowler/).
 
-Apunte relacionado: <a href="https://github.com/CiroMirkin/Apuntes/blob/main/apuntes/Desarrollo%20guiado%20por%20pruevas%20(TDD).md">Desarrollo guiado por pruevas (TDD)</a>.

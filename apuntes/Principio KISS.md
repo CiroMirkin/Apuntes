@@ -17,8 +17,3 @@ Busca siempre la solución mas simple para un problema y no te enrolles pensando
 - Mantén el código ordenado.
 <br/><br/>
 - Programa pensando en las **personas** no en las computadoras.
-___
-
-Material usado: El libro Codigo sostenible de Carlos Blé Jurado. 
-<br>
-Material recomendado: Código limpio de Robert C.Martin y el material usado.

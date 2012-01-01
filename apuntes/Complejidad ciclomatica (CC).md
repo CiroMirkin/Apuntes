@@ -77,6 +77,3 @@ El CC nos sirve para medir la complejidad del código a nivel lógico, pero recu
 
 ___
 Actualmente existen programas que automáticamente te muestran el CC de tu código, pero hacer uno que lo haga no es mala idea para un proyecto y/o práctica.
-
-Material usado: [Paper origen de Thomas J.McCabe](http://www.literateprogramming.com/mccabe.pdf), [mpijierro.medium.com](https://mpijierro.medium.com/complejidad-ciclom%C3%A1tica-y-como-reducirla-7374c215f666), [oscarmoreno.com](http://oscarmoreno.com/la-complejidad-ciclomatica/) y [education-wiki](https://es.education-wiki.com/4574012-cyclomatic-complexity) .
-

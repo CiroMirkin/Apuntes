@@ -1,0 +1,68 @@
+___
+Algoritmos: https://drive.google.com/file/d/1m13QYfEaBfZn25xSzea4rJyS7925Qa8Y/view, https://concepto.de/algoritmo-en-informatica/.
+
+___
+Cohesión y acoplamiento: El libro código sostenible de Carlos Blé Jurado.
+
+___
+Complejidad ciclomatica (CC): 
+[Paper origen de Thomas J.McCabe](http://www.literateprogramming.com/mccabe.pdf), [mpijierro.medium.com](https://mpijierro.medium.com/complejidad-ciclom%C3%A1tica-y-como-reducirla-7374c215f666), [oscarmoreno.com](http://oscarmoreno.com/la-complejidad-ciclomatica/) y [education-wiki](https://es.education-wiki.com/4574012-cyclomatic-complexity) .
+
+___
+Desarrollo ágil:
+El libro de Robert C.Martin "Desarrollo ágil esencial". 
+
+Material recomendado: [Manifiesto ágil](https://agilemanifesto.org/).
+
+
+
+___
+Dominio y negocio: Un capitulo del libro *"código sostenible"* de *Carlos Blé Jurado*.
+
+___
+Funciones: Algunos capitulos de "Código sostenible" de *Carlos Blé Jurado*.
+
+
+___
+Historias de usuario: [Una publicación de Asana](https://asana.com/es/resources/user-stories) y el libro Desarrollo ágil esencial de Robert C.Martin.
+
+___
+Metodo de trabajo Kanban: [La guía oficial del método Kanban - Kanban university](https://kanban.university/kanban-guide/#download), [Kanban: Metodología ágil de desarrollo de Software - Fabián Cabrera](https://cs.uns.edu.ar/~mc/disenio/downloads/Talleres/2019%20-%20Charla%20Kanban%20-%20Fabian%20Cabrera.pdf),  [¿Qué es la metodología Kanban y cómo funciona? - Asana](https://asana.com/es/resources/what-is-kanban).
+
+
+___
+No me hagas pensar ni me des sorpresas: Un capitulo de "Código sostenible" de *Carlos Blé Juerado*.
+
+
+___
+No vas a necesitarlo (YANGI): [Wikipedia](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it),<br> 
+https://www.martinfowler.com/bliki/Yagni.html <br> 
+https://www.adictosaltrabajo.com/2015/10/12/yagni/
+
+
+___
+Patrones de diseño creacionales: https://refactoring.guru/
+
+
+___
+Principio KISS: El libro Codigo sostenible de Carlos Blé Jurado.
+Material recomendado: Código limpio de Robert C.Martin y el material usado.
+
+
+
+___
+Pruevas unitarias: El paper Test-Driven Development - <a href="">Una aproximación para entender su utilidad en el proceso de desarrollo de Software</a> 
+
+Ademas puedes encontrar algunas de las librerias mas importantes de unit Testing en <a href="https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#JavaScript">Wikipedia</a>.
+
+
+___
+Recomendaciones GRASP: el artículo escrito por <a href="">Roberto Canales Mora</a> y los artículos escritos por <a href="">Juan García Carmona</a>, lo interesante de estos últimos es que contiene varios ejemplos en código sobre lo que incumple o no estos principios.
+
+
+___
+Refactorizacion: [Refactoring, improving the design of existing code - Martin Fowler](https://www.refactoring.com/), [Cuando refactorizar tu código? - Hola mundo](https://www.youtube.com/watch?v=Cd-tw8xxMu8), [¿Sabes lo que significa Refactorizar? - BettaTech](https://www.youtube.com/watch?v=6uBOlGrcj4A&t=3s), [El arte de la refactorización - Estefany Aguilar (PlatziConf)](https://www.youtube.com/watch?v=5nS6BI8Tc8A&t=18s), [Repasando los clásicos: Refactoring, de Martin Fowler - Adictos al trabajo](https://www.adictosaltrabajo.com/2015/09/28/repasando-los-clasicos-refactoring-de-martin-fowler/).
+
+
+___
+Dile no preguntes: [Articulo de Martin Fowler sobre Tell don´t ask](https://www.martinfowler.com/bliki/TellDontAsk.html).
