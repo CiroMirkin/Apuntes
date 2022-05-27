@@ -1,8 +1,9 @@
 v a c i o - i n f o r m a t i c o
 ====
-*Escrito por: Mirkin Ciro* <br>
-*Pertenece a: vacio-informatico* | [Github]("https://github.com/vacio-informatico/")<br>
-[vacio-informatico web site]("https://vacio-informatico.github.io/v-i/")
+*Autor: Mirkin Ciro* <br>
+*Pertenece a: vacio-informatico* | [Github](https://github.com/vacio-informatico/)<br>
+*Emitido el 30_10_2021*
+
 
 # SQL Y NoSQL
 Las bases de datos son partes fundamentales en la persistencia de los datos, por ende, hay que sopesar y elegir un tipo que se amolde a los datos y su uso. 

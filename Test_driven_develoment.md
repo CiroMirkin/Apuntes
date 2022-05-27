@@ -1,8 +1,9 @@
 v a c i o - i n f o r m a t i c o
 ====
-*Escrito por: Mirkin Ciro* <br>
-*Pertenece a: vacio-informatico* | [Github](https://github.com/vacio-informatico/) <br>
-[vacio-informatico sitio web](https://vacio-informatico.github.io/v-i/)
+*Autor: Mirkin Ciro* <br>
+*Pertenece a: vacio-informatico* | [Github](https://github.com/vacio-informatico/)<br>
+*Emitido el 26_04_2022*
+
 
 # Test driven develoment
 

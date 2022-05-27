@@ -1,8 +1,9 @@
 v a c i o - i n f o r m a t i c o
-===
-*Escrito por: Mirkin Ciro* <br>
+====
+*Autor: Mirkin Ciro* <br>
 *Pertenece a: vacio-informatico* | [Github](https://github.com/vacio-informatico/)<br>
-[vacio-informatico web](https://vacio-informatico.github.io/v-i/)
+*Emitido el 19_02_2022*
+
 
 # GRASP	
 

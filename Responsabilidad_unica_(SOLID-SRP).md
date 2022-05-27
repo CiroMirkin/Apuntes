@@ -2,7 +2,7 @@ v a c i o - i n f o r m a t i c o
 ====
 *Autor: Mirkin Ciro* <br>
 *Pertenece a: vacio-informatico* | [Github](https://github.com/vacio-informatico/)<br>
-[vacio-informatico sitio web](https://vacio-informatico.github.io/v-i/)
+*Emitido el 10_03_2022*
 
 # Responsabilidad unica - SOLID
 

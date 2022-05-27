@@ -1,8 +1,8 @@
 v a c i o - i n f o r m a t i c o
 ====
-*Escrito por: Mirkin Ciro* <br>
-*Pertenece a: vacio-informatico* | [GitHub]("https://github.com/vacio-informatico/")<br>
-[vacio-informatico web site]("https://vacio-informatico.github.io/v-i/")
+*Autor: Mirkin Ciro* <br>
+*Pertenece a: vacio-informatico* | [Github](https://github.com/vacio-informatico/)<br>
+*Emitido el 22_09_2021*
 
 # Principios SOLID
 Los cinco principios que componen a SOLID fueron creados por *Robert C. Martin* con el propósito de que una aplicación sea mas legible, mantenible y escalable a largo plazo, aunque como es de esperar no siempre se pueden cumplir los cinco principios pero es bueno poder usar la mayor parte de ellos en el desarrollo de una aplicación.
