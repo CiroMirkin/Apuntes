@@ -7,7 +7,7 @@ v a c i o - i n f o r m a t i c o
 
 # Test driven develoment
 
-Test driven develoment o TDD es una forma de trabajar al hacer un software (aplicación, sistema o incluso un algoritmo) llevada a cabo por programadores.
+Test driven develoment o TDD es una metodologia agil para el desarrollo de software o forma de trabajar al hacer un software (aplicación, sistema o incluso un algoritmo) llevada a cabo por programadores.
 
 El flujo de trabajo que seguimos es el siguiente:
 
@@ -17,7 +17,7 @@ El flujo de trabajo que seguimos es el siguiente:
 <ol>
 	<li>Definir lo que esperamos del código.</li>
 	<li>Escribir pruebas que nos permitan no solo verificar que el código que escribamos hace lo que esperábamos, sino también buscar errores en el código para poder llegar a lo que esperábamos.</li>
-	<li>Escribir el mínimo código posible para pasar la prueba o "test" desde ahora, no importa si nuestro código es sucio o tiene malas practicas, lo importante es pasar el test, todo lo demas viene después.</li>
+	<li>Escribir el mínimo código posible para pasar la prueba o "test" desde ahora, no importa si nuestro código es sucio o tiene malas practicas, lo importante es pasar el test.</li>
 	<li>Luego de pasar un test o una prueba tenemos que limpiar el código y eliminar las repeticiones, refactorizar el código.</li>
 </ol>
 </ul>
@@ -41,9 +41,9 @@ El flujo de trabajo que seguimos es el siguiente:
 
 Los Green bar patterns son diferentes formas de pasar un test o prueba.
 
-* Fake it, ir desde constantes a variables, ir desde lo fácil/obvió a lo complejo/lógico.
-	3
-	1 + 2a + b
+* Fake it, ir desde constantes a variables, ir desde lo fácil/obvió a lo complejo/lógico. <br>
+
+	3 -> 1 + 2 -> a + b
 
 * Obious implementation, ir directamente a la solución que creamos obvia y correcta.
 a + b
