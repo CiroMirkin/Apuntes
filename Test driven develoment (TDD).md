@@ -13,14 +13,10 @@ El flujo de trabajo que seguimos es el siguiente:
 
 	Definir requisitos -> Escribir prueba(test) -> Escribir código -> Al pasar el test, refactorizar el código
 
-<ul>
-<ol>
-	<li>Definir lo que esperamos del código.</li>
-	<li>Escribir pruebas que nos permitan no solo verificar que el código que escribamos hace lo que esperábamos, sino también buscar errores en el código para poder llegar a lo que esperábamos.</li>
-	<li>Escribir el mínimo código posible para pasar la prueba o "test" desde ahora, no importa si nuestro código es sucio o tiene malas practicas, lo importante es pasar el test.</li>
-	<li>Luego de pasar un test o una prueba tenemos que limpiar el código y eliminar las repeticiones, refactorizar el código.</li>
-</ol>
-</ul>
+1. Definir lo que esperamos del código.
+2. Escribir pruebas que nos permitan no solo verificar que el código que escribamos hace lo que esperábamos, sino también buscar errores en el código para poder llegar a lo que esperábamos.
+3. Escribir el mínimo código posible para pasar la prueba o "test" desde ahora, no importa si nuestro código es sucio o tiene malas practicas, lo importante es pasar el test.
+4. Luego de pasar un test o una prueba tenemos que limpiar el código y eliminar las repeticiones, refactorizar el código.
 
 
 ## Problemas al trabajar con TDD
@@ -45,8 +41,9 @@ Los Green bar patterns son diferentes formas de pasar un test o prueba.
 
 	3 -> 1 + 2 -> a + b
 
-* Obious implementation, ir directamente a la solución que creamos obvia y correcta.
-a + b
+* Obious implementation, ir directamente a la solución que creamos obvia y correcta. <br/>
+
+	a + b
 
 * Triangule, ademas de iniciar como fake it, en este al pasar una prueba tenemos que escribir otra que nuestro código no pueda cumplir. 
 Los test usados para triangular, osea los últimos podemos eliminarlos al terminar. 
