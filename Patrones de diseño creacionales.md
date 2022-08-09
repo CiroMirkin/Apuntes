@@ -1,7 +1,6 @@
 v a c i o - i n f o r m a t i c o
 ====
 *Autor: Mirkin Ciro* <br>
-*Pertenece a: vacio-informatico* | [Github](https://github.com/vacio-informatico/)<br>
 *Emitido el 02_10_2021*
 
 # Patrones de diseño creacionales
