@@ -1,7 +1,6 @@
 v a c i o - i n f o r m a t i c o
 ====
 *Autor: Mirkin Ciro* <br>
-*Pertenece a: vacio-informatico* | [Github](https://github.com/vacio-informatico/)<br>
 *Emitido el 10_03_2022*
 
 # Responsabilidad unica - SOLID
@@ -18,4 +17,4 @@ Siguiendo con el ejemplo de los usuarios, al cambiar la base de datos es muy pos
 
 El guardado y la verificacion de usuarios manejan un mismo concepto, el de la "administracion de usuarios", estas dos funcionalidades acceden a la misma base de datos con los mismo datos, ya sea para guardarla o verificarla.
 ___
-Aclaro que esta es MI interpretación de lo que significa la responsabilidad unica. Si quieres saber mas sobre la responsabilidad unica de SOLID te recomiendo estos sitios: 
+Aclaro que esta es MI interpretación de lo que significa la responsabilidad unica. 
