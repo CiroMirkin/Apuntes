@@ -1,7 +1,6 @@
 v a c i o - i n f o r m a t i c o
 ====
 *Autor: Mirkin Ciro* <br>
-*Pertenece a: vacio-informatico* | [Github](https://github.com/vacio-informatico/)<br>
 *Emitido el 19_02_2022*
 
 
@@ -32,22 +31,18 @@ Lo bueno de este principio es que viene de la mano con SRP (la S de SOLID) ya qu
 
 ## Creador 
 
-Este principio nos ayuda a identificar quien debería ser el responsable de crear un objeto. Lo bueno de este patrón es el bajo acoplamiento, la facilidad de mantenimiento y la reutilización.
+Este principio nos ayuda a identificar quien debería ser el responsable de crear un objeto. Lo bueno de este patrón es el bajo acoplamiento, la facilidad de mantenimiento y la reutilización que nos permite aplicar.
 
 Los puntos a tener en cuenta:
 
-<ul>
-	<li class="li">Se tiene toda la información necesaria</li>
-	<li class="li">Usa directamente la instancia creada</li>
-	<li class="li">Almacena o maneja varias instancias</li>
-	<li class="li">Contiene o agrega a la clase</li>
-</ul>
+* Se tiene toda la información necesaria.
+* Usa directamente la instancia creada.
+* Almacena o maneja varias instancias.
+* Contiene o agrega a la clase.
 
 	En resumen, al crear un objeto piensa en porque y en donde lo estas creando.
 
 ## Alta cohesión y bajo acoplamiento
-
-Antes de explicar este principio vamos a explicar lo que es la cohesión y el acoplamiento.
 
 > Cohesión: En programación decimos que una clase tiene cohesión o es coherente, porque todo dentro de ella tiene relación y sentido, no solo en contexto.
 
@@ -59,11 +54,11 @@ Mayor cohesión significa menor acoplamiento porque al estar unidas las cosas qu
 
 ## Controlador
 
-Este patrón sirve de intermediario entre una determinada interfaz y el algoritmo que lo usa, básicamente separar la UI (interfaz gráfica) del dominio o lógica, Aunque tambien propone separar los eventos de sus algoritmos. Básicamente lo que podemos ver en MVC, MVVM o MVVMP entre otros.
+Este patrón sirve de intermediario entre una determinada interfaz y el algoritmo que lo usa, básicamente separar la UI (interfaz gráfica) del dominio o lógica, aunque tambien propone separar los eventos de sus algoritmos. Básicamente lo que podemos ver en MVC, MVVM o MVVMP entre otros modelos.
 
-El funcionamiento del controlador es facil ya que este es el primero en ser llamado luego de un cambio en la interfaz y ejecuta un caso de uso. coordina la relación de la vista y la lógica.
+El funcionamiento del controlador es facil ya que este es el primero en ser llamado luego de un cambio en la interfaz y ejecuta un caso de uso coordinando la relación vista y lógica.
 
-	En resumen, deberíamos separar la vista de su logia, para mayor cohesión.
+	En resumen, deberíamos separar la vista de su logia, para menor acoplamiento.
 
 ## Polimorfismo
 
