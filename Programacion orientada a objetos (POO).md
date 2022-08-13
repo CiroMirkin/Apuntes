@@ -8,11 +8,11 @@ v a c i o - i n f o r m a t i c o
 
 La POO por sus siglas en español o OOP según sus siglas en inglés, es un paradigma declarativo e imperativo, ya que se basa en la creación de clases, que poseen características (atributos) y funciones (métodos) con fines específicos y únicos para resolver un problema. 
 
-La POO tiene sus ventajas y una de ellas es que al haber un fallo es posible saber de manera rápida donde se aloja, ya que cada clase tiene una [responsabilidad única (SRP)](./solid.html). Además, este paradigma también nos permite organizar y pensar en cómo son las relaciones o interacciones entre las diferentes partes de un sistema, y así poder aplicar diferentes modelos de interacción (como MVC), pero también trae cosas malas como puede ser el crecimiento excesivo de una clase que dificulta la administración de la misma, pero como cabe esperar esto se puede solucionar con una buena administración y factorización del código y/o contenido de las clases. 
+La POO tiene sus ventajas y una de ellas es que al haber un fallo es posible saber de manera rápida donde se aloja, ya que cada clase tiene una [responsabilidad única (SRP)](./solid.html). Además, también nos permite organizar y pensar en cómo son las relaciones o interacciones entre las diferentes partes de un sistema, y así poder aplicar diferentes modelos de interacción (como MVC), pero también trae cosas malas como puede ser el crecimiento excesivo de una clase que dificulta la administración de la misma, pero como cabe esperar esto se puede solucionar con una buena administración y factorización del código y/o contenido de las clases. 
 
 > Paradigma: Es un modelo o estilo de programación, que describe la forma de estructurar un programa. <br> 
 
-> Responsabilidad única (SRP): Es el primero de los principios SOLID, los cuales tiene un gran vínculo con la programación orientada a objetos.
+> Responsabilidad única (SRP): Es el primero de los principios SOLID, los cuales estan orientados a la POO.
 
 ## Partes de una clase 
 
@@ -47,7 +47,7 @@ El polimorfismo es el pilar que genera más confusión debido a su nombre: poli 
 
 ### Encapsulamiento 
 
-El encapsulamiento en una clase pasa cuando se seleccionan partes de información que quedaran exclusivamente dentro de la clase sin ser accesibles desde el exterior, esta "información" pueden ser atributos o métodos.
+El encapsulamiento en una clase pasa cuando se seleccionan partes de información que quedaran exclusivamente dentro de la clase sin ser accesibles desde el exterior, esta "información" puede ser atributos o métodos.
 
 ### Abstracción 
 
