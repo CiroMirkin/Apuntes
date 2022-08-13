@@ -1,106 +1,77 @@
 v a c i o - i n f o r m a t i c o
 ====
 *Autor: Mirkin Ciro* <br>
-*Pertenece a: vacio-informatico* | [Github](https://github.com/vacio-informatico/)<br>
 *Emitido el 03_12_2021*
 
+# Programación básica
 
-# Fundamentos de programación basica
-
-Los fundamentos de la programación son esa cosa que por su nombre parecen complicados pero explicados de manera simple y sencilla no lo son. Estos son los conceptos básicos **para aprender a programar**, aquí no veremos código solo los conceptos, ya luego al final de este articulo podras encontrar recomendaciones a diferentes cursos en diferentes formatos.
+Estos son los conceptos más básicos de programación que tienes que saber para poder "programar".
 
 ## Variables
 
-Las variables son como cajas, estas cajas almacenan un solo dato y tiene un nombre que define lo que almacenan. Este nombre no puede contener espacios, por ende los nombre largos terminan siendo así: numerosDelEmpleado, perros_de_raza, nombreDelUsuario.
+Las variables nos permiten guardar información que puede variar, por ejemplo, una variable podría guardar el nombre "Jack" y después podríamos cambiarlo por "Tonny" y así sucesivamente.
 
-    Tienen un nombre porque: imaginemos que tenemos diez o treinta de estas cajas, todas son iguales, entonces para no perdernos a cada caja le ponemos un nombre relacionado con su contenido.
+	La información guardada puede cambiar en cualquier momento, es variable.
 
-> Analogía: Tenemos una caja que solo puede contener un animal de cada tipo. El problema es que tenemos muchas cajas entonces a cada caja le ponemos una etiqueta relacionada con el tipo de animal que contiene. Ejemplo, gato_blanco, ardillaVoladora, perro_salchicha_negro, vacaManchada.
+Dentro de un programa o aplicaciones usamos muchas variables, es por eso que cada variable tiene un nombre y uno descriptivo, generalmente este nombre no puede contener espacios en blanco, por eso se usan _ o la primera letra de cada palabra en mayúscula. 
 
-Las variables se llaman así porque su contenido puede cambiar a lo largo de un programa.
+Ejemplo: Una variable que guarda el nombre de un gato debería llamarse:
 
-> Ejemplo: Si tenemos una variable llamada letras, esta podría contener, la letra *a* luego la letra *b* y así con las demás, pero siempre almacenando una sola letra.
+* nombre_de_un_gato
+* nombre_del_gato
+* nombreDeUnGato 
+* nombreDelGato
 
-    Constantes: Estas son variables, pero una vez que les asignamos un valor no vamos a poder cambiarlo por otro. Su valor es constante no variable.
+Cualquiera de estos nombres es recomendable, ya que son descriptivos y nos permiten saber fácilmente que es lo que guarda la variable, diferente sería el caso de estos que no nos dicen nada por si solos:
+
+* nomgato
+* noga
+* nomdegat
+* ng
+
+
+## Constantes
+
+La única diferencia que tienen con una variable es que una vez creada y guardada información en ella no podemos cambiar esa información.
+
+	La información guardada no puede cambiar, es constante.
 
 ## Condicionales
 
-Las condicionales son usadas para **preguntar algo**, por ejemplo, podemos preguntar si dos variables son iguales, si una es mayor que la otra o si son distintas. Ahora bien, al hacer esta pregunta pueden pasar dos cosas:
+Nos permitan hacer un grupo de acciones solo si se cumple una condición, por ejemplo, al llegar a nuestra casa, abrimos la puerta **si** tenemos la llave, vamos a realizar una acción (abrir la puerta) solo si se cumple una condición (tenemos la llave).
 
-1. La primera: Nuestra pregunta dio afirmativo (las dos cajas si son iguales).
-2. La segunda: Nuestra pregunta dio negativo (las dos cajas no son iguales).
+Tipos de condiciones
 
-> Analogía simple de una condicional: Al llegar a nuestra casa, *si la puerta == cerrada* buscar la llave y abrir la puerta. Lo primero es la condición y lo segundo es la o las acciones que realizamos.
+* Simple: La despcrita arriba.
 
-Bien, luego de entender lo que es una condicional simple, quedan las condicionales múltiples. Que son dos o más preguntas.
+* Anidadas: Una condición adentro de otra, abrimos la puerta **si** tenemos la llave, después de abrir la puerta la volvemos a cerrar **si** hace frío. 
 
-1. Hacer una pregunta: Si nuestra pregunta da positivo podemos realizar una acción.
-2. hacer otra pregunta: Nuestra pregunta anterior dio negativo, si esta da positivo podemos realizar una acción.
-3. Hacer una acción por defecto: Nuestra preguntas anteriores dieron negativo, así que podemos realizar una acción genérica.
+* Doble: Si una 
+condición no se cumple hacemos otra acción, abrimos la puerta **si** tenemos la llave, pero **si no** tenemos la lleve, nos vamos a tomar un café.
 
-Una ultima cosa que se puede agregar sobre las condicionales es que puede haber varias preguntas en una misma condicional, y esto se logra con dos palabras: el *and* y el *or*.
+* Múltiples, si la primer condición no se cumple, hay otra que podemos o no cumplir, abrimos la puerta **si** tenemos la llave, pero al no tener la llave, abrimos la ventana y entramos **si** podemos abrirla.
 
-    En español estos son and(y) y or(o).
+## Ciclos o bucles 
 
-> Nueva analogía: Al llegar a casa, *si la puerta == cerrada*  **y** *tengo la llave* abro la puerta con la llave y entro a casa.
+Nos permiten repetir un grupo de acciones una cierta cantidad de veces, por ejemplo, en un reloj si ponemos una alarma tendríamos que verificar varias veces la acción de comparar la hora actual con la hora de la alarma. Todos los ciclos que usemos deberían tener un límite, por ejemplo, en el caso de la alarma en el reloj, el ciclo terminaría cuando suene la alarma. 
 
-## Ciclos
+Dependiendo del lenguaje de programación te encontrarás con diferentes tipos de ciclos con diferentes estructuras, pero con el mismo fin, repetir una o más acciones.
 
-Los ciclos son usados cuando queremos que *algo* se repita, y ese algo es código. Ahora bien, al repetir algo necesitamos un *contador* que se encargue de contar cada vez que hacemos una repetición, y esto no es más que una variable que primero tiene un valor inicial y luego en cada repetición se suma 1 a si misma. Esto ultimo se llama incremento.
+## Funciones o subprocesos
 
-    contador = 0 <br>
-    contador = contador +1
+Dentro de una aplicación vamos a tener un montón de acciones, las funciones nos van a permitir separar y organizar todas estas acciones en diferentes grupos.
 
-Bien ahora tenemos un contador, pero nuestro ciclo no se puede repetir infinitamente, se repite *asta que una condición se cumple*, con esto podemos en cada repetición *preguntar* si el contador es igual a 20, si es mayor a 20, menor y todas las demás preguntas que podíamos hacer en un condicional.
+	Un grupo de acciones tiene una finalidad y también tiene un nombre que 	
+	describe al grupo de acciones.
 
-> Analogía: En un reproductor de música queremos hacer que una canción *suene o se repita* 5 veces. Entonces al terminar la canción preguntaríamos si ya se reprodujo 5 veces, si esto es verdad dejaríamos de repetir la canción, si no, repetiríamos la canción y la pregunta una vez más.
+Una vez creada una función podemos usarla las veces que creamos conveniente, es por eso que las funciones también nos permiten reutilizar un grupo de acciones, por ejemplo, podemos tomar café varias veces en un mismo día, pero para eso tenemos que hacerlo y con una función podemos agrupar todas estas acciones y para tomar un cafe solo tenemos que usar la función hacer_cafe que nos retornaría o devolvería un café ya echo.
 
-Tenemos diferentes tipos de ciclos, y cada uno de estos tiene una estructura diferente, como donde se crea el contador o donde está la condición.
+	Ordenamos, agrupamos y reutilizamos acciones a través de funciones.
 
-### Ciclo while
+Una función a veces necesita información de afuera a la cual no puede acceder o necesita cierta información cada vez que la usamos, esta información se le pasa a la función por argumento, en el ejemplo anterior del cafe podríamos pasarle como argumento a la función el tipo de cafe que vamos a hacer (corto, largo, late, mocachino, capuchino, etc).
+	
+	Un grupo de acciones con un nombre que puede recibir y devolver 	
+	información si es que lo necesita, eso es una función.
 
-Al usar el ciclo while creamos el contador afuera del ciclo, lo incrementamos adentro y **la condición esta al inicio**. Esto nos quedaría de la siguiente manera:
 
-### Ciclo do-while
 
-Al usar el ciclo do-while creamos el contador afuera, lo incrementamos dentro, pero la **condición esta al final del ciclo**.
-
-### Ciclo for
-
-El ciclo for es muchas veces él más complicado de comprender ya que el contador, su incremento y la condicional están dentro del ciclo.
-
-## Funciones
-
-Las funciones nos permiten, tener una parte de código que vayamos a usar más de una vez separada del resto para que no tengamos que escribir ese código todas esas veces, sino que podemos tenerlos a parte y llamarlo cuando lo necesitemos. 
-
-Como una funcion tiene un proposito a veces necesita datos como un nombre o un numero, estos datos se llaman parametros. Ademas una funcion tambien puede retornar o devolver un valor.
-
-	La funcion necesita el nombre completo de alguien y nos retorna solo su primer nombre.
-
-> Analogía: Supongamos que tenemos una torta y queremos decorarla con galletas, pero solo tenemos un galleta. Entonces haríamos un molde de la galleta y lo usaríamos para poner más galletas donde queremos.
-
-En la anterior analogía la torta seria nuestro programa, las galletas serian esa parte de código que queremos repetir y el molde seria la función. Los parametros de la funcion (el molde) serian la masa y la galleta es lo que retorna la funcion (el molde).
-
-	Las funciones también nos permiten que partes importantes del código estén separadas del resto, y en esto se basa la programación funciónal.
-
-___
-
-Luego de haber aprendido las bases. Para aprender a programar de verdad, manejando código y un lenguaje de programación, que <b>tú elijas</b>, puedes pasar al siguiente nivel.
-
-Canales de YouTube: 
-
-* Cursos de [Yacklyon](https://www.youtube.com/channel/UCRWjpn9LNoQqhJ59AT_yxPw) (HTML - Javascript - PHP - Java - C/C++ - Python): Tiene cursos básicos y algunos avanzados bastante completos, edemas de tener buenas explicaciones y contenido actualizado.
-
-* Curso de [Fazt](https://www.youtube.com/c/FaztTech) (HTML - Javascript): Sus cursos más que nada se orientan al mundo del desarrollo web, pero tiene algunos cursos sobre lenguajes y fundamentos que están al mismo nivel que los demás.
-
-* [Absolute](https://www.youtube.com/c/AbsoluteSite) (Fundamentos sobre programacion): Si aún no entiendes del todo algunos de los conceptos vistos anteriormente, sus vídeos pueden ayudarte, ya que son explicados de manera simple y usando analogías en minecraft.
-
-* Cursos de [Soy dalto](https://www.youtube.com/c/soydalto) (HTML - Javascript - etc): Tiene cursos muy completos en los temas y tecnologías que toca.
-
-Sitios web:
-
-* [W3scholl](https://www.w3schools.com) (HTML- Javascript - PHP - etc): Esta pagina contiene muy buena documentacion sobre lenguajes, conteniendo estandares y ejemplos faciles.
-
-* [Uniwebsidad](https://uniwebsidad.com) ( - etc): Esta pagina 
-
-* [Programiz](https://www.programiz.com/) (Python - C/c++ - javascript - etc)
