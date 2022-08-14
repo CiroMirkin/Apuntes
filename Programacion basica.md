@@ -53,7 +53,7 @@ condición no se cumple hacemos otra acción, abrimos la puerta **si** tenemos l
 
 ## Ciclos o bucles 
 
-Nos permiten repetir un grupo de acciones una cierta cantidad de veces, por ejemplo, en un reloj si ponemos una alarma tendríamos que verificar varias veces la acción de comparar la hora actual con la hora de la alarma. Todos los ciclos que usemos deberían tener un límite, por ejemplo, en el caso de la alarma en el reloj, el ciclo terminaría cuando suene la alarma. 
+Nos permiten repetir un grupo de acciones una cierta cantidad de veces, por ejemplo, en un reloj si ponemos una alarma tendríamos que reoetir varias veces la acción de comparar la hora actual con la hora de la alarma. Todos los ciclos que usemos deberían tener un límite, en el caso de la alarma en el reloj, el ciclo terminaría cuando suene la alarma. 
 
 Dependiendo del lenguaje de programación te encontrarás con diferentes tipos de ciclos con diferentes estructuras, pero con el mismo fin, repetir una o más acciones.
 
