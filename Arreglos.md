@@ -1,5 +1,3 @@
-v a c i o - i n f o r m a t i c o
-====
 *Autor: Mirkin Ciro* <br>
 *Emitido el 20_08_2022*
 

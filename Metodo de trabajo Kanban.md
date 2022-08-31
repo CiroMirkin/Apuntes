@@ -1,5 +1,7 @@
+*Autor : Mirkin Ciro* <br>
+*Emitido el 28_07_2022*
+
 # Método de trabajo Kanban
-vacio-informatico (C.Mirkin) 28_07_2022
 
 Kanban es un método de gestión que mejora el flujo del trabajo y se usa sobre una forma de trabajo existente, como lo puede ser scrum o agile. Kanban esta hecho para adaptarse o complementar algo que ya existe, en el caso de scrum, kanban se adaptaría a scrum no lo remplazaría.
 
