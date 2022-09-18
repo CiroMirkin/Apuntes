@@ -4,7 +4,7 @@
 
 # Unit testing
 
-El unit testing o pruevas unitarias son una forma de encontrar errores en una parte de código lo más pequeña posible (una función, método o clase). Como el unit testing es para encontrar errores y no para verificar que el código funciona sin tener errores, es por esto que son echos durante el desarrollo de una aplicación por programadores.
+El unit testing o pruevas unitarias son una forma de encontrar errores en una parte de código lo más pequeña posible (una función, método o clase). Como el unit testing es para encontrar errores y no para verificar que el código funciona sin tener errores son echos durante el desarrollo de una aplicación por programadores.
 
 El aumento de calidad en nuestro código es uno de los beneficios del unit testing, ademas de que no solo puede servir como documentación sino también para entender como debería funcionar el código que vamos a escribir. También nos permite probar el código independientemente de como este el resto de la aplicación y nos da seguridad luego de refactorizar nuestro código.
 
