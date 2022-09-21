@@ -19,7 +19,7 @@ Todos estos ejemplos están bien, siempre y cuando se omitan detalles. El ejempl
 
 INVEST son seis características que deberían tener todas las historias de usuario. El nombre INVEST proviene de las siglas en ingles Indepent, Negotiable, Valuable, Estimable, Small y Testable.
 
-* Las historias de usuario tienen que ser **independientes** una de otras, para así poder desarrollarlas sin un orden especifico.
+* Las historias de usuario tienen que ser **independientes** unas de otras, para así poder desarrollarlas sin un orden especifico.
 
 * Los detalles de una historia de usuario tienen que ser **negociables**, es por eso que son historias de usuario.
 
@@ -33,7 +33,7 @@ INVEST son seis características que deberían tener todas las historias de usua
 
 # Las 3C
 
-Las 3C de las historias de usuario son tres puntos de referencia que se debería tener en cuenta a la hora de trabajar con historias de usuario, las cuales serian, Card (tarjeta), Conversation (conversación) y Confirmation (confirmación).
+Las 3C de las historias de usuario son tres puntos de referencia que se debería tener en cuenta a la hora de trabajar con historias de usuario, las cuales serian Card (tarjeta), Conversation (conversación) y Confirmation (confirmación).
 
 * Una historia de usuario debería estar escrita en algun lugar accesible para todos.
 
