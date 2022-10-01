@@ -12,4 +12,4 @@ Solo temas teóricos porque creo que es algo importante y no suele haber mucho c
 > Contenido sobre código podemos encontrar en casi cualquier lado.
 
 ___
-Puedes ver el catálogo de apuntes de forma más ordenada [aquí](cm-apuntes.netlify.app/).
+Puedes ver el catálogo de apuntes de forma más ordenada [aquí](https://cm-apuntes.netlify.app/).
