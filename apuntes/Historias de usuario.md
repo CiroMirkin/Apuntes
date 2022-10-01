@@ -15,7 +15,7 @@ Todos estos ejemplos están bien, siempre y cuando se omitan detalles. El ejempl
 
 > Las historias de usuario tienen un gran valor en el desarrollo ágil y sus metodologías.
 
-# INVEST
+## INVEST
 
 INVEST son seis características que deberían tener todas las historias de usuario. El nombre INVEST proviene de las siglas en ingles Indepent, Negotiable, Valuable, Estimable, Small y Testable.
 
@@ -31,7 +31,7 @@ INVEST son seis características que deberían tener todas las historias de usua
 
 * Se tienen que poder realizar **pruebas** que demuestres que una historia está terminada.
 
-# Las 3C
+## Las 3C
 
 Las 3C de las historias de usuario son tres puntos de referencia que se debería tener en cuenta a la hora de trabajar con historias de usuario, las cuales serian Card (tarjeta), Conversation (conversación) y Confirmation (confirmación).
 
@@ -40,5 +40,9 @@ Las 3C de las historias de usuario son tres puntos de referencia que se debería
 * Todos los involucrados tienen que conversar sobre las historias de usuario, el valor de estas, su prioridad y sobre las posibles soluciones de estas. 
 
 * Se tiene que confirmar que los objetivos de una historia se alcanzaron y que la misma está terminada.
+
+## Conclusión 
+
+Las historias de usuario son descripciones cortas y no técnicas de las cosas que un usuario puede hacer en una aplicación.
 ___
 Como fuentes se usaron: [Una publicación de Asana](https://asana.com/es/resources/user-stories) y el libro Desarrollo ágil esencial de Robert C.Martin.
