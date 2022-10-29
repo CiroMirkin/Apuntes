@@ -34,6 +34,8 @@ Se implementa una vez, dos veces y a la tercera se refactoriza para facilitar fu
 ## Guias para refactorizar
 
 Los code smells o los olores en el código son una serie de señales de que un código podría refactorizarce, pero también existen otras guías sobre que y como refactorizar un código.
+
+<br>
 [A Taxonomy for "Bad Code Smells"](https://mmantyla.github.io/BadCodeSmellsTaxonomy) <br>
 [Martin Fowler catalogo de refactorizaciones](https://refactoring.com/catalog/).
 
