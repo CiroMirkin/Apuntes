@@ -35,9 +35,8 @@ Se implementa una vez, dos veces y a la tercera se refactoriza para facilitar fu
 
 Los code smells o los olores en el código son una serie de señales de que un código podría refactorizarce, pero también existen otras guías sobre que y como refactorizar un código.
 
-<br>
-[A Taxonomy for "Bad Code Smells"](https://mmantyla.github.io/BadCodeSmellsTaxonomy) <br>
-[Martin Fowler catalogo de refactorizaciones](https://refactoring.com/catalog/).
+* [A Taxonomy for "Bad Code Smells"](https://mmantyla.github.io/BadCodeSmellsTaxonomy).
+* [Martin Fowler catalogo de refactorizaciones](https://refactoring.com/catalog/).
 
 En su libro sobre refactorizacion Martin Fowler también separa la refactorizacion en grupos: Composing Methods, Moving features between objects, organizing data, simplifying conditional expresions, making method calls simpler, dealing with generalization y big refactorings.
 
