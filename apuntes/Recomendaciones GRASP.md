@@ -77,7 +77,7 @@ La fabricación pura es una clase que solo existe porque mejora la estructura de
 
 El problema que rodea a este principio al abusar de él, es que suelen aparecer clases función o clases que contienen un solo método.
 
-	En resumen, es crea clases para mejorar la estructura del código.
+	En resumen, crea clases para mejorar la estructura del código.
 
 ## Indirección
 
