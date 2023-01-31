@@ -1,13 +1,18 @@
 # Cohesión y acoplamiento
 (Ciro Mirkin) 22_01_2023
 
-Depender es necesitar, si yo dependo de algo para trabajar no puedo trabajar si no tengo ese algo. Una aplicación se compone de diferentes capas y componentes, lo que solemos buscar es reducir al mínimo la dependencia entre estas capas y componentes.
+Depender es necesitar, si yo dependo de algo para trabajar no puedo trabajar si ese algo, porque lo necesito para trabajar.
 
-Podríamos ver a la cohesión y al acoplamiento como dos formas de dependencia, la primera hacia adentro y la segunda hacia afuera. Por ejemplo: En una clase, hay dependencia hacia dentro entre sus métodos y hay dependencia hacia afuera como podría serlo depender de otra clase. Como podemos ver es menos importante que un método dependa de otro y más problemático que una clase dependa de otra.
+La dependencia es algo que siempre esta presente cuando programamos, y esta no es de buena ni mala, se vuelve mala cuando no sabemos manipularla.
 
-Si dependemos lo menos posible del exterior vamos a lograr un alto nivel de cohesión y eso suele ser lo mejor, una cohesión alta y un acoplamiento bajo, lo ideal seria que las clases colaboraran entre sí en vez de depender la una de la otra, pero esto no siempre se logra o es posible.
+Acoplamiento, el acoplamiento se produce cuando hay una dependencia entre dos o más partes y la cohesión se produce cuando estas partes que dependen unas de otras están cerca. Cuando hablamos de partes que dependen y están cerca no solo hablamos de método o funciones sino también de variables y constantes.
 
-Aqui se puso de ejemplo a una clase, pero lo mismo aplica entre módulos o entre las capas de una arquitectura.
+Un alto nivel de cohesión no solo ayuda a que el código sea más sostenible, sino que también ayuda a su legibilidad y comprensión. Si una función A depende de una función B ¿Abría un alto nivel de cohesión si estuviesen en archivos separados? La respuesta es: no, lo mejor seria que estuvieran una debajo de la otra. Lo mismo pasa con las variables para una mejor cohesión deberían estar los más cerca posible de donde se empiezan a usar.
 
+En un mundo feliz las clases no estarían acopladas entre sí, sino más bien trabajarían juntas. Obvio hay casos en que es necesario que una clase esté acoplada a otra, pero generalmente lo mejor es que no, para lograr esto se podrían seguir recomendaciones como *la ley de Demeter* o *tell dont ask* que ayudan a aumentar la cohesión de las clases.
+
+## Tipos de cohesión
+
+Existen tipos de cohesión pero como no son realmente importantes estas clasificaciones solo seran nombradas: cohesión coincidente, cohesión logica, cohesión temporal, cohesión de procedimiento, cohesión de comunicación, cohesión de información y cohesión funcional.
 ___
 Material usado de referencia: El libro código sostenible de Carlos Blé Jurado.
