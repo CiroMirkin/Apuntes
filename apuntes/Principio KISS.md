@@ -5,6 +5,8 @@ Las cosas funcionan mejor si son simples, eso nos recuerda el principio KISS (Ke
 
 > "Recordemos que el código sostenible se escribe para los requisitos de hoy y no sobre las suposiciones del mañana."
 
+Busca siempre la solución mas simple para un problema y no te enrolles pensando en el futuro cuando no es necesario, porque así solo la complicas todo sin un buen motivo.
+
 ## Recomendaciónes
 
 - Usa nombres descriptivos.
