@@ -1,7 +1,8 @@
 # No te repitas (DRY)
 (Ciro Mirkin) 11_02_2023
 
-No te repitas o don't repeat yourself es un principio que promueve la eliminación de las repeticiónes. Las cosas deberían estar escritas solo una vez, ahora bien, hay veces en que el código es el mismo pero su fin es diferente, en este caso no es bueno quitar las repeticiónes, porque al tener fines diferentes en el futuro podrían evoluciónar o cambiar de maneras diferentes.
+No te repitas (don't repeat yourself) propone que un problema no se resuelva mas de una vez, no importa que haya funciones iguales lo que importa es que no resuelvan el mismo problema, que no tengan el mismo fin.
 
-La regla de tres ayuda un poco con este principio: No repitas algo mas de tres veces.
+Tenemos una lista y dos funciones, una elimina un elementos de la lista y la otra los edita. El codigo de estas dos funciones puede ser preacticamente igual y podriamos pensar que hay una repeticion, pero no es asi, porque resuelven problemas diferentes, una elimina y la otra edita. Si eliminamos esta aparenete repeticione solo creariamos un problema porque al resolver problemas diferentes en el futuro pueden evolucionar de manera diferente.
 
+A veces no queda otra que solucionar dos veces un problema, pero intentemos que no sean mas de tres, y si es asi, lo mejor puede ser hacer una refactorizacion.
