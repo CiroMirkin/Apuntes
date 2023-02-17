@@ -54,22 +54,3 @@ condición no se cumple hacemos otra acción, abrimos la puerta **si** tenemos l
 Nos permiten repetir un grupo de acciones una cierta cantidad de veces, por ejemplo, en un reloj si ponemos una alarma tendríamos que reoetir varias veces la acción de comparar la hora actual con la hora de la alarma. Todos los ciclos que usemos deberían tener un límite, en el caso de la alarma en el reloj, el ciclo terminaría cuando suene la alarma. 
 
 Dependiendo del lenguaje de programación te encontrarás con diferentes tipos de ciclos con diferentes estructuras, pero con el mismo fin, repetir una o más acciones.
-
-## Funciones o subprocesos
-
-Dentro de una aplicación vamos a tener un montón de acciones, las funciones nos van a permitir separar y organizar todas estas acciones en diferentes grupos.
-
-	Un grupo de acciones tiene una finalidad y también tiene un nombre que 	
-	describe al grupo de acciones.
-
-Una vez creada una función podemos usarla las veces que creamos conveniente, es por eso que las funciones también nos permiten reutilizar un grupo de acciones, por ejemplo, podemos tomar café varias veces en un mismo día, pero para eso tenemos que hacerlo y con una función podemos agrupar todas estas acciones y para tomar un cafe solo tenemos que usar la función hacer_cafe que nos retornaría o devolvería un café ya echo.
-
-	Ordenamos, agrupamos y reutilizamos acciones a través de funciones.
-
-Una función a veces necesita información de afuera a la cual no puede acceder o necesita cierta información cada vez que la usamos, esta información se le pasa a la función por argumento, en el ejemplo anterior del cafe podríamos pasarle como argumento a la función el tipo de cafe que vamos a hacer (corto, largo, late, mocachino, capuchino, etc).
-	
-	Un grupo de acciones con un nombre que puede recibir y devolver 	
-	información si es que lo necesita, eso es una función.
-
-
-
