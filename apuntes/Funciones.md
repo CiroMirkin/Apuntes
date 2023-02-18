@@ -1,4 +1,4 @@
-# Funciónes
+# Funciones
 (C.Mirkin) 18_02_2023
 
 Si escribieras lo que haces en tu día a día se volvería un poco tedioso porque habría cosas que escribirías una y otra vez casi sin cambios, yo por ejemplo tomo mucho té y siempre lo hago de la misma manera:
