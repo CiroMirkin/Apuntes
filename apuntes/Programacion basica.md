@@ -1,7 +1,5 @@
-*Autor: Mirkin Ciro* <br>
-*Emitido el 03_12_2021*
-
 # Programación básica
+(Mirkin Ciro) *03_12_2021* 
 
 ## Variables
 
@@ -23,17 +21,17 @@ La única diferencia que tienen con una variable es que una vez creada y guardad
 
 ## Condicionales
 
-Las condicioneles nos permitan hacer un grupo de acciones solo si se cumple una condición, por ejemplo: al llegar a nuestra casa, **si** tenemos la llave, abrimos la puerta. Vamos a realizar una acción (abrir la puerta) solo si se cumple una condición (tenemos la llave).
+Las condicionales nos permiten hacer un grupo de acciones solo si se cumple una condición, por ejemplo: al llegar a nuestra casa, **si** tenemos la llave, abrimos la puerta. Vamos a realizar una acción (abrir la puerta) solo si se cumple una condición (tenemos la llave).
 
 Tipos de condiciones:
 
 * Simple: Fue la que se uso de ejemplo (al llegar a nuestra casa **si** tenemos la llave, abrimos la puerta).
 
-* Anidadas: Una condición adentro de otra (**si** tenemos la llave, abrimos la puerta, después de abrir la puerta la volvemos a cerrar **si** hace frío). 
+* Anidadas: Una condición adentro de otra (**si** tenemos la llave, abrimos la puerta, después de abrir la puerta, **si** hace frío, cerramos la puerta). 
 
-* Doble: Si una condición no se cumple hacemos otra acción (**si** tenemos la llave, abrimos la puerta, pero **si no** tenemos la lleve, nos vamos a tomar un café(.
+* Doble: Si una condición no se cumple hacemos otra acción (**si** tenemos la llave, abrimos la puerta, pero **si no** tenemos la lleve, nos vamos a tomar un café).
 
-* Múltiples: Si la primer condición no se cumple, hay otra (**si** tenemos la llave, abrimos la puerta, pero al no tener la llave **si** podemos abrirla, abrimos la ventana y entramos).
+* Múltiples: Si la primer condición no se cumple hay otra (**si** tenemos la llave, abrimos la puerta, al no tener la llave, **si** la ventana esta abierta, entramos).
 
 ## Ciclos o bucles 
 
