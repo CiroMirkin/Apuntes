@@ -16,7 +16,7 @@ Los dos grandes tipos de algoritmos que existen son los *cualitativos* que usan 
 * Al ser secuencias de pasos todos los algoritmos tienen un orden.
 * Tiene un final, **no hay algoritmos infinitos**.
 * Son concretos, ya que dan resultados en base a la función que cumplen.
-* Si a un algoritmo le damos siempre la misma entrada la salida tiene que ser la misma.
+* No importa las veces que a un algoritmo le demos una misma entrada, la salida sera siempre la misma.
 
 ___
-Material usado: [Manual de Algoritmo - google drive](https://drive.google.com/file/d/1m13QYfEaBfZn25xSzea4rJyS7925Qa8Y/view), [Algoritmo en informatica](https://concepto.de/algoritmo-en-informatica/).
+Material usado: https://drive.google.com/file/d/1m13QYfEaBfZn25xSzea4rJyS7925Qa8Y/view, https://concepto.de/algoritmo-en-informatica/.
