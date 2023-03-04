@@ -20,7 +20,7 @@ La herencia de una clase se da cuando una clase obtiene todas las característic
 
 ## Polimorfismo 
 
-El polimorfismo es la cualidad de tener varios métodos con el mismo nombre en diferentes clases con diferentes acciones o ligeros cambios. Esto se logra sobreescribiendo el método al heredarlo, porque si, este pilar tiene lugar luego de hacer una herencia.
+El polimorfismo es la cualidad de tener varios métodos con el mismo nombre en diferentes clases con ligeros cambios. Cuando varias clases heredan de la misma hay veces que sobre escribimos algunos métodos para hacer algunos cambios en su funcionamiento.
 
 Ejemplo: Tenemos la clase base "animal" con el método "comer", este método al ser heredado en diferentes animales se implementaría de diferentes formas ya que no todos los animales comen de la misma manera, pero todos "comen".
 
