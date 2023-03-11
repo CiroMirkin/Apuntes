@@ -1,4 +1,4 @@
-# La Refactorizacion
+# Refactorizacion
 (Ciro Mirkin) 29_10_2022
 
 Cambiar el diseño o estructura del código para mejorarlo sin afectar el comportamiento externo, de manera más fácil, cambiar el código sin cambiar el resultado que nos da, teniendo en cuenta esto podríamos decir que el arreglo de errores no es *refactorizacion*, ya que hay cambios en el resultado.
