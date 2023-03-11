@@ -1,4 +1,4 @@
-# El dominio y el negocio
+# Dominio y negocio
 (C.Mirkin) 04_03_2023
 
 El dominio y el negocio son dos partes muy importantes dentro de una aplicación y su desarrollo. Cuando hablamos de **dominio** hablamos sobre todo de lo relacionado a la **industria y/o entorno** donde se usa una aplicación y cuando hablamos de **negocio** hablamos más de lo relacionado con **el cliente y lo que quiere** (funcionalidades y características que pide).
