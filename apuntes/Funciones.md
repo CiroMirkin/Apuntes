@@ -32,11 +32,11 @@ Una función autocontenida es esa que no necesita nada del exterior, todo lo que
 
 ## Funciones de primera clase
 
-Son funciones que pueden ser tratadas como variables, esto quiere decir, funciones que puedan ser pasadas como argumento/parámetro de una función y que puedan ser devueltas por una función.
+Son funciones que pueden ser tratadas como variables, esto quiere decir: Funciones que pueden ser pasadas como argumento/parámetro de una función y que pueden ser devueltas por una función.
 
 ## Separar comandos y consultas (CQS)
 
-El CQR (Command-Query Separation) es un patrón de diseño acuñado por *Bertrand Meyer* que propone separar las funciones que responden a una pregunta (consultas) de las funciones que realizan una acción (comandos).
+El CQs (Command-Query Separation) es un patrón de diseño acuñado por *Bertrand Meyer* que propone separar las funciones que responden a una pregunta (consultas) de las funciones que realizan una acción (comandos).
 
 Las consultas suelen ser funciones puras y los comandos suelen no devolver ningún valor, además estos ultimos son mas propensos a tener *bugs*, ya que mutan o cambian el estado del sistema (cambia el valor de una variable, arreglo o hace un cambio en una base de datos).
 
@@ -44,7 +44,7 @@ Lo bueno de este patrón no es solo que fomenta el uso de funciones puras sino t
 
 ## Composición de funciones
 
-Usar el resultado de una función como argumento de otra, cuando abusamos de la composición de funciones el código se vuelve difícil de leer y de seguir, de hecho esto se llama *"Composition hell"*. Salvo en casos concretos lo mejor seria que evites hacer composición de funciones.
+Usar el resultado de una función como argumento de otra, eso es la composición de funciones. Cuando abusamos de la composición de funciones el código se vuelve difícil de leer y de seguir, a esto se le llama *"Composition hell"*. Salvo en casos concretos lo mejor seria que evites hacer composición de funciones.
 
 ___
 Material usado: Algunos capitulos de "Código sostenible" de *Carlos Blé Jurado*.
