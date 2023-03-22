@@ -21,4 +21,3 @@ Esta recomendación minimiza el acoplamiento entre clases, y esto porque desfavo
 ## La sugestión de demeter
 
 Ser muy rigurosos con esta ley puede llevar a que terminemos con métodos que solo sirven de intermediario entre objetos, es por esto que Martin Fowler llamo a esta ley *la sugestión de demeter*.
-___

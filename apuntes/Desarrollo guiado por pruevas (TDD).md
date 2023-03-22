@@ -46,6 +46,3 @@ Los Green bar patterns son diferentes formas de pasar un test o prueba.
 Los test usados para triangular, osea los últimos podemos eliminarlos al terminar. 
 La triangulación suele usarse cuando no sabemos como escribir un algoritmo o funcionalidad, cuando nos enfrentamos a algo desconocido.
 
----
-
-También se puede investigar sobre unit testing y los demás tipos de test usados en TDD, metodologías ágiles y sobre complejidad ciclomática.

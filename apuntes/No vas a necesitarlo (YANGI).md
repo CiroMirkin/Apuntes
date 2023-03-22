@@ -10,7 +10,4 @@ YANGI (You are'nt gonna need it) es una advertencia para esos casos donde hacemo
 Haz cosas solo cuando tienes la certeza  de que las vas a usar, necesitar y sacar provecho, no antes.
 
 	YANGI es un principio que proviene de ExtremeProgramming (XP).
-___
-Material usado: [Wikipedia](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it),<br> 
-https://www.martinfowler.com/bliki/Yagni.html <br> 
-https://www.adictosaltrabajo.com/2015/10/12/yagni/ 
+ 

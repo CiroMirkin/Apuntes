@@ -51,9 +51,4 @@ Verdaderamente ninguna es mejor que la otra, ambas tienen enfoques diferentes, p
 > TDD para la parte técnica y la implementación de código, **con programadores**.  
 
 > BDD para el negocio, la comprensión y concepto de un software, **con el cliente y todo el involucrado**.
-___
 
-Apuntes relaciónados: 
-<a href="https://github.com/vacio-informatico/vacio-informatico.md/blob/main/Test%20driven%20develoment%20(TDD).md">Test driven develoment (TDD)</a>, [unit testing](https://github.com/vacio-informatico/vacio-informatico.md/blob/main/Unit%20testing.md), 
-<a href="https://github.com/vacio-informatico/vacio-informatico.md/blob/main/Desarrollo%20guiado%20por%20comportamiento%20(BDD).md">desarrollo guiado por comportamiento (BDD)</a>
-<a href=""></a>

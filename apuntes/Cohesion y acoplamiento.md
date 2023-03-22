@@ -12,5 +12,3 @@ En un mundo feliz las clases no estarían acopladas entre sí, sino más bien tr
 ## Tipos de cohesión
 
 Existen tipos de cohesión pero como no son realmente importantes estas clasificaciones solo seran nombradas: cohesión coincidente, cohesión logica, cohesión temporal, cohesión de procedimiento, cohesión de comunicación, cohesión de información y cohesión funcional.
-___
-Material usado de referencia: El libro código sostenible de Carlos Blé Jurado.

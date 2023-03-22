@@ -91,8 +91,3 @@ Protegerse del cambio antes de que suceda es lo que propone este principio, bás
 
 	En resumen, separar del resto lo que pueda cambiar en un futuro.
 
-
-<!-- <div class="line"></div> -->
----
-
-Visite varias fuentes para corroborar este apunte, pero los más usados fueron estos: el artículo escrito por <a href="">Roberto Canales Mora</a> y los artículos escritos por <a href="">Juan García Carmona</a>, lo interesante de estos últimos es que contiene varios ejemplos en código sobre lo que incumple o no estos principios.

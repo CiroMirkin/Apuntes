@@ -29,7 +29,4 @@ Rápido, concreto e independiente son las principales características, sin ella
 * Assert (afirmar): Se comprueba que el resultado es el esperado.
 
 El unit testing forma parte de metodologias agiles, como lo puede ser el desarrollo guiado por pruebas (TDD).
-___
-Dentro del material usado para redactar este apunte resaltan: El paper Test-Driven Development - <a href="">Una aproximación para entender su utilidad en el proceso de desarrollo de Software</a> 
 
-Ademas puedes encontrar algunas de las librerias mas importantes de unit Testing en <a href="https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#JavaScript">Wikipedia</a>, por ultimo si usas Javascript puedes usar <a href="https://jestjs.io">Jest</a> para hacer unit testing.
