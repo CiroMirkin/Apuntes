@@ -3,7 +3,7 @@
 
 ## Variables
 
-Las variables nos permiten guardar información que puede variar, por ejemplo, el precio de un jabon que podría salir $15 y en algun momento subir o bajar de precio.
+Las variables nos permiten guardar información que puede variar, por ejemplo, el precio de un jabón que podría salir $15 y en algún momento subir o bajar de precio.
 
 > La información guardada puede cambiar en cualquier momento, es variable.
 
