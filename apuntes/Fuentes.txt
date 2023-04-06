@@ -1,4 +1,7 @@
 ___
+Estados y su gestion: El libro código sostenible de Carlos Blé Jurado, este hilo de Stackoverflow: https://es.stackoverflow.com/questions/29177/por-qu%C3%A9-es-considerado-una-mala-pr%C3%A1ctica-utilizar-variables-globaleshttps://es.stackoverflow.com/questions/29177/por-qu%C3%A9-es-considerado-una-mala-pr%C3%A1ctica-utilizar-variables-globales
+
+___
 Algoritmos: https://drive.google.com/file/d/1m13QYfEaBfZn25xSzea4rJyS7925Qa8Y/view, https://concepto.de/algoritmo-en-informatica/.
 
 ___
