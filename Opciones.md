@@ -27,7 +27,7 @@
 [] Common query separation
 [] Code to an interface, not an implementation
 [x] Principio de menor sorpresa
-[] Avoid gloval state
+[x] Avoid gloval state
 [x] Dont make me think
 [] Fat model, skinny controller
 [] onvertion over configuration
