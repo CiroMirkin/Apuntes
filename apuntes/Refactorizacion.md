@@ -22,6 +22,10 @@ Cuando cambiamos el código lo mejoramos para: Hacerlo más eficiente al abordar
 5. Ten en cuenta si puedes saber si rompiste algo ¿Hay pruebas que cubran el 100% del código que quiero refactorizar?
 6. Comenta la refactorizacion en la que estás pensando con el resto del equipo, no te mandes solo.
 
+## La regla de boy scout
+
+Deja el código mejor de lo que estaba, esto siempre que sea posible y seguro, si es tenemos en cuenta lo anterior.
+
 ## La regla de tres
 
 Se implementa una vez, dos veces y a la tercera se refactoriza para facilitar futuras implementaciones, esta regla va de maravillas si trabajas solo, pero en equipo es bastante inútil.
