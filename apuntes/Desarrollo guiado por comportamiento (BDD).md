@@ -3,7 +3,7 @@
 
 # Desarrollo guiado por comportamiento (BDD)
 
-El desarrollo guiado por comportamiento o BDD por sus siglas en ingles (behavior driven development), es una metodología ágil para el desarrollo de software o una forma ágil de trabajar al hacer un software. <br>
+El desarrollo guiado por comportamiento o BDD (behavior driven development), es una metodología ágil para el desarrollo de software o una forma ágil de trabajar al hacer un software. <br>
 Esta metodología permite involucrar a todas las personas que trabajan en un proyecto, pero principalmente mejora la comunicación entre programadores y clientes, al igual que garantiza cumplir las necesidades del usuario.
 
 ## Forma de trabajo
@@ -12,12 +12,12 @@ La forma de trabajo en BDD se centra en primero definir el comportamiento de una
 Por ejemplo con una funcionalidad que resta y suma números, definimos el comportamiento así:
 
 > **dado que** quiero sumar dos números <br>
-> **cuando** ingreso dos números y selecciono la opción de sumar <br>
+> **cuando** ingreso dos números y selecciono sumar <br>
 > **entonces** se suman los dos números
 
 ## Comunicación producida por BDD
 
-Gracias a que BDD usa un lenguaje común, que cualquier persona puede entender, permite la colaboración y comunicación no solo con el cliente sino también con otras partes del equipo. Es por esta comunicación que el cliente puede tener una idea más clara de lo que va y debería tener de una manera realista.
+Gracias a que BDD usa un lenguaje común que cualquier persona puede entender permite la colaboración y comunicación no solo con el cliente sino también con otras partes del equipo. Es por esta comunicación que el cliente puede tener una idea más clara de lo que va y debería tener de una manera realista.
 
 > Hablar el mismo idioma que el cliente es fundamentar para poder crear lo que este quiere tener.
 
