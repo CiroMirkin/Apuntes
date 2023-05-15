@@ -1,7 +1,7 @@
 # GRASP	
 Mirkin Ciro (19_02_2022)
 
-Los patrones generales de software para la asignación de responsabilidades (GRASP) son ocho y ayudan a la creación e implementación de una clase, aunque todo esto se centre en las clases y los objetos algunas de las recomendaciones que nos da también pueden ser aplicadas a otros entornos como la programación funcional.
+Los ocho patrones generales de software para la asignación de responsabilidades ayudan a la creación e implementación de una clase, aunque todo esto se centre en las clases y los objetos algunas de las recomendaciones también pueden ser aplicadas a otros entornos como la programación funcional.
 
 ## Experto en información
 
@@ -30,7 +30,7 @@ Puntos a tener en cuenta:
 
 > Acoplamiento: En programación el acoplamiento es cuando al hacer un cambio en una clase este cambio afecta a otras clases, clases que muchas veces no deberian tener relación con la clase que modificamos.
 
-Mayor cohesión significa menor acoplamiento porque al estar unidas las cosas que tiene mayor relación las que tiene menos no se verán afectadas al hacer cambios.
+Mayor cohesión significa menor acoplamiento porque al estar unidas las cosas que tiene mayor relación las de menor relación no se verán afectadas al hacer cambios.
 
 ## Controlador
 
@@ -40,13 +40,13 @@ El funcionamiento del controlador es facil ya que este es el primero en ser llam
 
 ## Polimorfismo
 
-El polimorfismo es la cualidad de tener varias clases con metodos del mismo nombre que hacen la misma cosa pero de maneras diferentes, ahora bien, el GRASP de polimorfismo nos dice cuando hacer *"polimorfismo"*.
+El polimorfismo es la cualidad de tener varias clases con metodos del mismo nombre que hacen la misma cosa pero de maneras diferentes, ahora bien, el GRASP de polimorfismo nos dice cuando hacer *“polimorfismo”*.
 
-Cuando tenemos dos funcionalidades con un mismo fin pero con desarrollos diferente como un mensaje de error y uno de depuración, los dos tienen el fin de informar pero algo distinto, es por eso que en estos casos ambas funcionalidades deberian estar en clases distintas pero partiendo de la misma interfaz.
+Cuando tenemos dos funcionalidades con un mismo fin pero con desarrollos diferente como un mensaje de error y uno de depuración, los dos tienen el fin de informar, pero de diferente forma, en estos casos ambas funcionalidades deberian estar en clases distintas pero partiendo de la misma interfaz.
 
 ## Fabricacion pura
 
-La fabricación pura es crear clases que solo para mejorar la estructura del sistema, la cohesión o la reutilización del código. El problema al abusar de esto es que suelen aparecer *clases función* o clases que contienen un solo método.
+La fabricación pura es crear clases solo para mejorar la estructura del sistema, la cohesión o la reutilización del código. El problema al abusar de esto es que suelen aparecer *clases función* (clases que contienen un solo método).
 
 ## Indirección
 
@@ -56,5 +56,4 @@ Este principio nos propone bajar el acoplamiento entre dos clases asignando la r
 
 Protegerse del cambio antes de que suceda es lo que propone este principio, básicamente todo lo que veamos o creamos que puede cambiar en un futuro lo metemos en una interfaz y luego lo implementamos mediante herencia/polimorfismo.
 
-Este patrón puede ser contraproducente e incluso una mala practica si se usa descuidadamente, ya que podriamos perder tiempo o complejisar el código sin motivo, para evaluar esto podrían servir principio como YANGI o KISS.
-
+Este patrón puede ser contraproducente e incluso una mala practica si se usa descuidadamente, ya que podriamos perder tiempo o complejisar sin motivo el código, para evaluar esto podrían servir principio como YANGI o KISS.
