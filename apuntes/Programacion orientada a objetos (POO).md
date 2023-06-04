@@ -9,10 +9,6 @@ En la programación orientada a objetos usamos clases que contienen atributos y 
 
 Para usar una clase se crea una instancia, cuando esta se almacena en una variable o contante pasa a llamarse objeto, son prácticamente lo mismo.
 
-## Pilares de la POO
-
-Los pilares de la programación orientada a objetos son cuatro conceptos fundamentales que encontraras en casi todos los lenguajes y aplicados de formas distintas.
-
 ## Abstracción 
 
 La abstracción es la manera en se representa a un objeto para que sea simple por fuera, ocultando sus partes complejas, dicho de otra manera es representar cosas complejas de una manera simple para que otros la puedan usar. La forma en la que representamos algo complejo como algo simple es usando una *interfaz*, por ejemplo, cuando encendemos un auto lo hacemos girando una llave en vez de conectar cables, en este caso la interfaz es la llave y la cerradura que nos permiten ocultar lo complejo que es encender un auto. Cuando programamos clases dependiendo del lenguaje esta abstracción suele hacerse a través de métodos o incluso clases enteras.
