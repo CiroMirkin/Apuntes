@@ -44,3 +44,9 @@ Las 3C de las historias de usuario son tres puntos de referencia que se debería
 * Todos los involucrados tienen que conversar sobre las historias de usuario, el valor de estas, su prioridad y posibles soluciones. 
 
 * Se tiene que confirmar que los objetivos de una historia se alcanzaron y que la misma está terminada.
+
+
+///
+Una publicación de Asana: https://asana.com/es/resources/user-stories
+El libro "Desarrollo ágil esencial" de Robert C.Martin.
+///

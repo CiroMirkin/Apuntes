@@ -18,3 +18,8 @@ Los dos grandes tipos de algoritmos que existen son los *cualitativos* que usan 
 * Son concretos, ya que dan resultados en base a la función que cumplen.
 * No importa las veces que a un algoritmo le demos una misma entrada, la salida sera siempre la misma.
 
+
+/// 
+https://drive.google.com/file/d/1m13QYfEaBfZn25xSzea4rJyS7925Qa8Y/view
+https://concepto.de/algoritmo-en-informatica/.
+///

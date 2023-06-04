@@ -30,3 +30,6 @@ Rápido, concreto e independiente son las principales características, sin ella
 
 El unit testing forma parte de metodologias agiles, como lo puede ser el desarrollo guiado por pruebas (TDD).
 
+///
+El paper Test-Driven Development - Una aproximación para entender su utilidad en el proceso de desarrollo de Software: http://conaiisi.frc.utn.edu.ar/PDFsParaPublicar/1/schedConfs/7/158-524-1-DR.pdf
+///

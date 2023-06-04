@@ -43,3 +43,6 @@ El patrón singlton nos permite verificar que una clase tenga una única instanc
 
     Singleton se encarga de que una clase tenga una única instancia.
 
+///
+https://refactoring.guru/
+///
