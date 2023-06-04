@@ -9,7 +9,7 @@ La responsabilidad para la creación de un objeto la tiene esa clase que tenga *
 
 Lo bueno de este principio es que viene de la mano con SRP (la S de SOLID) ya que cuando una clase crea un objeto o método con su propia información esta clase solo tendría un motivo para cambiar.
 
-	También puede aplicarse al uso de metodos o funciones.
+	También puede aplicarse al uso de métodos o funciones.
 
 ## Creador 
 
@@ -36,13 +36,11 @@ Mayor cohesión significa menor acoplamiento porque al estar unidas las cosas qu
 
 Este patrón sirve de intermediario entre una determinada interfaz y el algoritmo que lo usa, básicamente separar la UI (interfaz gráfica) del dominio o lógica, aunque tambien propone separar los eventos de sus algoritmos.
 
-El funcionamiento del controlador es facil ya que este es el primero en ser llamado luego de un cambio en la interfaz y ejecuta un caso de uso coordinando la relación vista y lógica.
+El funcionamiento del controlador es facil ya que este es el primero en ser llamado luego de un cambio en la interfaz y ejecuta un caso de uso coordinando la relación vista/lógica.
 
 ## Polimorfismo
 
-El polimorfismo es la cualidad de tener varias clases con metodos del mismo nombre que hacen la misma cosa pero de maneras diferentes, ahora bien, el GRASP de polimorfismo nos dice cuando hacer *“polimorfismo”*.
-
-Cuando tenemos dos funcionalidades con un mismo fin pero con desarrollos diferente como un mensaje de error y uno de depuración, los dos tienen el fin de informar, pero de diferente forma, en estos casos ambas funcionalidades deberian estar en clases distintas pero partiendo de la misma interfaz.
+El GRASP de polimorfismo se aplica al tener una funcionalidad que se desarrolla o tiene varias formas, por ejemplo: Un mensaje, podría existir un mensaje de error y uno de depuración, en estos casos ambas funcionalidades deberían estar en clases distintas, pero implementando la misma interfaz que define como es un mensaje.
 
 ## Fabricacion pura
 
@@ -59,5 +57,5 @@ Protegerse del cambio antes de que suceda es lo que propone este principio, bás
 Este patrón puede ser contraproducente e incluso una mala practica si se usa descuidadamente, ya que podriamos perder tiempo o complejisar sin motivo el código, para evaluar esto podrían servir principio como YANGI o KISS.
 
 ///
-Artículos escritos por Juan García Carmona empezando por este: https://jgcarmona.com/2012/09/07/patrones-generales-de-asignacion-de-responsabilidades/
+Artículos escritos por Juan García Carmona empezando por este: https://juan-garcia-carmona.blogspot.com/2012/09/patrones-generales-de-asignacion-de.html
 ///
