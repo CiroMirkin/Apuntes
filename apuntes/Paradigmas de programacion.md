@@ -1,9 +1,7 @@
 # Paradigmas de programación
 C.Mirkin (21_05_2023)
 
-Los paradigmas en la programación son formas de programar, hay muchísimas de estas formas y cada una tiene sus cualidades, conceptos, beneficios y enfoques. De todas estas formas hay dos que son fundamentales: La imperativa y la declarativa. 
-
-Hoy día muchos de los lenguajes más usados son  multiparadigma, permitiéndonos usar conceptos de varios paradigmas, sin alejarse de su paradigma base que suele ser el imperativo.
+Cuando programamos resolvemos problemas, los paradigmas vienen a ser las diferentes formas de estructurar la solución de un problema. Hay muchísimas de estas formas y cada una tiene sus cualidades, conceptos, beneficios y enfoques, pero aun así todas pueden dividirse en dos grandes grupos: Imperativos y declarativos, a su vez dentro de estos grupos hay tres formas fundamentales: La estructurada, la funcional y la orientada a objetos.
 
 ## La forma imperativa
 
@@ -15,7 +13,7 @@ Un ejemplo:
 
 Te estoy diciendo muy específicamente paso a paso como quiero que haga un té. 
 
-Volviendo a la programación, al usar está forma lo hacemos a través de *estructuras de control de flujo* como ciclos o condiciones, y manipulando *estados* como variables o arreglos.
+Volviendo a la programación, al usar está forma lo hacemos a través de *estructuras de control de flujo* como ciclos o condiciones, y manipulando *estados* como variables o arreglos, siendo un ejemplo de esto la programación estructurada.
 
 ## La forma declarativa
 
@@ -27,9 +25,14 @@ Un ejemplo:
 
 Te estoy diciendo específicamente **que es lo que quiero, pero no como** tienes que hacerlo y eso realmente no me importa siempre y cuando me entregues lo que quiero. 
 
-Volviendo a la programación, al usar está forma lo hacemos a través de palabras clave o funciones que nos permitan describir el problema. Si ya sabes programar o matemáticas en un nivel intermedio es posible que entiendas fácilmente como usar y funcionan los lenguajes tienen esta forma de programar.
+Volviendo a la programación, al usar está forma lo hacemos a través de palabras clave o funciones que nos permitan describir el problema, siendo un ejemplo de esto el paradigma funcional. Si ya sabes programar o matemáticas en un nivel intermedio es posible que entiendas fácilmente como usar y funcionan los lenguajes tienen esta forma de programar.
+
+## La forma declarativa e imperativa
+
+Hoy día muchos lenguajes son *multiparadigma* sacando un poco de cada lado, por ejemplo, permitiéndonos tener funciones que se usan de forma declarativa, pero que por dentro son imperativas e incluso usan elementos declarativos como llamadas a otras funciones, viniendo de esto mismo podemos encontrarnos con la *programación orientada a objetos* (POO) donde usamos *clases* de forma declarativa, pero que por dentro son en parte imperativas ¿cómo las funciones? Sí, como las funciones.
 
 ///
+El libro *"Arquitectura limpia"* de Robert C.Martin
 https://www.crehana.com/blog/transformacion-digital/programacion-imperativa/
 https://open-bootcamp.com/aprender-programar/paradigma-imperativo
 https://learn.microsoft.com/es-es/dotnet/standard/linq/functional-vs-imperative-programming
