@@ -57,3 +57,7 @@ Este principio nos propone bajar el acoplamiento entre dos clases asignando la r
 Protegerse del cambio antes de que suceda es lo que propone este principio, básicamente todo lo que veamos o creamos que puede cambiar en un futuro lo metemos en una interfaz y luego lo implementamos mediante herencia/polimorfismo.
 
 Este patrón puede ser contraproducente e incluso una mala practica si se usa descuidadamente, ya que podriamos perder tiempo o complejisar sin motivo el código, para evaluar esto podrían servir principio como YANGI o KISS.
+
+///
+Artículos escritos por Juan García Carmona empezando por este: https://jgcarmona.com/2012/09/07/patrones-generales-de-asignacion-de-responsabilidades/
+///

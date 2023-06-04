@@ -12,3 +12,8 @@ En el desarrollo ágil podemos encontrar cosas como la integración continua, el
 Subdividimos un proyecto en iteraciones, y en estas iteraciones completamos historias de usuario según su valor comercial para que las más valiosas se completen primero. Ahora el resultado de estas iteraciones que suelen durar dos semanas, se mide y utiliza para evaluar continuamente la fecha en que se lanzara el proyecto al mercado.
 
 	XP y Scrum son procesos o formas de desarrollo ágil.
+
+
+///
+El libro de Robert C.Martin "Desarrollo ágil esencial".
+///

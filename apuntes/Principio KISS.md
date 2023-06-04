@@ -17,3 +17,7 @@ Busca siempre la solución mas simple para un problema y no te enrolles pensando
 - Mantén el código ordenado.
 <br/><br/>
 - Programa pensando en las **personas** no en las computadoras.
+
+///
+El libro Codigo sostenible de Carlos Blé Jurado.
+///

@@ -16,3 +16,6 @@ Los métodos realizan acciones con los atributos de sus clases, la lógica y la 
 
 Los *getters* son un tipo de método que nos permite obtener el valor de una propiedad dentro de una clase, esto rompería un poco con Tell dont ask, ya que estaríamos pidiendo información para luego hacer algo. Este tipo de métodos no son el mal en código, pero aun así es bueno evitarlos o al menos no abusar de ellos.
 
+///
+Articulo de Martin Fowler: https://www.martinfowler.com/bliki/TellDontAsk.html
+///

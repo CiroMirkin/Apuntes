@@ -1,4 +1,4 @@
-# Refactorizacion
+# Refactorización
 (Ciro Mirkin) 29_10_2022
 
 Cambiar el diseño o estructura del código para mejorarlo sin afectar el comportamiento externo, de manera más fácil, cambiar el código sin cambiar el resultado que nos da, teniendo en cuenta esto podríamos decir que el arreglo de errores no es *refactorizacion*, ya que hay cambios en el resultado.
@@ -47,3 +47,10 @@ Los code smells o los olores en el código son una serie de señales de que un c
 * ¿Hará que consiga más clientes?
 * ¿Mejorara el rendimiento de la aplicación notablemente? Y esto hay que tenerlo en cuenta solo si el rendimiento es un problema a resolver.
 
+///
+Refactoring, improving the design of existing code - Martin Fowler: https://www.refactoring.com/
+Cuando refactorizar tu código?(Hola mundo): https://www.youtube.com/watch?v=Cd-tw8xxMu8
+¿Sabes lo que significa Refactorizar? (BettaTech): https://www.youtube.com/watch?v=6uBOlGrcj4A&t=3s
+El arte de la refactorización - Estefany Aguilar (PlatziConf): https://www.youtube.com/watch?v=5nS6BI8Tc8A&t=18s
+https://www.adictosaltrabajo.com/2015/09/28repasando-los-clasicos-refactoring-de-martin-fowler/
+///
