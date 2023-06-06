@@ -1,13 +1,13 @@
 # Programación orientada a objetos (POO) 
 (Mirkin Ciro) 14_11_2021
 
-En la programación orientada a objetos usamos clases que contienen atributos y métodos, variables y funciones que pueden usarse dentro y fuera de la clase.
+En la programación orientada a objetos usamos clases que contienen atributos y métodos, variables y funciones que pueden usarse dentro y fuera de la clase. 
 
 ## Atributos y métodos 
 
-**Los atributos** son variables pueden ser usadas por los métodos, **los métodos** son funciones que contiene la clase, las cuales pueden recibir y devolver valores, al igual que llamar a otros métodos de la clase. Dentro de una clase también esta **el constructor**, un método que guarda los valore recibidos desde el exterior convirtiéndolos en atributos, aunque también se puede crear atributos con información que no provenga del exterior, más allá del lenguaje el constructor siempre está relacionado con los atributos.
+**Los atributos** son variables usadas por los métodos, **los métodos** son funciones que contiene la clase, las cuales pueden recibir y devolver valores, al igual que llamar a otros métodos de la clase. Dentro de una clase también esta **el constructor**, un método que guarda los valore recibidos desde el exterior convirtiéndolos en atributos, aunque también puede crear atributos con información que no provenga del exterior, más allá del lenguaje el constructor siempre está relacionado con los atributos.
 
-Para usar una clase se crea una instancia, cuando esta se almacena en una variable o contante pasa a llamarse objeto, son prácticamente lo mismo.
+Para **usar una clase se crea una instancia**, cabe aclarar que podemos crear varias instancias de una misma clase, ahora bien, cuando estas instancias se almacena en una variable o contante pasan a llamarse *objetos*, son prácticamente lo mismo.
 
 ## Abstracción 
 
