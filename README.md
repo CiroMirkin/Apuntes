@@ -1,15 +1,22 @@
 # Apuntes
--- *Mirkin Ciro* --
+-- *M.C* --
 
-Estos son los apuntes que hago mientras estudio un tema con el fin de poder recorlo, y en el caso de olvidarlo este sería un lugar donde recordar. Estos apuntes son cortos y sencillos para poder leerlos en poco tiempo y entender o al menos tener una idea clara de lo que es cierto tema, pero...
+Estos los apuntes que elaboro mientras estudio un tema con el fin de poder recorlo y aplicar el método de Feynman, y en el caso de olvidar un tema tener un lugar donde recordar.
 
-Antes de que empiece a leer tiene que saber que estos apuntes no tienen verdades absolutas o perfectas y por ende pueden tener modificaciones a lo largo del tiempo. Así que todo lo que puede hacer es confiar en la veracidad de estos apuntes y si no está contento con eso pude consultar las fuentes usadas y que encontrara al pie de cada apunte.
+## Especificaciones
 
-# Solo teoría ¿Por qué?
+Los apuntes son cortos y sencillos para poder leerlos en poco tiempo y tener una idea clara sobre un tema.
 
-Solo temas teóricos porque creo que es algo importante y no suele haber mucho contenido de este tipo que trate los temas de una manera fácil, corta y concreta. 
+> Apunte corto = Maximo una carilla de una hoja A4.
 
-> Contenido sobre código podemos encontrar en casi cualquier lado.
+> Apunte sencillo = Evitar tecnicismos y usar palabras simples/vulgares.
 
-___
-Puedes ver el catálogo de apuntes de forma más ordenada [aquí](https://cm-apuntes.netlify.app/).
+Los apuntes no contienen código, en todo caso se usan analogias.
+
+*Por el momento* los apuntes no contienen imagenes.
+
+## ¿Por qué solo teoría?
+
+Solo teoría porque es algo importante y no hay mucho contenido de este tipo sobre todo en español que trate los temas de una manera fácil y corta. 
+
+Contenido sobre código podemos encontrar en casi cualquier lado o perdircelo a una inteligencia artificial.
