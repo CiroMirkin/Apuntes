@@ -7,7 +7,7 @@ El análisis orientado a objetos nos ayuda a entender y representar el negocio e
 
 Las tarjetas CRC (clases, relaciones y responsabilidades) o también conocidas como "tarjetas de clase" nos ayudan a representar clases y ver sus relaciones, estas tarjetas son una herramienta para entender y representar clases a un alto nivel, esto quiere decir sin detalles.
 
-Una tarjeta tiene tres partes: Primero **el nombre** de la clase, segundo una columna con sus **responsabilidades**, osea todas las acciones que realiza; y por último una columna con las **colaboraciones** que son todas esas clases que ayudan a cumplir las responsabilidades de la clase.
+Una tarjeta tiene tres partes: Primero **el nombre** de la clase, segundo una columna con sus **responsabilidades**, osea todas las acciones que realiza; y por último una columna con las **colaboraciones** que son todas esas clases que ayudan a cumplir las responsabilidades de una clase.
 
 ## Formas de utilización
 
