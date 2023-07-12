@@ -15,11 +15,15 @@ La herencia se da cuando una clase obtiene **todos** los atributos y métodos de
 
 ## Polimorfismo 
 
-El polimorfismo es un principio que nos ayuda a tener el **control** sobre las **dependencias** de un objeto permitiendo que un objeto varíe en su forma concreta, diferenciando entre forma concreta, donde se sabe que **hace y como**, y la forma abstracta, donde se sabe que **hace pero no como**. Permitir que un objeto cambie en su forma concreta y tener el control sobre las dependencias son cosas que vienen de la mano y nos permiten aplicar otros principios como SRP, OCP, LSP de SOLID o inversión de la dependencia.
+El polimorfismo es un principio que nos ayuda a tener el **control** sobre las **dependencias** de un objeto permitiendo que un objeto varíe en su forma concreta, diferenciando entre forma concreta donde sabemos todo, que es, que hace y como lo hace, y la forma abstracta donde no como se hacen las cosas. El permitir que un objeto cambie en su forma concreta y tener el control sobre las dependencias son cosas que vienen de la mano y nos permiten aplicar otros principios como SOLID.
 
-El polimorfismo es lo que es gracias a las *interfaces* o clases abstractas según el lenguaje, aunque el concepto es el mismo, *Definir como será o tiene que ser una clase sin detalles*, por eso las interfaces son una parte esencial, una herramienta, un velo, un confesionario​ e incluso un puente. Nos permite saber que hay del otro lado, pero sin mucho detalle, nos permite controlar los detalles, controlar lo que sabe un objeto sobre otro, permiten controlar la dependencia entre objetos.
+El polimorfismo es lo que es gracias a las *interfaces* o clases abstractas según el lenguaje, el concepto es el mismo, *definir como será o tiene que ser una clase sin detalles*, por eso las interfaces son una parte esencial, una herramienta, un velo, un confesionario​ e incluso un puente. Nos permiten saber que hay del otro lado, sin detalles, permitiéndonos controlarlos y hacer que cambien según lo necesitemos, controlamos lo que sabe un objeto sobre otro, controlamos la dependencia entre objetos.
 
-Existen dos casos muy famosos, el primero es el de los animales: Hay una interfaz *"animal"* definiendo que todos los animales respiran, comen, duermen y tienen un tamaño, ahora bien, cada objeto de un animal concreto como un gato o un pez implementa esta interfaz y define como es que respira, el gato y el pez respiran o duermen de diferentes formas, pero duermen y respiran; El otro caso es cuando ponemos una interfaz como parámetro de una función, por ejemplo la función *"beber"*, la función no sabe los detalles de lo que va a tomar, pero si sabe que será un líquido, con un color, una transparencia y una densidad, no le importa si es un té o miel mientras sea un objeto que cumpla esa definición.
+Existen dos casos muy famosos de polimorfismo: 
+
+En el primer caso hay una interfaz *"animal"* definiendo que todos los animales respiran, comen, duermen y tienen un tamaño, ahora bien, cada objeto de un animal concreto como un gato o un pez implementa esta interfaz y define como es que respira. El gato y el pez respiran o duermen de diferentes formas, pero duermen y respiran.
+
+En el otro caso pasa cuando ponemos una interfaz como parámetro de una función, por ejemplo la función *"beber"* no sabe los detalles de lo que va a tomar, pero si sabe que será un líquido, con un color, una transparencia y una densidad, no le importa si es un té o miel mientras sea un objeto que cumpla esa definición.
 
 /// 
 El libro: "Arquitectura limpia" de Robert C.Martin.
