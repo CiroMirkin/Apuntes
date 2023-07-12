@@ -3,25 +3,23 @@
 
 Podemos ver a un componente como un grupo de funciones o clases, pero ¿Cómo las organizamos y decidimos cuál va con cuál? Ahí es donde entran estos principios, tres estrategias o formas de hacer que un componente tenga *cohesión*.
 
-La cohesión de un componente es un concepto que Yourdon y Constantine definieron como: *"cuán estrechamente enlazados o relacionados están entre sí los elementos internos de un módulo"*.
+La cohesión de un componente es un concepto que Yourdon y Constantine definieron como *cuán estrechamente enlazados o relacionados están entre sí los elementos internos de un módulo*.
 
 ## Principio de equivalencia resuso/lanzamiento (REP)
 
 > La esencia del reuso es la esencia del lanzamiento.
 
-Las clases que forman un componente deben tener un tema o propósito común que sea claro para que el componente tenga sentido, por ejemplo **no tiene sentido** que un componente sobre gráficas tenga una clase que válida un formulario, puede que se relacione con las gráficas, pero aun así deberían estar separados.
+Las clases que forman un componente deben tener un tema o propósito común que sea claro para que el componente tenga sentido, por ejemplo **no tiene sentido** que un componente sobre gráficas tenga una clase que válida un formulario, puede que se relacione con las gráficas, pero aun así no deberían estar juntos.
 
 Los componentes son reusables, contienen varias clases que deben ser documentadas en el mismo lugar, controladas y lanzas al mismo tiempo porque son parte de un mismo componente, volvamos al anterior ejemplo: si buscáramos la documentación de una clase que valida un formulario no la buscaríamos en el componente de gráficas, justamente porque eso no tiene sentido.
 
-Si tenemos en cuenta este principio junto al de *reuso común* se tiende a crear varios componentes y al tener que hacer pequeños cambios se van a modificar varios componentes.
+Si tenemos en cuenta este principio junto al de *reuso común* se tiende a crear varios componentes y al hacer pequeños cambios se van a tener que modificar varios componentes.
 
 ## Principio de cierre comun (CCP)
 
 > Separemos las clases en distintos componentes si cambian por distintos motivos.
 
-Si juntamos en un componente las clases que cambian por los mismos motivos, nuestro código se hace más sostenible, porque ahora, algunos tipos de cambios solo afectan a un componente y no están dispersos por toda la aplicación.
-
-Viéndolo de otra forma es una mezcla de SRP y OCP de SOLID específicamente para componentes.
+Si juntamos en un componente las clases que cambian por los mismos motivos, nuestro código se hace más sostenible, porque ahora, algunos tipos de cambios solo afectan a un componente y no están dispersos por toda la aplicación. Viéndolo de otra forma es una mezcla de SRP y OCP de SOLID específicamente para componentes.
 
 Si tenemos en cuenta este principio junto al de *equivalencia reuso/lanzamiento* los componentes serán grandes.
 
