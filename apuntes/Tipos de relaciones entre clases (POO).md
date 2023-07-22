@@ -15,6 +15,10 @@ Las relaciones de implementación se hacen dependiendo del lenguaje a través de
 
 Cuando un cambio en una clase nos obliga a modificar otra, hay una relación de dependencia y suele suceder cuando se pasa la instancia de una clase como argumento de un método en una clase.
 
+	A -> X
+	A depende de X
+	La clase A depende de la clase X que recibe como argumento en uno de sus métodos.
+
 ## Asociaciones
 
 Las relaciones de asociación suceden al haber un atributo en una clase que almacena la instancia de otra, la cantidad de asociaciones se llama *Multiplicidad*.
@@ -25,7 +29,7 @@ En las asociaciones unidireccionales o dirigidas, una clase guarda en un atribut
 
 ### Agregación y composición
 
-Cuando hablamos de **agregación** las clases que guardamos como instancias pueden existir por separado o estar asociadas a varias clases, pero cuando hablamos de **composición** las clases que guardamos no son capaces de existir por separado o asociarse a otras clases.
+Cuando hablamos de **agregación** las clases que guardamos como instancias pueden existir por separado o estar asociadas a varias clases, pero cuando hablamos de **composición** las clases que guardamos no son capaces de existir por separado o asociarse a otras clases, es decir una clase gestiona el ciclo de vida de otra.
 
 ///
 El libro sobre patrones de diseño de: https://refactoring.guru/
