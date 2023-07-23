@@ -1,5 +1,5 @@
-# Tipos de relaciones entre clases (POO)
-C.Mirkin (06_06_2023)
+# Tipos de relaciones entre clases
+06_06_2023
 
 Cuando usamos POO creamos clases y estas se relacionan de diferentes formas, entender el tipo de relaciones que puede haber es útil sobre todo cuando se usan diagramas UML para representar clases, y bueno sus relaciones.
 
