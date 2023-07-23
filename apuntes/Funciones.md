@@ -28,11 +28,11 @@ Una función pura no tiene efector secundarios, no cambia el estado de nada, por
 
 ## Funciones autocontenidas
 
-Una función autocontenida es esa que no necesita nada del exterior, todo lo que necesita está dentro suyo o lo recibe como parámetro. Este tipo de funciones no solo son buenas por su alto nivel de cohesión si no también porque son fáciles de mover entre clases en caso de ser necesario.
+Una función autocontenida es esa que tiene todo lo que necesita dentro suyo o lo recibe como parámetro. Este tipo de funciones no solo son buenas por su alto nivel de cohesión si no también porque son fáciles de mover entre clases en caso de ser necesario.
 
 ## Funciones de primera clase
 
-Son funciones que pueden ser tratadas como variables, esto quiere decir: Funciones que pueden ser pasadas como argumento/parámetro de una función y que pueden ser devueltas por una función.
+Son funciones que pueden ser tratadas como variables, esto quiere decir funciones que pueden ser pasadas como argumento/parámetro de una función y también pueden ser devueltas por una función.
 
 ## Separar comandos y consultas (CQS)
 
