@@ -1,5 +1,5 @@
 # Arquitectura
-00_00_2023
+10_08_2023
 
 Cuando creamos una aplicación la dividimos en módulos, cada uno con su responsabilidad y sus dependencias, ahora bien, **la forma** de organizar los módulos, dividirlos y relacionarlos conforman una *arquitectura*.
 
