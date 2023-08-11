@@ -24,3 +24,5 @@ Otros puntos importantes para que una arquitectura facilite el trabajo a los pro
 * Permitir y facilitar hacer pruebas a sus diferentes partes.
 
 En una buena arquitectura el dominio está compuesto por dos grupos que están bien definidos: En primer lugar las reglas de negocio que pueden estar más o menos unidas, y en segundo los casos de uso que **no están acoplados entre sí** y suelen atravesar todas las capas de una arquitectura.
+
+/// Arquitectura limpia de Robert C.Martin ///
