@@ -1,5 +1,5 @@
 # Diagrama de contexto de sistema
-00_00_2023
+15_08_2023
 
 Este tipo de diagrama nos permite ver a un alto nivel con que elementos externos se relaciona una aplicación. Se crea en las primeras etapas de un proyecto para entender mejor el dominio y dialogar con el cliente, esto es posible gracias a que es un diagrama simple y para nada técnico.
 
