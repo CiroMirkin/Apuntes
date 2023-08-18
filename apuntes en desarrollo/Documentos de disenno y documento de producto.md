@@ -1,49 +1,49 @@
 # Documentos de diseño y documento de producto
 00_00_2023
 
-**Ambos** tipos de documento **son importantes** para guiar el desarrollo de un proyecto. Por un lado los documentos de diseño (SDD) describen detalladamente como desarrollar una parte del proyecto que puede ser una caracteristica o una parte de la arquitectura, es un documento tecnico a diferencia del documento de producto (PRD) que describe como deberia ser el producto que se va a crear que en este caso es una aplicación.
+**Ambos** documentos **son importantes** para guiar el desarrollo de un proyecto. Por un lado los documentos de diseño (SDD) describen detalladamente como desarrollar una parte del proyecto que puede ser una característica o una parte de la arquitectura, es un documento técnico a diferencia del documento de producto (PRD) que describe como debería ser el producto que se va a crear, en este caso es una aplicación.
 
-Los documentos de diseño describen todo el proceso de desarrollo de una caracteristica desde un plan con cronograma y puntos de control hasta los pros/contras del desarrollo de la caracteristica y si es posible diagramas que ayuden a comprender lo que se quiere crear. 
+El documento de producto proporciona una idea clara de hacia donde hay que ir, describe el producto que tenemos que crear. El documento contiene los criterios de éxito, una explicación sobre el potencial del producto (argumento de ventas) y los requisitos del producto incluyendo historias de usuario, es un documento para entender y explicar como es la aplicación que se quiere crear, por eso es de ayuda en el diálogo con el cliente y el resto de personas involucradas como los equipos de marketing y diseño.
 
-El documento de producto proporciona una idea clara de hacia donde hay que ir, describe el producto que tenemos que crear, el documento contiene los criterios de exito, una explicación sobre el potencial del producto (argumento de ventas) y los requisitos del producto incluyendo historias de usuario.
+Los documentos de diseño describen todo el proceso de desarrollo de una característica desde un plan con cronograma y puntos de control hasta los pros/contras del desarrollo y si es posibles diagramas que ayuden a comprender lo que se quiere crear.
 
-La creación de estos documentos nos ayuda sobre todo en la comunicación entre el equipo y con el cliente, en caso de no tener un equipo o cliente estos documentos nos siguen ayudando a planificar, a poner nuestras ideas en claro sobre lo que queremos hacer y en general nos ayudan a programar. Desde otro punto estos documentos **nos perminten asegurarnos** de estar haciendo las cosas bien, nos obligan a pensar en el diseño, en todo el proceso de desarrollo, a dialogar y obtener opiniones de otros, al igual que, **sin ser el objetivo principal** en un futuro serviran como documentación.
+La creación de estos documentos nos ayuda sobre todo en la comunicación entre el equipo y con el cliente, en caso de no tener un equipo o cliente estos documentos nos siguen ayudando a planificar y a poner nuestras ideas en claro sobre lo que queremos hacer, en general nos ayudan a programar. Desde otro punto de vista estos documentos **nos permiten asegurarnos** de estar haciendo las cosas bien obligándonos a pensar en el diseño y en todo lo que implica crear una aplicación o característica, a todo esto le podemos sumar que, **sin ser el objetivo principal** en un futuro servirán como documentación.
 
-No hay una plantilla estandarizada de como escribir estos documentos pero si existen algunos puntos que se sugieren incluir en este tipo de documentos, junto con estas sugerencias tambien se recomienda mantener un lenguaje simple ya que no es algo academico sino algo que deberia comprender cualquier tipo de personas sin malentendidos.
+No hay una plantilla estándar para escribir estos documentos, pero si existen algunos puntos que se sugieren incluir en cada documento, junto con estas sugerencias también se recomienda mantener un lenguaje simple porque no es un documento académico sino algo que debería comprender cualquier persona sin malentendidos.
 
 ## Creación de un documento de producto (PRD)
 
-* Titulo, nombre del autor, nombre de las personas que revisaron el documento y la fecha de la ultima actalización.
+* Encabezado: Título, nombre del autor, nombre de las personas que revisaron el documento y la fecha de la última actualización.
 
-* Breve descripción de lo que se quiere crear ¿Que hace la aplicacion?
+* Resumen: Breve descripción de lo que se quiere crear ¿Qué hace la aplicación?
 
-* Describir la actual implementacion de la aplicacion, esto si es un proyecto heredado.
+* Implementación actual: Describir la actual implementación de la aplicación, esto si es un proyecto heredado.
 
-* Criterios de exito ¿Cuando consideramos que la aplicacion es un exito? que se llego a donde se queria.
+* Criterios de éxito: ¿Cuándo consideramos que la aplicación es un éxito y se llegó a donde se quería?
 
-* Los requisitos de la aplicación, en esta seccion puedes incluir historias de usuario y prototipos de diseño (wireframes).
+* Los requisitos de la aplicación: Puedes incluir historias de usuario y prototipos de diseño (wireframes).
 
-* Un cronograma estimativo del desarrollo de la aplicación, en esta seccion es recomendable establecer puntos de control, divir todo el desarrollo en partes.
+* Un cronograma estimativo del desarrollo de la aplicación: Es recomendable establecer puntos de control, dividir todo el desarrollo en partes.
 
-* Sugerencias: Decisiones polemicas, opiniones o sugerencias a futuro.
+* Sugerencias: Decisiones polémicas, opiniones o sugerencias a futuro.
 
 ## Creación de un documento de diseño (SDD)
 
-* Titulo, nombre del autor y la fecha de la ultima actalización.
+* Encabezado: Título, nombre del autor y la fecha de la última actualización.
 
-* Breve descripción de lo que se quiere desarrollar.
+* Resumen: Breve descripción de lo que se quiere desarrollar.
 
-* El contexto de por que se quiere crear lo que se quiere crear.
+* Contexto: El contexto de porque se quiere crear lo que se quiere crear.
 
-* Describir los objetivos, el impacto que puede tener y como se podria medir el exito usando metricas al igual que los objetivos que no se cumplen.
+* Objetivos: Describir los objetivos, el impacto que puede tener y como se podría medir el éxito usando métricas al igual que los objetivos que no se cumplen.
 
-* Describir la solucion existente, si es que exite alguna se pueden agregar ejemplo a un alto nivel como historias de usuario.
+* La solución actual: Si existe alguna hay que describirla al igual que agregar ejemplos de alto nivel como historias de usuario.
 
-* Describir la solucion que se propone,en esta seccion se pueden incluir historias de usuario, diagramas o subsecciones.
+* La solución propuesta: Describir la solución que se propone, se pueden incluir historias de usuario, diagramas o subsecciones.
 
-* Desribir que impacto tiene en el equipo ¿Aumenta la carga? ¿Cuanto dinero costaria? ¿Provoca regreciones? ¿Expone vulneravilidades de seguridad? ¿Como se comunicaria al cliente? ¿Tiene consecuencias negativas o efectos secundarios? todas estas preguntas pueden ayudarte a escribir esta sección.
+* Impacto tiene en el equipo: ¿Aumenta la carga? ¿Cuánto dinero costaría? ¿Provoca regresiones? ¿Expone vulnerabilidades de seguridad? ¿Cómo se comunicaría al cliente? ¿Tiene consecuencias negativas o efectos secundarios? Todas estas preguntas pueden ayudarte a escribir esta sección.
 
-* Añadir las sugerencias a futuro, opiniones o deciones polemicas que puede haber.
+* Preguntas abiertas: Sugerencias a futuro, opiniones o decisiones polémicas que puede haber.
 
 ///
 
