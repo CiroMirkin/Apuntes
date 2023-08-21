@@ -1,5 +1,5 @@
 # Patrón del objeto modesto
-00_08_2023
+21_08_2023
 
 Este patrón propone separar el código difícil de probar del fácil creando dos objetos: uno modesto y uno comprobable, uno difícil de probar y uno fácil de probar.
 
