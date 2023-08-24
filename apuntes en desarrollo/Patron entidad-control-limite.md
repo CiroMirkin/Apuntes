@@ -1,18 +1,20 @@
 # Patron entidad-control-limite
-00_00_2023
+00_08_2023
 
-Este patrón arquitectonico busca desacoplar al dominio de cualquier actor externo como APIs web, bases de datos, componertes de hardware como procesadores e incluso el entorno en el que se muestra al usuario que podria ser grafico o de consola. 
+Este patrón arquitectonico busca desacoplar al dominio de cualquier cosa externo como APIs web, bases de datos, componertes de hardware e incluso del entorno en el que se muestra al usuario que podria ser grafico o de consola. 
+
+Este patron puede ser usado dentro de arquitecturas limpias como la hexagonal debido al potencial que tiene para separar asuntos externos al dominio.
 
 ## Implementación
 
-Este patrón se divide en cuatro clases, cada clase solo se relaciona con su clase superior e inferior.
+Este patrón se divide en cuatro clases, cada clase con un rol fundamental.
 
 ![Diagrama de relacion de las clases]()
 
-* Actor externo: Los actores externos son cualquier cosa externa al dominio de una aplicación como un framework, base de datos o componente de hardware.
+* Actor externo: Un actor externo es cualquier cosa externa al dominio de una aplicación como un framework, base de datos o un componente de hardware.
 
-* Limite: Las clases limite son el intermediario entre un actor externo y un caso de uso, evitan que los actores externos conoscan el dominio y viceversa.
+* Limite: La clase limite es el intermediario entre un actor externo y un caso de uso, evitan que actores externos conoscan al dominio y viceversa.
 
-* Control: Las clases de control reprecentan a un caso de uso, se comunican con las entidades y con el limite.
+* Control: Las clases de control reprecentan a un caso de uso, solo se comunican con el limite y las entidades, evitando que estas ultimas conoscan al limite y lo que hay mas allá de el.
 
-* Entidad: Las entidades contienen una parte del negocio, gestionan y procesan información fundamental para el mismo. Estas clases se comunican con los casos de uso y con otras entidades.
+* Entidad: Las entidades contienen una parte del negocio, gestionan y procesan información fundamental para el mismo. Son clases se comunican con los casos de uso y con otras entidades.
