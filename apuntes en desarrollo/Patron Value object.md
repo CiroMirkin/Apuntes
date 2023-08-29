@@ -1,19 +1,23 @@
 # Patrón Value object
 00_00_2023
 
-El patrón Value object potencia el encapsulamiento de los datos facilitando su validacion y modelado, todo esto lo logra creando una clase que represanta al valor que puede ser un nombre, numero de telefono, direccion, etc. 
+El patrón Value object potencia el encapsulamiento de los datos facilitando su validacion y modelado, todo esto lo logra creando una clase que represanta al valor que puede ser un nombre, numero de telefono o una dirección, en rusumen cualquier dato. 
 
-## Ejemplo del patrón Value object 
+Gracias a su potencial para encapsular y validar datos es comun aplicar este patrón a los datos importantes en el dominio, **ojo no confundir** valores y conceptos con entidades, estas puden componerse de Value objects pero no lo son. Las entidades son clases que contiene no solo datos importantes para el dominio sino también las operaciones asociadas a estos datos.
 
-Una aplicación que guarda la información de las personas que se registran a un hotel podria tener una clase *Inquilino* la cual guardaria los datos del mismo y uno de esos datos podria ser el meil de contacto, convirtamos este dato en un Value object.
+## Implementación
 
-1. Creamos la clase *MeilDeContacto*.
+Se resume de la siguiente manera: Creamos los datos intanciando clases a las cuales entregamos sus valores, estos se validaran al instante y de ser no ser validos se lanzara un error que evitara que clase se instancie y el dato invalido exista.
 
-2. El constructor de la clase *MeilDeContacto* recibe una cadena de texto que contiene el meil, lo guarda dentro de un atributo y luego se lo pasa al método *validarMeil*.
+Ejemplo:
 
-3. El método *validarMeil* hace la correspondiente validación y si el meil **no** es valido lanzara un error o expción la cuál evitara que la clase *MeilDeContacto* se instancie.
+En una aplicación que gestiona la información de las personas registradas en un hotel podria existir una entidad *Inquilino* que administraria los datos del mismo, uno de esos datos podria ser un email de contacto el cual convertiremos en un Value object.
 
-Ahora tenemos un dato que decide por si mismo si existe, no podemos tener un meil de contacto si no es valido.
+1. Creamos la clase *EmailDeContacto*.
 
-Creamos los datos intanciando clases a las cuales les entregamos sus valores los cuales se validan al instante y de ser invalidos se lanzara un error el cual evitara que el dato invalido exista.
+2. El constructor de la clase *EmailDeContacto* recibe una cadena de texto que contiene el email, lo guarda dentro de un atributo y luego se lo pasa al método *validarMeil*.
+
+3. El método *validarMeil* hace la correspondiente validación y si el email **no** es valido lanzara un error que evitara que la clase *EmailDeContacto* se instancie.
+
+Ahora tenemos un dato que decide por si mismo si existe, no podemos tener un email de contacto si este no es valido. 
 
