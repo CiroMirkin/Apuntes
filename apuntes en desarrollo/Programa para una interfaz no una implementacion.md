@@ -1,7 +1,7 @@
-# Programa para una interfaz, no una implementación
+# Programa una interfaz antes que una implementación
 00_09_2023
 
-Las interfaces dentro de la programación orientada a objetos nos permiten describir como tendria que ser un objeto y cuando los objetos se relacionan las interfaces nos permiten depender una descripción y no del objeto en si, permitiendo que los detalles o mejor dicho las implementaciones del objeto varien.
+Las interfaces dentro de la programación orientada a objetos nos permiten describir como tendria que ser un objeto. Cuando los objetos se relacionan las interfaces nos permiten depender de la descripción del objeto y no del objeto en si, permitiendo que las implementaciones del objeto varien.
 
 > Con una interfaz *definimos como será o tiene que ser una clase sin detalles*, reducimos el acoplamiento y controlamos los detalles de un objeto sin depender de ellos.
 
