@@ -1,5 +1,5 @@
 # Programa una interfaz antes que una implementación
-00_09_2023
+26_09_2023
 
 Las interfaces dentro de la programación orientada a objetos nos permiten describir como tendría que ser un objeto. Cuando los objetos se relacionan las interfaces nos permiten depender de la descripción del objeto y no del objeto en sí, permitiendo que las implementaciones del objeto varíen.
 
