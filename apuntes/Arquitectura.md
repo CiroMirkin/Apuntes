@@ -1,7 +1,7 @@
 # Arquitectura
 10_08_2023
 
-Cuando creamos una aplicación la dividimos en módulos, cada uno con su responsabilidad y sus dependencias, ahora bien, **la forma** de organizar los módulos, dividirlos y relacionarlos conforman una *arquitectura*.
+Cuando creamos una aplicación la dividimos en partes, cada una con su responsabilidad y dependencias, ahora bien, **la forma** de organizar  y relacionar estas partes forman una *arquitectura*.
 
 Creamos una arquitectura buscando minimizar el coste de vida y maximizar la productividad facilitando el desarrollo, implementación, expansión, operación y mantenimiento de una aplicación a los programadores.
 
@@ -23,6 +23,6 @@ Otros puntos importantes para que una arquitectura facilite el trabajo a los pro
 
 * Permitir y facilitar hacer pruebas a sus diferentes partes.
 
-En una buena arquitectura el dominio está compuesto por dos grupos que están bien definidos: En primer lugar las reglas de negocio que pueden estar más o menos unidas, y en segundo los casos de uso que **no están acoplados entre sí** y suelen atravesar todas las capas de una arquitectura.
+En una buena arquitectura **el dominio** está compuesto por dos grupos que están bien definidos: En primer lugar las reglas de negocio que pueden estar más o menos unidas, y en segundo los casos de uso que **no están acoplados entre sí** y suelen atravesar todas las capas de una arquitectura.
 
 /// Arquitectura limpia de Robert C.Martin ///
