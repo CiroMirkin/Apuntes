@@ -1,5 +1,5 @@
 # Más fácil de cambiar (ETC)
-00_10_2023
+04_10_2023
 
 **Más fácil de cambiar** es un objetivo o valor que busca cualquier principio, patrón de diseño o arquitectura de software. Como programadores usamos principios y patrones buscando que la mayor cantidad de partes de una aplicación sean fáciles de cambiar y a la hora de tomar decisiones de diseño hay que tener este concepto en mente.
 
