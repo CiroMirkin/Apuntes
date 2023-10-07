@@ -1,5 +1,5 @@
 # Ortogonalidad
-00_10_2023
+07_10_2023
 
 El principio de ortogonalidad nos recuerda lo importante y los beneficios que tiene la independencia entre los componentes de una aplicación: Facilidad para ejecutar pruebas, diseñar, crear y ampliar tanto una aplicación como sus componentes.
 
