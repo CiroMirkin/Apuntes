@@ -1,9 +1,9 @@
 # Evita la herencia
 10_10_2023
 
-Dentro de la programción orientada a objetos la herencia sucede cuando una clase optiene todo el contenido de otra clase la cual podriamos llamar clase padre, madre, super, supra o clase base, el nombre no importa, hay dos clases y una hereda el contenido de otra.
+Dentro de la programación orientada a objetos la herencia sucede cuando una clase optiene todo el contenido de otra clase la cual podriamos llamar clase padre, madre, super, supra o clase base, el nombre no importa, hay dos clases y una hereda el contenido de otra.
 
-	Rara vez usar herencia es buena idea, mira las anternativas.
+	Rara vez usar herencia es buena idea, mira anternativas.
 
 ## Complejidad y acoplamiento innecesario
 
