@@ -15,7 +15,7 @@ El patrón MVC, es un patrón arquitectonico que separa un componente en tres pa
 
 * El controlador tiene la parte mas activa, funcionando como un intermediario usuario / aplicación. 
 
-	El controlador recoje las interacciones del usuario, llama al modelo correspondiente para recibir la informacion que el usuario quiere y una vez que este la devuelve el controlador puede adaptar dicha información para que la vista pueda mostrarsela al usuario. Ya que el controlador se situa en medio nunca llegan a conocerce las demas partes, son timidas y por ende estan desacopladas.
+	El controlador los *eventos* necesarios para recojer las interacciones del usuario, llama al modelo para actualizar/pedír la información que el usuario quiere y una vez que este la devuelve puede adaptar dicha información para que la vista pueda mostrarla al usuario. Ya que el controlador se situa en medio nunca llegan a conocerce las demas partes, son timidas y por ende estan desacopladas.
 
 ## Ventajas y desventajas del patrón MVC
 
@@ -25,6 +25,11 @@ Y como **desventajas** estan la curva de aprendizaje para aprender a implementar
 
 ///
 
-* 
+* https://platzi.com/tutoriales/1248-pro-arquitectura/5466-que-es-el-patron-mvc/
+* https://www.freecodecamp.org/espanol/news/el-modelo-de-arquitectura-view-controller-pattern/
+* https://developer.mozilla.org/es/docs/Glossary/MVC
+*https://desarrolloweb.com/articulos/que-es-mvc.html
+* https://desarrolloweb.com/articulos/discusiones-aplicar-mvc-correctamente.html
+
 
 ///
