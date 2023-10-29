@@ -17,7 +17,7 @@ El patrón MVC, es un patrón arquitectónico que separa un componente en tres p
 
 	El controlador contiene los *eventos* necesarios para recoger las interacciones del usuario, puede llamar al modelo para actualizar y/o pedir la información que el usuario quiere para después adaptar dicha información y que la vista pueda mostrarla al usuario. Ya que el controlador se sitúa en medio generalmente nunca llegan a conocerse las demás partes, son tímidas y por ende están desacopladas.
 
->> Una separación en partes: Los datos, Los precentadores de datos y un intermediario que controla cuando y como se precentan los datos.
+>> El patrón MVC tiene tres partes: Los datos, los precentadores de datos y un intermediario que controla cuando y como se precentan los datos.
 
 ## Ventajas y desventajas del patrón MVC
 
@@ -31,9 +31,9 @@ Respuesta corta, no existe. Podemos tomar como base esta separación de tres com
 
 **No te precipites**, antes de dar rienda suelta a tu imaginación estudia las variantes que ya existen las cuales posiblemente solucionen tu problema. Las más conocidas son: MVVM (Modelo-Vista-modelo de vista), MVP (Modelo-Vista-Presentador) y MVW (Modelo-Vista y lo que sea). Otros que encontré son: HMVC (Modelo jerárquico-Vista-Controlador), MMV (Vista de modelo multiuso) y MVA (Adaptador de vista de modelo).
 
-Para tomar decisiones primero entiende que aplicación estás creando, cuál es su fin y alcance. Luego de entender que estás creando puedes tener una idea de la cantidad de separación de asuntos, ETC (Facilidad de cambio), ortogonalidad, cohesión y acoplamiento que la aplicación necesita, no es lo mismo un proyecto personal mediano que una aplicación de compras para una tienda de ropa o un sistema de contabilidad para una empresa multinacional, entender que es lo que estás creando te ayuda a tomar decisiones más precisas ¿Como entender? Pregunta, pregunta para entender, no hagas suposiciones.
+Para tomar decisiones primero entiende que aplicación estás creando, cuál es su fin y alcance, no es lo mismo un proyecto personal mediano que una aplicación de compras para una tienda de ropa o un sistema de contabilidad para una empresa multinacional, entender que es lo que estás creando te ayuda a tomar decisiones más precisas ¿Como entender? Pregunta, pregunta para entender, no hagas suposiciones.
 
-Un último punto que te ayuda a tomar decisiones es conocer el lenguaje o tecnología que estás usando, hay algunos que se ajustan mejor que otros debido a sus características.
+Conceptos y principios como la separación de asuntos, ETC (Facilidad de cambio), ortogonalidad, cohesión y acoplamiento te ayudan a tomar decisiones al igual que conocer el lenguaje o tecnología que estás usando, hay algunos que se ajustan mejor que otros debido a sus características.
 
 ///
 
