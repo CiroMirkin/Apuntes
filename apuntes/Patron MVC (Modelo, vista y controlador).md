@@ -1,5 +1,5 @@
 # Patrón MVC (Modelo, Vista y Controlador)
-00_10_2023
+29_10_2023
 
 El patrón MVC tiene varias versiones y formas de implementarse, **yo** en un principio me declino por la que voy a explicar.
 
