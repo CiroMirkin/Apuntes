@@ -29,7 +29,7 @@ Como **desventajas** están la curva de aprendizaje para aprender a implementar 
 
 Respuesta corta, no existe. Podemos tomar como base esta separación de tres componentes y adaptarla al contexto y alcance de la aplicación que desarrollamos, puede que necesitemos tanto agregar como cambiar la forma en que estos componentes se relacionan. 
 
-**No te precipites**, antes de dar rienda suelta a tu imaginación estudia las variantes que ya existen las cuales posiblemente solucionen tu problema. Las más conocidas son: MVVM (Modelo-Vista-modelo de vista), MVP (Modelo-Vista-Presentador) y MVW (Modelo-Vista y lo que sea). Otros que encontré son: HMVC (Modelo jerárquico-Vista-Controlador), MMV (Vista de modelo multiuso) y MVA (Adaptador de vista de modelo).
+**No te precipites**, antes de dar rienda suelta a tu imaginación estudia las variantes que ya existen las cuales posiblemente solucionen tu problema. Las más conocidas son: MVVM (Modelo-Vista-modelo de vista), MVP (Modelo-Vista-Presentador), MVT (Modelo-Vista-Template) y MVW (Modelo-Vista y lo que sea).
 
 Para tomar decisiones primero entiende que aplicación estás creando, cuál es su fin y alcance, no es lo mismo un proyecto personal mediano que una aplicación de compras para una tienda de ropa o un sistema de contabilidad para una empresa multinacional, entender que es lo que estás creando te ayuda a tomar decisiones más precisas ¿Como entender? Pregunta, pregunta para entender, no hagas suposiciones.
 
