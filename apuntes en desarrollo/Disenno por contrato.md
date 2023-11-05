@@ -27,6 +27,10 @@ Las ternas de Hoare son una forma de escribir las post y pre condiciones de una 
 
 Comenzamos cumpliendo las Precondiciones, ejecutamos la Función con dicha información y se cumplen las Postcondiciones.
 
+## Practica del diseño por contrato
+
+Si bien hay lenguajes que nativamente soportan mejor el diseño por contrato como lo puede ser Clojure, suelen existir Framework o librerias que facilitan la escritura de pre y post condiciones ¿Porque no usar un simple *if*? No solo porque visualmente no en lo mismo sino tambien porque al depurar el codigo tampoco es lo mismo, nos estamos perdiendo del manejo de exepciones el cual es una parte fundamental del diseño por contrato ¿Que hacemos sino cuando se incumple un contrato? Ahi es donde entras las excepciones y aserciones que nos permiten depurar y reaccionar ante el incumplimiento de un contrato incluso en tiempo de ejecucion.
+
 ///
 
 * El libro "El programador pragmatica" de David Thomas y Andrew Hunt.
