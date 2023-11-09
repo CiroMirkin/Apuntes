@@ -1,7 +1,7 @@
 # Diseño por contrato
 00_11_2023
 
-Esta tecnica de tipo caja negra donde definimos las entradas y salidas de una función o tarea, nos ayuda no solo a mejorar nuestro entendimiento del código sino tambien a la comunicación.
+En esta tecnica de tipo caja negra definimos las entradas y salidas de una función o tarea. Nos ayuda no solo a mejorar nuestro entendimiento del código sino tambien con la comunicación.
 
 Al diseñar un contrato establecemos con detalle la información que una funcion deber recibir y la informacion que va a devolver, en un contrato el cliente se compromete a entregar cierta informacion y el proveedor se compromete a entregar cierta informacion.
 
@@ -9,11 +9,11 @@ Al diseñar un contrato establecemos con detalle la información que una funcion
 
 Cuando diseñamos el contrado de una función, hay tres partes fundamentales: Precondiciones, postcondiciones e Invariantes, ahora las veremos en detalle.
 
-Las precondiciones son las condiciones debe cumplir la informacion que la función recibe, para una función que filtra la palabra *"Mate"* de una lista las precondiciones podrian ser que el largo de la lista sea mayor o igual a uno, dependiendo la funcion podemos encontrar mas o menos condiciones. Se trata de definir con mayor precicion como es la informacion que necesitamos, va mas allá de el tipo de dato.
+Las precondiciones son las condiciones que debe cumplir la informacion que una función recibe, por ejemplo para una función que filtra la palabra *"Mate"* de una lista de palabras la precondicion podria ser que el largo de la lista sea mayor o igual a uno, dependiendo la funcion podemos encontrar mas o menos condiciones. Se trata de definir con mayor precicion como es la informacion que necesitamos, esto va mas allá de el tipo de dato.
 
-Las postcondiciones son las condiciones debe cumplir la informacion que la función devuelve, para una función que 
+Las postcondiciones son las condiciones debe cumplir la informacion que una función devuelve, por ejemplo para una función que indica cuantas veces aparece un elemento en una lista la postcondicion prodria ser que este numero que devuelve la funcion sea mayor o igual a cero.
 
-Las invariantes son estados internos de una funcion o clase que no cambian, las invariantes regulan o restringen el funcionamiento para garantizar que se cumplira el contrato, visto desde el exterior una invariante nunca cambia sin embargo internamente podria cambiar y al terminar para cumplir las postcondicion deberia volver a ser la misma que al inicio.
+Las invariantes son estados internos de una funcion o clase que no cambian. Las invariantes regulan o restringen el funcionamiento para garantizar que se cumpla el contrato, visto desde el exterior una invariante nunca cambia, sin embargo internamente podria cambiar, pero al final deberia volver a ser la misma que al inicio.
 
 ## Ternas de Hoare
 
@@ -29,7 +29,11 @@ Comenzamos cumpliendo las Precondiciones, ejecutamos la Función con dicha infor
 
 ## Practica del diseño por contrato
 
-Si bien hay lenguajes que nativamente soportan mejor el diseño por contrato como lo puede ser Clojure, suelen existir Framework o librerias que facilitan la escritura de pre y post condiciones ¿Porque no usar un simple *if*? No solo porque visualmente no en lo mismo sino tambien porque al depurar el codigo tampoco es lo mismo, nos estamos perdiendo del manejo de exepciones el cual es una parte fundamental del diseño por contrato ¿Que hacemos sino cuando se incumple un contrato? Ahi es donde entras las excepciones y aserciones que nos permiten depurar y reaccionar ante el incumplimiento de un contrato incluso en tiempo de ejecucion.
+Si bien hay lenguajes que nativamente soportan mejor el diseño por contrato como lo puede ser Clojure, suelen existir Framework o librerias que facilitan la escritura de pre y post condiciones.
+
+¿Porque no usar un simple *if*? Porque visualmente es diferente y además perdemos las ventajas que nos prinda el depurador del mismo editor de código.
+
+¿Que hacemos cuando se incumple un contrato? Ahí entran las excepciones y aserciones que nos permiten depurar y reaccionar inlcuso en producción real ante el incumplimiento de un contrato. Si por algun motivo el contrato se incumple hay una operacion que se puede realizar, generalmente es una exepcion o directamente terminar la ejecucion del programa para evitar un futuro desconocido, un aborto.
 
 ///
 
