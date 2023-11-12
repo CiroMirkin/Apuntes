@@ -1,5 +1,5 @@
 # Diseño por contrato
-00_11_2023
+12_11_2023
 
 Esta técnica se basa en contratos donde definimos con detalle las entradas y salidas de una función o tarea, nos ayuda no solo a mejorar nuestro entendimiento del código y su robustez sino también con la comunicación.
 
