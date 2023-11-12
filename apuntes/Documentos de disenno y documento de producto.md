@@ -25,7 +25,7 @@ No hay una plantilla estándar para escribir estos documentos, pero si existen a
 
 * Un cronograma estimativo del desarrollo de la aplicación: Es recomendable establecer puntos de control, dividir todo el desarrollo en partes.
 
-* Sugerencias: Decisiones polémicas, opiniones o sugerencias a futuro.
+* Sugerencias: Un lugar para plantiar decisiones polémicas, opiniones o sugerencias a futuro.
 
 ## Creación de un documento de diseño (SDD)
 
@@ -43,7 +43,7 @@ No hay una plantilla estándar para escribir estos documentos, pero si existen a
 
 * Impacto tiene en el equipo: ¿Aumenta la carga? ¿Cuánto dinero costaría? ¿Provoca regresiones? ¿Expone vulnerabilidades de seguridad? ¿Cómo se comunicaría al cliente? ¿Tiene consecuencias negativas o efectos secundarios? Todas estas preguntas pueden ayudarte a escribir esta sección.
 
-* Preguntas abiertas: Sugerencias a futuro, opiniones o decisiones polémicas que puede haber.
+* Preguntas abiertas: Un lugar para sugerencias a futuro, opiniones o decisiones polémicas que puede haber.
 
 ///
 
