@@ -1,5 +1,5 @@
 # Principios SOLID
-22_09_2021 - 10_03_2022 - 00_00_2023
+22_09_2021 - 10_03_2022 - 00_11_2023
 
 Los cinco principios que componen a SOLID fueron reunidos por *Robert C. Martin*.
 
@@ -13,32 +13,34 @@ Los cinco principios que componen a SOLID fueron reunidos por *Robert C. Martin*
 
 Cada parte de una aplicación deberia tener una sola razon para cambiar, debería tener una sola responsabilidad.
 
-> "A Class should have only one reason to change". - Robert C. Martin.
-
-Piensa en un cambio, cualquier cosa. Ahora piensa a donde tiene que ir para realizarlo. Dime ¿Fuiste a un solo lugar? si la respuesta en no probablemente no estes aplicando este principio, deberias ser capaz de encontrar un lugar y estar seguro de que estas en el lugar correcto, seguro de que cambios o errores no afectaran a otras partes del código.
+Piensa en un cambio, cualquier cosa. Ahora piensa a donde tienes que ir para realizarlo. Dime ¿Fuiste a un solo lugar? si la respuesta en no probablemente no estes aplicando este principio, deberias ser capaz de encontrar un lugar y estar seguro de que estas en el lugar correcto, seguro de que cambios o errores no afectaran a otras partes del código.
 
 Cuando una clase se hace responsable de algo, ese algo esta precente en toda la clase, si para hacer un cambio tienes que modificar varias clases es provable que tengas que revisar la responsabilidades que tienen.
 
 ### Responsabilidad compartida
 
-Tal cual suena, hay veces en que separamos una misma responsabilidad y terminamos con dos o más clase que comparten la misma responsabilidad, en estos casos lo mejor suele ser fusionar estas clases.
+Tal cual suena, hay veces en que separamos una misma responsabilidad en partes y terminamos con dos o más clase que tienen la misma responsabilidad, en estos casos lo mejor puede ser fusionar estas clases.
 
 ## Principio de abierto/cerrado (OCP)
 
-Hay partes de una aplicación que deberian poder modificar su comportamiento sin necesidad de cambiar su código, abierto para su expanción y cerrado para su modificación. El patron estrategia, el patron decorador o la composición son cosas que ayudar a aplicar este principio. 
+Este principio propone que las partes de una aplicación deberian poder modificar su comportamiento sin necesidad de cambiar su código, abierto para su expanción y cerrado para su modificación. El patron estrategia, el patron decorador o la composición nos ayudar a aplicar este principio sobre todo al usar POO. 
 
-Si aplicacion este principio a cada parte de una aplicacion tendriamos una aplicacion extremadamente compleja, tanto que seria dificil de cambiar y no es eso lo que buscamos, por eso hay que identificar en que partes trae beneficios.
-
-Existe un punto medio el cual es crear código que facilite la expanción haciendo algunas modificaciones, por ejemplo encapsular dependencias para permitir un futuro desacoplamiento.
+Si aplicamos este principio a cada parte de una aplicación obtendriamos una aplicación extremadamente compleja, tanto que seria dificil de cambiar y no es eso lo que buscamos, por eso hay que identificar en que partes y grado trae beneficios. Aun asi existe un punto medio el cual es crear código que permita una expanción haciendo algunas modificaciones, por ejemplo encapsular dependencias para permitir un futuro desacoplamiento, seria como dejar la puerta entre abierta.
 
 ## Principio de sustitucion de Liskov (LSP)
 
-Una clase base deberia poder remplazar a las clase que herenden de ella, pero es mejor evitar usar herencia, asi que hablemos de tipos comunmente llamodos interfaces: Un supertipo deberia poder remplazar a los subtipos.
+Una clase base deberia poder remplazar a las clase que herenden de ella, pero es mejor evitar usar herencia, asi que hablemos de *tipos* comunmente llamodos interfaces: Un supertipo deberia poder remplazar a los subtipos.
+
+Con este principio reafirmamos el concepto de polimordfismo, solo que mas rigido, es un polimorfismo donde los hijos respetan las post y pre condiciones del padre. El padre condienen ciertos metodos y atributos fundamentales, estos no cambiarian de un padre a su hijo y por eso podriamos remplazar los hijos por los padres, esperamos el mismo tipo de comportamiento, por ejemplo un metodo que quita un elemento de un arreglo.
+
+> El patrón de objeto nulo puede ayudar a cumplir este princio.
+
+La sustitucion de Liskov es una forma de organizar interfaces, beneficiandonos sobre todo si estos tipos comparten propiedade**s**.
 
 ## Principio de segregación de la interfaz (ISP)
 
-El principio de segragacion de la interfaz propone que una interfaz no debería acumular funcionalidades, esto con el fin de evitar un crecimiento excesivo siendo mejor tener varias interfaces. Con esto logramos que las clases solo implementen las interfaces con las funcionalidades que necesitan.
+El principio de segragación de la interfaz propone que una interfaz no debería acumular funcionalidades, esto con el fin de evitar un crecimiento excesivo, mejor que una interfaz gigante es tener varias interfaces concretas. Con esto logramos que las clases solo implementen las interfaces con las funcionalidades que necesitan y el principio de respondabilidad unica.
 
 ## Principio de inversion de la dependencia (DIP)
 
-Dentro de una aplicaion es mejor desacoplar las cosas de alto nivel de las que tienen un bajo nivel, porque las cosas de bajo nivel cambian con mas facildad que las de alto nivel. Un ejemplo de esto pueden ser las interfaces graficas como algo de bajo nivel dentro de una aplicación.
+Dentro de una aplicación es mejor desacoplar las cosas de alto nivel de las que tienen un bajo nivel, porque las cosas de bajo nivel cambian con mas facildad que las de alto nivel. Un ejemplo de esto pueden ser las interfaces graficas, algo de bajo nivel dentro de una aplicación a comparacion con el dominio o los casos de uso de una aplicación.
