@@ -1,5 +1,5 @@
 # Principios SOLID
-22_09_2021 - 10_03_2022 - 00_11_2023
+22_09_2021 - 10_03_2022 - 26_11_2023
 
 Cinco principios reunidos por *Robert C. Martin* que definen unas bases de diseño y buenas prácticas muy comunes en casi todos los entornos y contextos.
 
