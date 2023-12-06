@@ -43,11 +43,11 @@ Estos tipos de coste no son comunes cuando estamos empezando en la progracion, y
 
 ## Analisis de resultados
 
-Esta notación nos permite saber cual es el limite superior, por ejemplo el limite superior de un algortmo O(n) es **n**, nunca va a poder pasar ese limite. Al ser estimaciones un algortmo O(n2) podria ser muchisimo más rapido que otro algoritmo O(n2), pero no mas rapido que uno O(n).
+Esta notación nos permite saber cual es el limite superior, por ejemplo el limite superior de un algortmo O(n) es **n** y en un algoritmo O(n2) el limite superior es el cuadrado de **n**. Al ser estimaciones un algortmo O(n2) podria ser muchisimo más rapido que otro algoritmo O(n2), pero no mas rapido que uno O(n).
 
-Otra cosa a tener en cuenta es que los algoritmos no reaccionan de la misma manera ante diferentes volumenes o formatos de datos, un algoritmo O(n2) podria ser mas efectivo que uno O(log n), si el volumen de datos es pequeño o si esta ordenado. No siempre la menor complejidad es mejor o la mayor un problema, depende de la cantidad de informacion y su formato.
+Otra cosa a tener en cuenta es que los algoritmos no reaccionan de la misma manera ante diferentes cantidades o formatos de información, un algoritmo O(n2) podria ser mas efectivo que uno O(log n), si el volumen de datos es pequeño. No siempre la menor complejidad es mejor o la mayor un problema, depende de la cantidad de información y su orden, por ejemplo hay algoritmo de ordenamiento que gastan demasiado tiempo si la informacion de estrada esta ordenada, pero que la ordenan muy rapido si esta desordenada.
 
-> Esta notación es solo un dato más a la hora de tomar deciciones o hacer un analisis del código, por si solo no sirve de mucho.
+Esta notación es solo un dato más a la hora de tomar deciciones o hacer un analisis del código, por si solo no sirve de mucho.
 
 ///
 
