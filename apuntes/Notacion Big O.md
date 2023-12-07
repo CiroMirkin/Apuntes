@@ -1,5 +1,5 @@
 # Notación Big O
-00_00_2023
+06_12_2023
 
 La notación Big O es una forma de saber aproximadamente el coste de un algoritmo, este coste se traduce en cuantos recursos como almacenamiento o tiempo puede llegar a consumir un algoritmo, para esto se usa el tamaño de la entrada. Ordenándolos de menor a mayor quedaría así:
 
@@ -61,6 +61,6 @@ Hay que tener en cuenta que los algoritmos reaccionan diferente ante diferentes 
 
 * El libro *"El programador pragmático"* de David Thomas y Andrew Hunt.
 
-* 
+* https://youtu.be/MyAiCtuhiqQ?si=ZktpcZaBXll6okEx
 
 ///
