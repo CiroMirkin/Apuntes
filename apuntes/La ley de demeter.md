@@ -1,7 +1,5 @@
-*Autor: Mirkin Ciro* <br>
-*Emitido el 31_08_2022*
-
 # La ley de demeter
+31_08_2022
 
 La ley de demeter es una recomendación, mientras menos sepa una clase sobre el exterior mejor será, entonces para lograr esto, un método debería relacionarse con:
 

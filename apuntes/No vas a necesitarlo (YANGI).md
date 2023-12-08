@@ -1,5 +1,5 @@
 # No vas a necesitarlo (YANGI)
-(C.Mirkin) 23_02_2023
+23_02_2023
 
 Podemos desarrollar algo que **creemos** que vamos a necesitar en un futuro porque queremos ahorrar tiempo o porque nos sobra tiempo. En un futuro nos pueden llegar pedir eso que hicimos, pero generalmente es diferente de lo que habíamos pensado y hecho, porque entonces, realmente no sabíamos como era lo que nos iban a pedir, solo imaginamos y ahora tenemos que empezar de nuevo.
 

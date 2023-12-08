@@ -1,7 +1,5 @@
-*Autor: Mirkin Ciro* <br>
-*Emitido el 02_10_2021*
-
 # Patrones de diseño creacionales
+02_10_2021
 
 Los patrones creacionales nos proporcionan formas de organizar la creación de objetos en una aplicación, cada una de estas formas tiene como fin facilitar la creación y organización de objetos a largo plazo en una aplicación.
 

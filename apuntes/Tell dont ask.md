@@ -1,7 +1,5 @@
-*Autor: Mirkin Ciro* <br>
-*Emitido el 25_06_2022*
-
 # Tell don´t ask
+25_06_2022
 
 No le preguntes por información a un método para luego hacer algo, mejor dile directamente que haga ese algo. No separes la lógica de la información que usa, es un poco lo que viene a decir este principio enfocado en la programación orientada a objetos.
 

@@ -1,5 +1,5 @@
 # Diseño orientado a objetos (DOO)
-C.Mirkin (11_06_2023)
+11_06_2023
 
 El diseño orientado a objetos tiene tres conceptos que nos permiten tener un mayor control sobre los objetos y sus dependencias, siendo su principio  más fuerte y revolucionario el *polimorfismo*.
 

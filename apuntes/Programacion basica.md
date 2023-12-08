@@ -1,5 +1,5 @@
 # Programación básica
-(Mirkin Ciro) *03_12_2021* 
+03_12_2021
 
 ## Variables
 

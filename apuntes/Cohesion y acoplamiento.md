@@ -1,5 +1,5 @@
 # Cohesión y acoplamiento
-(Ciro Mirkin) 22_01_2023
+22_01_2023
 
 Depender es necesitar, si yo dependo de algo para trabajar no puedo trabajar sin ese algo, porque lo necesito, dependo de el.
 

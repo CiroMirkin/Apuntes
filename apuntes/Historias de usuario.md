@@ -1,5 +1,5 @@
 # Historias de usuario
-*(Ciro Mirkin) 17_09_2022* <br>
+17_09_2022
 
 Las características o funcionalidades de una aplicación son las acciones que un usuario puede hacer, si llevamos esto a algo de uso cotidiano podríamos decir que las características de un calefón son: calentar agua y regular la temperatura de la misma.
 

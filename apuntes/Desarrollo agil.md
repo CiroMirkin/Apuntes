@@ -1,5 +1,5 @@
 # Desarrollo ágil
-(Ciro Mirkin) 03_10_2022
+03_10_2022
 
 El desarrollo ágil es una forma de llevar a cabo un proyecto grande por un equipo pequeño. Lo que busca el desarrollo ágil es mantener un ritmo sostenible, que las aplicaciones funcionen sobre una documentación completa y la comunicación con el cliente.
 
