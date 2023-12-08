@@ -1,7 +1,5 @@
-*Autor : Mirkin Ciro* <br>
-*Emitido el 30_05_2022*
-
 # Desarrollo guiado por comportamiento (BDD)
+30_05_2022
 
 El desarrollo guiado por comportamiento o BDD (behavior driven development), es una metodología ágil para el desarrollo de software o una forma ágil de trabajar al hacer un software. <br>
 Esta metodología permite involucrar a todas las personas que trabajan en un proyecto, pero principalmente mejora la comunicación entre programadores y clientes, al igual que garantiza cumplir las necesidades del usuario.

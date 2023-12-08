@@ -1,5 +1,5 @@
 # Programación orientada a objetos (POO) 
-(Mirkin Ciro) 14_11_2021
+14_11_2021
 
 En la programación orientada a objetos usamos clases que contienen atributos y métodos, variables y funciones que pueden usarse dentro y fuera de la clase. 
 

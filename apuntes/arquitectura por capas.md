@@ -1,5 +1,5 @@
 # Arquitectura por capas
-*15_09_2021*
+15_09_2021
 
 La arquitectura por capas tiene como objetivo distribuir una aplicación en capas únicas que solo se comunican con la capa inferior, además esta arquitectura nos deja una buena organización y distribución de los componentes en una aplicación, logrando que estos estén mas desacoplados unos de otros. Pero todo evoluciona y con el tiempo se fueron creando múltiples modelos y formas de aplicar una arquitectura por capas, aunque todas mantienen el mismo concepto de organización en capas, lo que si cambia es la forma en que se comunican y el número de capas que se usan.
 

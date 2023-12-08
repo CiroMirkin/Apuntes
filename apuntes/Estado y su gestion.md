@@ -1,5 +1,5 @@
 # Estado y su gestion
-06_04_2023 C.Mirkin
+06_04_2023
 
 ## Que es un estado
 Los estados son los datos o información que una aplicación guarda en memoria, estos podrían ser variables o cualquier estructura de datos que nos permita **guardar y modificar** información información como los arreglos.

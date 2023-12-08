@@ -1,8 +1,6 @@
-*Autor: Mirkin Ciro* <br>
-*Emitido el 30_10_2021*
-
-
 # SQL Y NoSQL
+30_10_2021
+
 Las bases de datos son partes fundamentales en la persistencia de los datos, por ende, hay que sopesar y elegir un tipo que se amolde a los datos y su uso. 
 
 

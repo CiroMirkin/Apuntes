@@ -1,6 +1,5 @@
 # Complejidad ciclomática (CC)
-
-(C.Mirkin) 01_12_2022
+01_12_2022
 
 La complejidad ciclomática es una forma de medir la complejidad de un algoritmo, mientras menos caminos, rutas o flujos tenga un algoritmo más simple es. Por ejemplo, un algoritmo que solo suma dos variables es mucho más simple que uno con *if/else*, ya que en este último hay dos caminos, el del *if* donde se hace una cosa y el *else* donde se hace otra.
 

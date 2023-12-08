@@ -1,5 +1,5 @@
 # TDD y BDD diferencias
-Mirkin Ciro (18_06_2022)
+18_06_2022
 
 TDD y BDD son metodologías ágiles para el desarrollo de software. Ambas tiene enfoques muy diferentes, el código y el negocio, pero ambas nos permiten expresar y saber lo que tenemos que hacer de formas diferentes: TDD se enfonca en el **código** y los **programadores** mientras que BDD en el **negocio** y los **clientes**. 
 

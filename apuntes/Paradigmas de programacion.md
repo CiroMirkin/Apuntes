@@ -1,5 +1,5 @@
 # Paradigmas de programación
-C.Mirkin (21_05_2023)
+21_05_2023
 
 Cuando programamos resolvemos problemas, los paradigmas vienen a ser las diferentes formas de estructurar la solución de un problema. Hay muchísimas de estas formas y cada una tiene sus cualidades, conceptos, beneficios y enfoques, pero aun así todas pueden dividirse en dos grandes grupos: Imperativos y declarativos, a su vez dentro de estos grupos hay tres formas fundamentales: La estructurada, la funcional y la orientada a objetos.
 

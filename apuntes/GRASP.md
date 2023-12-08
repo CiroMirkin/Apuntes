@@ -1,5 +1,5 @@
 # GRASP	
-Mirkin Ciro (19_02_2022)
+19_02_2022
 
 Los ocho patrones generales de software para la asignación de responsabilidades ayudan a la creación e implementación de una clase, aunque todo esto se centre en las clases y los objetos algunas de las recomendaciones también pueden ser aplicadas a otros entornos como la programación funcional.
 

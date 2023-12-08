@@ -1,8 +1,5 @@
-*Autor: Mirkin Ciro* <br>
-*Emitido el 29_03_2022*
-
-
 # Pruevas unitarias
+29_03_2022
 
 El unit testing o pruevas unitarias son una forma de encontrar errores en una parte de código lo más pequeña posible (una función, método o clase). Como el unit testing es para encontrar errores y no para verificar que el código funciona sin tener errores son echos durante el desarrollo de una aplicación por programadores.
 
