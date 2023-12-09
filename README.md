@@ -1,28 +1,28 @@
 # Apuntes
 
-Escribo estos apuntes mientras estudio un tema teorico. 
+Escribo estos apuntes mientras estudio un tema teórico. 
 
-Al estudiar aplico el método de Feynman. Por mes escribo minimo un apunte.
+Al estudiar aplico el método de Feynman. Por mes escribo mínimo un apunte.
 
-## Especificaciones
+## Especificaciones  
 
 Apuntes cortos para leerlos en poco tiempo y tener una idea clara sobre el tema.
 
-* Maxímo una hoja A4.
+* Máximo una hoja A4.
 
-* Evito en lo posible tecnicismos y usa palabras simples/vulgares.
+* Evito en lo posibles tecnicismos y usa palabras simples/vulgares.
 
-* Cada apunte tiene la fecha en que se termino.
+* Cada apunte tiene la fecha en que se terminó.
 
-* Al final del apunte estan las referencias, si es que hay.
+* Al final del apunte están las referencias, si es que hay.
 
-* No contienen código, en todo caso se uso analogías.
+* No contienen código, en todo caso se usó analogías.
 
 * No contienen imágenes, por el momento.
 
 ## Preguntas clave
 
-Como guia de mi estudio con estas preguntas clave:
+Como guia uso estas preguntas clave:
 
 * ¿Qué es?
 
