@@ -2,6 +2,8 @@
 
 Escribo estos apuntes mientras estudio un tema teórico. 
 
+:pushpin: [Carpeta de apuntes](https://github.com/CiroMirkin/Apuntes/tree/main/apuntes)
+
 Al estudiar aplico el método de Feynman. Por mes escribo mínimo un apunte.
 
 ## Especificaciones  
@@ -22,7 +24,7 @@ Apuntes cortos para leerlos en poco tiempo y tener una idea clara sobre el tema.
 
 ## Preguntas clave
 
-Como guia uso estas preguntas clave:
+Como guía uso estas preguntas clave:
 
 * ¿Qué es?
 
