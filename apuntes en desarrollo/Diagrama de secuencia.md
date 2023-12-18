@@ -5,7 +5,7 @@ Este tipo de diagrama UML nos permite ver el orden en que se relacionan los comp
 
 ## Componentes del diagrama
 
-* Linea de vida: Una linea de vida recentar las interacciones de una implementación como las de un objeto a lo largo del tiempo.
+* Linea de vida: Una linea de vida reprecenta las interacciones de una implementación a lo largo del tiempo, como las de un objeto o las de una aplicación con una API REST.
 
 	![Ejemplo de la linea de vida de un objeto]()
 
@@ -23,7 +23,7 @@ Este tipo de diagrama UML nos permite ver el orden en que se relacionan los comp
 
 Crear este tipo de diagramas nos puede ayudar a explicar, analizar o diseñar una aplicacion o parte de ella, eso a grandes razgos. Otros usos pueden ser:
 
-* Ayudar a modelar casos de uso, las interacciones dentro del escenario que crea el caso de uso.
+* Modelar casos de uso, pueden ayudar a ver las interacciones dentro del escenario que genera el caso de uso.
 
 * Documentar interacciones complicadas dentro de una aplicación.
 
