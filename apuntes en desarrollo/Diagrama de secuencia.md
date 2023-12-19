@@ -1,37 +1,37 @@
 # Diagrama de secuencia basicos
-00_00_0000
+00_00_2023
 
-Este tipo de diagrama UML nos permite ver el orden en que se relacionan los componentes dentro de una aplicación a un alto nivel a traves del tiempo. Estos diagramas se pueden usar, por ejemplo para ver las interacciones que desencadena una caracteristica.
+Este tipo de diagrama UML nos permite ver el orden en que se relacionan los componentes de una aplicación a un alto nivel a traves del tiempo. Estos diagramas se pueden usar, por ejemplo para ver las interacciones que desencadena una caracteristica.
 
 ## Componentes del diagrama
 
-* Linea de vida: Una linea de vida reprecenta las interacciones de una implementación a lo largo del tiempo, como las de un objeto o las de una aplicación con una API REST.
+* Linea de vida: Una linea de vida reprecenta las interacciones de un componente a lo largo del tiempo, como un objeto o una aplicación con una API REST.
 
 	![Ejemplo de la linea de vida de un objeto]()
 
-* Barras de activación: Estas barras se crean sobre la linea de vida y reprecentan la duración de un periodo en que el objeto interactua con otro objeto.
+* Barras de activación: Estas barras se crean sobre la linea de vida y reprecentan la un periodo en que el objeto interactua con otro objeto y en el que se realizan acciones.
 
 	![Ejemplo de una barra de activación en un objeto]()
 
-* Mensajes: Los mensajes son interacciones, las más comunes son llamadas sincronas a métodos.
+* Mensajes: Los mensajes son interacciones, las más comunes son llamadas sincronas a métodos, estas se reprecentan como una flecha solida que sale da la barra de activación de un objeto hacia la de otro.
 
 	![Ejemplo de una interacción sincrona entre dos objetos]()
 
-* Fragmentos combinados: Los fragmentos se usan para reprecentar comportamientos logicos como condiciones o ciclos, siendo estos los más basicos.
+* Fragmentos combinados: Los fragmentos se usan para reprecentar comportamientos logicos como condiciones o ciclos, siendo estos los más basicos, aunque tambien se pueden reprecentar por ejemplo paralelismos. 
 
 ## Usos del diagrama
 
-Crear este tipo de diagramas nos puede ayudar a explicar, analizar o diseñar una aplicacion o parte de ella, eso a grandes razgos. Otros usos pueden ser:
+Crear este tipo de diagramas a grandes razgos nos puede ayudar a explicar, analizar o diseñar una aplicacion o parte de ella. Otros usos pueden ser:
 
-* Modelar casos de uso, pueden ayudar a ver las interacciones dentro del escenario que genera el caso de uso.
+* Modelar casos de uso y ayudar a ver las interacciones dentro del escenario que genera el caso de uso.
 
 * Documentar interacciones complicadas dentro de una aplicación.
 
-* Explicar y comprender el comportamiento de la aplicacion o parte de ella, biene de la mano con el punto anterior.
+* Explicar y comprender el comportamiento de la aplicacion o parte de ella, viene de la mano con el punto anterior.
 
-* Detectar y abordar problemas que se deben refactorizar como cuellos de botella, interacciones innecesarias o secuencias problematicas ya sea por su complejidad o ´por su desempeño.
+* Detectar y abordar problemas que se deben refactorizar como cuellos de botella, interacciones innecesarias o secuencias problematicas ya sea por su complejidad o su desempeño.
 
-* Diseñar caracteristicas, ayuda a visualizar y comprender lo que tenemos que desarrollar.
+* Diseñar caracteristicas y permitir a visualizar y comprender lo que tenemos que desarrollar.
 
 ## Proceso de creación
 
