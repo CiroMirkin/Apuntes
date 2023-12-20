@@ -1,5 +1,5 @@
 # Algoritmos
-(Ciro Mirkin) 21_11_2022
+21_11_2022
 
 Los algoritmos son una serie de pasos ordenados para resolver un problema, algo así como una receta que tiene como fin resolver un problema o en algunos casos tomar una decisión. Los algoritmos tienen una entrada la cual son datos o información que procesan y por último dan un resultado.
 
