@@ -13,13 +13,18 @@ Este tipo de diagrama UML nos permite ver el orden en que se relacionan los comp
 
 	![Ejemplo de la linea de vida de un objeto en un diagrama de secuencia]()
 
+	Una linea de vida puede ser reprecentada como terminada con una cruz al final de su linea, esto significaria la desctruccion del objeto que reprecenta.
+
+	![Ejemplo de la terminacion de una linea de vida de un objeto en un diagrama de secuencia]()
+
 * Barras de activación: Estas barras se crean sobre la linea de vida y reprecentan un periodo en que el objeto interactua con otro objeto y en el que se realizan acciones.
 
 	![Ejemplo de una barra de activación en un objeto en un diagrama de secuencia]()
 
-* Mensajes: Los mensajes son interacciones, las más comunes son llamadas sincronas a métodos, estas se reprecentan como una flecha solida que sale de la barra de activación de un objeto hacia la de otro.
+* Mensajes: Los mensajes son interacciones, las más comunes son llamadas sincronas a métodos, estas se reprecentan como una flecha solida que sale de la barra de activación de un objeto hacia la de otro. Los mensajes asincronos son flechas solidas abiertas y las respuestas flechas intermitentes abiertas.
 
 	![Ejemplo de una interacción sincrona entre dos objetos en un diagrama de secuencia]()
+	![Tipos de mensajes en un diagrama de secuencia]()
 
 ## Usos del diagrama
 
