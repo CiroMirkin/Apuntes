@@ -1,5 +1,5 @@
 # Diagrama de secuencia básico
-00_00_2023
+23_12_2023
 
 Este tipo de diagrama UML nos permite ver el orden en que se relacionan los componentes de una aplicación a un alto nivel a través del tiempo. Estos diagramas se pueden usar, por ejemplo para ver las interacciones que desencadena una característica o para explicar como interactúan un grupo de objetos.
 
