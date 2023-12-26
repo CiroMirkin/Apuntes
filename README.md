@@ -6,7 +6,7 @@ Escribo estos apuntes mientras estudio un tema teórico.
 
 Al estudiar aplico el método de Feynman. Por mes escribo mínimo un apunte.
 
-## Lista de apuntes (Desordenado)
+## Lista desordenada 
 
 	En total 50 apuntes.
 
