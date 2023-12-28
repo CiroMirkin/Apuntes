@@ -58,9 +58,7 @@ Otras prácticas importantes para equipos:
 * Si hay demasiado trabajo en curso ver el tablero puede ser abrumador, por al espacio visual que ocupa cada ticket.
 
 /// 
-
-* La guía oficial del método Kanban (Kanban university): https://kanban.university/kanban-guide/#download
-* https://cs.uns.edu.ar/~mc/disenio/downloads/Talleres/2019%20-%20Charla%20Kanban%20-%20Fabian%20Cabrera.pdf
-* https://asana.com/es/resources/what-is-kanban
-
+Kanban university: https://kanban.university/kanban-guide/#download
+https://cs.uns.edu.ar/~mc/disenio/downloads/Talleres/2019%20-%20Charla%20Kanban%20-%20Fabian%20Cabrera.pdf
+https://asana.com/es/resources/what-is-kanban
 ///

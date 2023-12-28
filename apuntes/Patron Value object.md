@@ -26,8 +26,6 @@ Ahora tenemos un dato que decide por sí mismo si existe, no podemos tener un em
 **Importante:** los Value object no se editan, se descartan y se crean de nuevo, los Value object deben ser *inmutables*. Otra importante es que carecen de identidad por ende nada los identifica unos de otros.
 
 ///
-
-* https://medium.com/all-you-need-is-clean-code/value-objects-d4c24115fa69
-* https://youtu.be/q_biZCsoloU?si=VK27f7ERlKO28QTX
-
+https://medium.com/all-you-need-is-clean-code/value-objects-d4c24115fa69
+https://youtu.be/q_biZCsoloU?si=VK27f7ERlKO28QTX
 ///

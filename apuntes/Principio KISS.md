@@ -21,7 +21,5 @@ Hay veces que complicamos pensando en optimizar y hacer más rápida la aplicaci
 - Programa pensando en las **personas** no en las computadoras.
 
 ///
-
-* El libro *"Codigo sostenible"* de Carlos Blé Jurado.
-
+El libro *"Codigo sostenible"* de Carlos Blé Jurado.
 ///
