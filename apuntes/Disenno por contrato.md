@@ -44,13 +44,8 @@ El uso de herencia puede dar lugar a una degradación en los beneficios del dise
 * Usar aserciones para validar las entradas del usuario, el diseño por contrato está pensado para hacer más fuerte y confiable la relación entre los componentes de una aplicación al igual que para evitar errores imprevistos, no para facilitar la interacción con el usuario.
 
 ///
-
-* El libro "El programador pragmatica" de David Thomas y Andrew Hunt.
-
-* https://cs.uns.edu.ar/~dcm/tdp/downloads/Clases/2019-2do-tdp-Clase-14-Contratos.pdf
-
-* https://www.revista.unam.mx/vol.4/num5/art11/sep_art11.pdf
-
-* https://www.leadingagile.com/2018/05/design-by-contract-part-one/
-
+El libro "El programador pragmatica" de David Thomas y Andrew Hunt.
+https://cs.uns.edu.ar/~dcm/tdp/downloads/Clases/2019-2do-tdp-Clase-14-Contratos.pdf
+https://www.revista.unam.mx/vol.4/num5/art11/sep_art11.pdf
+https://www.leadingagile.com/2018/05/design-by-contract-part-one/
 ///

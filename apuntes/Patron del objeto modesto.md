@@ -10,7 +10,5 @@ Este patrón nos da una forma de separar el código del entorno gráfico (GUI) d
 Separar la base de datos y ORM del código que los usa es algo que también podemos hacer creando tres objetos, dos de los cuales serán modestos y uno comprobable: La pasarela que se conectara con la base de datos, el ORM y el interactor el objeto comprobable que contiene el caso de uso que tiene que acceder a los datos en la base de datos.
 
 ///
-
-* Arquitectura limpia de Robert C.Martin.
-
+Arquitectura limpia de Robert C.Martin.
 ///

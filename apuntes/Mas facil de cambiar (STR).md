@@ -20,9 +20,7 @@ Un consejo que nos deja *"El programador pragmático"* de David Thomas y Andrew 
 	Piensa en un concepto de diseño como un principio, patrón o arquitectura ¿Esta este valor presente? ¿STD?
 
 ///
-
-* El libro *"El programador pragmático"* de David Thomas y Andrew Hunt.
-* El libro *"Código sostenible"* de Carlos Blé Jurado.
-* El libro *"Arquitectura limpia"* de Robert C.Martin.
-
+El libro *"El programador pragmático"* de David Thomas y Andrew Hunt.
+El libro *"Código sostenible"* de Carlos Blé Jurado.
+El libro *"Arquitectura limpia"* de Robert C.Martin.
 ///

@@ -20,9 +20,7 @@ Un diagrama de contexto de sistema no contienen detalles sobre el funcionamiento
 Esta es una forma de dibujar un diagrama de contexto de sistema, pero en realidad no hay un estándar, siéntete libre de hacerlo como te sientas más cómodo.
 
 ///
-
-* https://es.wikipedia.org/wiki/Diagrama_de_contexto_de_sistema
-* https://www.edrawsoft.com/es/context-diagram/
-* https://estudyando.com/diagrama-de-contexto-del-sistema-descripcion-y-ejemplos/
-
+https://es.wikipedia.org/wiki/Diagrama_de_contexto_de_sistema
+https://www.edrawsoft.com/es/context-diagram/
+https://estudyando.com/diagrama-de-contexto-del-sistema-descripcion-y-ejemplos/
 ///

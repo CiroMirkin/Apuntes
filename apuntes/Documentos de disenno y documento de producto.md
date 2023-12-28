@@ -46,21 +46,12 @@ No hay una plantilla estándar para escribir estos documentos, pero si existen a
 * Preguntas abiertas: Un lugar para sugerencias a futuro, opiniones o decisiones polémicas que puede haber.
 
 ///
-
-* https://www.linkedin.com/pulse/qu%C3%A9-es-el-documento-de-requerimientos-producto-product-beyer?utm_source=share&utm_medium=member_android&utm_campaign=share_via
-
-* https://hlung.medium.com/prd-is-not-enough-we-need-sdd-83a3cc9d70df
-
-* https://www.joelonsoftware.com/2000/10/02/painless-functional-specifications-part-1-why-bother/
-
-* https://leadershipreadme.substack.com/p/que-es-design-doc-rfc-o-prd
-
-* https://www.freecodecamp.org/news/how-to-write-a-good-software-design-document-66fcf019569c/
-
-* https://www.joelonsoftware.com/2000/10/03/painless-functional-specifications-part-2-whats-a-spec/
-
-* https://historiadelaempresa.com/documento-de-diseno
-
-* https://www.lucidchart.com/blog/es/como-crear-documentos-de-diseno-de-software
-
+https://www.linkedin.com/pulse/qu%C3%A9-es-el-documento-de-requerimientos-producto-product-beyer?utm_source=share&utm_medium=member_android&utm_campaign=share_via
+https://hlung.medium.com/prd-is-not-enough-we-need-sdd-83a3cc9d70df
+https://www.joelonsoftware.com/2000/10/02/painless-functional-specifications-part-1-why-bother/
+https://leadershipreadme.substack.com/p/que-es-design-doc-rfc-o-prd
+https://www.freecodecamp.org/news/how-to-write-a-good-software-design-document-66fcf019569c/
+https://www.joelonsoftware.com/2000/10/03/painless-functional-specifications-part-2-whats-a-spec/
+https://historiadelaempresa.com/documento-de-diseno
+https://www.lucidchart.com/blog/es/como-crear-documentos-de-diseno-de-software
 ///
