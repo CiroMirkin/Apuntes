@@ -54,5 +54,7 @@ Crear este tipo de diagramas, a grandes rasgos nos puede ayudar a explicar o dis
 Luego de crear un diagrama podemos empezar a picar código, teniendo en cuenta que el diseño creado no está tallado en piedra. Al programar podemos llegar a identificar fallas o mejoras en el diseño, por eso después del primer diseño y programar un poco modificamos el diseño si hace falta, para después seguir programando. Es un ir y venir entre el diseño y el código.
 
 /// 
-
+https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-sequence-diagram/
+https://miro.com/es/diagrama/que-es-diagrama-secuencia-uml/
+https://rcasalla.gitbooks.io/libro-desarrollo-de-software/content/libro/temas/t_uml/uml_secuencia.html
 ///
