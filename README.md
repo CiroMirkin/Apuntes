@@ -102,7 +102,7 @@ Al estudiar aplico el método de Feynman. Por mes escribo mínimo un apunte.
 
 46. Refactorización --- [Ver](apuntes/Refactorizacion.md)
 
-47. SQL Y NoSQL --- [Ver](apuntes/sql%20&%20nosql.md)
+47. Base de datos --- [Ver](apuntes/Base%20de%20datos.md)
 
 48. TDD y BDD diferencias --- [Ver](apuntes/TDD%20y%20BDD%20diferencias.md)
 
