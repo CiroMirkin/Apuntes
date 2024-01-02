@@ -13,5 +13,8 @@ Las partes de alto nivel tienden a ser descripciones generales, mientras que las
 
 Ambas partes siempre existen y se complementan, una envuelve a la otra.
 
-Mientras programamos envolvemos codigo de bajo nivel en nombres u objetos de alto nivel. Lo hacemos al programar funciones, clases e incluso al crear variables.
+Mientras programamos envolvemos código de bajo nivel en nombres de alto nivel. Lo hacemos al programar funciones, clases e incluso al crear variables. Los nombres son descripciones de alto nivel que dan sentido al código.
 
+Al crear un arquitectura limpia a medida que nos alejamos del nucleo de alto nivel las capas son de mas bajo nivel, partimos de las reglas de negocio hasta llegar a los frameworks.
+
+Ambas partes existen, tienen que estar definidas y deben relacionarce siempre tratando de los cambios de bajo nivel no afecten a las partes de alto nivel, esto es el principio de inversión de la dependencia.
