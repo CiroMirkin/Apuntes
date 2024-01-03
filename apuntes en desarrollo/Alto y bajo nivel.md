@@ -11,8 +11,8 @@ Ambas partes siempre existen y se complementan, una envuelve a la otra y de echo
 
 ## Equilibrio entre alto y bajo nivel
 
-Las partes de alto nivel tienden a ser descripciones generales y duraderas, mientras que las de bajo nivel tienden a ser implementaciones detalladas y por ende menos duraderas. Ambas partes tienen que estar definidas y relacionarce tratando de los cambios de bajo nivel no afecten a las partes de alto nivel, esto es el principio de inversión de la dependencia.
+Las partes de alto nivel tienden a ser descripciones generales y duraderas, mientras que las de bajo nivel tienden a ser implementaciones detalladas y por ende menos duraderas. Ambas partes tienen que estar definidas y relacionarce tratando de los cambios de bajo nivel no afecten a las partes de alto nivel, esto se conoce como el principio de inversión de la dependencia.
 
-Las partes de bajo nivel cambian con mas frecuencia a lo largo del tiempo e incluso por cuestiones externas, por ejemplo los frameworks, librerias o base de datos puede actualizarce o incluso quedar obsoletas, es por estas cuestiones fuera de nuestro alcanze que es preferible separar las partes de bajo nivel y alto nivel. 
+Las partes de bajo nivel cambian con mas frecuencia a lo largo del tiempo e incluso por cuestiones externas, por ejemplo las librerias o base de datos pueden actualizarce o incluso quedar obsoletas, es por estas cuestiones fuera de nuestro alcanze que preferimos separar las partes de bajo nivel y alto nivel buscando que los cambios de bajo nivel afecten lo menos posible a las partes de alto nivel dentro de la aplicación. 
 
-En una arquitectura limpia buscamos desacoplar las partes de más bajo nivel y las de más alto nivel, para esto se situa en el medio lo mas alto nivel y gradualmente el nivel baja.
+En una arquitectura limpia buscamos desacoplar las partes de más bajo nivel y las de más alto nivel, para esto se situa en el nucleo lo mas alto nivel y gradualmente el nivel baja capa a capa.
