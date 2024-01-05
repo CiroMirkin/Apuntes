@@ -3,11 +3,11 @@
 
 Dentro de una aplicación hay diferentes partes de alto y bajo nivel, ambos niveles deben existir, estar diferenciados y tener una relación equilibrada.
 
-Las partes de alto nivel tienden a ser abstractas, más simples y cercanas al dominio comun como el de usuarios o clientes. Mientras que las de bajo nivel tienden a ser concretas, más complejas y cercanas al dominio tecnico de los programadores o desarrolladores.
+Las partes de alto nivel tienden a ser abstractas, más simples y cercanas al dominio comun como el de usuarios o clientes; mientras que las de bajo nivel tienden a ser concretas, más complejas y cercanas al dominio tecnico de los programadores o desarrolladores.
 
-La parte del negocio como las historias de usuario, metodologias como BDD, diagramas de contexto de sistema o de secuencia son ejemplos de un alto nivel. Mientras que la parte tecnica de desarrollo como los frameworks, librerias, metodologias como TDD o pruevas unitarias son ejemplos de un bajo nivel.
+La parte del negocio como las historias de usuario, metodologias como BDD, diagramas de contexto de sistema o de secuencia son ejemplos de un alto nivel; mientras que la parte tecnica de desarrollo como los frameworks, librerias, metodologias como TDD o pruevas unitarias son ejemplos de un bajo nivel.
 
-Ambas partes siempre existen y se complementan, una envuelve a la otra y de echo al programar siempre envolvemos código de bajo nivel en descripciones de alto nivel. Siempre los nombre dan sentido al código cuando creamos funciones, clases e incluso variables.
+Ambas partes siempre existen y se complementan, una envuelve a la otra y de echo al programar siempre envolvemos código de bajo nivel en descripciones de alto nivel, siempre los nombre dan sentido al código dento de funciones, clases e incluso variables.
 
 ## Equilibrio entre alto y bajo nivel
 
