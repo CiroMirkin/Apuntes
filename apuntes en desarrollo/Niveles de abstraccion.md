@@ -1,7 +1,7 @@
 # Alto y bajo nivel
 00_00_2024
 
-Dentro de una aplicación hay diferentes partes de alto y bajo nivel, ambos niveles deben existir, estar diferenciados y tener una relación equilibrada.
+No solo dentro de una aplicación hay diferentes niveles, tambien lo tiene cualquier herramienta o metodologias que usamos al desarrollar. Estos niveles se dividen en dos: alto y bajo, al hablar de código estos deben estar diferenciados y tener una relación equilibrada.
 
 Las partes de alto nivel tienden a ser abstractas, más simples y cercanas al dominio comun como el de usuarios o clientes; mientras que las de bajo nivel tienden a ser concretas, más complejas y cercanas al dominio tecnico de los programadores o desarrolladores.
 
