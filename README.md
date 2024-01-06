@@ -8,7 +8,7 @@ Al estudiar aplico el método de Feynman. Por mes escribo mínimo un apunte.
 
 ## Lista desordenada 
 
-	En total 50 apuntes.
+	En total 51 apuntes.
 
 1. Acoplamiento entre componentes --- [Ver](apuntes/Acoplamiento%20entre%20componentes.md)
 
@@ -110,6 +110,7 @@ Al estudiar aplico el método de Feynman. Por mes escribo mínimo un apunte.
 
 50. Tipos de relaciones entre clases --- [Ver](apuntes/Tipos%20de%20relaciones%20entre%20clases.md)
 
+51. Niveles de abstracción --- [Ver](apuntes/Niveles%20de%20abstraccion.md)
 
 ## Especificaciones  
 
