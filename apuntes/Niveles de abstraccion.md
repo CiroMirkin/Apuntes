@@ -1,5 +1,5 @@
-# Alto y bajo nivel
-00_00_2024
+# Niveles de abstracción
+05_01_2024
 
 No solo dentro de una aplicación hay diferentes niveles, sino también los hay en cualquier herramienta o metodologías que usamos al desarrollar. Estos niveles se dividen en dos: alto y bajo, al hablar de código estos dos deberían estar diferenciados y tener una relación equilibrada.
 
