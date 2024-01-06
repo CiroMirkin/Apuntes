@@ -1,11 +1,11 @@
 # Desarrollo guiado por pruebas
 26_04_2022
 
-El Desarrollo guiado por pruebas o TDD (Test driven develoment) es una metodologia agil para el desarrollo de software, en otras palabras una forma de trabajar al hacer una aplicación o algoritmo llevada a cabo por programadores.
+El Desarrollo guiado por pruebas o TDD (Test driven develoment) es una metodología ágil para el desarrollo de software, en otras palabras una forma de trabajar al hacer una aplicación o algoritmo llevada a cabo por programadores.
 
 El flujo de trabajo que seguimos es el siguiente:
 
-	Definir -> Escribir pruebas -> Programar -> Pasar pruebas -> Refactorizar
+Definir > Escribir pruebas > Programar > Pasar pruebas > Refactorizar
 
 1. Definir lo que esperamos del código.
 
