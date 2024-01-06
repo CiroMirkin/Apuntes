@@ -1,7 +1,7 @@
 # Niveles de abstracción
 05_01_2024
 
-No solo dentro de una aplicación hay diferentes niveles, sino también los hay en cualquier herramienta o metodologías que usamos al desarrollar. Estos niveles se dividen en dos: alto y bajo, al hablar de código estos dos deberían estar diferenciados y tener una relación equilibrada.
+No solo dentro de una aplicación hay diferentes niveles, sino también los hay en cualquier herramienta o metodología que usamos al desarrollar. Estos niveles se dividen en dos: alto y bajo, al hablar de código estos dos deberían estar diferenciados y tener una relación equilibrada.
 
 Las partes de alto nivel tienden a ser abstractas, más simples y cercanas al dominio común como el de usuarios o clientes; mientras que las de bajo nivel tienden a ser concretas, más complejas y cercanas al dominio técnico de los programadores o desarrolladores.
 
