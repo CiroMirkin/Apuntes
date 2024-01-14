@@ -3,7 +3,7 @@
 
 La sincronía y asincronía son dos conceptos dentro de programación, ambos son dos formas de manejar una lista de tareas: En la forma síncrona podemos hacer las tareas una detrás de la otra y en la asincrona por más que la lista tenga un orden vamos a seguir otro que puede depender, por ejemplo del tiempo que tarden, haciendo primero las que tarden más o menos.
 
-Si nos centramos en los lenguajes de programación estas son dos formas de ejecutar acciones, cada lenguaje maneja estos conceptos de diferentes formas e incluso algunos no soportan ambos. Entender esta parte de los lenguajes es importante porque pueden ser fuente errores, ahora si nos vamos de los lenguajes podemos encontrar estos conceptos en lugares como las operaciones de los AWS (Amazon Web Services).
+Si nos centramos en los lenguajes de programación estas son dos formas de ejecutar acciones, cada lenguaje maneja estos conceptos de diferentes formas e incluso algunos no soportan ambos. La falta de conocimiento de esta parte del lenguaje que estemos usando puede ser causa de bugs, ahora más alla de los lenguajes podemos encontrar estos conceptos por ejemplo en las operaciones de los AWS (Amazon Web Services).
 
 ///
 https://medium.com/laboratoria-how-to/programacion-asincrona-cea3bad7c3c6
