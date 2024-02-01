@@ -36,19 +36,9 @@ C = B (x ∈ C -> x ∈ B)
 
 C es igual a B. x perteneca a C, entonces x pertenece a B.
 
-## Axiomas basicos
+## Axiomas
 
-Los axiomas que nos ayudan a definir más claramente que es y que no es un conjunto, al igual que permiten justifican razonamientos sin caer en paradojas.
+Los axiomas invalidan posibles paradojas como la de Russel definiendo que es y que no es un conjunto, son como reglas para crear conjuntos y anular paradojas.
 
-### Axioma de extensionalidad
+* Dos conjuntos son iguales solo si tienen los mismos elementos.
 
-Dos clases con los mismos elementos son la misma clase, esto seria:
-
-
-### Axioma de comprension
-
-Aqui la cosa se complica.
-
-### Axioma del conjunto vacio
-
-Todo conjunto continene a *el conjunto vacio*, porque solo hay uno, sin embargo un conjunto no puede ser igual a *el conjunto vacio*.
