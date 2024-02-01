@@ -1,7 +1,9 @@
 # Teoría de conjuntos
 00_00_2024
 
-Los conjutos contien elementos, tanto conjuntos como elementos son abstracctos.
+Los conjutos contien elementos, son una agrupación de elementos. Tanto conjuntos como elementos son abstracctos, no sabemos exactamente que son y no importa que son, sino sus propiedades.
+
+La teoría de conjuntos es parte de las metematicas y tiene su propio objeto de estudio, los conjuntos. Esta teoría se relaciona con el resto de teorías y conceptos de las matematicas y de echo estos pueden expresarce usando conjuntos.
 
 Esta teoría tiene un lenguaje formal que consta de en varios signos con su equivalente en lenguaje natural (en este caso el español), este lenguaje nos permite hacer razonamientos logicos como el siguiente:
 
@@ -38,7 +40,7 @@ C es igual a B. x perteneca a C, entonces x pertenece a B.
 
 ## Axiomas
 
-Los axiomas invalidan posibles paradojas como la de Russel definiendo que es y que no es un conjunto, son como reglas para crear conjuntos y anular paradojas.
+Los axiomas invalidan posibles paradojas como la de Bertrand Russell definiendo que es y que no es un conjunto, son como reglas para crear conjuntos y anular paradojas.
 
 * Dos conjuntos son iguales solo si tienen los mismos elementos.
 
