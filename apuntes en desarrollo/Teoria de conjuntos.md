@@ -5,14 +5,15 @@ Los conjutos contien elementos, son una agrupación de elementos. Tanto conjunto
 
 La teoría de conjuntos es parte de las metematicas y tiene su propio objeto de estudio, los conjuntos. Esta teoría se relaciona con el resto de teorías y conceptos de las matematicas y de echo estos pueden expresarce usando conjuntos.
 
-
 ## Lenguaje de conjuntos
 
 Esta teoría tiene un lenguaje formal que consta de en varios signos con su equivalente en lenguaje natural (en este caso el español), este lenguaje nos permite hacer razonamientos logicos como el siguiente:
 
-A = B ^ B = C -> A = C
+	A = B ^ B = C -> A = C
 
-A es igual a B, a su vez B es igual a C, entonces A es igual a C.
+	A es igual a B, a su vez B es igual a C, entonces A es igual a C.
+
+Dentro de todos los simbolos que existen el más importante es el de *pertenencia* que se reprecenta con el signo ∈, con este simbolo podriamos demostrar y afirmar cualquier cosa, obiamente al aumentar la complejidad se volveria tedioso y es por eso que hay mas simbolos.
 
 | Simbolo |Significado  |
 |--|--|
@@ -20,15 +21,14 @@ A es igual a B, a su vez B es igual a C, entonces A es igual a C.
 | ∈ | Pertenece a |
 | ∉ | No pertenece a|
 | -> | Entonces |  
-| ^ | A su vez |
-| | Si |
-| | Si solo si |
-| \| | Tal que |
 | ⊂ | Subconjunto |
 | ⊆ | Subconjunto incluido |
+| ∆ | Diferencia simetrica | 
+| ^ | A su vez |
 | | Intersaccion |
 | | Union |
-| ∆ | Diferencia simetrica | 
+| | Si |
+| | Si solo si |
 | | Clase vacia |
 
 Por el momento no usaremos la palabra conjunto sino *clase* para referirnos a una coleccion de objetos que a su vez son clases, para reprecentar clases se usan letras mayusculas o letras griegas.
