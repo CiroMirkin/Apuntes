@@ -15,29 +15,12 @@ Esta teoría tiene un lenguaje formal que consta de en varios signos con su equi
 
 Dentro de todos los simbolos que existen el más importante es el de *pertenencia* que se reprecenta con el signo ∈, con este simbolo podriamos demostrar y afirmar cualquier cosa, obiamente al aumentar la complejidad se volveria tedioso y es por eso que hay mas simbolos.
 
-| Simbolo |Significado  |
-|--|--|
-| = | Igual |
-| ∈ | Pertenece a |
-| ∉ | No pertenece a|
-| -> | Entonces |  
-| ⊂ | Subconjunto |
-| ⊆ | Subconjunto incluido |
-| ∆ | Diferencia simetrica | 
-| ^ | A su vez |
-| | Intersaccion |
-| | Union |
-| | Si |
-| | Si solo si |
-| | Clase vacia |
+	C = B (x ∈ C -> x ∈ B)
 
-Por el momento no usaremos la palabra conjunto sino *clase* para referirnos a una coleccion de objetos que a su vez son clases, para reprecentar clases se usan letras mayusculas o letras griegas.
+	C es igual a B. x perteneca a C, entonces x pertenece a B.
 
-Estas son afirmaciones logias y por ende no nos importa que es A, B o C.
-
-C = B (x ∈ C -> x ∈ B)
-
-C es igual a B. x perteneca a C, entonces x pertenece a B.
+![Tabla de simbolos logicos usados en la teoría de conjuntos]()
+![Tabla de simbolos usados para expresar conjuntos]()
 
 ## Axiomas
 
