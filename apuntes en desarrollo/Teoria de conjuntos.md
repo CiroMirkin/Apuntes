@@ -1,9 +1,9 @@
 # Teoría de conjuntos
 00_00_2024
 
-No hay una defincion de lo que es un conjunto, el termino es indefinido, igualmente uno escucha la palabra *conjunto* y se hace una idea de lo que es. 
+No hay una defincion de lo que es un conjunto, el termino es indefinido, igualmente al escucha la palabra *conjunto* y se tiene una vaga idea de lo que es. 
 
-Los conjutos contien elementos, son una agrupación de elementos que tienen algo en comun. Tanto conjuntos como elementos son abstracctos, no sabemos que son pero si como son, lo que importa son las propiedades de un conjunto.
+Los conjutos contien elementos, son una agrupación de elementos que tienen algo en comun. Tanto conjuntos como elementos son abstracctos, no sabemos que son pero si como son y eso es lo que importante, sus propiedades.
 
 La teoría de conjuntos es parte de las metematicas y tiene su propio objeto de estudio, los conjuntos. Esta teoría se relaciona con el resto de teorías y conceptos de las matematicas y de echo estos pueden expresarce usando conjuntos.
 
