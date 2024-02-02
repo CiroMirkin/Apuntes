@@ -1,11 +1,13 @@
 # Teoría de conjuntos
 00_00_2024
 
-Los conjutos contien elementos, son una agrupación de elementos que tienen algo en comun. Tanto conjuntos como elementos son abstracctos, no sabemos exactamente que son, lo que importa no es que son sino sus propiedades.
+No hay una defincion de lo que es un conjunto, el termino es indefinido, igualmente uno escucha la palabra *conjunto* y se hace una idea de lo que es. 
+
+Los conjutos contien elementos, son una agrupación de elementos que tienen algo en comun. Tanto conjuntos como elementos son abstracctos, no sabemos que son pero si como son, lo que importa son las propiedades de un conjunto.
 
 La teoría de conjuntos es parte de las metematicas y tiene su propio objeto de estudio, los conjuntos. Esta teoría se relaciona con el resto de teorías y conceptos de las matematicas y de echo estos pueden expresarce usando conjuntos.
 
-Dentro de la programación la teoria de conjuntos nos puede ayudar a majorar nuestra logica, entender problemas o nuevos conceptos. Ademas los conjuntos también son estructuras de datos y se usan en algunas áreas de la informatica.
+Dentro de la programación la teoria de conjuntos nos puede ayudar a majorar nuestra logica, entender problemas o nuevos conceptos, pero además los conjuntos son estructuras de datos y se usan en algunas áreas de la informatica.
 
 ## Lenguaje de conjuntos
 
