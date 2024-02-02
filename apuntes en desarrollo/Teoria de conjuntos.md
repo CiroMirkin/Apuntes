@@ -11,18 +11,61 @@ Dentro de la programación la teoria de conjuntos nos puede ayudar a majorar nue
 
 El lenguaje de la teoría de conjuntos consta de en varios signos con su equivalente en lenguaje natural (en este caso el español), este lenguaje nos permite hacer razonamientos logicos como el siguiente:
 
-	A = B ^ B = C -> A = C
+	A = B ^ B = C -> A = Ces igual a B, a su vez B es igual a C, entonces A es igual a C.
 
-	A es igual a B, a su vez B es igual a C, entonces A es igual a C.
+Dentro de todos los simbolos el más importante es el de *pertenencia* reprecentado por el signo ∈.
 
-Dentro de todos los simbolos el más importante es el de *pertenencia* que se reprecenta con el signo ∈, con este simbolo podriamos demostrar y afirmar cualquier cosa, obiamente al aumentar la complejidad se volveria tedioso y es por eso que hay más simbolos.
+	x ∈ A
+	x pertenece al conjunto A
 
-	C = B (x ∈ C -> x ∈ B)
-
-	C es igual a B. x perteneca a C, entonces x pertenece a B.
+Si bien con este simbolo podriamos demostrar y afirmar cualquier cosa, al aumentar la complejidad se volveria tedioso y es por eso que hay más simbolos.
 
 ![Tabla de simbolos logicos usados en la teoría de conjuntos]()
 ![Tabla de simbolos usados para expresar conjuntos]()
+
+### Relaciones entre conjuntos
+
+#### Subconjunto
+
+A ⊆ B
+
+A es un subconjuntos de B, cada elemento de A también esta en B, ambos conjuntos tienen los mismo elementos.
+
+#### Union
+
+A Union B = { x / x ∈ A y x ∈ B }
+
+#### Interseccion
+
+A interseccion B = { x / x ∈ A o x ∈ B }
+
+La interseccion de A y B son todos los elementos que tienen en comun ambos conjuntos.
+
+### Simbolos logicos
+
+Usamos los simbolos para describir relaciones y propiedades, veamos algunas.
+
+#### Igualdad (=)
+
+Dos conjuntos son iguales solo si ambos conjuntos tienen los mismos elementos.
+
+A = B
+
+#### Equivalencia logica (<=>)
+
+Usamos este simbolo para decir que dos expreciones son equivalentes.
+
+A = B <=> A ⊆ B y B ⊆ A
+
+A = B *si, y solo si,* A ⊆ B y B ⊆ A
+
+#### Entonces (=>)
+
+Usamos este simbolo para decir que si una exprecion se cumple entonces otra tambien lo hara.
+
+si A ⊆ B y B ⊆ C => A ⊆ C
+
+si A ⊆ B y B ⊆ C *entonces* A ⊆ C
 
 ## Axiomas
 
