@@ -11,7 +11,8 @@ Dentro de la programación la teoria de conjuntos nos puede ayudar a majorar nue
 
 El lenguaje de la teoría de conjuntos consta de en varios signos con su equivalente en lenguaje natural (en este caso el español), este lenguaje nos permite hacer razonamientos logicos como el siguiente:
 
-	A = B ^ B = C -> A = Ces igual a B, a su vez B es igual a C, entonces A es igual a C.
+	A = B ^ B = C -> A = C
+	A es igual a B, a su vez B es igual a C entonces A es igual a C
 
 Dentro de todos los simbolos el más importante es el de *pertenencia* reprecentado por el signo ∈.
 
@@ -22,6 +23,17 @@ Si bien con este simbolo podriamos demostrar y afirmar cualquier cosa, al aument
 
 ![Tabla de simbolos logicos usados en la teoría de conjuntos]()
 ![Tabla de simbolos usados para expresar conjuntos]()
+
+### Definición de conjuntos
+
+A = { x }
+
+Los conjuntos se escriben como letras mayusculas o letras griegas, el contenido del conjuntos se escribe entre llaves { } y los elementos de un conjunto se escriben como letras minusculas.
+
+Se puede determinar el contenido de un conjunto de dos formas distintas, por extencion enumerando sus elementos o por comprencion definiendo cuales son las propiedades que distingen a los elementos del conjunto.
+
+A = { 1, 2, 3 }
+A = { x / P(x) }  
 
 ### Relaciones entre conjuntos
 
