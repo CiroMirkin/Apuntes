@@ -39,47 +39,37 @@ A = { x / P(x) }
 
 ### Relaciones entre conjuntos
 
-#### Subconjunto
+* Subconjunto: El conjunto A es un subconjunto de B, cada elemento de A también esta en B, ambos conjuntos tienen los mismo elementos.
 
-A ⊆ B
+	A ⊆ B
 
-A es un subconjuntos de B, cada elemento de A también esta en B, ambos conjuntos tienen los mismo elementos.
+* Union: 
 
-#### Union
+	A Union B = { x / x ∈ A y x ∈ B }
 
-A Union B = { x / x ∈ A y x ∈ B }
+* Interseccion: La interseccion de los conjuntos A y B son todos los elementos que tienen en comun ambos conjuntos.
 
-#### Interseccion
-
-A interseccion B = { x / x ∈ A o x ∈ B }
-
-La interseccion de A y B son todos los elementos que tienen en comun ambos conjuntos.
+	A interseccion B = { x / x ∈ A o x ∈ B }
 
 ### Simbolos logicos
 
 Usamos los simbolos para describir relaciones y propiedades, veamos algunas.
 
-#### Igualdad (=)
+* Igualdad: Dos conjuntos son iguales solo si ambos conjuntos tienen los mismos elementos.
 
-Dos conjuntos son iguales solo si ambos conjuntos tienen los mismos elementos.
+	A = B
 
-A = B
+* Equivalencia logica: Usamos este simbolo para decir que dos expreciones son equivalentes.
 
-#### Equivalencia logica (<=>)
+	A = B *si, y solo si,* A ⊆ B y B ⊆ A
 
-Usamos este simbolo para decir que dos expreciones son equivalentes.
+	A = B <=> A ⊆ B y B ⊆ A
 
-A = B <=> A ⊆ B y B ⊆ A
+* Entonces: Usamos este simbolo para decir que si una exprecion se cumple entonces otra tambien lo hara.
 
-A = B *si, y solo si,* A ⊆ B y B ⊆ A
+	si A ⊆ B y B ⊆ C *entonces* A ⊆ C
 
-#### Entonces (=>)
-
-Usamos este simbolo para decir que si una exprecion se cumple entonces otra tambien lo hara.
-
-si A ⊆ B y B ⊆ C => A ⊆ C
-
-si A ⊆ B y B ⊆ C *entonces* A ⊆ C
+	si A ⊆ B y B ⊆ C => A ⊆ C
 
 ## Axiomas
 
