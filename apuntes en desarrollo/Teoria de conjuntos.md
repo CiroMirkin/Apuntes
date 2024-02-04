@@ -95,3 +95,11 @@ Estos son los axiomas de Zemelo-Fraenkel (ZF):
 * Los numeros naturales deberian formar un conjunto.
 
 Todas estas cosas deberian ser ciertas al formar un conjunto, estos son los más comunes, pero hay más.
+
+///
+Charla de Roberto Pichardo Mendoza: https://youtu.be/hLFit88zTYk?si=TEZ2lklYDT2eOjtY
+https://www.matem.unam.mx/~max/AS1/N1.pdf
+https://sistemas.fciencias.unam.mx/~mlm/calculoI/cal1.pdf
+https://platzi.com/tutoriales/4260-python-funciones/24762-teoria-de-conjuntos-matematicas/
+https://www.uv.es/ivorra/Libros/TC.pdf
+///
