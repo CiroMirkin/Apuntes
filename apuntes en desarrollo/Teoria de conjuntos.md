@@ -85,5 +85,18 @@ si A ⊆ B y B ⊆ C *entonces* A ⊆ C
 
 Los axiomas invalidan posibles paradojas como la de Bertrand Russell definiendo que es y que no es un conjunto, son como reglas para crear conjuntos y anular paradojas.
 
-* Dos conjuntos son iguales solo si tienen los mismos elementos.
+Estos son los axiomas de Zemelo-Fraenkel (ZF):
 
+* Dos conjuntos son iguales si, solo si, tienen los mismos elementos.
+
+* Desde dos conjuntos *A* y *B* se puede formar un conjunto cuyos unicos elementos son los dos conjunto { A, B }.
+
+* Si ϕ es una propiedad con un parametro P y *A* es un conjunto, entonces se puede formar el conjunto. A = { x : x ∈ A Ʌ ϕ( x, p ) }. Con la propiedades adecuadas podemos crear subconjuntos de un conjunto.
+
+* Si hay una familia de conjuntos, si ϑ es un conjunto y sus elementos son conjuntos, entonces la union de todos los elementos de ϑ dar un conjunto.
+
+* Si *X* es un conjunto, P(x), el conjunto potencia de *X* también deberia ser un conjunto.
+
+* Los numeros naturales deberian formar un conjunto.
+
+Todas estas cosas deberian ser ciertas al formar un conjunto, estos son los más comunes, pero hay más.
