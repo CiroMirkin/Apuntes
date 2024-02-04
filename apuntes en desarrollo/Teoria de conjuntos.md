@@ -35,21 +35,26 @@ Los conjuntos se escriben como letras mayusculas o letras griegas, el contenido 
 Se puede determinar el contenido de un conjunto de dos formas distintas, por extencion enumerando sus elementos o por comprencion definiendo cuales son las propiedades que distingen a los elementos del conjunto.
 
 A = { 1, 2, 3 }
+
 A = { x / P(x) }  
 
 ### Relaciones entre conjuntos
 
-* Subconjunto: El conjunto A es un subconjunto de B, cada elemento de A también esta en B, ambos conjuntos tienen los mismo elementos.
+* Subconjunto: El conjunto A es un subconjunto de B, cada elemento de A también esta en B.
 
 	A ⊆ B
 
-* Union: 
+* Subconjunto propio: El conjunto A es un subconjunto propio de B, esto quiere decir que el conjunto B puede tener elementos que no esten en el conjuntos A.
 
-	A Union B = { x / x ∈ A y x ∈ B }
+	A ⊂ B 
 
-* Interseccion: La interseccion de los conjuntos A y B son todos los elementos que tienen en comun ambos conjuntos.
+* Union: La union de los conjuntos A y B es un conjunto con los elementos que esten en el conjunto A o en el conjunto B.
 
-	A interseccion B = { x / x ∈ A o x ∈ B }
+	A *Union* B = { x / x ∈ A **o** x ∈ B }
+
+* Interseccion: La interseccion de los conjuntos A y B es un conjunto con todos los elementos que tienen en comun ambos conjuntos.
+
+	A *interseccion* B = { x / x ∈ A **y** x ∈ B }
 
 ### Simbolos logicos
 
