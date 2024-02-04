@@ -1,5 +1,5 @@
 # Teoría de conjuntos
-00_00_2024
+04_02_2024
 
 No hay una definición de lo que es un conjunto, el término es indefinido, igualmente al escucha la palabra *conjunto* se tiene una idea de lo que es. 
 
