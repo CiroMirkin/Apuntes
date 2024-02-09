@@ -17,10 +17,21 @@ La deuda tecnica o entropia del software son otras formas de referirce a esta le
 
 ## Estabilidad organizacional
 
-## Conservacion de la familiaridad
+La velocidad del desarrollo de una aplicacion es independiente de los recursos, si los recursos del proyecto aumentan no aumentara la velocidad del proyecto, por eso mas que los recursos lo importante puede ser la comunicacion en el equipo.
+
 
 ## Crecimiento continuo
 
-## Decremento de la calidad
+Las funcionalidades de una aplicacion deberian crecer continuamente, esto se puede hacer implementado funciones que antes se habian descartado ya sea por cuestiones de dinero o tiempo.
+
+## Conservacion de la familiaridad
+
+Es importante hacer cambios en una aplicacion, pero estos deben ser progresivos y no repentinos. Al evolucionar una aplicacion tambien evolucionan los programadores y sobre todo los usuarios, estos tienen un conocimiento sobre el contenido de la aplicacion y sus caracteristicas, al hacer cambios repentinos y/o excesivos parte de este conocimiento se pierte y desconcierta al usuario, es por esto que es importante hacer cambios progresivos.
+
+## Reduccion de la calidad
+
+Al pasar el tiempo el entorno de una aplicacion cambia y junto con este deberia cambiar la aplicacion para adaptarce al entorno y no quedarce atras.
 
 ## Retroalimentacion del sistema
+
+El feedback debe existir por parte de usuarios, clientes, programadores y demas personas involucradas, no solo debe existir tambien debe ser consideraso para que una aplicacion mejore y evolucione.
