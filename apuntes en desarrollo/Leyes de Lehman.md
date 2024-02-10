@@ -13,7 +13,9 @@ Las aplicacion evolucionan y a medida que lo hacen tienden a ser más complejas,
 
 La deuda tecnica o entropia del software son otras formas de referirce a esta ley, siempre hablamos de la tendencia que tienen las aplicacion al desorden en todos los sentidos no solo en su estructura sino tambien en su hardware y UI/UX.
 
-## Autorregulacion
+## Autorregulación
+
+Las aplicaciones evolucionan siendo auto-reguladas por sus atributos, profundisando en esto, el tamaño de ciertas propiedades como el tiempo entre verciones y el numero de errores documentados siguen una tendencia o son invariantes a lo largo del tiempo, todo esto incluyendo un aumento constante de complejidad y tamaño de la aplicación.
 
 ## Estabilidad organizacional
 
