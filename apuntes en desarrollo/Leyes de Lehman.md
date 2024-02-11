@@ -37,3 +37,9 @@ Al pasar el tiempo el entorno de una aplicacion cambia y junto con este deberia 
 ## Retroalimentacion del sistema
 
 El feedback debe existir por parte de usuarios, clientes, programadores y demas personas involucradas, no solo debe existir tambien debe ser consideraso para que una aplicacion mejore y evolucione.
+
+## Sintesis de las leyes
+
+Primero, hay atributos de una aplicación que permanecen invariantes o muestran una tendencia a lo largo del tiempo como la velocidad de desarrollo o la tendencia a ser cada vez más complejas. 
+
+Segundo, las aplicaciones suelen depender del entono donde influyen y con el tiempo el entorno cambio, por ende las aplicaciones deben actualizarce para mantener su calidad, estas actualizacion deben ser progresivas y tener en cuenta el feedback de todos los invalucrados con la aplicación.
