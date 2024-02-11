@@ -1,13 +1,18 @@
 # Pruebas unitarias
 29_03_2022
 
-Las pruebas unitarias (unit testing) son una forma de encontrar errores en una parte de código lo más pequeña posible (una función o método). Como el unit testing es para encontrar errores y no para verificar que el código funciona sin tener errores son echos durante el desarrollo de una aplicación por programadores.
+Las pruebas unitarias (unit testing) son una forma de encontrar errores en una parte de código pequeña como una función o método. Esta practica forma parte de metodologías ágiles como el desarrollo guiado por pruebas (TDD) donde mayormente se escriben pruebas unitarias.
 
-El aumento de calidad en nuestro código es uno de los beneficios del unit testing, ademas de que no solo puede servir como documentación sino también para entender como debería funcionar el código que vamos a escribir. También nos permite probar el código independientemente de como este el resto de la aplicación y nos da seguridad luego de refactorizar nuestro código.
+Beneficios de las pruebas unitarias:
 
-El unit testing forma parte de metodologías ágiles, como lo puede ser el desarrollo guiado por pruebas (TDD).
+* Aumento de calidad en el código.
+* Sirven como documentación y ayudan a entender como debería funcionar el código.
+* Seguridad luego de refactorizar código.
+* Permiten probar el código independientemente de como este el resto de la aplicación
 
-# Características del unit testing
+Las pruebas unitarias no son para verificar que el código funciona, ya que solo muestran que en ciertos casos el código se comportan como debería.
+
+# Características de las puebas unitarias
 
 Rápido, concreto e independiente son las principales características, sin ellas no se puede considerar una prueba unitaria.
 
