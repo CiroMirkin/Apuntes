@@ -1,7 +1,13 @@
-# Leyes de Lehman
+# Leyes de la evolución de aplicaciones
 00_00_2024
 
-Las ocho leyes de Lehman indican como evoluciona una aplicacion en desarrollo.
+Las ocho leyes de la evolución de aplicaciones indican como evoluciona una aplicación a lo largo del tiempo una aplicación que estara en un entorno real con usuarios que la usan.
+
+En sistesis podriamos decir que:
+
+Primero, hay atributos de una aplicación que permanecen invariantes o muestran una tendencia a lo largo del tiempo como la velocidad de desarrollo o la tendencia a ser cada vez más complejas. 
+
+Segundo, que las aplicaciones suelen depender del entono donde influyen y con el tiempo el entorno cambio, por ende las aplicaciones deben actualizarce para mantener su calidad, estas actualizacion deben ser progresivas y tener en cuenta el feedback de todos los invalucrados con la aplicación.
 
 ## Cambio continuo
 
@@ -19,27 +25,21 @@ Las aplicaciones evolucionan siendo auto-reguladas por sus atributos, profundisa
 
 ## Estabilidad organizacional
 
-La velocidad del desarrollo de una aplicacion es independiente de los recursos, si los recursos del proyecto aumentan no aumentara la velocidad del proyecto, por eso mas que los recursos lo importante puede ser la comunicacion en el equipo.
+La velocidad del desarrollo de una aplicación es independiente de los recursos, si los recursos del proyecto aumentan no aumentara la velocidad del proyecto, por eso mas que los recursos lo importante puede ser la comunicacion en el equipo.
 
 
 ## Crecimiento continuo
 
-Las funcionalidades de una aplicacion deberian crecer continuamente, esto se puede hacer implementado funciones que antes se habian descartado ya sea por cuestiones de dinero o tiempo.
+Las funcionalidades de una aplicación deberian crecer continuamente, esto se puede hacer implementado funciones que antes se habian descartado ya sea por cuestiones de dinero o tiempo.
 
 ## Conservacion de la familiaridad
 
-Es importante hacer cambios en una aplicacion, pero estos deben ser progresivos y no repentinos. Al evolucionar una aplicacion tambien evolucionan los programadores y sobre todo los usuarios, estos tienen un conocimiento sobre el contenido de la aplicacion y sus caracteristicas, al hacer cambios repentinos y/o excesivos parte de este conocimiento se pierte y desconcierta al usuario, es por esto que es importante hacer cambios progresivos.
+Es importante hacer cambios en una aplicación, pero estos deben ser progresivos y no repentinos. Al evolucionar una aplicacion tambien evolucionan los programadores y sobre todo los usuarios, estos tienen un conocimiento sobre el contenido de la aplicacion y sus caracteristicas, al hacer cambios repentinos y/o excesivos parte de este conocimiento se pierte y desconcierta al usuario, es por esto que es importante hacer cambios progresivos.
 
-## Reduccion de la calidad
+## Reducción de la calidad
 
-Al pasar el tiempo el entorno de una aplicacion cambia y junto con este deberia cambiar la aplicacion para adaptarce al entorno y no quedarce atras.
+Al pasar el tiempo el entorno de una aplicación cambia y junto con este deberia cambiar la aplicación para adaptarce al entorno y no quedarce atras.
 
 ## Retroalimentacion del sistema
 
 El feedback debe existir por parte de usuarios, clientes, programadores y demas personas involucradas, no solo debe existir tambien debe ser consideraso para que una aplicacion mejore y evolucione.
-
-## Sintesis de las leyes
-
-Primero, hay atributos de una aplicación que permanecen invariantes o muestran una tendencia a lo largo del tiempo como la velocidad de desarrollo o la tendencia a ser cada vez más complejas. 
-
-Segundo, las aplicaciones suelen depender del entono donde influyen y con el tiempo el entorno cambio, por ende las aplicaciones deben actualizarce para mantener su calidad, estas actualizacion deben ser progresivas y tener en cuenta el feedback de todos los invalucrados con la aplicación.
