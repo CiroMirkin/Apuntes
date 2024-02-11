@@ -1,7 +1,7 @@
 # Leyes en la evolución de aplicaciones
 00_00_2024
 
-Las ocho leyes de la evolución de aplicaciones indican como evoluciona una aplicación a lo largo del tiempo una aplicación que estara en un entorno real con usuarios que la usan.
+Las ocho leyes en la evolución de aplicaciones también conocidas como las leyes de Lehman indican como evoluciona una aplicación a lo largo del tiempo, una aplicación que estara o esta en un entorno real con usuarios reales que la usan.
 
 En sistesis podriamos decir que:
 
