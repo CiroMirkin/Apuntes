@@ -17,6 +17,16 @@ Rápido, concreto e independiente son las principales características, sin ella
 * No debería alterar el estado de la aplicación.
 * No debería contener lógica (ciclos, condiciones, etc).
 
+### FIRST
+
+Según las siglas de FIRST una pruba debería:
+
+* Ser rapida
+* Independiente
+* Repetible
+* Auto-validarce, mostrar si es o no valida.
+* Oportuna, el mejor momento para escribir pruebas es antes de escribir código.
+
 ## Las tres A's del unit testing
 
 * Arrange (organizar): Se definen los requisitos que debe cumplir el código.
