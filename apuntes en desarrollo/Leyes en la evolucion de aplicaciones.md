@@ -11,7 +11,7 @@ Segundo, que las aplicaciones suelen depender del entono donde influyen y con el
 
 ## Cambio continuo
 
-Las aplicaciones deben cambiar para seguir siendo utiles, este cambio se puede hacer agregando nuevas funcionalidades o cambiando el enfoque de las funcionalidades que ya existen en la aplicación, teniendo en cuenta que el nivel de cambio depende de la aplicación y el entorno en el que esta.
+Las aplicaciones deben cambiar para seguir siendo utiles, este cambio se puede hacer agregando nuevas funcionalidades o cambiando el enfoque de las funcionalidades que ya existen en la aplicación, todo esto teniendo en cuenta que el nivel de cambio depende de la aplicación y el entorno en el que esta. Ademas este cambio no solo es externo y visible, también un cambio estructural interno es necesario para que una aplicación pueda seguir creciendo.
 
 ## Complejidad creciente
 
