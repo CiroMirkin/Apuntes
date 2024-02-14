@@ -7,11 +7,11 @@ En sistesis podriamos decir que:
 
 Primero, hay atributos de una aplicación que permanecen invariantes o muestran una tendencia a lo largo del tiempo como la velocidad de desarrollo o la tendencia a ser cada vez más complejas. 
 
-Segundo, que las aplicaciones suelen depender del entono donde influyen y con el tiempo el entorno cambio, por ende las aplicaciones deben actualizarce para mantener su calidad, estas actualizacion deben ser progresivas y tener en cuenta el feedback de todos los invalucrados con la aplicación.
+Segundo, que las aplicaciones suelen depender del entono donde influyen y con el tiempo el entorno cambia, por ende las aplicaciones deben actualizarce para mantener su calidad, estas actualizacion deben ser progresivas y tener en cuenta el feedback de todos los invalucrados con la aplicación.
 
 ## Cambio continuo
 
-Las aplicaciones deben cambiar para seguir siendo utiles, este cambio se puede hacer agregando nuevas funcionalidades o cambiando el enfoque de las funcionalidades que ya existen en la aplicación, tambien es verdad que el nivel de cambio depende de la aplicación y el entorno en el que esta.
+Las aplicaciones deben cambiar para seguir siendo utiles, este cambio se puede hacer agregando nuevas funcionalidades o cambiando el enfoque de las funcionalidades que ya existen en la aplicación, teniendo en cuenta que el nivel de cambio depende de la aplicación y el entorno en el que esta.
 
 ## Complejidad creciente
 
