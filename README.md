@@ -1,10 +1,10 @@
 # Apuntes
 
-Escribo estos apuntes mientras estudio un tema teórico. 
+Escribo un apunte por mes mientras estudio aplicando el método de Feynman. 
 
 :pushpin: [Carpeta de apuntes](https://github.com/CiroMirkin/Apuntes/tree/main/apuntes)
 
-Al estudiar aplico el método de Feynman. Por mes escribo mínimo un apunte.
+Con estos apuntes no busco compartir un conocimiento profund, sino, busco compartir una idea clara sobre un tema, para que cada uno pueda profundizar en los temas que le llaman la atención.
 
 ## Lista desordenada 
 
