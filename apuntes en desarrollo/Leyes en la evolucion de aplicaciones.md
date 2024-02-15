@@ -37,8 +37,12 @@ Es importante hacer cambios en una aplicación, pero estos deben ser progresivos
 
 ## Reducción de la calidad
 
-Al pasar el tiempo el entorno de una aplicación cambia y junto con este deberia cambiar la aplicación para adaptarce al entorno, no quedarce atras y no reducir su calidad.
+Con el pasar del tiempo el entorno en el que esta una aplicación cambia.
+
+Una aplicación soluciona los problemas de su entorno, si el entorno cambia la aplicación deja de solucionar los problemas del entorno de la forma adecuada, es por eso que una aplicacion debe actualizarce para no perder su calidad. Podemos ver ejemplos de esta ley en la evolución de telefonos y redes sociales.
+
+Para no quedarce atras y no reducir su calidad una aplicación debe actualizarce teniendo en cuenta los cambios del entorno y feedback de los usuarios, además es importante que una aplicación tanga una estructura que permita dichas actualizaciones.
 
 ## Retroalimentación del sistema
 
-El feedback debe existir por parte de usuarios, clientes, programadores y demas personas involucradas, no solo debe existir tambien debe ser considerado para que una aplicación mejore y evolucione.
+El feedback debe existir por parte de usuarios, clientes, programadores y demas personas involucradas, no solo debe existir también debe ser considerado para que una aplicación mejore y evolucione.
