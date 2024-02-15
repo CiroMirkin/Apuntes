@@ -3,11 +3,9 @@
 
 Las ocho leyes en la evolución de aplicaciones también conocidas como las leyes de Lehman indican como evoluciona una aplicación a lo largo del tiempo, una aplicación que estara o esta en un entorno real con usuarios reales que la usan.
 
-En sistesis podriamos decir que:
+En sistesis podriamos decir que por un lado, hay atributos de una aplicación que permanecen invariantes o muestran una tendencia a lo largo del tiempo como la velocidad de desarrollo o la tendencia a ser cada vez más complejas. 
 
-Primero, hay atributos de una aplicación que permanecen invariantes o muestran una tendencia a lo largo del tiempo como la velocidad de desarrollo o la tendencia a ser cada vez más complejas. 
-
-Segundo, que las aplicaciones suelen depender del entono donde influyen y con el tiempo el entorno cambia, por ende las aplicaciones deben actualizarce para mantener su calidad, estas actualizacion deben ser progresivas y tener en cuenta el feedback de todos los invalucrados con la aplicación.
+Y por otro lado, que las aplicaciones también suelen depender del entono donde influyen, con el tiempo el entorno cambia y por ende las aplicaciones deben actualizarce para mantener su calidad, estas actualizaciones deben ser progresivas y tener en cuenta el feedback de todos los involucrados con la aplicación.
 
 ## Cambio continuo
 
