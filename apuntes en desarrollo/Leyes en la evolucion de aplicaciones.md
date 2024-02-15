@@ -33,7 +33,7 @@ Las funcionalidades de una aplicación deberian crecer continuamente, esto se pu
 
 ## Conservación de la familiaridad
 
-Es importante hacer cambios en una aplicación, pero estos deben ser progresivos y no repentinos. Al evolucionar una aplicacion también evolucionan los programadores y sobre todo los usuarios, estos tienen un conocimiento sobre el contenido de la aplicación y sus caracteristicas, al hacer cambios repentinos y/o excesivos parte de este conocimiento se pierte y desconcierta al usuario, es por esto que es importante hacer cambios progresivos.
+Es importante hacer cambios en una aplicación, pero estos deben ser progresivos y no repentinos. Al evolucionar una aplicacion también evolucionan los programadores y sobre todo los usuarios, estos tienen un conocimiento sobre el contenido de la aplicación y sus caracteristicas, al hacer cambios repentinos y/o excesivos parte de este conocimiento se pierte y se desconcierta al usuario, por esto que es importante hacer cambios progresivos.
 
 ## Reducción de la calidad
 
