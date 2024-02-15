@@ -3,9 +3,7 @@
 
 Las ocho leyes en la evolución de aplicaciones también conocidas como las leyes de Lehman indican como evoluciona una aplicación a lo largo del tiempo, una aplicación que estara o esta en un entorno real con usuarios reales que la usan.
 
-En sistesis podriamos decir que por un lado, hay atributos de una aplicación que permanecen invariantes o muestran una tendencia a lo largo del tiempo como la velocidad de desarrollo o la tendencia a ser cada vez más complejas. 
-
-Y por otro lado, que las aplicaciones también suelen depender del entono donde influyen, con el tiempo el entorno cambia y por ende las aplicaciones deben actualizarce para mantener su calidad, estas actualizaciones deben ser progresivas y tener en cuenta el feedback de todos los involucrados con la aplicación.
+En sistesis podriamos decir que por un lado, hay atributos de una aplicación que permanecen invariantes o muestran una tendencia a lo largo del tiempo como la velocidad de desarrollo o la tendencia a ser cada vez más complejas. Y por otro lado, que las aplicaciones suelen depender del entono donde influyen, con el tiempo el entorno cambia y por ende las aplicaciones deben actualizarce para mantener su calidad, estas actualizaciones deben ser progresivas y tener en cuenta el feedback de todos los involucrados con la aplicación.
 
 ## Cambio continuo
 
@@ -23,7 +21,11 @@ Las aplicaciones evolucionan siendo auto-reguladas por sus atributos, profundisa
 
 ## Estabilidad organizacional
 
-La velocidad del desarrollo de una aplicación es independiente de los recursos que esta tiene. Si la cantidad de programadores del proyecto aumenta no aumentara la velocidad del proyecto, lo mismo que si aumenta el capital de la empresa o la cantidad de servidores. Devido a todo esto, más que los recursos lo importante puede ser la comunicación, planificacion y organización que tiene el equipo.
+La velocidad del desarrollo de una aplicación es independiente de los recursos que esta tiene. Si aumentara la cantidad de programadores no aumentaria la velucidad de desarrollo, lo mismo si los programadores hicieran horas extras o si aumentara la cantidad de sevidores disponibles.
+
+Puede que un proyecto con cuatro programadores valla más rapido que uno con dos, sin ambago hay un punto en el que aumentar cantidades deja de tener una mejora significativa. Si hablamos de agregar programadores al equipo hay que tener en cuenta que esto va significar una disminucion de la velocidad hasta que los nuevos programadores esten bien familiarizados con el proyecto.
+
+Devido a todo esto, más que los recursos lo importante puede ser la comunicación, planificacion y organización que tiene el equipo, siempre buscando un ritmo sostenible.
 
 ## Crecimiento continuo
 
