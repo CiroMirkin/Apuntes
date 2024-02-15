@@ -10,109 +10,110 @@ Al estudiar aplico el método de Feynman. Por mes escribo mínimo un apunte.
 
 	En total 52 apuntes.
 
-1. Acoplamiento entre componentes --- [Ver](apuntes/Acoplamiento%20entre%20componentes.md)
+* Teoría de conjuntos --- [ver](apuntes/Teoria%20de%20conjuntos.md)
 
-2. Algoritmos --- [Ver](apuntes/Algoritmos.md)
+* Niveles de abstracción --- [Ver](apuntes/Niveles%20de%20abstraccion.md)
 
-3. Análisis orientado a objetos (AOO) --- [Ver](apuntes/Analisis%20orientado%20a%20objetos%20(AOO).md)
+* Más fácil de cambiar (ETC) --- [Ver](apuntes/Mas%20facil%20de%20cambiar%20(STR).md)
 
-4. Arquitectura por capas --- [Ver](apuntes/arquitectura%20por%20capas.md)
+* Acoplamiento entre componentes --- [Ver](apuntes/Acoplamiento%20entre%20componentes.md)
 
-5. Arquitectura --- [Ver](apuntes/Arquitectura.md)
+* Algoritmos --- [Ver](apuntes/Algoritmos.md)
 
-6. Arreglos --- [Ver](apuntes/Arreglos.md)
+* Análisis orientado a objetos (AOO) --- [Ver](apuntes/Analisis%20orientado%20a%20objetos%20(AOO).md)
 
-7. Cohesión y acoplamiento --- [Ver](apuntes/Cohesion%20y%20acoplamiento.md)
+* Arquitectura por capas --- [Ver](apuntes/arquitectura%20por%20capas.md)
 
-8. Cohesión en componentes --- [Ver](apuntes/Cohesion%20en%20componentes.md)
+* Arquitectura --- [Ver](apuntes/Arquitectura.md)
 
-9. Complejidad ciclomática (CC) --- [Ver](apuntes/Complejidad%20ciclomatica%20(CC).md)
+* Arreglos --- [Ver](apuntes/Arreglos.md)
 
-10. Desarrollo ágil --- [Ver](apuntes/Desarrollo%20agil.md)
+* Cohesión y acoplamiento --- [Ver](apuntes/Cohesion%20y%20acoplamiento.md)
 
-11. Desarrollo guiado por comportamiento (BDD) [Ver](apuntes/Desarrollo%20guiado%20por%20comportamiento%20(BDD).md)
+* Cohesión en componentes --- [Ver](apuntes/Cohesion%20en%20componentes.md)
 
-12. Desarrollo guiado por pruebas --- [Ver](apuntes/Desarrollo%20guiado%20por%20pruevas%20(TDD).md)
+* Complejidad ciclomática (CC) --- [Ver](apuntes/Complejidad%20ciclomatica%20(CC).md)
 
-13. Diagrama de contexto de sistema --- [Ver](apuntes/Diagrama%20de%20contexto%20de%20sistema.md)
+* Desarrollo ágil --- [Ver](apuntes/Desarrollo%20agil.md)
 
-14. Diagrama de secuencia básico --- [Ver](apuntes/Diagrama%20de%20secuencia%20basico.md)
+* Desarrollo guiado por comportamiento (BDD) [Ver](apuntes/Desarrollo%20guiado%20por%20comportamiento%20(BDD).md)
 
-15. Diseño orientado a objetos (DOO) --- [Ver](apuntes/Disenno%20orientado%20a%20objetos%20(DOO).md)
+* Desarrollo guiado por pruebas --- [Ver](apuntes/Desarrollo%20guiado%20por%20pruevas%20(TDD).md)
 
-16. Diseño por contrato --- [Ver](apuntes/Disenno%20por%20contrato.md)
+* Diagrama de contexto de sistema --- [Ver](apuntes/Diagrama%20de%20contexto%20de%20sistema.md)
 
-17. Documentos de diseño y documento de producto --- [Ver](apuntes/Documentos%20de%20disenno%20y%20documento%20de%20producto.md)
+* Diagrama de secuencia básico --- [Ver](apuntes/Diagrama%20de%20secuencia%20basico.md)
 
-18. Dominio y negocio --- [Ver](apuntes/Dominio%20y%20negocio.md)
+* Diseño orientado a objetos (DOO) --- [Ver](apuntes/Disenno%20orientado%20a%20objetos%20(DOO).md)
 
-19. Estado y su gestión --- [Ver](apuntes/Estado%20y%20su%20gestion.md)
+* Diseño por contrato --- [Ver](apuntes/Disenno%20por%20contrato.md)
 
-20. Estructuras de datos --- [Ver](apuntes/Estructuras%20de%20datos.md)
+* Documentos de diseño y documento de producto --- [Ver](apuntes/Documentos%20de%20disenno%20y%20documento%20de%20producto.md)
 
-21. Evita la herencia --- [Ver](apuntes/Evita%20la%20herencia.md)
+* Dominio y negocio --- [Ver](apuntes/Dominio%20y%20negocio.md)
 
-22. Funciones --- [Ver](apuntes/Funciones.md)
+* Estado y su gestión --- [Ver](apuntes/Estado%20y%20su%20gestion.md)
 
-23. GRASP --- [Ver](apuntes/GRASP.md)
+* Estructuras de datos --- [Ver](apuntes/Estructuras%20de%20datos.md)
 
-24. Historias de usuario --- [Ver](apuntes/Historias%20de%20usuario.md)
+* Evita la herencia --- [Ver](apuntes/Evita%20la%20herencia.md)
 
-25. La ley de demeter --- [Ver](apuntes/La%20ley%20de%20demeter.md)
+* Funciones --- [Ver](apuntes/Funciones.md)
 
-26. Más fácil de cambiar (ETC) --- [Ver](apuntes/Mas%20facil%20de%20cambiar%20(STR).md)
+* GRASP --- [Ver](apuntes/GRASP.md)
 
-27. Método de trabajo Kanban --- [Ver](apuntes/Metodo%20de%20trabajo%20Kanban.md)
+* Historias de usuario --- [Ver](apuntes/Historias%20de%20usuario.md)
 
-28. No me hagas pensar ni me des sorpresas --- [Ver](apuntes/No%20me%20hagas%20pensar%20ni%20me%20des%20sorpresas.md)
+* La ley de demeter --- [Ver](apuntes/La%20ley%20de%20demeter.md)
 
-29. No te repitas (DRY) --- [Ver](apuntes/No%20te%20repitas%20(DRY).md)
+* Método de trabajo Kanban --- [Ver](apuntes/Metodo%20de%20trabajo%20Kanban.md)
 
-30. No vas a necesitarlo (YANGI) --- [Ver](apuntes/No%20vas%20a%20necesitarlo%20(YANGI).md)
+* No me hagas pensar ni me des sorpresas --- [Ver](apuntes/No%20me%20hagas%20pensar%20ni%20me%20des%20sorpresas.md)
 
-31. Notación Big O --- [Ver](apuntes/Notacion%20Big%20O.md)
+* No te repitas (DRY) --- [Ver](apuntes/No%20te%20repitas%20(DRY).md)
 
-32. Ortogonalidad --- [Ver](apuntes/Ortogonalidad.md)
+* No vas a necesitarlo (YANGI) --- [Ver](apuntes/No%20vas%20a%20necesitarlo%20(YANGI).md)
 
-33. Paradigmas de programación --- [Ver](apuntes/Paradigmas%20de%20programacion.md)
+* Notación Big O --- [Ver](apuntes/Notacion%20Big%20O.md)
 
-34. Patrón del objeto modesto --- [Ver](apuntes/Patron%20del%20objeto%20modesto.md)
+* Ortogonalidad --- [Ver](apuntes/Ortogonalidad.md)
 
-35. Patrón entidad-control-limite --- [Ver](apuntes/Patron%20entidad-control-limite.md)
+* Paradigmas de programación --- [Ver](apuntes/Paradigmas%20de%20programacion.md)
 
-36. Patrón MVC (Modelo, Vista y Controlador) --- [Ver](apuntes/Patron%20MVC%20(Modelo,%20vista%20y%20controlador).md)
+* Patrón del objeto modesto --- [Ver](apuntes/Patron%20del%20objeto%20modesto.md)
 
-37. Patrón Value object --- [Ver](apuntes/Patron%20Value%20object.md)
+* Patrón entidad-control-limite --- [Ver](apuntes/Patron%20entidad-control-limite.md)
 
-38. Patrones de diseño creacionales --- [Ver](apuntes/Patrones%20de%20diseño%20creacionales.md)
+* Patrón MVC (Modelo, Vista y Controlador) --- [Ver](apuntes/Patron%20MVC%20(Modelo,%20vista%20y%20controlador).md)
 
-39. Principio KISS --- [Ver](apuntes/Principio%20KISS.md)
+*. Patrón Value object --- [Ver](apuntes/Patron%20Value%20object.md)
 
-40. Principios SOLID --- [Ver](apuntes/Principios%20SOLID.md)
+* Patrones de diseño creacionales --- [Ver](apuntes/Patrones%20de%20diseño%20creacionales.md)
 
-41. Programa una interfaz antes que una implementación --- [Ver](apuntes/Programa%20una%20interfaz%20antes%20que%20una%20implementacion.md)
+* Principio KISS --- [Ver](apuntes/Principio%20KISS.md)
 
-42. Programación básica --- [Ver](apuntes/Programacion%20basica.md)
+* Principios SOLID --- [Ver](apuntes/Principios%20SOLID.md)
 
-43. Programación orientada a objetos (POO) --- [Ver](apuntes/Programacion%20orientada%20a%20objetos%20(POO).md)
+* Programa una interfaz antes que una implementación --- [Ver](apuntes/Programa%20una%20interfaz%20antes%20que%20una%20implementacion.md)
 
-44. Pruebas unitarias --- [Ver](apuntes/Pruevas%20unitarias.md)
+* Programación básica --- [Ver](apuntes/Programacion%20basica.md)
 
-45. Sincronía y asincronía --- [Ver](apuntes/Sincronia%20y%20asincronia.md)
+* Programación orientada a objetos (POO) --- [Ver](apuntes/Programacion%20orientada%20a%20objetos%20(POO).md)
 
-46. Refactorización --- [Ver](apuntes/Refactorizacion.md)
+* Pruebas unitarias --- [Ver](apuntes/Pruevas%20unitarias.md)
 
-47. Base de datos --- [Ver](apuntes/Base%20de%20datos.md)
+* Sincronía y asincronía --- [Ver](apuntes/Sincronia%20y%20asincronia.md)
 
-48. TDD y BDD diferencias --- [Ver](apuntes/TDD%20y%20BDD%20diferencias.md)
+* Refactorización --- [Ver](apuntes/Refactorizacion.md)
 
-49. Tell don´t ask --- [Ver](apuntes/Tell%20dont%20ask.md)
+* Base de datos --- [Ver](apuntes/Base%20de%20datos.md)
 
-50. Tipos de relaciones entre clases --- [Ver](apuntes/Tipos%20de%20relaciones%20entre%20clases.md)
+* TDD y BDD diferencias --- [Ver](apuntes/TDD%20y%20BDD%20diferencias.md)
 
-51. Niveles de abstracción --- [Ver](apuntes/Niveles%20de%20abstraccion.md)
+* Tell don´t ask --- [Ver](apuntes/Tell%20dont%20ask.md)
 
-52. Teoría de conjuntos --- [ver](apuntes/Teoria%20de%20conjuntos.md)
+* Tipos de relaciones entre clases --- [Ver](apuntes/Tipos%20de%20relaciones%20entre%20clases.md)
+
 
 ## Especificaciones  
 
