@@ -2,13 +2,11 @@
 
 Escribo un apunte por mes mientras estudio aplicando el método de Feynman. 
 
-:pushpin: [Carpeta de apuntes](https://github.com/CiroMirkin/Apuntes/tree/main/apuntes)
-
-Con estos apuntes no busco compartir un conocimiento profund, sino, busco compartir una idea clara sobre un tema, para que cada uno pueda profundizar en los temas que le llaman la atención.
+Con estos apuntes no busco compartir un conocimiento profundo, sino, busco compartir una idea clara sobre un tema, para que cada uno pueda profundizar en los temas que le llaman la atención.
 
 ## Lista desordenada 
 
-	En total 52 apuntes.
+:memo: 52 apuntes.
 
 * Teoría de conjuntos --- [ver](apuntes/Teoria%20de%20conjuntos.md)
 
@@ -86,7 +84,7 @@ Con estos apuntes no busco compartir un conocimiento profund, sino, busco compar
 
 * Patrón MVC (Modelo, Vista y Controlador) --- [Ver](apuntes/Patron%20MVC%20(Modelo,%20vista%20y%20controlador).md)
 
-*. Patrón Value object --- [Ver](apuntes/Patron%20Value%20object.md)
+* Patrón Value object --- [Ver](apuntes/Patron%20Value%20object.md)
 
 * Patrones de diseño creacionales --- [Ver](apuntes/Patrones%20de%20diseño%20creacionales.md)
 
@@ -114,6 +112,7 @@ Con estos apuntes no busco compartir un conocimiento profund, sino, busco compar
 
 * Tipos de relaciones entre clases --- [Ver](apuntes/Tipos%20de%20relaciones%20entre%20clases.md)
 
+:pushpin: [Carpeta de apuntes](https://github.com/CiroMirkin/Apuntes/tree/main/apuntes)
 
 ## Especificaciones  
 
