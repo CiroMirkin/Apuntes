@@ -11,11 +11,11 @@ Las historias de usuario para una estufa podría ser así:
 
 O así:
 
-Como persona que tiene frio, enciendo la estufa **para** calentarme.
+Como persona que tiene frio, enciendo la estufa para calentarme.
 
 * Encender la estufa.
 	* Crear un boton para encender la estufa.
-	* Crear la funcion que permite encender la estufa.
+	* Crear la función que permite encender la estufa.
 
 Como un extra ten en cuenta que las historias de usuario tienen un gran valor en el desarrollo ágil y sus metodologías.
 
@@ -31,7 +31,7 @@ INVEST son las siglas de seis características (Indepent, Negotiable, Valuable, 
 
 * Una historia de usuario tiene que ser lo bastante concreta como para ser **estimable**, algo como "la aplicación tiene que ser rápida" no es una historia de usuario.
 
-* Una historia de usuario tiene que ser **pequeña** en todo sentido, una descripción breve y clara de algo concreto y pequeño.
+* Una historia de usuario tiene que ser **pequeña** en todo sentido, una descripción breve y clara de algo concreto.
 
 * Se tienen que poder realizar **pruebas** que demuestres que una historia está terminada.
 
