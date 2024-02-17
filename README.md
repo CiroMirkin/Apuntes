@@ -6,7 +6,9 @@ Con estos apuntes no busco compartir un conocimiento profundo, sino, busco compa
 
 ## Lista desordenada 
 
-:memo: 52 apuntes.
+:memo: 53 apuntes.
+
+* Leyes en la evolución de aplicaciones --- [ver](apuntes/Leyes_en_la_evolucion_de_aplicaciones.md)
 
 * Teoría de conjuntos --- [ver](apuntes/Teoria%20de%20conjuntos.md)
 
