@@ -3,18 +3,18 @@
 
 Las características o funcionalidades de una aplicación son las acciones que un usuario puede hacer, si llevamos esto a algo de uso cotidiano podríamos decir que las características de un calefón son: calentar agua y regular la temperatura de la misma.
 
-Las historias de usuario describen con una frase sencilla, corta y no tecnica como es una caracteristica para el usuario, son como un recordatorio o promesa de lo que el usuario hará.
+Las historias de usuario describen con una frase sencilla, corta y no técnica como es una característica para el usuario, son como un recordatorio o promesa de lo que el usuario hará.
 
 Las historias de usuario para una estufa podría ser así:
 
-1. *Como persona que tiene frio, enciendo la estufa **para** calentarme.*
+1. *Como persona que tiene frío, enciendo la estufa **para** calentarme.*
 
 O así:
 
-Como persona que tiene frio, enciendo la estufa para calentarme.
+Como persona que tiene frío, enciendo la estufa para calentarme.
 
 * Encender la estufa.
-	* Crear un boton para encender la estufa.
+	* Crear un botón para encender la estufa.
 	* Crear la función que permite encender la estufa.
 
 Como un extra ten en cuenta que las historias de usuario tienen un gran valor en el desarrollo ágil y sus metodologías.
