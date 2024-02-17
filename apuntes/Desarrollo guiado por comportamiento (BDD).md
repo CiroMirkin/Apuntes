@@ -9,7 +9,7 @@ Esta metodología permite involucrar a todas las personas que trabajan en un pro
 
 BDD se centra en primero definir el comportamiento de una funcionalidad en un lenguaje común, llamado *Ghekin* (soporta varios lenguajes como ingles o español), para que luego, una vez ya definida la funcionalidad todos los involucrados la desarrollen, sabiendo y entendiendo como es que tiene que funcionar para el usuario.
 
-Por ejemplo con una funcionalidad que resta y suma números, podriamos definir el comportamiento así:
+Por ejemplo con una funcionalidad que resta y suma números, podríamos definir el comportamiento así:
 
 **dado que** quiero sumar dos números <br>
 **cuando** ingreso dos números y selecciono sumar <br>
