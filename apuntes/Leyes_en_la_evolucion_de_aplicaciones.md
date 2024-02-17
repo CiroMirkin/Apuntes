@@ -1,5 +1,5 @@
 # Leyes en la evolución de aplicaciones
-00_00_2024
+17_02_2024
 
 Las ocho leyes en la evolución de aplicaciones también conocidas como las leyes de Lehman indican como evoluciona una aplicación a lo largo del tiempo, una aplicación que estará o está en un entorno real con usuarios reales que la usan.
 
@@ -46,3 +46,10 @@ Para no quedarse atrás y no reducir su calidad una aplicación debe actualizars
 ## Retroalimentación del sistema
 
 El feedback debe existir por parte de usuarios, clientes, programadores y demás personas involucradas, no solo debe existir también debe ser considerado para que una aplicación mejore y evolucione.
+
+///
+https://alarcos.esi.uclm.es/per/fruiz/cur/mso/trans/S2.pdf
+https://cs.uns.edu.ar/~mc/disenio/downloads/Clases/DDS%202019%20-%20Modulo%204%20-%20Evolucion%20del%20SW%20-%206x1.pdf
+https://arquisoft.github.io/slides/course2122/seminars/DocEs3-06.pdf
+https://arquisoft.github.io/slides/course2122/seminars/DocEs1-06.pdf
+///
