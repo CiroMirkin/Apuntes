@@ -3,6 +3,8 @@
 
 Cuando programamos resolvemos problemas y una parte importante en este proceso son los datos y la información la qual manipulamos. Las estructuras de datos organizan, agrupan y relacionan datos de diferentes formas con beneficios, desventajas y limitaciones dependiendo el caso de uso.
 
+Habrá veces que para usar o sacar mayor provecho a una estructura de datos necesitemos una libreria externa, esto suele pasa sobre todo con las estructuras de datos más complejas.
+
 Algunas estructuras de datos:
 
 * Lista o arreglo: Guarda los datos uno detras de otro.
