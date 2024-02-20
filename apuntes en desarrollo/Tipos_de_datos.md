@@ -9,7 +9,7 @@ La cantidad de tipos de información que puede guardar una variable cambia segú
 
 ## Un poco más sobre los tipos de datos
 
-El concepto de *tipo* siempre está precente, de echo se podría escribir un libro entero hablando sobre tipos y sus diferentes formas dentro de la programación, aún asi a modo de resumen prodriamos decir que un *tipo* define como es la información que se guarda ¿Que se guarda donde? Eso no importa.
+El concepto de *tipo* siempre está precente, de echo se podría escribir un libro entero hablando sobre tipos y sus diferentes formas dentro de la programación, aún asi a modo de resumen prodriamos decir que un *tipo* define como es una porción de información.
 
 Los lenguajes de programación pueden tener un tipado estatico donde el tipo de una variable o pueden tener un tipado dinamico donde el tipo de dato guarda la variables puede cambiar. Además de esto un lenguaje puede dar más o menos importante a los tipos, habiendo lenguajes fuertemente tipados y lenguajes debilmente tipados.
 
