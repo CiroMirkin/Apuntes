@@ -1,7 +1,6 @@
 # Tipos
 00_00_2024
 
-
 El concepto de *tipo* siempre está precente, de echo se podría escribir un libro entero hablando sobre tipos y sus diferentes formas dentro de la programación, aún así a modo de resumen prodriamos decir que un *tipo* define como es una porción de información.
 
 Cuando programamos utilizamos información todo el tiempo, la forma más pequeña en la que usualmente manejamos esa información es en variables.
@@ -14,5 +13,10 @@ Además de los primitivos también exiten estructuras de datos las cuales permit
 
 ## Un poco más sobre tipos 
 
-Los lenguajes de programación pueden tener un tipado estatico o uno dinamico, además de esto un lenguaje puede dar más o menos importancia a los tipos, habiendo lenguajes fuertemente tipados y lenguajes debilmente tipados.
+Los lenguajes de programación pueden dar más o menos importancia a los tipos, habiendo lenguajes fuertemente tipados y lenguajes debilmente tipado, también pueden contar con un tipado estatico o con un tipado dinamico, a si mismo cada lenguaje cuenta con su propio sistema de tipos el cual deberiamos conocer.
 
+Dentro de cada lenguaje puede haber tipos como los genericos, el tipo Null, tipos algebraicos o tipos estructurales, que estos tipos existan depende del lenguaje y su sistema de tipos.
+
+En la programación orientada a objetos definimos como es una clase a travez de tipos llamados a veces interfaces y a veces clases abstractas, estos tipos nos permiten definir que atributos y acciones tiene un objeto.
+
+El principio de sustitución de Liskov (LSP) es una guia para que los tipos tengan más sentido y así reducir las sorpresas.
