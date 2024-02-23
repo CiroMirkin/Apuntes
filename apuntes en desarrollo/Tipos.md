@@ -17,7 +17,9 @@ Los lenguajes de programación pueden dar más o menos importancia a los tipos, 
 
 Dentro de cada lenguaje puede haber tipos como los genericos, el tipo Null, tipos algebraicos o tipos estructurales, que estos tipos existan depende del lenguaje y su sistema de tipos.
 
-En la programación orientada a objetos definimos como es una clase a través de tipos llamados a veces interfaces y a veces clases abstractas, estos tipos nos permiten definir que atributos y acciones tiene un objeto. Además de esto las interfaces nos permiten usar patrones de diseño para resolver problemas de diseño.
+En la programación orientada a objetos definimos como es una clase a través de tipos llamados a veces interfaces y a veces clases abstractas, estos tipos nos permiten definir que atributos y acciones tiene un objeto. 
+
+Las interfaces nos permiten usar patrones de diseño para resolver problemas de diseño comunes en aplicaciones.
 
 El principio de sustitución de Liskov (LSP) es una guia para que los tipos tengan más sentido y así reducir las sorpresas, otro principio sobre intrfaces es el principio de segregación de interfaces que nos recomienda tener varias interfaces pequeñas en vez de una interfaz gigante.
 
