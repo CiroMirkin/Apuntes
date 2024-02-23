@@ -19,9 +19,9 @@ Dentro de cada lenguaje puede haber tipos como los genericos, el tipo Null, tipo
 
 En la programación orientada a objetos definimos como es una clase a través de tipos llamados a veces interfaces y a veces clases abstractas, estos tipos nos permiten definir que atributos y acciones tiene un objeto. Además de esto las interfaces nos permiten usar patrones de diseño para resolver problemas de diseño.
 
-El principio de sustitución de Liskov (LSP) es una guia para que los tipos tengan más sentido y así reducir las sorpresas.
+El principio de sustitución de Liskov (LSP) es una guia para que los tipos tengan más sentido y así reducir las sorpresas, otro principio sobre intrfaces es el principio de segregación de interfaces que nos recomienda tener varias interfaces pequeñas en vez de una interfaz gigante.
 
 Los tipos nos permiten definir como es la información que circula dentro de nuestras aplicaciones y como resultado obtenemos más seguridad a la hora de manipular información porque sabemos exactamente como es la información. 
 
-Si bien los tipos nos dan una estructura y está estructura nos da seguridad a la hora de munipular la información no toda estructura es necesariamente buena, una mala estructura puede dar más penas que glorias dando problemas de escalabilidad o entendimiento de la información entre otros.
+Si bien los tipos nos dan una estructura y está estructura nos da seguridad a la hora de munipular información no toda estructura es necesariamente buena, una mala estructura puede dar más penas que glorias dando problemas de escalabilidad o entendimiento de la información entre otros.
 
