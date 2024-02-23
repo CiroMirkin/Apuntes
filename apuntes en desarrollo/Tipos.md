@@ -13,17 +13,21 @@ Además de los primitivos también exiten estructuras de datos las cuales permit
 
 ## Un poco más sobre tipos 
 
+Los tipos nos permiten definir como es la información que circula dentro de nuestras aplicaciones y como resultado obtenemos más seguridad a la hora de manipular información porque sabemos exactamente como es la información. 
+
+Si bien los tipos nos dan una estructura y está estructura nos da seguridad a la hora de munipular información no toda estructura es necesariamente buena, una mala estructura puede dar más penas que glorias dando problemas de escalabilidad o entendimiento de la información entre otros.
+
+## Un poco sobre tipos en lenguajes de programación
+
 Los lenguajes de programación pueden dar más o menos importancia a los tipos, habiendo lenguajes fuertemente tipados y lenguajes debilmente tipado, también pueden contar con un tipado estatico o con un tipado dinamico, a si mismo cada lenguaje cuenta con su propio sistema de tipos el cual deberiamos conocer.
 
 Dentro de cada lenguaje puede haber tipos como los genericos, el tipo Null, tipos algebraicos o tipos estructurales, que estos tipos existan depende del lenguaje y su sistema de tipos.
+
+## Un poco sobre tipos en programación orientada a objetos
 
 En la programación orientada a objetos definimos como es una clase a través de tipos llamados a veces interfaces y a veces clases abstractas, estos tipos nos permiten definir que atributos y acciones tiene un objeto. 
 
 Las interfaces nos permiten usar patrones de diseño para resolver problemas de diseño comunes en aplicaciones.
 
-El principio de sustitución de Liskov (LSP) es una guia para que los tipos tengan más sentido y así reducir las sorpresas, otro principio sobre intrfaces es el principio de segregación de interfaces que nos recomienda tener varias interfaces pequeñas en vez de una interfaz gigante.
-
-Los tipos nos permiten definir como es la información que circula dentro de nuestras aplicaciones y como resultado obtenemos más seguridad a la hora de manipular información porque sabemos exactamente como es la información. 
-
-Si bien los tipos nos dan una estructura y está estructura nos da seguridad a la hora de munipular información no toda estructura es necesariamente buena, una mala estructura puede dar más penas que glorias dando problemas de escalabilidad o entendimiento de la información entre otros.
+*El principio de sustitución de Liskov (LSP)* es una guia para que los tipos tengan más sentido y así reducir las sorpresas. Otro principio sobre intrfaces es *el principio de segregación de interfaces* que nos recomienda tener varias interfaces pequeñas en vez de una interfaz gigante.
 
