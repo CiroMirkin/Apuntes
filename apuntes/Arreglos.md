@@ -1,17 +1,17 @@
 # Arreglos
 20_08_2022
 
-Los arreglos nos permiten guardar varios datos en un mismo lugar de forma ordenada. Podemos ver a un arreglo como una estantería con libros, la estantería contiene y ordena los libros, uno detrás de otro, uno primero y uno último.
+Los arreglos nos permiten guardar varios datos en un mismo lugar de forma ordenada. Podemos ver a un arreglo como una estantería con libros, la estantería contiene y ordena los libros, uno detrás de otro, uno al principio y uno al final.
 
-Al tener varios datos en un mismo lugar necesitamos relacionarlos o agruparlos, darles un nombre.
+Al tener varios datos en un mismo lugar necesitamos relacionarlos o agruparlos, darles un nombre, el nombre de un arreglo nos debería dar el contexto de sus datos ¿Que son? ¿Nombre de usuarios o los precios de la harina a lo largo del año? Esa información no la dara el nombre del arreglo.
 
-> Un arreglo es un conjunto de posiciones en memoria relacionadas a través de un identificador, esa es la definición más técnica y usada para definir un arreglo.
+Un arreglo contiene varios datos, estos se ordenan y guardan uno detrás de otro (como los libros en un estante), para usar cada uno de los datos individualmente usamos un *índice* o *subíndice* dependiendo del lenguaje. Este índice vendría a ser la posición del lugar donde esta el libro dentro del estante (primero lugar, segundo lugar, tercer lugar, etc), esto quiere decir que el tercer lugar de la estanteria podría tener un libro y luego podriamos quitar ese libro y el tercer lugar del estante quedaria vacio y podriamos poner otro libro, y así sucesivamente.
 
-Un arreglo contiene varios datos, estos se ordenan y guardan uno detrás de otro (como los libros en un estante), para usar cada dato individualmente usamos un *subíndice*, que indica el lugar donde está el dato, que vendría a ser el lugar que ocupa un libro en una estantería (primero, segundo, tercero, etc).
-
-> Los arreglos generalmente **contiene datos del mismo tipo**.
+Los arreglos generalmente contiene datos del mismo tipo, pero esto puede cambiar según el lenguaje, también, en algunos lenguajes tenemos que definir el largo de un arreglo antes de usarlo, es como definir la cantidad de libros que tandrá un estante.
 
 > Los arreglos son como un vector o matriz en álgebra, así que también se les da ese nombre.
+
+> Un arreglo es un conjunto de posiciones en memoria relacionadas a través de un identificador, esa es la definición técnica de un arreglo.
 
 ## Arreglos bidimensionales 
 
