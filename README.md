@@ -6,7 +6,9 @@ Con estos apuntes no busco compartir un conocimiento profundo, sino, busco compa
 
 ## Lista desordenada 
 
-:memo: 53 apuntes.
+:memo: 54 apuntes.
+
+* Tipos --- [ver](apuntes/Tipos.md)
 
 * Leyes en la evolución de aplicaciones --- [ver](apuntes/Leyes_en_la_evolucion_de_aplicaciones.md)
 
