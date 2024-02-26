@@ -1,5 +1,5 @@
 # Tipos
-00_00_2024
+26_02_2024
 
 El concepto de *tipo* siempre está presente y se podría escribir un libro entero hablando sobre tipos y sus diferentes formas dentro de la programación, pero, a modo de resumen podríamos decir que un *tipo* define como es una porción de información.
 
