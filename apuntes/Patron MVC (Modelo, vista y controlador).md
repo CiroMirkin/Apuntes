@@ -36,11 +36,9 @@ Para tomar decisiones primero entiende que aplicación estás creando, cuál es 
 Conceptos y principios como la separación de asuntos, ETC (Facilidad de cambio), ortogonalidad, cohesión y acoplamiento te ayudan a tomar decisiones al igual que conocer el lenguaje o tecnología que estás usando, hay algunos que se ajustan mejor que otros debido a sus características.
 
 ///
-
-* https://platzi.com/tutoriales/1248-pro-arquitectura/5466-que-es-el-patron-mvc/
-* https://www.freecodecamp.org/espanol/news/el-modelo-de-arquitectura-view-controller-pattern/
-* https://developer.mozilla.org/es/docs/Glossary/MVC
-* https://desarrolloweb.com/articulos/que-es-mvc.html
-* https://desarrolloweb.com/articulos/discusiones-aplicar-mvc-correctamente.html
-
+https://platzi.com/tutoriales/1248-pro-arquitectura/5466-que-es-el-patron-mvc/
+https://www.freecodecamp.org/espanol/news/el-modelo-de-arquitectura-view-controller-pattern/
+https://developer.mozilla.org/es/docs/Glossary/MVC
+https://desarrolloweb.com/articulos/que-es-mvc.html
+https://desarrolloweb.com/articulos/discusiones-aplicar-mvc-correctamente.html
 ///

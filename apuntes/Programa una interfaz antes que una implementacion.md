@@ -12,9 +12,7 @@ Ojo hay que encontrar un equilibrio, porque probablemente cuando terminamos de c
 Este enfoque duplica los archivos o hace el código más largo, sin embargo da beneficios a largo plazo, ya que sumamos flexibilidad ante cambios y permitimos la extensión del código haciendolo más duradero.
 
 ///
-
-* El libro "Sumérgete en los patrones de diseño" de *Alexander Shvets*.
-* https://medium.com/javarevisited/oop-good-practices-coding-to-the-interface-baea84fd60d3
-* https://qastack.mx/programming/2697783/what-does-program-to-interfaces-not-implementations-mean
-
+El libro "Sumérgete en los patrones de diseño" de *Alexander Shvets*.
+https://medium.com/javarevisited/oop-good-practices-coding-to-the-interface-baea84fd60d3
+https://qastack.mx/programming/2697783/what-does-program-to-interfaces-not-implementations-mean
 ///

@@ -1,11 +1,9 @@
 # Desarrollo guiado por pruebas
 26_04_2022
 
-El Desarrollo guiado por pruebas o TDD (Test driven develoment) es una metodologia agil para el desarrollo de software, en otras palabras una forma de trabajar al hacer una aplicación o algoritmo llevada a cabo por programadores.
+El Desarrollo guiado por pruebas o TDD (Test driven develoment) es una metodología ágil para el desarrollo de software, en otras palabras una forma de trabajar al hacer una aplicación o algoritmo llevada a cabo por programadores para mejorar su desempeño.
 
 El flujo de trabajo que seguimos es el siguiente:
-
-	Definir -> Escribir pruebas -> Programar -> Pasar pruebas -> Refactorizar
 
 1. Definir lo que esperamos del código.
 
@@ -13,7 +11,7 @@ El flujo de trabajo que seguimos es el siguiente:
 
 3. Escribir el mínimo código posible para pasar la prueba o *test*, sin importar que el código sea sucio o con malas practicas, lo importante es pasar las pruevas.
 
-4. Luego de pasar las pruebas tenemos que limpiar el código y refactorizarlo.
+4. Refactorizar el código luego de pasar las pruebas para limpiar el código.
 
 
 ## Problemas que pueden surgir
@@ -24,7 +22,7 @@ El flujo de trabajo que seguimos es el siguiente:
 
 3. Habilidades insuficientes en testing por parte de los programadores, la escritura de las pruebas y sus cambios para negativo. Escribir un test no es algo que se toma a la ligera.
 
-4. Discutir sobre como llevar a cabo TDD, esto además de ser una demora también termina deformando lo que es hacer TDD.
+4. Discutir sobre como llevar a cabo TDD, esto además de ser una demora también termina deformando lo que es TDD.
 
 5. No saber como aplicar TDD a código legado. La forma más eficiente de hacer esto es aplicar TDD al nuevo código e ir aplicándolo al viejo a medida que se va modificando.
 
@@ -43,3 +41,7 @@ El flujo de trabajo que seguimos es el siguiente:
 Los test usados para triangular, osea los últimos podemos eliminarlos al terminar. 
 La triangulación suele usarse cuando no sabemos como escribir un algoritmo o funcionalidad, cuando nos enfrentamos a algo desconocido.
 
+///
+"Test-Driven Development - Una aproximación para entender su utilidad en el proceso de desarrollo de Software": http://conaiisi.frc.utn.edu.ar/PDFsParaPublicar/1/schedConfs/7/158-524-1-DR.pdf
+El libro "Diseño ágil con TDD" de Carlos Blé jurado.
+///

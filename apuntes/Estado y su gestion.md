@@ -20,7 +20,6 @@ Otros problemas que ya dependen del lenguaje de programación pueden ser: la con
 Los estados globales no son buenos o malos, simplemente muchas veces se usan mal, por eso su uso **es** una decisión importante que no se debería tomarse solo. Igualmente al elegir no usarlos, hay que **elegir bien** la alternativa porque **ninguna es un comodín mágico**, elige una alternativa conociendo tanto la aplicación y su contexto como las alternativas.
 
 /// 
-
-* El libro código sostenible de Carlos Blé Jurado.
-* Hilo de Stackoverflow: https://es.stackoverflow.com/questions/29177/por-qu%C3%A9-es-considerado-una-mala-pr%C3%A1ctica-utilizar-variables-globales
+El libro código sostenible de Carlos Blé Jurado.
+Hilo de Stackoverflow: https://es.stackoverflow.com/questions/29177/por-qu%C3%A9-es-considerado-una-mala-pr%C3%A1ctica-utilizar-variables-globales
 ///

@@ -58,9 +58,6 @@ Tenemos que entender que **no buscamos el algoritmo con el menor coste** sino el
 Hay que tener en cuenta que los algoritmos reaccionan diferente ante diferentes cantidades de información ordenada de diferentes formas, un algoritmo O(n2) podría ser muchísimo más rápido que otro algoritmo O(n2), en esto la entrada juega un papel importante. Para tener más información sobre el verdadero coste de un algoritmo hay que ejecutarlo con diferentes cantidades de información y trazar un gráfico chico sobre como reacciona ante estas variaciones en la entrada.
 
 ///
-
-* El libro *"El programador pragmático"* de David Thomas y Andrew Hunt.
-
-* https://youtu.be/MyAiCtuhiqQ?si=ZktpcZaBXll6okEx
-
+El libro *"El programador pragmático"* de David Thomas y Andrew Hunt.
+https://youtu.be/MyAiCtuhiqQ?si=ZktpcZaBXll6okEx
 ///

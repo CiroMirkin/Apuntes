@@ -1,115 +1,122 @@
 # Apuntes
 
-Escribo estos apuntes mientras estudio un tema teórico. 
+Escribo un apunte por mes mientras estudio aplicando el método de Feynman. 
 
-:pushpin: [Carpeta de apuntes](https://github.com/CiroMirkin/Apuntes/tree/main/apuntes)
-
-Al estudiar aplico el método de Feynman. Por mes escribo mínimo un apunte.
+Con estos apuntes no busco compartir un conocimiento profundo, sino, busco compartir una idea clara sobre un tema, para que cada uno pueda profundizar en los temas que le llaman la atención.
 
 ## Lista desordenada 
 
-	En total 50 apuntes.
+:memo: 54 apuntes.
 
-1. Acoplamiento entre componentes -------------------- 12/07/2023 --- [Ver](apuntes/Acoplamiento%20entre%20componentes.md)
+* Tipos <br> [ver](apuntes/Tipos.md)
 
-2. Algoritmos ---------------------------------------- 21/11/2022 --- [Ver](apuntes/Algoritmos.md)
+* Leyes en la evolución de aplicaciones <br> [ver](apuntes/Leyes_en_la_evolucion_de_aplicaciones.md)
 
-3. Análisis orientado a objetos (AOO) ---------------- 03/07/2023 --- [Ver](apuntes/Analisis%20orientado%20a%20objetos%20(AOO).md)
+* Teoría de conjuntos <br> [ver](apuntes/Teoria%20de%20conjuntos.md)
 
-4. Arquitectura por capas ---------------------------- 15/09/2021 --- [Ver](apuntes/arquitectura%20por%20capas.md)
+* Niveles de abstracción <br> [Ver](apuntes/Niveles%20de%20abstraccion.md)
 
-5. Arquitectura -------------------------------------- 10/08/2023 --- [Ver](apuntes/Arquitectura.md)
+* Más fácil de cambiar (ETC) <br> [Ver](apuntes/Mas%20facil%20de%20cambiar%20(STR).md)
 
-6. Arreglos ------------------------------------------ 20/08/2022 --- [Ver](apuntes/Arreglos.md)
+* Acoplamiento entre componentes <br> [Ver](apuntes/Acoplamiento%20entre%20componentes.md)
 
-7. Cohesión y acoplamiento --------------------------- 22/01/2023 --- [Ver](apuntes/Cohesion%20y%20acoplamiento.md)
+* Algoritmos <br> [Ver](apuntes/Algoritmos.md)
 
-8. Cohesión en componentes --------------------------- 08/07/2023 --- [Ver](apuntes/Cohesion%20en%20componentes.md)
+* Análisis orientado a objetos (AOO) <br> [Ver](apuntes/Analisis%20orientado%20a%20objetos%20(AOO).md)
 
-9. Complejidad ciclomática (CC) ---------------------- 01/12/2022 --- [Ver](apuntes/Complejidad%20ciclomatica%20(CC).md)
+* Arquitectura por capas <br> [Ver](apuntes/arquitectura%20por%20capas.md)
 
-10. Desarrollo ágil ----------------------------------- 03/10/2022 --- [Ver](apuntes/Desarrollo%20agil.md)
+* Arquitectura <br> [Ver](apuntes/Arquitectura.md)
 
-11. Desarrollo guiado por comportamiento (BDD) -------- 30/05/2022 --- [Ver](apuntes/Desarrollo%20guiado%20por%20comportamiento%20(BDD).md)
+* Arreglos <br> [Ver](apuntes/Arreglos.md)
 
-12. Desarrollo guiado por pruebas --------------------- 26/04/2022 --- [Ver](apuntes/Desarrollo%20guiado%20por%20pruevas%20(TDD).md)
+* Cohesión y acoplamiento <br> [Ver](apuntes/Cohesion%20y%20acoplamiento.md)
 
-13. Diagrama de contexto de sistema ------------------- 15/08/2023 --- [Ver](apuntes/Diagrama%20de%20contexto%20de%20sistema.md)
+* Cohesión en componentes <br> [Ver](apuntes/Cohesion%20en%20componentes.md)
 
-14. Diagrama de secuencia básico ---------------------- 23/12/2023 --- [Ver](apuntes/Diagrama%20de%20secuencia%20basico.md)
+* Complejidad ciclomática (CC) <br> [Ver](apuntes/Complejidad%20ciclomatica%20(CC).md)
 
-15. Diseño orientado a objetos (DOO) ------------------ 11/06/2023 --- [Ver](apuntes/Disenno%20orientado%20a%20objetos%20(DOO).md)
+* Desarrollo ágil <br> [Ver](apuntes/Desarrollo%20agil.md)
 
-16. Diseño por contrato ------------------------------- 12/11/2023 --- [Ver](apuntes/Disenno%20por%20contrato.md)
+* Desarrollo guiado por comportamiento (BDD) <br> [Ver](apuntes/Desarrollo%20guiado%20por%20comportamiento%20(BDD).md)
 
-17. Documentos de diseño y documento de producto ------ 18/08/2023 --- [Ver](apuntes/Documentos%20de%20disenno%20y%20documento%20de%20producto.md)
+* Desarrollo guiado por pruebas <br> [Ver](apuntes/Desarrollo%20guiado%20por%20pruevas%20(TDD).md)
 
-18. Dominio y negocio --------------------------------- 04/03/2023 --- [Ver](apuntes/Dominio%20y%20negocio.md)
+* Diagrama de contexto de sistema <br> [Ver](apuntes/Diagrama%20de%20contexto%20de%20sistema.md)
 
-19. Estado y su gestión ------------------------------- 06/04/2023 --- [Ver](apuntes/Estado%20y%20su%20gestion.md)
+* Diagrama de secuencia básico <br> [Ver](apuntes/Diagrama%20de%20secuencia%20basico.md)
 
-20. Estructuras de datos ------------------------------ 25/03/2023 --- [Ver](apuntes/Estructuras%20de%20datos.md)
+* Diseño orientado a objetos (DOO) <br> [Ver](apuntes/Disenno%20orientado%20a%20objetos%20(DOO).md)
 
-21. Evita la herencia --------------------------------- 10/10/2023 --- [Ver](apuntes/Evita%20la%20herencia.md)
+* Diseño por contrato <br> [Ver](apuntes/Disenno%20por%20contrato.md)
 
-22. Funciones ----------------------------------------- 18/02/2023 --- [Ver](apuntes/Funciones.md)
+* Documentos de diseño y documento de producto <br> [Ver](apuntes/Documentos%20de%20disenno%20y%20documento%20de%20producto.md)
 
-23. GRASP --------------------------------------------- 19/02/2022 --- [Ver](apuntes/GRASP.md)
+* Dominio y negocio <br> [Ver](apuntes/Dominio%20y%20negocio.md)
 
-24. Historias de usuario ------------------------------ 17/09/2022 --- [Ver](apuntes/Historias%20de%20usuario.md)
+* Estado y su gestión <br> [Ver](apuntes/Estado%20y%20su%20gestion.md)
 
-25. La ley de demeter --------------------------------- 31/08/2022 --- [Ver](apuntes/La%20ley%20de%20demeter.md)
+* Estructuras de datos <br> [Ver](apuntes/Estructuras%20de%20datos.md)
 
-26. Más fácil de cambiar (ETC) ------------------------ 04/10/2023 --- [Ver](apuntes/Mas%20facil%20de%20cambiar%20(STR).md)
+* Evita la herencia <br> [Ver](apuntes/Evita%20la%20herencia.md)
 
-27. Método de trabajo Kanban -------------------------- 28/07/2022 --- [Ver](apuntes/Metodo%20de%20trabajo%20Kanban.md)
+* Funciones <br> [Ver](apuntes/Funciones.md)
 
-28. No me hagas pensar ni me des sorpresas ------------ 20/03/2023 --- [Ver](apuntes/No%20me%20hagas%20pensar%20ni%20me%20des%20sorpresas.md)
+* GRASP <br> [Ver](apuntes/GRASP.md)
 
-29. No te repitas (DRY) ------------------------------- 11/02/2023 --- [Ver](apuntes/No%20te%20repitas%20(DRY).md)
+* Historias de usuario <br> [Ver](apuntes/Historias%20de%20usuario.md)
 
-30. No vas a necesitarlo (YANGI) ---------------------- 23/02/2023 --- [Ver](apuntes/No%20vas%20a%20necesitarlo%20(YANGI).md)
+* La ley de demeter <br> [Ver](apuntes/La%20ley%20de%20demeter.md)
 
-31. Notación Big O ------------------------------------ 06/12/2023 --- [Ver](apuntes/Notacion%20Big%20O.md)
+* Método de trabajo Kanban <br> [Ver](apuntes/Metodo%20de%20trabajo%20Kanban.md)
 
-32. Ortogonalidad ------------------------------------- 07/10/2023 --- [Ver](apuntes/Ortogonalidad.md)
+* No me hagas pensar ni me des sorpresas <br> [Ver](apuntes/No%20me%20hagas%20pensar%20ni%20me%20des%20sorpresas.md)
 
-33. Paradigmas de programación ------------------------ 21/05/2023 --- [Ver](apuntes/Paradigmas%20de%20programacion.md)
+* No te repitas (DRY) <br> [Ver](apuntes/No%20te%20repitas%20(DRY).md)
 
-34. Patrón del objeto modesto ------------------------- 21/08/2023 --- [Ver](apuntes/Patron%20del%20objeto%20modesto.md)
+* No vas a necesitarlo (YANGI) <br> [Ver](apuntes/No%20vas%20a%20necesitarlo%20(YANGI).md)
 
-35. Patrón entidad-control-limite --------------------- 27/08/2023 --- [Ver](apuntes/Patron%20entidad-control-limite.md)
+* Notación Big O <br> [Ver](apuntes/Notacion%20Big%20O.md)
 
-36. Patrón MVC (Modelo, Vista y Controlador) ---------- 29/10/2023 --- [Ver](apuntes/Patron%20MVC%20(Modelo,%20vista%20y%20controlador).md)
+* Ortogonalidad <br> [Ver](apuntes/Ortogonalidad.md)
 
-37. Patrón Value object ------------------------------- 30/08/2023 --- [Ver](apuntes/Patron%20Value%20object.md)
+* Paradigmas de programación <br> [Ver](apuntes/Paradigmas%20de%20programacion.md)
 
-38. Patrones de diseño creacionales ------------------- 02/10/2021 --- [Ver](apuntes/Patrones%20de%20diseño%20creacionales.md)
+* Patrón del objeto modesto <br> [Ver](apuntes/Patron%20del%20objeto%20modesto.md)
 
-39. Principio KISS ------------------------------------ 12/01/2023 --- [Ver](apuntes/Principio%20KISS.md)
+* Patrón entidad-control-limite <br> [Ver](apuntes/Patron%20entidad-control-limite.md)
 
-40. Principios SOLID ---------------------------------- 22/09/2021 - 10/03/2022 - 26/11/2023 --- [Ver](apuntes/Principios%20SOLID.md)
+* Patrón MVC (Modelo, Vista y Controlador) <br> [Ver](apuntes/Patron%20MVC%20(Modelo,%20vista%20y%20controlador).md)
 
-41. Programa una interfaz antes que una implementación  26/09/2023 --- [Ver](apuntes/Programa%20una%20interfaz%20antes%20que%20una%20implementacion.md)
+* Patrón Value object <br> [Ver](apuntes/Patron%20Value%20object.md)
 
-42. Programación básica ------------------------------- 03/12/2021 --- [Ver](apuntes/Programacion%20basica.md)
+* Patrones de diseño creacionales <br> [Ver](apuntes/Patrones%20de%20diseño%20creacionales.md)
 
-43. Programación orientada a objetos (POO) ------------ 14/11/2021 --- [Ver](apuntes/Programacion%20orientada%20a%20objetos%20(POO).md)
+* Principio KISS <br> [Ver](apuntes/Principio%20KISS.md)
 
-44. Pruebas unitarias --------------------------------- 29/03/2022 --- [Ver](apuntes/Pruevas%20unitarias.md)
+* Principios SOLID <br> [Ver](apuntes/Principios%20SOLID.md)
 
-45. Sincronía y asincronía ---------------------------- 07/05/2023 --- [Ver](apuntes/Sincronia%20y%20asincronia.md)
+* Programa una interfaz antes que una implementación <br> [Ver](apuntes/Programa%20una%20interfaz%20antes%20que%20una%20implementacion.md)
 
-46. Refactorización ----------------------------------- 29/10/2022 --- [Ver](apuntes/Refactorizacion.md)
+* Programación básica <br> [Ver](apuntes/Programacion%20basica.md)
 
-47. SQL Y NoSQL --------------------------------------- 30/10/2021 --- [Ver](apuntes/sql%20&%20nosql.md)
+* Programación orientada a objetos (POO) <br> [Ver](apuntes/Programacion%20orientada%20a%20objetos%20(POO).md)
 
-48. TDD y BDD diferencias ----------------------------- 18/06/2022 --- [Ver](apuntes/TDD%20y%20BDD%20diferencias.md)
+* Pruebas unitarias <br> [Ver](apuntes/Pruevas%20unitarias.md)
 
-49. Tell don´t ask ------------------------------------ 25/06/2022 --- [Ver](apuntes/Tell%20dont%20ask.md)
+* Sincronía y asincronía <br> [Ver](apuntes/Sincronia%20y%20asincronia.md)
 
-50. Tipos de relaciones entre clases ------------------ 06/06/2023 --- [Ver](apuntes/Tipos%20de%20relaciones%20entre%20clases.md)
+* Refactorización <br> [Ver](apuntes/Refactorizacion.md)
 
+* Base de datos <br> [Ver](apuntes/Base%20de%20datos.md)
+
+* TDD y BDD diferencias <br> [Ver](apuntes/TDD%20y%20BDD%20diferencias.md)
+
+* Tell don´t ask <br> [Ver](apuntes/Tell%20dont%20ask.md)
+
+* Tipos de relaciones entre clases <br> [Ver](apuntes/Tipos%20de%20relaciones%20entre%20clases.md)
+
+:pushpin: [Carpeta de apuntes](https://github.com/CiroMirkin/Apuntes/tree/main/apuntes)
 
 ## Especificaciones  
 

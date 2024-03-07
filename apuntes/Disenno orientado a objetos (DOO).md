@@ -26,9 +26,7 @@ En el primer caso hay una interfaz *"animal"* definiendo que todos los animales 
 En el otro caso pasa cuando ponemos una interfaz como parámetro de un método, por ejemplo el método *"beber"* no sabe los detalles de lo que va a tomar, pero si sabe que será un líquido, con un color, una transparencia y una densidad, no le importa si es un té o miel mientras sea un objeto que cumpla esa definición.
 
 /// 
-
-* El libro: "Arquitectura limpia" de Robert C.Martin.
-* https://es.khanacademy.org/computing/computer-programming/programming/object-oriented/a/review-object-oriented-design
-* https://es.scribd.com/document/546651740/Diseno-Orientado-a-Objetos-OOD#
-
+El libro: "Arquitectura limpia" de Robert C.Martin.
+https://es.khanacademy.org/computing/computer-programming/programming/object-oriented/a/review-object-oriented-design
+https://es.scribd.com/document/546651740/Diseno-Orientado-a-Objetos-OOD#
 ///

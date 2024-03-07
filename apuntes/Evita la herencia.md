@@ -46,8 +46,6 @@ Las interfaces definen que métodos y atributos debe tener la clase que las impl
 Existen otras alternativas ademas de las interfaces como la delegación o los mixins que también son mejores que la herencia.
 
 ///
-
-* El libro *"Sumérgete en los patrones de diseño"* de Alexander Shvets - https://refactoring.guru/
-* El libro *"El programador pragmático"* de David Thomas y Andrew Hunt.
-
+El libro *"Sumérgete en los patrones de diseño"* de Alexander Shvets - https://refactoring.guru/
+El libro *"El programador pragmático"* de David Thomas y Andrew Hunt.
 ///

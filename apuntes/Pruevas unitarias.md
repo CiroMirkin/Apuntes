@@ -1,23 +1,36 @@
 # Pruebas unitarias
 29_03_2022
 
-El unit testing o pruebas unitarias son una forma de encontrar errores en una parte de código lo más pequeña posible (una función, método o clase). Como el unit testing es para encontrar errores y no para verificar que el código funciona sin tener errores son echos durante el desarrollo de una aplicación por programadores.
+Las pruebas unitarias (unit testing) son una forma de encontrar errores en una parte de código pequeña como una función o método. Esta practica forma parte de metodologías ágiles como el desarrollo guiado por pruebas (TDD) donde mayormente se escriben pruebas unitarias.
 
-El aumento de calidad en nuestro código es uno de los beneficios del unit testing, ademas de que no solo puede servir como documentación sino también para entender como debería funcionar el código que vamos a escribir. También nos permite probar el código independientemente de como este el resto de la aplicación y nos da seguridad luego de refactorizar nuestro código.
+Beneficios de las pruebas unitarias:
 
-> Test de caja blanca, es la categoría a la que pertenece el unit testing, ya que prueba la estructura y funcionamiento interno de la aplicación.
+* Aumento de calidad en el código.
+* Sirven como documentación y ayudan a entender como debería funcionar el código.
+* Seguridad luego de refactorizar código.
+* Permiten probar el código independientemente de como este el resto de la aplicación
 
-# Características del unit testing
+Las pruebas unitarias no son para verificar que el código funciona, ya que solo muestran que en ciertos casos el código se comportan como debería.
 
-Rápido, concreto e independiente son las principales características, sin ellas no se puede considerar un unit test.
+# Características de las puebas unitarias
 
-<ul>
-	<li>Rápido, se escriben y usan muchos.</li>
-	<li>Concreto, Prueba la menor cantidad de código posible.</li>
-	<li>Independiente, no debe depender de otro test para poder testar.</li>
-	<li>No debe alterar el estado del sistema o del resto de la aplicación.</li>
-	<li>NoNo debe contener lógica de negocios (ciclos, condiciones, etc).</li>
-</ul>
+Rápido, concreto e independiente son las principales características, sin ellas no se puede considerar una prueba unitaria.
+
+* Rápido, se escriben y usan muchos.
+* Concreto, prueba la menor cantidad de código posible.
+* Independiente, no debe depender de otra prueba para poder testar.
+* No debería alterar el estado de la aplicación.
+* No debería contener lógica (ciclos, condiciones, etc).
+
+### FIRST
+
+Según las siglas de FIRST una pruba debería:
+
+* Ser rapida
+* Independiente
+* Repetible
+* Auto-validarce, mostrar si es o no valida.
+* Oportuna, el mejor momento para escribir pruebas es antes de escribir código.
 
 ## Las tres A's del unit testing
 
@@ -25,10 +38,7 @@ Rápido, concreto e independiente son las principales características, sin ella
 * Act (actuar): Se ejecuta el test y da resultados.
 * Assert (afirmar): Se comprueba que el resultado es el esperado.
 
-El unit testing forma parte de metodologías ágiles, como lo puede ser el desarrollo guiado por pruebas (TDD).
-
 ///
-
-* *"Test-Driven Development - Una aproximación para entender su utilidad en el proceso de desarrollo de Software"*: http://conaiisi.frc.utn.edu.ar/PDFsParaPublicar/1/schedConfs/7/158-524-1-DR.pdf
-
+*"Test-Driven Development - Una aproximación para entender su utilidad en el proceso de desarrollo de Software"*: http://conaiisi.frc.utn.edu.ar/PDFsParaPublicar/1/schedConfs/7/158-524-1-DR.pdf
+El libro "Diseño ágil con TDD" de Carlos Blé jurado.
 ///

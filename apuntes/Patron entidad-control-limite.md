@@ -18,8 +18,6 @@ Este patrón se divide en cuatro clases, cada clase con un rol fundamental.
 * Entidad: Las entidades contienen una parte del negocio, gestionan y procesan información fundamental para el mismo. Estas clases solo se comunican con los casos de uso y otras entidades.
 
 /// 
-
-* https://www.ratondbiblioteca.com/ebc
-* https://en.wikipedia.org/wiki/Entity-control-boundary
-
+https://www.ratondbiblioteca.com/ebc
+https://en.wikipedia.org/wiki/Entity-control-boundary
 ///
