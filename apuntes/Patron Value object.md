@@ -23,11 +23,9 @@ Ahora tenemos un dato que decide por sí mismo si existe, no podemos tener un em
 
 4. Por último, esto es opcional, algunos crean un método *ObtenerEmailDeContacto* mientras que otros simplemente acceden al atributo que contiene el valor.
 
-**Importante:** los Value object no se editan, se descartan y se crean de nuevo, los Value object deben ser *inmutables*. Otra importante es que carecen de identidad por ende nada los identifica unos de otros.
+**Importante:** los Value object no se editan, se descartan y se crean de nuevo, estos deben ser *inmutables*. Otra cosa importante es que carecen de identidad por ende nada los identifica unos de otros (Los Value object no tienen una propiedad *id*).
 
 ///
-
-* https://medium.com/all-you-need-is-clean-code/value-objects-d4c24115fa69
-* https://youtu.be/q_biZCsoloU?si=VK27f7ERlKO28QTX
-
+https://medium.com/all-you-need-is-clean-code/value-objects-d4c24115fa69
+https://youtu.be/q_biZCsoloU?si=VK27f7ERlKO28QTX
 ///

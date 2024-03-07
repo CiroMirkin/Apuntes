@@ -10,7 +10,5 @@ Los componentes o partes de una aplicación son ortogonales cuando no dependen u
 Principios como la reducción de duplicaciones (DRY), mantener las cosas simples (KISS), responsabilidad única (la S de SOLID), evitar los estados globales y un bajo acoplamiento y alta cohesión pueden ayudar a crear ortogonalidad en una aplicación.
 
 ///
-
-* El libro *"El programador pragmático"* de David Thomas y Andrew Hunt.
-
+El libro *"El programador pragmático"* de David Thomas y Andrew Hunt.
 ///
