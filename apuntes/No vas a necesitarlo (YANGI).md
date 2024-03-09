@@ -1,15 +1,19 @@
 # No vas a necesitarlo (YANGI)
 23_02_2023
 
-Podemos desarrollar algo que **creemos** que vamos a necesitar en un futuro porque queremos ahorrar tiempo o porque nos sobra tiempo. En un futuro nos pueden llegar pedir eso que hicimos, pero generalmente es diferente de lo que habíamos pensado y hecho, porque entonces, realmente no sabíamos como era lo que nos iban a pedir, solo imaginamos y ahora tenemos que empezar de nuevo.
+Programar algo que pensamos que nos van a pedir en un futuro antes de que nos lo pidan, es una pésima idea. Si bien en un futuro nos pueden llegar a pedir eso que hicimos, no será igual a lo que habíamos pensado y hecho, porque entonces, realmente no sabíamos como era lo que nos iban a pedir, solo imaginamos y ahora tenemos que empezar de nuevo rediseñando lo que habíamos hecho. 
 
-YANGI (You are'nt gonna need it) es una advertencia para esos casos donde hacemos algo que **no estamos seguros** de que vamos a necesitar, seguir esta advertencia es evita hacer algo que nadie va a usar, evitar gastar tiempo (pensando, desarrollando, probando y documentando) y evita crear complicaciones y crecimiento innecesario.
+Por un lado, el código que programamos como nadie lo pidió nadie lo va a usar y queda por ahí, muchas veces confundiendo a otros programadores, por otro lado la tarea de rediseñar el código cuando realmente se necesite puede ser pesada si lo que habíamos creado es grande, por estos motivos no hay que adelantarse y tratar de predecir el futuro.
+
+> No hay que crear código que no sabemos si vamos a usar.
+
+YANGI (You are'nt gonna need it) es una advertencia para esos casos donde hacemos algo que **no estamos seguros** de que vamos a necesitar, siguiendo esta advertencia evitamos hacer algo que nadie va a usar, evitamos gastar tiempo (pensando, desarrollando, probando y documentando) y por último evitamos crear complejidad y crecimiento innecesario.
 
 > It's a statement that some capability we presume our software needs in the future should not be built now because "you aren't gonna need it". - Martin Fowler.
 
-Haz cosas solo cuando tienes la certeza  de que las vas a usar, necesitar y sacar provecho, no antes.
+Haz cosas solo cuando tienes la certeza de que las vas a usar, necesitar y sacar provecho, no antes.
 
-	YANGI es un principio que proviene de ExtremeProgramming (XP).
+	YANGI es un principio que proviene de eXtreme Programming (XP).
  
 
 ///
