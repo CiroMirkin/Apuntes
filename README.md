@@ -6,7 +6,9 @@ Con estos apuntes no busco compartir un conocimiento profundo, sino, busco compa
 
 ## Lista desordenada 
 
-:memo: 54 apuntes.
+:memo: 55 apuntes.
+
+* Patrón repositorio <br> [ver](apuntes/Patron_repositorio.md)
 
 * Tipos <br> [ver](apuntes/Tipos.md)
 
