@@ -36,3 +36,12 @@ No siempre es necesario, pero hay veces que este patrón se complementa con patr
 ## Repositorio vs DAO
 
 El patrón *DAO* [Data Access Object] es estructuralmente muy parecido al patrón repositorio, sin embargo, los repositorios están más centrados en el dominio, mas que un cambio estructural es un cambio conceptual.
+
+///
+https://youtu.be/Kn__eJmr2J8?si=KT3jPt_Y8iZW7U1Q
+https://youtu.be/QqsH0OgqafA?si=BT3tRkBzz3hUoAyH
+https://martinfowler.com/eaaCatalog/repository.html
+https://platzi.com/blog/patron-repository
+https://dev.to/ingeniela/patron-de-diseno-repositorio-explicacion-completa-y-simple-622
+https://medium.com/@zerodata.aolink/desafiando-la-complejidad-c%C3%B3mo-el-patr%C3%B3n-criteria-resuelve-la-explosi%C3%B3n-de-m%C3%A9todos-de-nuestro-60ece5829f89
+///
