@@ -1,27 +1,25 @@
 # Patrón repositorio
 00_00_2024
 
-Este patrón nos permite desacoplar el dominio del almacenamiento de información, dicho de otra forma, este patrón nos permite separar el dominio y la base de datos.
+Este patrón nos permite desacoplar el dominio y la fuente de información, dicho de otra forma, este patrón nos permite separar el dominio y la base de datos. De esta forma es el repositorio quien se conecta con la base de datos y conoce todos los detalles, mientras que el dominio los desconoce. 
 
-Al usar este patrón creamos un *"repositorio"* por cada entidad que necesita guardar información, este *"repositorio"* va a contener las operaciones basicas como crear, buscar o eliminar.
-
-La implementación y uso de este patrón puede tener variaciones en algunos aspectos según el equipo de programadores y el proyecto, estas convenciones pueden ayudar a que el código sea más complensible.
+La implementación y uso de este patrón puede tener variaciones en algunos aspectos según el equipo.
 
 ## Creación de un repositorio
 
-Basicamente para implementar este patrón primero creamos una interfaz que defina como son los métodos del repositorio:
+Al usar este patrón creamos un *"repositorio"* por cada entidad que necesita guardar información, este *"repositorio"* va a contener las operaciones basicas como crear, buscar o eliminar.
 
-< I > UserRepository
+En este caso las entidades son *Value objects* [Objectos valor], pero no es necesario que lo sean para que podamos usar este patrón.
 
-Y luego creamos la implementación:
+Primero creamos una interfaz que defina como son los métodos del repositorio, esta **interfaz no se llama** *MongodbUserRepository* sino *UserRepository*, es importante que el nombre de la base de datos este en la implementacion y no en la interfaz, porque la interfaz es abstracta y la implementación es concreta.
 
-MongodbUserRepository ( )
+Interfaz de ejemplo: < I > UserRepository
 
-Hay que remarcar que **la interfaz no se llama** *MongodbUserRepository* sino *UserRepository*, es importante que el nombre de la base de datos este en la implementacion y no en la interfaz.
+Y luego creamos la implementación que generalmente se usaria dentro de la clase *User*, la cual recibiria este repositorio por medio de su constructor asignandolo a un atributo llamado *repository*.
 
-Esta implementacion generalmente se usaria dentro de la clase *User*, la cual recibiria este repositorio por medio de su constructor asignandolo a un atributo llamado *repository*.
+Implementacion de ejemplo: MongodbUserRepository ( )
 
-No siempre, pero hay veces que este patrón se complementa con patrones como *Criteria* o *Unit of Work* [Unidad de trabajo].
+No siempre es necesario, pero hay veces que este patrón se complementa con patrones como *Criteria* o *Unit of Work* [Unidad de trabajo].
 
 ## Beneficios
 
