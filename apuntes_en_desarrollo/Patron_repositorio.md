@@ -7,7 +7,7 @@ La implementación y uso de este patrón puede tener variaciones en algunos aspe
 
 ## Creación de un repositorio
 
-Al usar este patrón creamos un *"repositorio"* por cada entidad que necesita guardar información, este *"repositorio"* va a contener las operaciones basicas como crear, buscar o eliminar.
+Al usar este patrón creamos un *"repositorio"* por cada entidad que necesita guardar información, este *"repositorio"* puede contener las operaciones basicas como crear, buscar o eliminar.
 
 En este caso las entidades son *Value objects* [Objectos valor], pero no es necesario que lo sean para que podamos usar este patrón.
 
