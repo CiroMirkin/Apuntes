@@ -35,4 +35,4 @@ No siempre es necesario, pero hay veces que este patrón se complementa con patr
 
 ## Repositorio vs DAO
 
-El patrón *DAO* [Data Acces Object] es estructuralmente muy parecido al patrón repositorio, sin embargo, al usar un DAO en vez de un repositorio dejamos de tener una estructura centrada en el dominio.
+El patrón *DAO* [Data Acces Object] es estructuralmente muy parecido al patrón repositorio, sin embargo, los repositorios estan más centrados en el dominio, mas que un cambio estructural es un cambio conceptual.
