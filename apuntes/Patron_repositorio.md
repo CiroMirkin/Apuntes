@@ -1,7 +1,7 @@
 # Patrón repositorio
 17_03_2024
 
-Este patrón nos permite desacoplar el dominio y la fuente de información, dicho de otra forma, este patrón nos permite separar el dominio y la base de datos. De esta forma es el repositorio quien se conecta con la base de datos y conoce todos los detalles, mientras que el dominio los desconoce. 
+Este patrón nos permite desacoplar el dominio y la fuente de información, dicho de otra forma, este patrón nos permite separar el dominio y la base de datos. De esta forma es el repositorio quien se conecta con la base de datos y conoce todos sus detalles, mientras que el dominio permanece ajeno a estos. 
 
 La implementación y uso de este patrón puede tener variaciones en algunos aspectos según el equipo.
 
@@ -11,13 +11,17 @@ Al usar este patrón creamos un *"repositorio"* por cada entidad que necesita gu
 
 En este caso las entidades son *Value objects* [Objectos valor], pero no es necesario que lo sean para que podamos usar este patrón.
 
-Primero creamos una interfaz que defina como son los métodos del repositorio, esta **interfaz no se llama** *MongodbUserRepository* sino *UserRepository*, es importante que el nombre de la base de datos este en la implementación y no en la interfaz, porque la interfaz es abstracta y la implementación es concreta.
+Primero creamos una interfaz que defina como son los métodos del repositorio.
 
 Interfaz de ejemplo: < I > UserRepository
 
-Y luego creamos la implementación que generalmente se usaría dentro de la clase *User*, la cual recibiría este repositorio por medio de su constructor asignándolo a un atributo llamado *repository*.
+Como se ve en el ejemplo esta interfaz **no se llama** *MongodbUserRepository* sino *UserRepository*, es importante que el nombre de la base de datos este en la implementación y no en la interfaz, porque la interfaz es abstracta y la implementación es concreta.
+
+Por último creamos la implementación del repositorio.
 
 Implementación de ejemplo: MongodbUserRepository ( )
+
+Esta implementación generalmente se usaría dentro de la clase *User*, la cual recibiría este repositorio por medio de su constructor asignándolo a un atributo llamado *repository*.
 
 No siempre es necesario, pero hay veces que este patrón se complementa con patrones como *Criteria* o *Unit of Work* [Unidad de trabajo].
 
@@ -35,7 +39,7 @@ No siempre es necesario, pero hay veces que este patrón se complementa con patr
 
 ## Repositorio vs DAO
 
-El patrón *DAO* [Data Access Object] es estructuralmente muy parecido al patrón repositorio, sin embargo, los repositorios están más centrados en el dominio, mas que un cambio estructural es un cambio conceptual.
+El patrón *DAO* [Data Access Object] es estructuralmente muy parecido al patrón repositorio, sin embargo, los repositorios están más centrados en el dominio, por esto, mas que un cambio estructural es uno conceptual.
 
 ///
 https://youtu.be/Kn__eJmr2J8?si=KT3jPt_Y8iZW7U1Q
