@@ -122,23 +122,23 @@ Con estos apuntes no busco compartir un conocimiento profundo, sino, busco compa
 
 ## Especificaciones  
 
-Apuntes cortos para leerlos en poco tiempo y tener una idea clara sobre el tema.
+Apuntes cortos para leerlos en poco tiempo y tener una idea clara sobre un tema.
 
 * Máximo una hoja A4.
 
-* Evito en lo posibles tecnicismos y usa palabras simples/vulgares.
+* Trato de usar palabras simples/vulgares.
 
 * Cada apunte tiene la fecha en que se terminó.
 
-* Al final del apunte están las referencias, si es que hay.
+* Al final del apunte están las referencias (Si es que hay).
 
-* No contienen código, en todo caso se usó analogías.
+* No contienen código, en todo caso usó analogías.
 
-* No contienen imágenes, por el momento.
+* No contienen imágenes (Por el momento).
 
 ## Preguntas clave
 
-Como guía uso estas preguntas clave:
+Uso estas preguntas clave como guía:
 
 * ¿Qué es?
 
