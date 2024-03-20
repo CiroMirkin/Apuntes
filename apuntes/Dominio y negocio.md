@@ -29,7 +29,7 @@ Una entidad es una clase o varias funciones de alto nivel que contiene una o var
 
 ### Casos de uso
 
-Los casos de uso son clases o funciones de bajo nivel que se relacionan con el usuario mediante interfaces gráficas o de consola, son un intermediario entre el usuario y las entidades, los casos de uso describen como y cuando el usuario usa a las entidades, los casos de uso dicen como se usa una aplicación.
+Los casos de uso son clases o funciones que están en un punto medio entre el usuario y las entidades, los casos de uso describen como y cuando el usuario usa a las entidades, los casos de uso dicen como se usa una aplicación.
 
 ///
 Video de Héctor de León: https://youtu.be/lri0bWndspo?si=vyFFsxCZKM_1q6D3
