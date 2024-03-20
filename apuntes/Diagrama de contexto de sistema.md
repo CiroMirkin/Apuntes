@@ -9,7 +9,7 @@ Este tipo de diagrama se va modificando a lo largo del tiempo mientras más se c
 
 ## Dibujo del diagrama
 
-Un diagrama de contexto de sistema no contienen detalles sobre el funcionamiento interno de la aplicación, solo muestra una vista general, con que elementos externos se relaciona y por que lo hace.
+Un diagrama de contexto de sistema no contienen detalles sobre el funcionamiento interno de la aplicación, es una vista general que muestra con que elementos externos se relaciona y por que lo hace.
 
 1. Dibujamos a la aplicación: Un nombre rodeado de un círculo.
 
