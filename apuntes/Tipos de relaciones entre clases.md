@@ -5,7 +5,7 @@ Cuando usamos POO creamos clases y estas se relacionan de diferentes formas, ent
 
 ## Herencia o Generalización
 
-En las relaciones de herencia tenemos dos partes: Una clase madre y una clase hijo, donde la clase hijo obtiene todos los métodos y atributos de la clase madre, además la clase hijo puede agregar nuevos métodos y atributos, al igual que sobreescribir los heredados.
+En las relaciones de herencia tenemos dos partes: Una clase madre y una clase hijo, donde la clase hijo obtiene todos los métodos y atributos de la clase madre, además la clase hijo puede agregar nuevos métodos y atributos, al igual que sobrescribir los heredados.
 
 ## Implementación o Realización
 
@@ -13,11 +13,13 @@ Las relaciones de implementación se hacen dependiendo del lenguaje a través de
 
 ## Dependencia
 
-Cuando un cambio en una clase nos obliga a modificar otra, hay una relación de dependencia y suele suceder cuando se pasa la instancia de una clase como argumento de un método en una clase.
+Cuando un cambio en una clase nos obliga a modificar otra, por ejemplo cuando se pasa la instancia de una clase como argumento a un método de otra clase.
 
 	A -> X
 	A depende de X
 	La clase A depende de la clase X que recibe como argumento en uno de sus métodos.
+
+La dependencia entre clases puede reducirse utilizando interfaces, de esta manera una clase ya no depende de otra clase sino de una interfaz que al ser abstracta da mucho más espacio para el cambio, sigue habiendo una dependencia pero en menor medida.
 
 ## Asociaciones
 
