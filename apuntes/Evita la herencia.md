@@ -1,33 +1,33 @@
 # Evita la herencia
 10_10_2023
 
-Dentro de la programación orientada a objetos la herencia sucede cuando una clase optiene todo el contenido de otra clase la cual podriamos llamar clase padre, madre, super, supra o clase base, el nombre no importa, hay dos clases y una hereda el contenido de otra.
+Dentro de la programación orientada a objetos la herencia sucede cuando una clase obtiene todo el contenido de otra clase la cual podríamos llamar clase padre, madre, super o clase base, el nombre no importa, hay dos clases y una hereda el contenido de otra.
 
-	Rara vez usar herencia es buena idea, mira anternativas.
+	Rara vez usar herencia es buena idea, mira alternativas.
 
 ## Complejidad y acoplamiento innecesario
 
-> La clase *Auto* hereda de la clase *Vehiculo*.
+> La clase *Auto* hereda de la clase *Vehículo*.
 
-Ahora, la clase *Auto* esta fuertemente acoplada a la clase *Vehiculo*, cualquier cambio en esta clase tendrá repercuciones en *Auto* y en las demas clases que hereden de *Vehiculo* como una clase *Tren* o *Camion*.
+Ahora, la clase *Auto* esta fuertemente acoplada a la clase *Vehículo*, cualquier cambio en esta clase tendrá repercusiones en *Auto* y en las demás clases que hereden de *Vehículo* como una clase *Tren* o *Camión*.
 
-> La clase *AutoDeCarrera* hereda de la clase *Auto* que hereda de la clase *Vehiculo*.
+> La clase *AutoDeCarrera* hereda de la clase *Auto* que hereda de la clase *Vehículo*.
 
-Así empezamos a crear una jerarquia de clases, el código es cada vez es más complejo y más dificil de cambiar.
+Así empezamos a crear una jerarquía de clases y el código es cada vez es más complejo y más difícil de cambiar.
 
-> La clase *FormulaUno* hereda de la clase *AutoDeCarrera* que hereda de la clase *Auto* que hereda de la clase *Vehiculo*.
+> La clase *FormulaUno* hereda de la clase *AutoDeCarrera* que hereda de la clase *Auto* que hereda de la clase *Vehículo*.
 
-Dentro de una aplicación estas estructuras pueden crecer de maneras absurdas dificultando cada vez más el cambio y volviendose cada vez más fragiles, modificar la clase *Vehiculo* o *Auto* podría hacer colapsar la aplicación.
+Dentro de una aplicación estas estructuras pueden crecer de maneras absurdas dificultando cada vez más el cambio y volviéndose cada vez más frágiles. Modificar la clase *Vehículo* o *Auto* podría hacer colapsar la aplicación.
 
-Un último contra: La herencia rompe la encapsulación de la clase madre.
+Un último contra: La herencia rompe el encapsulamiento de la clase madre.
 
 ## Favorece la composición sobre la herencia
 
 Cambia *es* :
 
-> Un auto **es** un vehiculo.
+> Un auto **es** un vehículo.
 
-> Un auto de carrera **es** un auto que **es** un vehiculo.
+> Un auto de carrera **es** un auto y un auto **es** un vehículo.
 
 Por *tiene* :
 
@@ -35,17 +35,17 @@ Por *tiene* :
 
 > Un auto de carrera **tiene** un motor potente.
 
-Con este cambio de enfoque ganamos capasidad de cambio, el código puede crecer de una forma mas limpia e incluso permtir reutilizar el código. Todo esto cambiando el tipo de relación, pasamos de una herencia a una asociación, especificamente composición o agregación.
+Con este cambio de enfoque ganamos capacidad de cambio, el código puede crecer de una forma más limpia e incluso permitimos reutilizar el código. Todo esto cambiando el tipo de relación, pasando de una herencia a una asociación, específicamente a una composición o agregación.
 
 ## Usa interfaces
 
-Crear interfaces para reprecentar los comportamientos que tiene una clase tambien es mejor que la herencia. Con las interfaces ganamos desacoplamiento, capasidad de cambio, crecimiento, reutilización y seguridad.
+Crear interfaces para representar los comportamientos que tiene una clase también es mejor que la herencia. Con las interfaces ganamos desacoplamiento, capacidad de cambio, crecimiento, reutilización y seguridad.
 
-Las interfaces definen que métodos y atributos debe tener la clase que las implemente, todas las clases que implementen la misma interfaz tendrán los mismos métodos y atributos, puede que internamente estos no funcionen de la misma manera, pero se llamaran igual y recibiran y devolveran el mismo tipo de información.
+Las interfaces definen que métodos y atributos debe tener la clase que las implemente, por ende todas las clases que implementen una misma interfaz tendrán los mismos métodos y atributos, puede que internamente estos no funcionen de la misma manera, pero se llamaran igual y recibirán y devolverán el mismo tipo de información.
 
-Existen otras alternativas ademas de las interfaces como la delegación o los mixins que también son mejores que la herencia.
+Existen otras alternativas además de las interfaces como la delegación o los mixins que generalmente también son mejores que la herencia.
 
 ///
-El libro *"Sumérgete en los patrones de diseño"* de Alexander Shvets - https://refactoring.guru/
+El libro *"Sumérgete en los patrones de diseño"* de Alexander Shvets: https://refactoring.guru/
 El libro *"El programador pragmático"* de David Thomas y Andrew Hunt.
 ///
