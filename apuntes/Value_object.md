@@ -1,7 +1,7 @@
 # Value object
 30_08_2023
 
-El patrón *Value object* [Objeto valor] potencia el encapsulamiento de los datos facilitando su validación y modelado, todo esto se logra creando una clase que representa un valor el cuál puede ser un nombre, número de teléfono, dirección o cualquier otro dato. 
+Los *Value object* [Objeto valor] potencian el encapsulamiento de los datos facilitando su validación y modelado, todo esto se logra creando una clase que representa un valor el cuál puede ser un nombre, número de teléfono, dirección o cualquier otro dato. 
 
 Gracias a su potencial para encapsular y validar datos es común aplicarlo a los datos del dominio, **ojo no confundir** con las entidades, estas pueden componerse de Value objects, pero no lo son. Las entidades son clases que contiene no solo datos importantes para el dominio sino también las operaciones asociadas a estos datos.
 
