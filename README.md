@@ -90,7 +90,7 @@ Con estos apuntes no busco compartir un conocimiento profundo, sino, busco compa
 
 * Patrón MVC (Modelo, Vista y Controlador) <br> [Ver](apuntes/Patron%20MVC%20(Modelo,%20vista%20y%20controlador).md)
 
-* Patrón Value object <br> [Ver](apuntes/Patron%20Value%20object.md)
+* Value object <br> [Ver](apuntes/Value_object.md)
 
 * Patrones de diseño creacionales <br> [Ver](apuntes/Patrones%20de%20diseño%20creacionales.md)
 
