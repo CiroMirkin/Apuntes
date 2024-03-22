@@ -9,8 +9,6 @@ La implementación y uso de este patrón puede tener variaciones en algunos aspe
 
 Al usar este patrón creamos un *"repositorio"* por cada entidad que necesita acceso a información, este *"repositorio"* puede contener operaciones básicas como crear, buscar, eliminar u obtener.
 
-En este caso las entidades son *Value objects* [Objectos valor], pero no es necesario que lo sean para que podamos usar este patrón.
-
 Primero creamos una interfaz que defina como son los métodos del repositorio y luego creamos la implementación que generalmente se usaría dentro de la clase *User*, la cual recibiría este repositorio por medio de su constructor asignándolo a un atributo llamado *repository*.
 
 Ejemplo de nombres: 
