@@ -15,6 +15,8 @@ Una aplicación y su código interno siempre es probado ya sea por nosotros (los
 
 Deberiamos hacer algun tipo de prueba, preferentemente automatica, porque solo sabemos si algo funciona cuando lo usamos.
 
+Todo esto nos puede llevar a otro punto importante ¿Cuanto *Test Coverage* debería tener? El *Test Coverage* [Covertura de pruebas] no deberia ser una metrica fundamental mientras creamos una apliación y aun asi podriamos decir que lo mejor es que esta metrica no baje.
+
 ## Feedback loop
 
 ¿Que es el *feedback*? Podriamos decir que el feedback es una respuesta a una pregunta. Entonces ¿Que es el *feedback loop*? El ciclo de feedback es lo que se crea al tener pruebas automaticas, por ejemplo, tenemos una prueba para una función, ahora podriamos escribir un poco de código y ejecutar las pruebas, las pruebas estan en rojo y dicen que el código que escribimos no hace lo que deberia, entonces madificamos el código y volvemos a ejecutar las pruebas. Eso es el *feedback loop*.
@@ -27,11 +29,17 @@ Partiendo de la base, una aplicación deberia tener muchos *unit test* [Pruebas 
 
 ## Anti patrones
 
-No todas las pruebas aportan valor, hay cosas que no merecen la pena probar.
+No todas las pruebas aportan valor, hay cosas que no merecen la pena probar. Siempre que escribas una prueba preguntate ¿Que valor me aporta esta prueba?
 
 ### Pruebas anemicas o redundantes
 
-Las pruebas anemicas son pruebas que no aportan valor, por ejemplo una prueba a un método *getter*.
+Las pruebas anemicas son pruebas que no aportan valor, por ejemplo una prueba a un método *getter*, este tipo de métodos solo devuelve un valor por ende no hay ningun tipo de logica. 
+
+Otro tipo de pruebas anemicas son las pruebas que no avisan cuando algo se rompe, en estos casos luego que las pruebas ya esten es verde podemos hacer *Mutan testing* que consiste en cambiar valores dentro el código y ver si las pruebas saltan por los aires.
+
+### Puebas fragiles
+
+Las pruebs fragiles son pruebas que saben demasiado, y se rompen al mas minimo cambio.
 
 ### Pruebas mentirosas
 
@@ -41,9 +49,6 @@ Las pruebas mentirosas en ingles llamdas *untrustest* son pruebas que aparentan 
 
 La rapidez con la que recibimos feedback se vuelve demasiada lenta.
 
-### Puebas fragiles
-
-Las pruebs fragiles son pruebas que saben demasiado, y se rompen al mas minimo cambio. 
 
 ## ¿Benficios?
 
@@ -65,7 +70,9 @@ Nos permiten escribir mejor código, las pruebas cambias nuestra forma de progra
 
 * El pensar y escribir una prueba miramos al código desde fuera.
 
-* Las pruebas nos permiten mejorar el diseño interno sin preocupaciones.
+* Si escribimos pruebas antes que el código entonces estas nos abligarana apensar mas a fondo en el problema y su abstracción.
+
+* Las pruebas nos permiten mejorar el diseño interno sin preocupaciones, el código no se escribe bien a la primera.
 
 Nos permiten expresar el comportamiento esperado:
 
