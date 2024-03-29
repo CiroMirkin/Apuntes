@@ -3,13 +3,9 @@
 
 El testing o testeo a la hora de crear una aplicación nos permite comprobar que las diferentes partes de una aplicacion funcionan como esperamos, mas alla de esta definicion hay diferentes razones y puntos de vista sobre porque escribir pruebas y cuando hacerlo.
 
-Las pruebas son parte de la programación echa por programadores.
+	Las pruebas son parte de la programación echa por programadores.
 
-La aplicación y su código interno siempre es probado, 
-
-por nosotros (los programadores) o por los usuario, 
-
-no sabemos que algo funciona hasta que lo usamos.
+Una aplicación y su código interno siempre es probado ya sea por nosotros (los programadores) o por los usuario, teniendo esto en cuenta podemos: 
 
 * Probar primero / hacer TDD.
 
@@ -17,13 +13,21 @@ no sabemos que algo funciona hasta que lo usamos.
 
 * Probar despues = **No probar nunca**.
 
-feedback loop
+Deberiamos hacer algun tipo de prueba, preferentemente automatica, porque solo sabemos si algo funciona cuando lo usamos.
+
+## Feedback loop
+
+¿Que es el *feedback*? Podriamos decir que el feedback es una respuesta a una pregunta. Entonces ¿Que es el *feedback loop*? El ciclo de feedback es lo que se crea al tener pruebas automaticas, por ejemplo, tenemos una prueba para una función, ahora podriamos escribir un poco de código y ejecutar las pruebas, las pruebas estan en rojo y dicen que el código que escribimos no hace lo que deberia, entonces madificamos el código y volvemos a ejecutar las pruebas. Eso es el *feedback loop*.
+
+Ahora bien, existen diferentes tipos de pruebas automaticas cuada una con diferentes caracteristicas y atributos, la idea de "La piramide de pruebas" es ilustrar que cantidad de cada tipo de prueba deberia tener una aplicación.
 
 ![Piramide del testing o piramide de pruebas]()
 
+Partiendo de la base, una aplicación deberia tener muchos *unit test* [Pruebas unitarias], varias pruebas de integración y algunas pruebas de aceptación.
+
 ## Anti patrones
 
-No todas las pruebas aportan valor.
+No todas las pruebas aportan valor, hay cosas que no merecen la pena probar.
 
 ### Pruebas anemicas o redundantes
 
@@ -47,7 +51,7 @@ Las pruebs fragiles son pruebas que saben demasiado, y se rompen al mas minimo c
 
 > El testing es una forma efectiva de mostrar la precencia de errores, pero es una forma inadecuada de mostrar la ausencia de los mismos. - Dijkstra.
 
-Cuales son los beneficion de escribir pruebas **automaticas**.
+¿Cuales son los beneficion de escribir pruebas **automaticas**? Los beneficion que se obtienen o buscan al escribir pruebas pueden varias un poco dependiendo del proyecto del equipo.
 
 Nos aseguran que el código funciona.
 
@@ -61,11 +65,13 @@ Nos permiten escribir mejor código, las pruebas cambias nuestra forma de progra
 
 * El pensar y escribir una prueba miramos al código desde fuera.
 
-* Escribir pruebas nos permite dejar acentado como deberia funcionar x porcion de codigo.
-
 * Las pruebas nos permiten mejorar el diseño interno sin preocupaciones.
 
-Tiempo:
+Nos permiten expresar el comportamiento esperado:
+
+* Escribir pruebas nos permite dejar acentado como deberia funcionar x porcion de codigo.
+
+Nos ahorran tiempo:
 
 * Dejamos de perter demasiado tiempo depurando y tratando de enter código.
 
