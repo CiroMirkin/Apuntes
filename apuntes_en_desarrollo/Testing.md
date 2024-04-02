@@ -1,60 +1,67 @@
 # Testing
 00_00_2024
 
-El testing o testeo a la hora de crear una aplicación nos permite comprobar que las diferentes partes de una aplicacion funcionan como esperamos, mas alla de esta definicion hay diferentes razones y puntos de vista sobre porque escribir pruebas y cuando hacerlo.
-
-	Las pruebas son parte de la programación echa por programadores.
+El testing o testeo mientras creamos una aplicación nos permite comprobar que sus diferentes partes funcionan como esperamos, más allá de esta definición hay otras razones y puntos de vista sobre porque escribir pruebas y cuando hacerlo.
 
 Una aplicación y su código interno siempre es probado ya sea por nosotros (los programadores) o por los usuario, teniendo esto en cuenta podemos: 
 
 * Probar primero / hacer TDD.
 
-* Probar durante, hacer un ping pong entre el código y las pruebas.
+* Probar durante y hacer un ping pong entre el código y las pruebas.
 
-* Probar despues = **No probar nunca**.
+* Probar después = **No probar nunca**.
 
-Deberiamos hacer algun tipo de prueba, preferentemente automatica, porque solo sabemos si algo funciona cuando lo usamos.
+Deberiamos hacer algun tipo de prueba, porque solo sabemos si algo funciona cuando lo usamos, y preferentemente deberian ser automaticas porque son claras y pueden repetirce exactamente de la misma manera millones de veces.
 
-Todo esto nos puede llevar a otro punto importante ¿Cuanto *Test Coverage* debería tener? El *Test Coverage* [Covertura de pruebas] no deberia ser una metrica fundamental mientras creamos una apliación y aun asi podriamos decir que lo mejor es que esta metrica no baje.
+Todo esto nos puede llevar a otro punto importante ¿Cuanto *Test Coverage* debería tener un aplicación? El *Test Coverage* [Covertura de pruebas] no debería ser una metrica fundamental mientras creamos una aplicación, aún así se recomienda tener como parámetro que está metrica no baje.
 
-## Feedback loop
+## Feedback loop y la piramide de pruebas
 
-¿Que es el *feedback*? Podriamos decir que el feedback es una respuesta a una pregunta. Entonces ¿Que es el *feedback loop*? El ciclo de feedback es lo que se crea al tener pruebas automaticas, por ejemplo, tenemos una prueba para una función, ahora podriamos escribir un poco de código y ejecutar las pruebas, las pruebas estan en rojo y dicen que el código que escribimos no hace lo que deberia, entonces madificamos el código y volvemos a ejecutar las pruebas. Eso es el *feedback loop*.
+¿Que es el *feedback*? Podriamos decir que el feedback es una respuesta a una pregunta.
 
-Ahora bien, existen diferentes tipos de pruebas automaticas cuada una con diferentes caracteristicas y atributos, la idea de "La piramide de pruebas" es ilustrar que cantidad de cada tipo de prueba deberia tener una aplicación.
+¿Que es el *feedback loop*? El ciclo de feedback es lo que se crea al tener pruebas automaticas, por ejemplo, tenemos una prueba para una función, ahora podriamos escribir un poco de código y ejecutar las pruebas, las pruebas estan en rojo y dicen que el código que escribimos no hace lo que deberia, entonces modificamos el código y volvemos a ejecutar las pruebas. Eso es el *feedback loop*.
+
+Ahora bien, existen diferentes tipos de pruebas automaticas cuada una con diferentes caracteristicas y atributos, la idea de "La piramide de pruebas" es ilustrar que cantidad de cada tipo de prueba debería tener una aplicación.
 
 ![Piramide del testing o piramide de pruebas]()
 
-Partiendo de la base, una aplicación deberia tener muchos *unit test* [Pruebas unitarias], varias pruebas de integración y algunas pruebas de aceptación.
+Partiendo de la base, una aplicación debería tener muchos *unit test* [Pruebas unitarias] que prueban porciones pequeñas de código como una clase, método o función; A las pruebas unitarias le siguen varias pruebas de integración que prueban la integración de nuestra aplicacion con alguna entidad externa como la integracion de nuestra aplicacion con un repositorio especifico; Por último al tope de la piramide hay algunas pruebas de aceptación que prueban de la manera más realista posible la interacción del usuario.
 
-## Anti patrones
+## Anti patrones al crear pruebas
 
-No todas las pruebas aportan valor, hay cosas que no merecen la pena probar. Siempre que escribas una prueba preguntate ¿Que valor me aporta esta prueba?
+No todas las pruebas aportan valor, hay cosas que no merecen la pena probar, por eso siempre que escribas una prueba preguntate ¿Que valor me aporta esta prueba?
 
 ### Pruebas anemicas o redundantes
 
-Las pruebas anemicas son pruebas que no aportan valor, por ejemplo una prueba a un método *getter*, este tipo de métodos solo devuelve un valor por ende no hay ningun tipo de logica. 
-
-Otro tipo de pruebas anemicas son las pruebas que no avisan cuando algo se rompe, en estos casos luego que las pruebas ya esten es verde podemos hacer *Mutan testing* que consiste en cambiar valores dentro el código y ver si las pruebas saltan por los aires.
+Las pruebas anemicas son pruebas que no aportan valor, por ejemplo una prueba a un método *getter*, este tipo de métodos solo devuelve un valor por ende no hay ningun tipo de logica u comportamiento digno ser probado. 
 
 ### Puebas fragiles
 
-Las pruebs fragiles son pruebas que saben demasiado, y se rompen al mas minimo cambio.
+Las pruebs fragiles son pruebas que saben demasiado, y se rompen al más minimo cambio.
 
 ### Pruebas mentirosas
 
-Las pruebas mentirosas en ingles llamdas *untrustest* son pruebas que aparentan aportar valor cuando en realidad no lo hacen, este tipo de pruebas no es muy comun y pasan muy desapersividas. 
+Las pruebas mentirosas en ingles llamdas *untrustest* son pruebas que aparentan aportar valor cuando en realidad no lo hacen, este tipo de pruebas no es muy comunes y pasan muy desapersividas. 
+
+Para que quede claro, estas son las pruebas que no avisan cuando algo se rompe, pero perciera que si te van a avisar.
 
 ### Invertir la piramide de pruebas
 
-La rapidez con la que recibimos feedback se vuelve demasiada lenta.
+Al invertir la piramide de pruebas la rapidez con la que recibimos feedback se vuelve demasiada lenta, y tener pruebas pierde todo el sentido, las pruebas empiezan a pesar en vez de ayudarnos.
 
+## Las pruebas de las pruebas
+
+Cuando las pruebas ya esten es verde y creamos que todo esta bien, podemos hacer *Mutan testing* que consiste en cambiar valores dentro el código y ver si las pruebas saltan por los aires.
 
 ## ¿Benficios?
 
-> Me pagan por programar, no por escribir puebas. - Kent Beck
-
 > El testing es una forma efectiva de mostrar la precencia de errores, pero es una forma inadecuada de mostrar la ausencia de los mismos. - Dijkstra.
+
+¿ ?
+
+Las pruebas tienen la capacidad de decirnos que hay un error solo si pensado que ese error podría existir y hayamos creamos una prueba que nos avise, aún asi siempre surgen nuevos errores en los que no pensamos, y cuando esto pese, lo mejor seria crear una prueba para que no se nos vuelva a pasar por alto.
+
+> Me pagan por programar, no por escribir puebas. - Kent Beck
 
 ¿Cuales son los beneficion de escribir pruebas **automaticas**? Los beneficion que se obtienen o buscan al escribir pruebas pueden varias un poco dependiendo del proyecto del equipo.
 
@@ -82,3 +89,4 @@ Nos ahorran tiempo:
 
 * Dejamos de perter demasiado tiempo depurando y tratando de enter código.
 
+> Las pruebas son parte de la programación echa por programadores.
