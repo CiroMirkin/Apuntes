@@ -147,3 +147,7 @@ Uso estas preguntas clave como guía:
 * ¿Qué obtengo?
 
 * ¿Cómo lo obtengo?
+
+## Edición
+
+Cada cierto tiempo reviso los apuntes para mejorarlos, en estas revisiones corrijo errores ortográficos y de tipeo; agrego contenido, ejemplos o reescribo oraciones para que sean más expresivas.
