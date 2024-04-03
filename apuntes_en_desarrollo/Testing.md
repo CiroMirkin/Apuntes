@@ -65,28 +65,28 @@ Las pruebas tienen la capacidad de decirnos que hay un error solo si pensado que
 
 ¿Cuales son los beneficion de escribir pruebas **automaticas**? Los beneficion que se obtienen o buscan al escribir pruebas pueden varias un poco dependiendo del proyecto del equipo.
 
-Nos aseguran que el código funciona.
+Nos aseguran que el código funciona, esto es fundamental al hacer cambios.
 
-* Nos asegura que repetimos errores que ya cometimos.
+* Nos aseguran que no dejan de funcionar cosas que antes funcionaban, nos aseguran que las cosa funcionan de la misma forma que lo hacian antes.
 
-* Nos asegura que la hacer cambios no dañamos la logica de negocios.
+* Nos aseguran que no repetimos errores que ya corregidos.
 
-* Nos asegura que no dejan de funcionar cosas que antes funcionaban.
+* Nos aseguran que la hacer cambios no dañamos la lógica de negocios.
 
-Nos permiten escribir mejor código, las pruebas cambias nuestra forma de programar y resolver un problema:
+Nos permiten escribir mejor código, las pruebas cambias nuestra forma de programar y resolver un problema, sobre todo las pruebas unitarias.
 
-* El pensar y escribir una prueba miramos al código desde fuera.
+* Al pensar y escribir una prueba miramos al código desde fuera.
 
-* Si escribimos pruebas antes que el código entonces estas nos abligarana apensar mas a fondo en el problema y su abstracción.
+* Si escribimos pruebas antes que el código estas nos abligan a pensar a fondo en el problema y su abstracción.
 
-* Las pruebas nos permiten mejorar el diseño interno sin preocupaciones, el código no se escribe bien a la primera.
+* Las pruebas nos permiten mejorar el diseño interno sin preocupaciones,  recordemos que el código no se escribe bien a la primera.
 
-Nos permiten expresar el comportamiento esperado:
+Nos permiten expresar el comportamiento esperado, las pruebas son una forma de documentar que era lo que esperabamos de cierta parte de nuestra aplicación.
 
-* Escribir pruebas nos permite dejar acentado como deberia funcionar x porcion de codigo.
+* Escribir pruebas nos permite dejar acentado como deberia funcionar X porción de código.
 
 Nos ahorran tiempo:
 
-* Dejamos de perter demasiado tiempo depurando y tratando de enter código.
+* Reducimos el tiempo que perdemos depurando y tratando de enter código.
 
-> Las pruebas son parte de la programación echa por programadores.
+> Las pruebas son parte de la programación y deberían ser escritas por programadores.
