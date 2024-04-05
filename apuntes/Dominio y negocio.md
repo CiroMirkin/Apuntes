@@ -11,17 +11,15 @@ Es importante conocer y hablar con las personas a las que ayudara nuestra aplica
 
 ## Domino y negocio dentro de una aplicación
 
-En una aplicación implementamos de diferentes formas el domino y el negocio, creamos y organizamos diferentes componentes que irán formando una aplicación.
+En una aplicación creamos y organizamos diferentes componentes, tanto el código como el nombre de carpetas y archivos deberían reflejar el dominio de una aplicación.
 
 ### Reglas de negocio
 
-Podemos ver a las reglas de negocio como todas las acciones dentro del dominio y negocio que generar o ahorran dinero al cliente, pero también podríamos ver a las reglas de negocio como reglas o políticas que definen como se realiza cierta acción, donde si coinciden ambas descripciones es en que las reglas de negocio necesitan información para llevarse a cabo, eso es inevitable.
+Podemos ver a las reglas de negocio como todas las acciones dentro del dominio y negocio que generar o ahorran dinero al cliente, pero también podríamos ver a las reglas de negocio como reglas o políticas que definen de que manera se realizan ciertas acciones. Donde ambas descripciones coinciden es en la necesidad de usar información para llevarse a cabo.
 
-Por ejemplo, en una aplicación de cursos solo podes pasar al siguiente curso si tenes una puntuación mayor a 5, eso también es una regla, el usuario no puede pasar al siguiente curso si su puntaje es menor a 5.
+Por ejemplo, en una aplicación de cursos solo podes pasar al siguiente curso si tenes una puntuación mayor a 5, eso también es una regla, el usuario no puede pasar al siguiente curso si su puntaje es menor a 5. 
 
-Otro ejemplo, si entro a una panadería, pido dos medialunas y un pan el cajero tendrá que sumar el precio de las medialunas más el del pan y cobrarme, esa acción que realiza la cajera es una regla de negocio, el cajero *debe* cobrar la suma del precio de los productos que el cliente lleva. 
-
-Las reglas de negocio siempre están presentes en una aplicación, de echo siempre están presentes en el negocio, exista o no la aplicación el cajero siempre va a calcular el monto mentalmente, con una calculadora o con una aplicación.
+Las reglas de negocio siempre están presentes exista o no la aplicación, estas reglas suelen llamarse *reglas de negocio empresarial*. Por otro lado existen *reglas de negocio de aplicación*, las cuales son propias de la aplicación que desarrollemos, estas reglas son igual de importantes y no deberían mezclarse con las reglas de negocio empresarial.
 
 ### Entidades
 
