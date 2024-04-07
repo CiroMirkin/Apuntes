@@ -89,4 +89,4 @@ Nos ahorran tiempo:
 
 * Reducimos el tiempo que perdemos depurando y tratando de enter código.
 
-> Las pruebas son parte de la programación y deberían ser escritas por programadores.
+Hay mas opiniones al respecto y puedes investigarlas, pero ten en cuenta que cada opinion tiene un transfondo y un contexto al igual que dependen de la experiencia que tiene la persona que expresa X opinion.
