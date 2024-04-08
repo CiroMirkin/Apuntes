@@ -23,7 +23,7 @@ Todo esto nos puede llevar a otro punto importante ¿Cuanto *Test Coverage* debe
 
 Ahora bien, existen diferentes tipos de pruebas automaticas cuada una con diferentes caracteristicas y atributos, la idea de "La piramide de pruebas" es ilustrar que cantidad de cada tipo de prueba debería tener una aplicación.
 
-![Piramide del testing o piramide de pruebas]()
+![Piramide del testing o piramide de pruebas](../imagenes/Piramide_de_pruebas.svg)
 
 Partiendo de la base, una aplicación debería tener muchos *unit test* [Pruebas unitarias] que prueban porciones pequeñas de código como una clase, método o función; A las pruebas unitarias le siguen varias pruebas de integración que prueban la integración de nuestra aplicacion con alguna entidad externa como la integracion de nuestra aplicacion con un repositorio especifico; Por último al tope de la piramide hay algunas pruebas de aceptación que prueban de la manera más realista posible la interacción del usuario.
 
