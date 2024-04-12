@@ -1,7 +1,7 @@
 # Testing
 00_00_2024
 
-El testing mientras creamos una aplicación nos permite comprobar que sus diferentes partes funcionan como esperamos, más allá de esta definición hay otras razones y puntos de vista sobre porque escribir pruebas y cuando hacerlo, ten en cuenta que cada opinión tiene un trasfondo y un contexto al igual que influye la experiencia que tiene la persona o el equipo.
+El testing mientras creamos una aplicación nos permite comprobar que sus diferentes partes funcionan como esperamos.
 
 El funcionamiento de una aplicación siempre es probado ya sea por nosotros (los programadores) o por los usuario, teniendo esto en cuenta podemos: 
 
@@ -11,7 +11,7 @@ El funcionamiento de una aplicación siempre es probado ya sea por nosotros (los
 
 3. Probar después = **No probar nunca**.
 
-Parece claro que deberíamos hacer algún tipo de prueba, porque solo sabemos si algo funciona cuando lo usamos. Las pruebas que hagamos deberían ser preferentemente automáticas porque son claras y pueden repetirse exactamente de la misma manera millones de veces.
+Parece claro que deberíamos hacer algún tipo de prueba, porque solo sabemos si algo funciona cuando lo usamos. Las pruebas que hagamos deberían ser preferentemente automáticas porque son claras y pueden repetirse exactamente de la misma manera millones de veces, pero por mas que se llamen "automaticas" necesitan mantenimiento, eso no hay que olvidarlo.
 
 Todo esto nos puede llevar a otro punto importante: El *Test Coverage* [Cobertura de pruebas].
 
@@ -55,6 +55,8 @@ Cuando las pruebas ya estén es verde y creamos que todo esta bien, podemos hace
 
 ## ¿Beneficios?
 
+El testing nos permite comprobar que todo funciona como esperamos. Más allá de esta definición hay otras razones y puntos de vista sobre porque escribir pruebas y cuando hacerlo, ten en cuenta que cada opinión tiene un trasfondo y un contexto al igual que influye la experiencia que tiene la persona o el equipo.
+
 > El testing es una forma efectiva de mostrar la presencia de errores, pero es una forma inadecuada de mostrar la ausencia de los mismos. - Dijkstra.
 
 ¿ ?
@@ -84,3 +86,7 @@ Nos permiten expresar el comportamiento esperado, las pruebas son una forma de d
 * Escribir pruebas nos permite dejar asentado como debería funcionar X porción de código o comportamiento.
 
 Por último, las pruebas nos ahorran tiempo al depurar y enter código.
+
+///
+
+///
