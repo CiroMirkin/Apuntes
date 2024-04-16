@@ -13,9 +13,13 @@ El funcionamiento de una aplicación siempre es probado ya sea por nosotros (los
 
 Parece claro que deberíamos hacer algún tipo de prueba, porque solo sabemos si algo funciona cuando lo usamos. Las pruebas que hagamos deberían ser preferentemente automáticas porque son claras y pueden repetirse exactamente de la misma manera millones de veces, pero por mas que se llamen "automaticas" necesitan mantenimiento, eso no hay que olvidarlo.
 
-Todo esto nos puede llevar a otro punto importante: El *Test Coverage* [Cobertura de pruebas].
+## Cobertura de pruebas
 
-¿Cuanta cobertura debería tener un aplicación? La cobertura de pruebas no debería ser una métrica fundamental mientras creamos una aplicación, aún así se recomienda que está métrica no baje sea cuál sea su valor.
+El *Test Coverage* [Cobertura de pruebas] es la cantidad de lineas de código que estan cubiertas por una pruebas, pareciera que lo mejor es un *Test Coverage* alto, si es posible el 100%, sin embargo no todo el código merece la pena ser probado.
+
+Cuando perseguimos una cobertura alta, empezamos a escribir muchas pruebas, cuando lo mejor es pocas pruebas que comprueben el funcionamiento de las partes importantes de nuestra aplicación, como lo es la logica de negocio.
+
+La cobertura de pruebas no debería ser una métrica fundamental como mucho podriamos decir que lo mejor es que no baje sea cuál sea su valor.
 
 ## Feedback loop y la pirámide de pruebas
 
