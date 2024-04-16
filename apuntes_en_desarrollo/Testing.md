@@ -51,7 +51,17 @@ Al invertir la pirámide de pruebas la rapidez con la que recibimos feedback se 
 
 ## Las pruebas de las pruebas
 
-Cuando las pruebas ya estén es verde y creamos que todo esta bien, podemos hacer *Mutan testing* que consiste en cambiar valores dentro el código para ver si las pruebas detectan los errores que introducimos y nos avisan que algo anda mal.
+Cuando las pruebas ya estén es verde y creemos que todo esta bien, podemos hacer *Mutation testing*, una practica que consiste en cambiar operadores dentro el código con el fin de ver si las pruebas detectan estos errores que introducimos y cumplen su objetivo de avisar que algo anda mal.
+
+Ejemplo:
+
+1. Primero que nada tenemos un código que funciona y una prueba en verde.
+
+2. Introducimos un "mutante", por ejemplo cambiamos un <= por un <. 
+
+3. Ejecutamos nuevamente las pruebas, si las pruebas estan en rojo este "mutante" que introdujimos fue capturado, por el contrario si las pruebas siguen en verde el "mutante" sobrevivio.
+
+Esta practica hacer mutaciones dentro del código puede hacerce manualmente o instalando alguna libreria especifica.
 
 ## ¿Beneficios?
 
