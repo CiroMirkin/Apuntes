@@ -11,35 +11,33 @@ El funcionamiento de una aplicación siempre es probado ya sea por nosotros (los
 
 3. Probar después = **No probar nunca**.
 
-Parece claro que deberíamos hacer algún tipo de prueba, porque solo sabemos si algo funciona cuando lo usamos. Las pruebas que hagamos deberían ser preferentemente automáticas porque son claras y pueden repetirse exactamente de la misma manera millones de veces, pero por mas que se llamen "automaticas" necesitan mantenimiento, eso no hay que olvidarlo.
+Parece claro que deberíamos hacer algún tipo de prueba, porque solo sabemos si algo funciona cuando lo usamos. Las pruebas que hagamos deberían ser preferentemente automáticas porque son claras y se pueden repetir exactamente de la misma manera millones de veces, pero por mas que se llamen "automaticas" necesitan mantenimiento, no nos olvidemos de eso.
 
 ## Cobertura de pruebas
 
-El *Test Coverage* [Cobertura de pruebas] es la cantidad de lineas de código que estan cubiertas por una pruebas, pareciera que lo mejor es un *Test Coverage* alto, si es posible el 100%, sin embargo no todo el código merece la pena ser probado.
+El *Test Coverage* [Cobertura de pruebas] es la cantidad de lineas de código que estan cubiertas por una pruebas, pareciera que lo mejor es un *Test Coverage* alto, si es posible el 100%, sin embargo, esto no es asi.
 
-Cuando perseguimos una cobertura alta, empezamos a escribir muchas pruebas, cuando lo mejor es pocas pruebas que comprueben el funcionamiento de las partes importantes de nuestra aplicación, como lo es la logica de negocio.
+Cuando perseguimos una cobertura alta, empezamos a escribir muchas pruebas, cuando lo mejor es pocas que comprueben el funcionamiento de las partes importantes de nuestra aplicación, como lo es la logica de negocio.
 
-La cobertura de pruebas no debería ser una métrica fundamental como mucho podriamos decir que lo mejor es que no baje sea cuál sea su valor.
+La cobertura de pruebas no debería ser una métrica fundamental, como mucho podriamos decir que sin importar el numero de *Test Coverage* lo mejor es que no baje.
 
 ## Feedback loop y la pirámide de pruebas
 
-¿Que es el *feedback*? Podríamos decir que el feedback es una respuesta a una pregunta.
-
 ¿Que es el *feedback loop*? El ciclo de feedback es lo que se crea al tener pruebas automáticas, por ejemplo, si tenemos una prueba para una función podríamos escribir un poco de código y ejecutar las pruebas, si están en rojo y dicen que el código no hace lo que debería, entonces podríamos modificar el código y volvemos a ejecutar las pruebas. Eso es el *feedback loop*.
 
-Ahora bien, existen diferentes tipos de pruebas automáticas cada una con diferentes características y atributos, la idea de "La pirámide de pruebas" es ilustrar que cantidad de cada tipo de prueba debería tener una aplicación.
+Ahora bien, existen diferentes tipos de pruebas automáticas cada una con diferentes características y atributos, la idea de "La pirámide de pruebas" es ilustrar la cantidad de cada tipo de pruebas dentro de una aplicación.
 
 ![Pirámide del testing o pirámide de pruebas](../imagenes/Piramide_de_pruebas.svg)
 
-Partiendo de la base, una aplicación debería tener muchos *unit test* [Pruebas unitarias] que prueban porciones pequeñas de código como una clase, método o función; A las pruebas unitarias le siguen varias pruebas de integración que prueban la integración de nuestra aplicación con alguna entidad externa como un repositorio de alguna base de datos; Por último al tope de la pirámide hay algunas pruebas de aceptación que prueban de la manera más realista posible la interacción del usuario con alguna característica importante de nuestra aplicación.
+Partiendo de la base, una aplicación debería tener muchos *unit test* [Pruebas unitarias] que prueban porciones pequeñas de código como una clase, método o función; A las pruebas unitarias le siguen varias pruebas de integración que prueban la integración de nuestra aplicación con alguna entidad externa como un repositorio de alguna base de datos; Por último al tope de la pirámide hay algunas pruebas de aceptación que "simulan" la interacción del usuario con alguna característica de nuestra aplicación.
 
-## Anti patrones al crear pruebas
+## Anti patrones al escribir pruebas
 
 No todas las pruebas aportan valor, hay cosas que no merece la pena probar, por eso siempre que escribas una prueba pregúntate ¿Que valor me aporta esta prueba?
 
-### Pruebas anémicas o redundantes
+### Pruebas anémicas
 
-Las pruebas anémicas son pruebas que no aportan valor, por ejemplo una prueba a un método *getter*, este tipo de métodos solo devuelve un valor por ende no hay ningún tipo de lógica u comportamiento digno ser probado. 
+Las pruebas anémicas son pruebas que no aportan valor, por ejemplo una prueba a un método *getter*, este tipo de métodos solo devuelve un valor y no tienen ningún tipo de lógica u comportamiento digno ser probado. 
 
 ### Pruebas frágiles
 
@@ -51,7 +49,7 @@ Las pruebas mentirosas en ingles llamadas *untrustest* son pruebas que aparentan
 
 ### Invertir la pirámide de pruebas
 
-Al invertir la pirámide de pruebas la rapidez con la que recibimos feedback se vuelve demasiada lenta, y tener pruebas pierde todo el sentido, las pruebas empiezan a pesar en vez de ayudarnos.
+Al invertir la pirámide de pruebas la rapidez con la que recibimos feedback se vuelve demasiada lenta, tener pruebas pierde todo el sentido y estas empiezan a pesar en vez de ayudar.
 
 ## Las pruebas de las pruebas
 
@@ -63,9 +61,9 @@ Ejemplo:
 
 2. Introducimos un "mutante", por ejemplo cambiamos un <= por un <. 
 
-3. Ejecutamos nuevamente las pruebas, si las pruebas estan en rojo este "mutante" que introdujimos fue capturado, por el contrario si las pruebas siguen en verde el "mutante" sobrevivio.
+3. Ejecutamos nuevamente las pruebas. Si estas estan en rojo el "mutante" que introdujimos fue capturado, por el contrario si las pruebas siguen en verde el "mutante" sobrevivio y tendriamos que revisar el diseño de la prueba que debería haber fallado y no lo hizo.
 
-Esta practica hacer mutaciones dentro del código puede hacerce manualmente o instalando alguna libreria especifica.
+Esta practica de hacer mutaciones dentro del código puede hacerce manualmente o instalando alguna libreria especifica.
 
 ## ¿Beneficios?
 
@@ -75,11 +73,13 @@ El testing nos permite comprobar que todo funciona como esperamos. Más allá de
 
 ¿ ?
 
-Las pruebas tienen la capacidad de decirnos que hay un error solo si hayamos pensamos que ese error podría existir y hayamos creamos una prueba que nos avise, aún asi siempre surgen nuevos errores en los que no pensamos, y cuando esto pese, lo mejor es crear una prueba para que no se nos vuelva a pasar por alto.
+Las pruebas tienen la capacidad de decirnos que hay un error solo si con anterioridad pensamos que ese error podría existir y hayamos creamos una prueba que nos avise, aún asi siempre surgen nuevos errores en los que no pensamos, y cuando esto pese, lo mejor es crear una prueba para que no vuelva a pasar por alto.
 
 > Me pagan por programar, no por escribir pruebas. - Kent Beck
 
-¿Cuales son los beneficios de escribir pruebas **automáticas**? Los beneficios que se obtienen o buscan al escribir pruebas pueden varias un poco dependiendo del proyecto o del equipo.
+Las pruebas deberían ayudarnos a programar y cuando no lo hagan lo mejor puede ser eliminarlas o revisar nuestra forma de escribirlas.
+
+Los beneficios que se obtienen o buscan al escribir pruebas pueden varias un poco dependiendo del proyecto o del equipo:
 
 Nos aseguran que el código funciona, lo cual es fundamental al hacer cambios.
 
@@ -89,7 +89,7 @@ Nos aseguran que el código funciona, lo cual es fundamental al hacer cambios.
 
 * Nos aseguran que la hacer cambios no dañamos la lógica de negocios.
 
-Nos permiten escribir mejor código, las pruebas cambias nuestra forma de programar y resolver un problema porque empezamos a mirar al código desde fuera, esto pasa sobre todo con las pruebas unitarias.
+Nos permiten escribir mejor código, las pruebas cambias nuestra forma de programar y resolver un problema porque empezamos a mirar al código desde fuera y esto pasa sobre todo con las pruebas unitarias.
 
 * Si escribimos pruebas antes que el código estas nos obligan a pensar a fondo en el problema y su abstracción.
 
