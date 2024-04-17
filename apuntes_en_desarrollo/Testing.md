@@ -11,15 +11,15 @@ El funcionamiento de una aplicación siempre es probado ya sea por nosotros (los
 
 3. Probar después = **No probar nunca**.
 
-Parece claro que deberíamos hacer algún tipo de prueba, porque solo sabemos si algo funciona cuando lo usamos. Las pruebas que hagamos deberían ser preferentemente automáticas porque son claras y se pueden repetir exactamente de la misma manera millones de veces, pero por mas que se llamen "automaticas" necesitan mantenimiento, no nos olvidemos de eso.
+Parece claro que deberíamos hacer algún tipo de prueba, porque solo sabemos si algo funciona cuando lo usamos. Las pruebas que hagamos deberían ser preferentemente automáticas porque son claras y se pueden repetir exactamente de la misma manera millones de veces, pero por mas que se llamen "automáticas" necesitan mantenimiento, no nos olvidemos de eso.
 
 ## Cobertura de pruebas
 
-El *Test Coverage* [Cobertura de pruebas] es la cantidad de lineas de código que estan cubiertas por una pruebas, pareciera que lo mejor es un *Test Coverage* alto, si es posible el 100%, sin embargo, esto no es asi.
+El *Test Coverage* [Cobertura de pruebas] es la cantidad de lineas de código que están cubiertas por una pruebas, pareciera que lo mejor es un *Test Coverage* alto, si es posible el 100%, sin embargo, esto no es asi.
 
-Cuando perseguimos una cobertura alta, empezamos a escribir muchas pruebas, cuando lo mejor es pocas que comprueben el funcionamiento de las partes importantes de nuestra aplicación, como lo es la logica de negocio.
+Cuando perseguimos una cobertura alta, empezamos a escribir muchas pruebas, cuando lo mejor es pocas que comprueben el funcionamiento de las partes importantes de nuestra aplicación, como lo es la lógica de negocio.
 
-La cobertura de pruebas no debería ser una métrica fundamental, como mucho podriamos decir que sin importar el numero de *Test Coverage* lo mejor es que no baje.
+La cobertura de pruebas no debería ser una métrica fundamental, como mucho podríamos decir que sin importar el numero de *Test Coverage* lo mejor es que no baje.
 
 ## Feedback loop y la pirámide de pruebas
 
@@ -61,9 +61,9 @@ Ejemplo:
 
 2. Introducimos un "mutante", por ejemplo cambiamos un <= por un <. 
 
-3. Ejecutamos nuevamente las pruebas. Si estas estan en rojo el "mutante" que introdujimos fue capturado, por el contrario si las pruebas siguen en verde el "mutante" sobrevivio y tendriamos que revisar el diseño de la prueba que debería haber fallado y no lo hizo.
+3. Ejecutamos nuevamente las pruebas. Si estas están en rojo el "mutante" que introdujimos fue capturado, por el contrario si las pruebas siguen en verde el "mutante" sobrevivió y tendríamos que revisar el diseño de la prueba que debería haber fallado y no lo hizo.
 
-Esta practica de hacer mutaciones dentro del código puede hacerce manualmente o instalando alguna libreria especifica.
+Esta practica de hacer mutaciones dentro del código puede hacerse manualmente o instalando alguna librería especifica.
 
 ## ¿Beneficios?
 
