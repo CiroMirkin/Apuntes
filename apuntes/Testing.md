@@ -1,5 +1,5 @@
 # Testing
-00_00_2024
+17_04_2024
 
 El testing mientras creamos una aplicación nos permite comprobar que sus diferentes partes funcionan como esperamos.
 
@@ -102,5 +102,10 @@ Nos permiten expresar el comportamiento esperado, las pruebas son una forma de d
 Por último, las pruebas nos ahorran tiempo al depurar y enter código.
 
 ///
-
+El libro "Code Simplicity" de Max Kanat-Alexander.
+Función CodelyTV 29: https://www.youtube.com/live/VlFDlpP_cGc?si=j0ebBpdKMvmQXV1B
+Charla de Isabel Garrido en Nerdearla: https://www.youtube.com/live/c-W8UjkTjoU?si=7LaOW8GSSjRwKBhM
+Charla de David Quezada en Nerdearla: https://youtu.be/3Qiyf_aDO9g?si=ADUBwJ2L4iILUU7C
+https://baumannzone.medium.com/about-testing-304fac4034c3
+https://grugbrain.dev/
 ///
