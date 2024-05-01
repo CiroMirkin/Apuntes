@@ -1,7 +1,11 @@
 # Modelo Kano
 00_00_2024
 
-¿Que carecteristicas aportan mas valor segun el usuario? ¿Cuales son fundamentales para este? ¿Que caracteristicas no desarrollar? Estas preguntas respondidas por los mismos usuarios.
+Cuando trabajamos creando un aplicacion ya sea como programadores o en otro rol que tambien esta cerca del negocio tenemos muchisimas funcionalidades y caracteristicas que podriamos desarrollar, no todas estas caractetisticas merecen el mismo grado de inversion, al igual que no todas las caracteriscas dan el mismo grado de felicidad al usuario.
+
+El modelo Kano nos ayuda a determindar la **satisfacción** de nuestros usuarios al tener X funcionalidad o caracteristica en nuestra aplicacion.
+
+¿Que carecteristicas aportan mas valor segun el usuario? ¿Cuales son fundamentales para este? ¿Que caracteristicas no desarrollar? Estas preguntas son respondidas indirectamente por los mismos usuarios.
 
 El modelo Kano nos permite tener un ciclo de retroalimentacion con los usurios.
 
@@ -62,13 +66,12 @@ Como podemos apreciar en la tabla aparecen dos nuevas categorias: *Reverse* [] y
 
 ## Analisis de resultados
 
-Para analisar los resultados de la encuesta tenemos que hacer otra tabla:
+Para analisar los resultados de la encuesta tenemos que hacer otra tabla recogiendo los resultados de la encuesta:
 
 | Funcionalidad | Basica | Rendimiento | Atractiva | Indiferente |  | Cuestionable | Total | Categoria final |
 |--|--|--|--|--|--|--|--|--|
 | A | 9 | 2 | 1 | 1 |  | 2 | 15 | Basica |
 
+En este caso la funcionalidad **A**, luego de encuestar a 15 personas, para 9 es una funcionalidad "basica", por ende la funcionalidad **A** se deberia considerar como tal.
 
-En este caso la funcionalidad **A**, luego de encuestar a 15 personas, 9 pensaron que era una funcionalidad "Basica", por ende la funcionalidad **A** se deberia considerar como tal.
-
-En el caso de que dos categorias tengan la misma cantidad de votos, por ejemplo, 8 personas piensan que es una funcionalidad de "rendimiento" y otras 8 piensan que es una funcionalidad "basica". En este caso nos vamos a quedar con la cateogia mas a la izquierda, tomando el ejemplo anterior seria una funcionalidad "basica".
+En el caso de que dos categorias tengan la misma cantidad de votos, por ejemplo, para 8 personas es una funcionalidad de "rendimiento" y para otras 8 es una funcionalidad "basica". En este caso nos vamos a quedar con la cateogia mas a la izquierda, tomando el ejemplo anterior seria una funcionalidad "basica".
