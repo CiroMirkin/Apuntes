@@ -3,11 +3,15 @@
 
 Cuando trabajamos creando un aplicacion ya sea como programadores o en otro rol que tambien esta cerca del negocio tenemos muchisimas funcionalidades y caracteristicas que podriamos desarrollar, no todas estas caractetisticas merecen el mismo grado de inversion, al igual que no todas las caracteriscas dan el mismo grado de felicidad al usuario.
 
-El modelo Kano nos ayuda a determindar la **satisfacción** de nuestros usuarios al tener X funcionalidad o caracteristica en nuestra aplicacion.
+El modelo Kano nos ayuda a determindar la **satisfacción** de nuestros usuarios al tener X funcionalidad o caracteristica en nuestra aplicacion, todo esto gracias a tres puntos fundamentales:
 
-¿Que carecteristicas aportan mas valor segun el usuario? ¿Cuales son fundamentales para este? ¿Que caracteristicas no desarrollar? Estas preguntas son respondidas indirectamente por los mismos usuarios.
+1. La sarisfaccion de los usuarios depende del nivel de funcionalidad que entregemos, esto es: la cantidad de invercion echa y la calidad del trabajo entregado.
 
-El modelo Kano nos permite tener un ciclo de retroalimentacion con los usurios.
+2. Las funcionalidades o caracteristicas se pueden calsificar en cuatro categorias iniciales y dos secundarias que surgen al analizar los datos, las seis igual de importantes.
+
+3. Podemos clasificar las funcionalidades con dos preguntas muy simples.
+
+El modelo Kano nos permite tener un ciclo de retroalimentacion con los usurios al poder saber como se sienten la usar cientas funciones o al tener ciertas caractericas en nuestra aplicación.
 
 ## Categorias
 
