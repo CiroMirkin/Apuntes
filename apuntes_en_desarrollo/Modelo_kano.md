@@ -13,6 +13,8 @@ El modelo Kano nos permite determindar la **satisfacción** de nuestros usuarios
 
 El modelo Kano nos permite tener un ciclo de retroalimentación con los usurios al poder saber como se sienten la usar cientas funciones o al tener ciertas caractericas en nuestra aplicación. Además de esto, Kano también nos facilita saber hasta donde llega un *MVP* [Producto minimo viable].
 
+¿Merece la pena desarrollar X funcionalidad? ¿En que orden desarrollamos las funcionalidades requeridas? ¿En que orden mejoramos las funcionalidades precentes? Estas son otras preguntas que el modelo Kano nos puede ayudar a resolver.
+
 ## Categorias
 
 Las funcionalidades o caracteristicas de nuestra aplicación se pueden clasificar en cuatro categorias:
@@ -68,7 +70,7 @@ Como podemos apreciar en la tabla aparecen dos nuevas categorias: *Reverse* [] y
 
 * *Reverse*: Una funcionalidad en esta categoria es una funcionalidad que a nadie le importa y es mejor llevarla a cabo.
 
-* *Questionable*: Una funcionalidad puede estar en esta cateogia porque es confusa, el usuario no entendio como era la funcionalidad. Lo mejor en estos casos es volver a hacer la pregunta mejorarndo la explicacion de la funcion, agregando foton e incluso videos.
+* *Questionable*: Una funcionalidad puede estar en esta cateogia porque es confusa, el usuario no entendio como era la funcionalidad. Lo mejor en estos casos es volver a hacer la pregunta mejorarndo la explicación de la función, agregando fotos o videos demostrativos.
 
 ## Analisis de resultados
 
@@ -76,8 +78,8 @@ Para analisar los resultados de la encuesta tenemos que hacer otra tabla recogie
 
 | Funcionalidad | Basica | Rendimiento | Atractiva | Indiferente |  | Cuestionable | Total | Categoria final |
 |--|--|--|--|--|--|--|--|--|
-| A | 9 | 2 | 1 | 1 |  | 2 | 15 | Basica |
+| X | 9 | 2 | 1 | 1 |  | 2 | 15 | Basica |
 
-En este caso la funcionalidad **A**, luego de encuestar a 15 personas, para 9 es una funcionalidad "basica", por ende la funcionalidad **A** se deberia considerar como tal.
+En este caso la funcionalidad **X**, luego de encuestar a 15 personas, para 9 es una funcionalidad "basica", por ende la funcionalidad **X** se debería considerar como tal.
 
 En el caso de que dos categorias tengan la misma cantidad de votos, por ejemplo, para 8 personas es una funcionalidad de "rendimiento" y para otras 8 es una funcionalidad "basica". En este caso nos vamos a quedar con la cateogia mas a la izquierda, tomando el ejemplo anterior seria una funcionalidad "basica".
