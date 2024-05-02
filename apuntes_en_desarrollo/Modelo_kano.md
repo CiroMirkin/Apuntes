@@ -1,17 +1,17 @@
 # Modelo Kano
 00_00_2024
 
-Cuando trabajamos creando un aplicacion ya sea como programadores o en otro rol que tambien esta cerca del negocio tenemos muchisimas funcionalidades y caracteristicas que podriamos desarrollar, no todas estas caractetisticas merecen el mismo grado de inversion, al igual que no todas las caracteriscas dan el mismo grado de felicidad al usuario.
+Cuando trabajamos creando un aplicacion ya sea como programadores o en otro rol cercano al negocio tenemos muchisimas funcionalidades y caracteristicas que podriamos desarrollar, no todas estas caractetisticas merecen el mismo grado de inversion, al igual que no todas las caracteriscas dan el mismo grado de felicidad al usuario, es en esta toma de deciciones donde el modelo Kano nos ayuda.
 
-El modelo Kano nos ayuda a determindar la **satisfacción** de nuestros usuarios al tener X funcionalidad o caracteristica en nuestra aplicacion, todo esto gracias a tres puntos fundamentales:
+El modelo Kano nos permite determindar la **satisfacción** de nuestros usuarios al tener X funcionalidad o caracteristica incluida en nuestra aplicación. Kano logra esto mediante tres puntos fundamentales:
 
-1. La sarisfaccion de los usuarios depende del nivel de funcionalidad que entregemos, esto es: la cantidad de invercion echa y la calidad del trabajo entregado.
+1. La sarisfacción de los usuarios depende del nivel de funcionalidad que entregemos, esto incluye tanto la calidad del trabajo entregado como la cantidad de recursos invertidos (Tiempo, dinero, etc).
 
-2. Las funcionalidades o caracteristicas se pueden calsificar en cuatro categorias iniciales y dos secundarias que surgen al analizar los datos, las seis igual de importantes.
+2. Las funcionalidades y caracteristicas se pueden calsificar en cuatro categorias iniciales y dos secundarias que surgen al analizar los datos, las seis igual de importantes.
 
-3. Podemos clasificar las funcionalidades con dos preguntas muy simples.
+3. Podemos clasificar las funcionalidades y caracteristicas mediante dos preguntas muy simples.
 
-El modelo Kano nos permite tener un ciclo de retroalimentacion con los usurios al poder saber como se sienten la usar cientas funciones o al tener ciertas caractericas en nuestra aplicación.
+El modelo Kano nos permite tener un ciclo de retroalimentación con los usurios al poder saber como se sienten la usar cientas funciones o al tener ciertas caractericas en nuestra aplicación. Además de esto, Kano también nos facilita saber hasta donde llega un *MVP* [Producto minimo viable].
 
 ## Categorias
 
@@ -22,6 +22,8 @@ Las funcionalidades o caracteristicas de nuestra aplicación se pueden clasifica
 * *Performance*: Caracteristicas de rendimiento donde mas suele ser mejor.
 * *Indifferents*: Funcionalidades indiferentes que a nadie le importan esten o no.
 
+Cada una de estas categorias no solo nos indica como percive el usuario determinada funcionalidad sino que tambien nos dicen la importancia que tienen para el usuario.
+
 ### Decandencia
 
 Las funcionalidades deben actualizarce, pero algunas deben hacerlo más seguido que otras, las caracteristicas que hoy son innovadoras mañana son de lo mas comun. Por ejemplo: Las funciones atractivas o de rendimiento se vuelven funciones basicas con el pasar del tiempo.
@@ -30,13 +32,13 @@ Las metricas que nos proporciona el modelo Kano no son esticas y deben actualiza
 
 ## Cuestionario
 
-Luego de describir cada funcionalidad al usuario e incluso mostrarle una demo se le hacen dos preguntas:
+Luego de describir cada funcionalidad al usuario, mostrarle diseños o incluso una demo, se le hacen dos preguntas:
 
-La pregunta "funcional": ¿Como te sentirias se X estubiese en nuestra aplicación? 
+La pregunta "funcional": ¿Como te sentirias si X estubiese en nuestra aplicación? 
 
-Y la pregunta "disfuncional": ¿Como te sentirias se X no estubiese en nuestra aplicación?
+Y la pregunta "disfuncional": ¿Como te sentirias si X no estubiese en nuestra aplicación?
 
-Estas dos preguntas deben responderce en un rango emocional definido:
+Estas dos preguntas deben responderce en un rango emocional definido, a continuación dos ejemplos:
 
 | Rango 1 | Rango 2 |
 |--|--|
@@ -46,13 +48,13 @@ Estas dos preguntas deben responderce en un rango emocional definido:
 | Podria tolerarlo | Podria tolerarlo |
 | Me desagrada | Me molesta |
 
-Al hacer estas preguntas y tener varios grupos de usuarios en diferentes entornos es importante separarlos.
+Luego de hacer cada pregunta debe registrarce la respuesta del usuario. Al existir usuarios en diferentes entornos (Pais, ocupación, etc) es importante separarlos en grupos.
 
 ### Tabla de evaluación
 
-Una vez echas las dos preguntas al usuario puede usar esta tabla para decir en que categoria esta dicha funcionalidad o caracteristica:
+Una vez echas las dos preguntas al usuario podemos usar esta tabla para decir en que categoria esta dicha funcionalidad o caracteristica según ese usuario:
 
-Busca en el eje X (De izquierda a derecha) la respusta a la pregunta **disfuncional** y de en el eje Y (De arriba hacia abajo) la respuesta a la pregunta **funcional**.
+Busca de izquierda a derecha la respusta a la pregunta **disfuncional** y luego de arriba hacia abajo la respuesta a la pregunta **funcional**.
 
 |  | Me gustaria | Lo esperaria | Soy neutral | Podria tolerarlo | Me desagrada |
 |--|--|--|--|--|--|
