@@ -6,7 +6,9 @@ Con estos apuntes no busco compartir un conocimiento profundo, sino, busco compa
 
 ## Lista desordenada 
 
-:memo: 56 apuntes.
+:memo: 57 apuntes.
+
+* Modelo Kano <br> [ver](apuntes/Modelo_kano.md)
 
 * Testing <br> [ver](apuntes/Testing.md)
 
