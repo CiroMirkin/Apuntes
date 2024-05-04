@@ -1,5 +1,5 @@
 # Modelo Kano
-00_00_2024
+04_05_2024
 
 Cuando trabajamos desarrollando un aplicación ya sea como programadores o en otro rol cercano al negocio tenemos muchísimas funcionalidades y características que podríamos desarrollar, no todas estas características merecen el mismo grado de inversión, al igual que no todas las características dan el mismo grado de felicidad al usuario, es en esta toma de decisiones donde el modelo Kano nos ayuda.
 
@@ -87,3 +87,8 @@ En este caso la funcionalidad **X**, luego de encuestar a 15 personas: 9 creen q
 
 En el caso de que dos categorías tengan la misma cantidad de votos, por ejemplo, para 8 personas es una funcionalidad de "rendimiento" y para otras 8 es una funcionalidad "básica". En este caso nos vamos a quedar con la categoría mas a la izquierda, tomando el ejemplo anterior seria una funcionalidad "básica".
 
+///
+Charla en Autentia: https://youtu.be/kIrcxz3v64I?si=2SbmPa1JFbxG7Cwg
+https://foldingburritos.com/blog/kano-model/
+https://www.appinio.com/es/blog/investigacion-de-mercados/analisis-modelo-kano-guia-completa
+///
