@@ -1,89 +1,89 @@
 # Modelo Kano
 00_00_2024
 
-Cuando trabajamos desarrollando un aplicación ya sea como programadores o en otro rol cercano al negocio tenemos muchisimas funcionalidades y caracteristicas que podríamos desarrollar, no todas estas caractetisticas merecen el mismo grado de inversión, al igual que no todas las caracteriscas dan el mismo grado de felicidad al usuario, es en esta toma de deciciones donde el modelo Kano nos ayuda.
+Cuando trabajamos desarrollando un aplicación ya sea como programadores o en otro rol cercano al negocio tenemos muchísimas funcionalidades y características que podríamos desarrollar, no todas estas características merecen el mismo grado de inversión, al igual que no todas las características dan el mismo grado de felicidad al usuario, es en esta toma de decisiones donde el modelo Kano nos ayuda.
 
-El modelo Kano nos permite determindar la **satisfacción** de nuestros usuarios al tener X funcionalidad o caracteristica incluida en nuestra aplicación. Kano logra esto mediante tres puntos fundamentales:
+El modelo Kano nos permite determinar la **satisfacción** de nuestros usuarios al tener X funcionalidad o característica incluida en nuestra aplicación. Kano logra esto mediante tres puntos fundamentales:
 
-1. La satisfacción de los usuarios depende del nivel de funcionalidad que entregemos, incluyendo tanto la calidad del trabajo entregado como la cantidad de recursos invertidos (Tiempo, dinero, etc).
+1. La satisfacción de los usuarios depende del nivel de funcionalidad que entreguemos, incluyendo tanto la calidad del trabajo entregado como la cantidad de recursos invertidos (Tiempo, dinero, etc).
 
-2. Las funcionalidades y caracteristicas se pueden calsificar en cuatro categorias iniciales y dos secundarias que surgen al analizar los datos, las seis igual de importantes.
+2. Las funcionalidades y características se pueden clasificar en cuatro categorías iniciales y dos secundarias que surgen al analizar los datos, las seis igual de importantes.
 
-3. Podemos clasificar las funcionalidades y caracteristicas mediante dos preguntas muy simples.
+3. Podemos clasificar las funcionalidades y características mediante dos preguntas muy simples.
 
-El modelo Kano nos permite tener un ciclo de retroalimentación con los usurios al poder saber como se sienten al usar cientas funciones o al tener ciertas caractericas en nuestra aplicación. Además de esto, Kano también nos facilita saber hasta donde llega un *MVP* [Producto minimo viable].
+El modelo Kano nos permite tener un ciclo de retroalimentación con los usuarios al poder saber como se sienten al usar ciertas funciones o al tener ciertas características en nuestra aplicación. Además de esto, Kano también nos facilita saber hasta donde llega un *MVP* [Producto mínimo viable].
 
-¿Merece la pena desarrollar X funcionalidad? ¿En que orden desarrollamos las funcionalidades requeridas? ¿En que orden mejoramos las funcionalidades precentes? Estas son otras preguntas que el modelo Kano nos puede ayudar a resolver.
+¿Merece la pena desarrollar X funcionalidad? ¿En que orden desarrollamos las funcionalidades requeridas? ¿En que orden mejoramos las funcionalidades presentes? Estas son otras preguntas que el modelo Kano nos puede ayudar a resolver.
 
-## Categorias
+## Categorías
 
-Las funcionalidades o caracteristicas de nuestra aplicación se pueden clasificar en cuatro categorias:
+Las funcionalidades o características de nuestra aplicación se pueden clasificar en cuatro categorías:
 
-* *Must-be*: Funcionalidades basicas que deben estar precentes en la aplicación si o si, esto debido a que son funcionalidades esperadas que los usuarios dan por echo que estaran precentes.
+* *Must-be*: Funcionalidades básicas que deben estar presentes en la aplicación si o si, esto debido a que son funcionalidades esperadas y que los usuarios dan por echo que estarán presentes.
 
-* *Attractive*: Funcionalidades atractivas que entusiasman al usuario. Si una funcionalidad atractiva esta precente aumenta la satisfacción del usuario.
+* *Attractive*: Funcionalidades atractivas que entusiasman al usuario. Si una funcionalidad atractiva esta presente aumenta la satisfacción del usuario.
 
-* *Performance*: Caracteristicas de rendimiento donde mas suele ser mejor.
+* *Performance*: características de rendimiento donde mas suele ser mejor.
 
 * *Indifferents*: Funcionalidades indiferentes que a nadie le importan.
 
-Cada una de estas categorias no solo nos indica como percive el usuario determinada funcionalidad sino que también nos dicen la importancia que tienen para el mismo.
+Cada una de estas categorías no solo nos indica como percibe el usuario determinada funcionalidad sino que también nos dicen la importancia que tienen para el mismo.
 
-### Decandencia
+### Decadencia
 
-Las funcionalidades deben actualizarce, pero algunas deben hacerlo más seguido que otras, las caracteristicas que hoy son innovadoras mañana son de lo mas comun. Las funciones atractivas o de rendimiento se vuelven funciones basicas con el pasar del tiempo. Por ejemplo: Las pantallas tactiles en los celulares.
+Las funcionalidades deben actualizarse, pero algunas deben hacerlo más seguido que otras, las características que hoy son innovadoras mañana son de lo mas común. Las funciones atractivas o de rendimiento se vuelven funciones básicas con el pasar del tiempo. Por ejemplo: Las pantallas táctiles en los celulares.
 
-Las metricas que nos proporciona el modelo Kano no son esticas y deben actualizarce a lo largo del tiempo.
+Las métricas que nos proporciona el modelo Kano no son estáticas y deben actualizarse a lo largo del tiempo.
 
 ## Cuestionario
 
 Luego de describir la funcionalidad al usuario, mostrarle diseños o una demo, hacemos el cuestionario:
 
-La pregunta "funcional": ¿Como te sentirias si X estubiese en nuestra aplicación? 
+La pregunta "funcional": ¿Como te sentirías si X estuviese en nuestra aplicación? 
 
-Y la pregunta "disfuncional": ¿Como te sentirias si X no estubiese en nuestra aplicación?
+Y la pregunta "disfuncional": ¿Como te sentirías si X no estuviese en nuestra aplicación?
 
-Estas dos preguntas deben responderce en un rango emocional definido, a continuación dos ejemplos:
+Estas dos preguntas deben responderse en un rango emocional definido, a continuación dos ejemplos:
 
 | Rango 1 | Rango 2 |
 |--|--|
-| Me gustaria | Me alegraria |
-| Lo esperaria  | Lo doy por echo |
+| Me gustaría | Me alegraría |
+| Lo esperaría  | Lo doy por echo |
 | Soy neutral | No me importa |
-| Podria tolerarlo | Podria tolerarlo |
+| Podría tolerarlo | Podría tolerarlo |
 | Me desagrada | Me molesta |
 
-Luego de hacer cada pregunta debe registrarce la respuesta del usuario y al existir usuarios en diferentes entornos (Pais, ocupación, etc) es importante separarlos en grupos.
+Luego de hacer cada pregunta debe registrarse la respuesta del usuario y al existir usuarios en diferentes entornos (País, ocupación, etc) es importante separarlos en grupos.
 
 ### Tabla de evaluación
 
-Una vez echas las dos preguntas al usuario podemos usar esta tabla para saber en que categoria esta cada funcionalidad o caracteristica según los usuarios:
+Una vez echas las dos preguntas al usuario podemos usar esta tabla para saber en que categoría esta cada funcionalidad o característica según los usuarios:
 
-Buscamos de izquierda a derecha la respusta a la pregunta **disfuncional** y luego de arriba hacia abajo la respuesta a la pregunta **funcional**.
+Buscamos de izquierda a derecha la respuesta a la pregunta **disfuncional** y luego de arriba hacia abajo la respuesta a la pregunta **funcional**.
 
-|  | Me gustaria | Lo esperaria | Soy neutral | Podria tolerarlo | Me desagrada |
+|  | Me gustaría | Lo esperaría | Soy neutral | Podría tolerarlo | Me desagrada |
 |--|--|--|--|--|--|
-| **Me gustaria** | Cuestionable | Atractiva | Atractiva | Atractiva | Rendimiento |
-| **Lo esperaria** | Inversa | Cuestionable | Indiferente | Indiferente | Basica |
-| **Soy neutral** | Inversa | Indiferente | Indiferente | Indiferente | Basica |
-| **Podria tolerarlo** | Inversa | Indiferente | Indiferente | Cuestionable | Basica |
+| **Me gustaría** | Cuestionable | Atractiva | Atractiva | Atractiva | Rendimiento |
+| **Lo esperaría** | Inversa | Cuestionable | Indiferente | Indiferente | Básica |
+| **Soy neutral** | Inversa | Indiferente | Indiferente | Indiferente | Básica |
+| **Podría tolerarlo** | Inversa | Indiferente | Indiferente | Cuestionable | Básica |
 | **Me desagrada** | Inversa | Inversa | Inversa | Inversa | Cuestionable |
 
-Como podemos apreciar en la tabla aparecen dos nuevas categorias: *Reverse* [Inversa] y *Questionable* [Cuetionable].
+Como podemos apreciar en la tabla aparecen dos nuevas categorías: *Reverse* [Inversa] y *Questionable* [Cuestionable].
 
-* *Reverse*: Una funcionalidad en esta categoria es una funcionalidad que a nadie le importa y es mejor no desarrollarla. Si estas funcionalidades estan precentes causan un efecto inverso al que queremos, un efecto de insatisfacción.
+* *Reverse*: Una funcionalidad en esta categoría es una funcionalidad que a nadie le importa y es mejor no desarrollarla. Si estas funcionalidades están presentes causan un efecto inverso al que queremos, un efecto de insatisfacción.
 
-* *Questionable*: Una funcionalidad puede estar en esta cateogia porque es confusa y el usuario no entendio como era dicha funcionalidad. Lo mejor en estos casos es volver a hacer la pregunta mejorarndo la explicación de la función, agregando fotos o videos demostrativos.
+* *Questionable*: Una funcionalidad puede estar en esta categoría porque es confusa y el usuario no entendió como era dicha funcionalidad. Lo mejor en estos casos es volver a hacer la pregunta mejorando la explicación, agregando fotos o videos demostrativos.
 
-## Analisis de resultados
+## Análisis de resultados
 
-Para analisar los resultados de la encuesta tenemos que hacer otra tabla recogiendo los resultados de la encuesta:
+Para analizar los resultados de la encuesta tenemos que hacer otra tabla recogiendo los resultados de la encuesta:
 
-| Funcionalidad | Basica | Rendimiento | Atractiva | Indiferente |  | Cuestionable | Total | Categoria final |
+| Funcionalidad | Básica | Rendimiento | Atractiva | Indiferente |  | Cuestionable | Total | Categoría final |
 |--|--|--|--|--|--|--|--|--|
-| X | 9 | 2 | 1 | 1 |  | 2 | 15 | Basica |
+| X | 9 | 2 | 1 | 1 |  | 2 | 15 | Básica |
 
-En este caso la funcionalidad **X**, luego de encuestar a 15 personas: 9 creen que es una funcionalidad "basica" y por ende la funcionalidad **X** se debería considerar como tal.
+En este caso la funcionalidad **X**, luego de encuestar a 15 personas: 9 creen que es una funcionalidad "básica" y por ende la funcionalidad **X** se debería considerar como tal.
 
-En el caso de que dos categorias tengan la misma cantidad de votos, por ejemplo, para 8 personas es una funcionalidad de "rendimiento" y para otras 8 es una funcionalidad "basica". En este caso nos vamos a quedar con la cateogia mas a la izquierda, tomando el ejemplo anterior seria una funcionalidad "basica".
+En el caso de que dos categorías tengan la misma cantidad de votos, por ejemplo, para 8 personas es una funcionalidad de "rendimiento" y para otras 8 es una funcionalidad "básica". En este caso nos vamos a quedar con la categoría mas a la izquierda, tomando el ejemplo anterior seria una funcionalidad "básica".
 
