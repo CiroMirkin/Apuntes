@@ -37,7 +37,7 @@ Las metricas que nos proporciona el modelo Kano no son esticas y deben actualiza
 
 ## Cuestionario
 
-Luego de describir funcionalidad al usuario, mostrarle diseños o una demo, hacemos el cuestionario:
+Luego de describir la funcionalidad al usuario, mostrarle diseños o una demo, hacemos el cuestionario:
 
 La pregunta "funcional": ¿Como te sentirias si X estubiese en nuestra aplicación? 
 
@@ -53,25 +53,25 @@ Estas dos preguntas deben responderce en un rango emocional definido, a continua
 | Podria tolerarlo | Podria tolerarlo |
 | Me desagrada | Me molesta |
 
-Luego de hacer cada pregunta debe registrarce la respuesta del usuario. Al existir usuarios en diferentes entornos (Pais, ocupación, etc) es importante separarlos en grupos.
+Luego de hacer cada pregunta debe registrarce la respuesta del usuario y al existir usuarios en diferentes entornos (Pais, ocupación, etc) es importante separarlos en grupos.
 
 ### Tabla de evaluación
 
-Una vez echas las dos preguntas al usuario podemos usar esta tabla para saber en que categoria esta dicha funcionalidad o caracteristica según ese usuario:
+Una vez echas las dos preguntas al usuario podemos usar esta tabla para saber en que categoria esta cada funcionalidad o caracteristica según los usuarios:
 
 Buscamos de izquierda a derecha la respusta a la pregunta **disfuncional** y luego de arriba hacia abajo la respuesta a la pregunta **funcional**.
 
 |  | Me gustaria | Lo esperaria | Soy neutral | Podria tolerarlo | Me desagrada |
 |--|--|--|--|--|--|
 | **Me gustaria** | Cuestionable | Atractiva | Atractiva | Atractiva | Rendimiento |
-| **Lo esperaria** |  | Cuestionable | Indiferente | Indiferente | Basica |
-| **Soy neutral** |  | Indiferente | Indiferente | Indiferente | Basica |
-| **Podria tolerarlo** |  | Indiferente | Indiferente | Cuestionable | Basica |
-| **Me desagrada** |  |  |  |  | Cuestionable |
+| **Lo esperaria** | Inversa | Cuestionable | Indiferente | Indiferente | Basica |
+| **Soy neutral** | Inversa | Indiferente | Indiferente | Indiferente | Basica |
+| **Podria tolerarlo** | Inversa | Indiferente | Indiferente | Cuestionable | Basica |
+| **Me desagrada** | Inversa | Inversa | Inversa | Inversa | Cuestionable |
 
-Como podemos apreciar en la tabla aparecen dos nuevas categorias: *Reverse* [] y *Questionable* [Cuetionable].
+Como podemos apreciar en la tabla aparecen dos nuevas categorias: *Reverse* [Inversa] y *Questionable* [Cuetionable].
 
-* *Reverse*: Una funcionalidad en esta categoria es una funcionalidad que a nadie le importa y es mejor no desarrollarla.
+* *Reverse*: Una funcionalidad en esta categoria es una funcionalidad que a nadie le importa y es mejor no desarrollarla. Si estas funcionalidades estan precentes causan un efecto inverso al que queremos, un efecto de insatisfacción.
 
 * *Questionable*: Una funcionalidad puede estar en esta cateogia porque es confusa y el usuario no entendio como era dicha funcionalidad. Lo mejor en estos casos es volver a hacer la pregunta mejorarndo la explicación de la función, agregando fotos o videos demostrativos.
 
@@ -86,3 +86,4 @@ Para analisar los resultados de la encuesta tenemos que hacer otra tabla recogie
 En este caso la funcionalidad **X**, luego de encuestar a 15 personas: 9 creen que es una funcionalidad "basica" y por ende la funcionalidad **X** se debería considerar como tal.
 
 En el caso de que dos categorias tengan la misma cantidad de votos, por ejemplo, para 8 personas es una funcionalidad de "rendimiento" y para otras 8 es una funcionalidad "basica". En este caso nos vamos a quedar con la cateogia mas a la izquierda, tomando el ejemplo anterior seria una funcionalidad "basica".
+
