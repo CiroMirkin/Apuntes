@@ -1,7 +1,7 @@
 # Modelo Kano
 04_05_2024
 
-Cuando trabajamos desarrollando un aplicación ya sea como programadores o en otro rol cercano al negocio tenemos muchísimas funcionalidades y características que podríamos desarrollar, no todas estas características merecen el mismo grado de inversión, al igual que no todas las características dan el mismo grado de felicidad al usuario, es en esta toma de decisiones donde el modelo Kano nos ayuda.
+Cuando trabajamos desarrollando una aplicación ya sea como programadores o en otro rol cercano al negocio tenemos muchísimas funcionalidades y características que podríamos desarrollar, no todas estas características merecen el mismo grado de inversión, al igual que no todas las características dan el mismo grado de felicidad al usuario. Es en estas decisiones donde el modelo Kano nos ayuda.
 
 El modelo Kano nos permite determinar la **satisfacción** de nuestros usuarios al tener X funcionalidad o característica incluida en nuestra aplicación. Kano logra esto mediante tres puntos fundamentales:
 
