@@ -3,15 +3,15 @@
 
 El modelo de arquitectura C4 consta de cuatro diagramas que nos permiten ver desde diferentes distancias la arquitectura de una aplicación, desde una vista amplia y general hasta una vista pequeña y concreta.
 
-Los diagramas C4 son flexibles, faciles y simples, no tienen reglas estrictas ni son extremadamente tecnicos como UML o las vistas de Kruchten.
+Los diagramas C4 son flexibles, fáciles y simples, no tienen reglas estrictas ni son extremadamente técnicos como UML o las vistas de Kruchten.
 
 ## Diagramas
 
-Cada diagrama nos permite comunicar que responsabilidades y relaciones existen dentro de la arquitectura, ver estos cuatro diagramas uno detras de otro es igual que hacer zoom y ver cada vez más detalles sobre la arquitectura.
+Cada diagrama nos permite comunicar que responsabilidades y relaciones existen dentro de la arquitectura, ver estos cuatro diagramas uno detrás de otro es igual que hacer zoom y ver cada vez más detalles sobre la arquitectura.
 
 No hace falta que usemos los cuatro diagramas, sino solo los que nos aportan valor, en muchos casos con los dos primero es suficiente.
 
-Los diagramas C4 no tienen un estandar, es por eso que no existe una forma exacta de como realizarlos, por ende podemos agregar la información que juzgemos necesaria y usar los colores y formas con las que nos sentimos comodos nosotro y el resto del equipo.
+Los diagramas C4 no tienen un estándar, es por eso que no existe una forma exacta de como realizarlos, por ende podemos agregar la información que juzguemos necesaria y usar los colores y formas con las que nos sentimos cómodos nosotros y el resto del equipo.
 
 ### Diagrama de Contexto
 
@@ -19,13 +19,13 @@ El diagrama de contexto nos permite ver una vista general de la aplicación. Al 
 
 ### Diagrama de Contenedor
 
-El diagrama de contenedores es un diagrama tecnico, pero sigue siendo de alto nivel. Este diagrama nos muestra en cuantas partes se divide la aplicación, que responsabilidad tiene cada parte y las tegnologias que utilizan.
+El diagrama de contenedores es un diagrama técnico, pero sigue siendo de alto nivel. Este diagrama nos muestra en cuantas partes se divide la aplicación, que responsabilidad tiene cada parte y las tecnologías que utilizan.
 
-Un contenedor puede ser una aplicación, una base de datos o un *Shell script* [Programa de consola]. Un contenedor necesita ejecutarce y mantenerce para que nuestro sistema funcione, por ejemplo, en una aplicación simple podríamos tener dos contendores:
+Un contenedor puede ser una aplicación, una base de datos o un *Shell script* [Programa de consola]. Un contenedor necesita ejecutarse y mantenerse para que nuestro sistema funcione, por ejemplo, en una aplicación simple podríamos tener dos contenedores:
 
-* Primer contendor: Una aplicacion movil para Android o IOS.
+* Primer contenedor: Una aplicación movil para Android o IOS.
 
-* Segundo contenedor: Una base de datos en MySQL o Posgress.
+* Segundo contenedor: Una base de datos en MySQL o MongoDB.
 
 ### Diagrama de Componente
 
@@ -33,7 +33,7 @@ El diagrama de componente es de bajo nivel y nos muestra los componente dentro d
 
 ### Diagrama de Código
 
-Los diagramas de código nos muestran las relaciones entre funciones o clases, generalmente se usa el tipico UML para diagramar patrones de diseño y como se relacionan las clases dentro de un componente, por este motivo también se le suele decir "diagrama de clase". Este diagrama no suele ser necesario y es mejor usarlo solo cuando hay componentes complejos.
+Los diagramas de código nos muestran las relaciones entre funciones o clases, generalmente se usa el típico UML para diagramar patrones de diseño y como se relacionan las clases dentro de un componente, por este motivo también se le suele decir "diagrama de clase". Este diagrama no suele ser necesario y es mejor usarlo solo cuando hay componentes complejos.
 
 ## C4 sitio web
 
