@@ -1,12 +1,18 @@
-# Apuntes
+# Apuntes de programación
 
-Escribo un apunte por mes mientras estudio aplicando el método de Feynman. 
+Escribo un apunte por mes mientras estudio. 
 
 Con estos apuntes no busco compartir un conocimiento profundo, sino, busco compartir una idea clara sobre un tema, para que cada uno pueda profundizar en los temas que le llaman la atención.
 
 ## Lista desordenada 
 
-:memo: 54 apuntes.
+:memo: 57 apuntes.
+
+* Modelo Kano <br> [ver](apuntes/Modelo_kano.md)
+
+* Testing <br> [ver](apuntes/Testing.md)
+
+* Patrón repositorio <br> [ver](apuntes/Patron_repositorio.md)
 
 * Tipos <br> [ver](apuntes/Tipos.md)
 
@@ -88,7 +94,7 @@ Con estos apuntes no busco compartir un conocimiento profundo, sino, busco compa
 
 * Patrón MVC (Modelo, Vista y Controlador) <br> [Ver](apuntes/Patron%20MVC%20(Modelo,%20vista%20y%20controlador).md)
 
-* Patrón Value object <br> [Ver](apuntes/Patron%20Value%20object.md)
+* Value object <br> [Ver](apuntes/Value_object.md)
 
 * Patrones de diseño creacionales <br> [Ver](apuntes/Patrones%20de%20diseño%20creacionales.md)
 
@@ -120,23 +126,23 @@ Con estos apuntes no busco compartir un conocimiento profundo, sino, busco compa
 
 ## Especificaciones  
 
-Apuntes cortos para leerlos en poco tiempo y tener una idea clara sobre el tema.
+Apuntes cortos para leerlos en poco tiempo y tener una idea clara sobre un tema.
 
 * Máximo una hoja A4.
 
-* Evito en lo posibles tecnicismos y usa palabras simples/vulgares.
+* Trato de usar palabras simples/vulgares.
 
 * Cada apunte tiene la fecha en que se terminó.
 
-* Al final del apunte están las referencias, si es que hay.
+* Al final del apunte están las referencias (Si es que hay).
 
-* No contienen código, en todo caso se usó analogías.
+* No contienen código, en todo caso usó analogías.
 
-* No contienen imágenes, por el momento.
+* No contienen imágenes (Por el momento).
 
 ## Preguntas clave
 
-Como guía uso estas preguntas clave:
+Uso estas preguntas clave como guía:
 
 * ¿Qué es?
 
@@ -145,3 +151,7 @@ Como guía uso estas preguntas clave:
 * ¿Qué obtengo?
 
 * ¿Cómo lo obtengo?
+
+## Edición
+
+Cada cierto tiempo reviso los apuntes para mejorarlos, en estas revisiones corrijo errores ortográficos y de tipeo; agrego contenido, ejemplos o reescribo oraciones para que sean más expresivas.

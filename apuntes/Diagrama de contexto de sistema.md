@@ -1,15 +1,15 @@
 # Diagrama de contexto de sistema
 15_08_2023
 
-Este tipo de diagrama nos permite ver a un alto nivel con que elementos externos se relaciona una aplicación. El diagrama se crea en las primeras etapas de un proyecto para entender mejor el dominio y dialogar con el cliente, esto es posible gracias a que es un diagrama simple y para nada técnico.
+Este tipo de diagrama nos permite ver a un alto nivel con que elementos externos se relaciona una aplicación. El diagrama se crea en las primeras etapas de un proyecto para entender mejor el dominio y dialogar con el cliente, gracias a que es un diagrama simple y para nada técnico.
 
 Una aplicación se relaciona con un elemento externo para pedir, recibir o enviar información. Son entradas y salidas de información.
 
-Este tipo de diagrama se va modificando a lo largo del tiempo mientras más se comprende el dominio y aplicación que se está creando, de la mano con esto también podríamos decir que uno de estos diagramas es de calidad cuando ayuda a comprender para que y con que elementos de su entorno se relaciona una aplicación
+Este tipo de diagrama se va modificando a lo largo del tiempo mientras más se comprende el dominio y aplicación que se está creando.
 
 ## Dibujo del diagrama
 
-Un diagrama de contexto de sistema no contienen detalles sobre el funcionamiento interno de la aplicación, solo muestra una vista general, con que elementos externos se relaciona y por que lo hace.
+Un diagrama de contexto de sistema no contienen detalles sobre el funcionamiento interno de la aplicación, es una vista general que muestra con que elementos externos se relaciona y por que lo hace.
 
 1. Dibujamos a la aplicación: Un nombre rodeado de un círculo.
 
