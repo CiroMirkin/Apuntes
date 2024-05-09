@@ -7,7 +7,7 @@ La complejidad ciclomática es una forma de medir la complejidad de un algoritmo
 
 Dibuja un diagrama de flujo **muy simple** del código donde solo visualices los componentes como condiciones o ciclos, una vez terminado, cuenta los nodos y las líneas que los unen (aristas).
 
-[Ejemplo de un diagrama de flujo simple de un *if/else*.](https://cdn.education-wiki.com/img/software-development-basics/4574012/cyclomatic-complexity-2.png.webp)
+![Ejemplo de un diagrama de flujo simple de un *if/else*.](../imagenes/Diagrama_de_flujo_simple_para_calcular_cc.svg)
 
 	Aristas - Nodos + 2 = CC
 	Nodos predicados + 1 = CC
