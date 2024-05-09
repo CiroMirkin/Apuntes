@@ -1,0 +1,10 @@
+{
+  "name": "Apuntes",
+  "version": "1.0.0",
+  "description": "Un apunte por mes.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
