@@ -38,6 +38,7 @@ fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
                 notes.push({
                     title: noteTitle,
                     formattedDate,
+                    date: formattedDate,
                     year: noteYear,
                     contentPerLine: noteContentPerLine,
                     content: noteContent,
@@ -47,6 +48,14 @@ fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
                 const isThisTheLastNote = (listOfNoteFiles.length - 1) === index;
                 if (isThisTheLastNote) {
                     // Now the whole notes are in notes array
+                    fs.appendFile('lista_apuntes.json', JSON.stringify(notes), function (err) {
+                        if (err) {
+                            console.error('ERROR ', err)
+                        } else {
+                            console.info(':D')
+                        }
+
+                    });
                 }
             }
         })
