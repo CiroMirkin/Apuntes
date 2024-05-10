@@ -2,9 +2,9 @@
 
 Apuntes cortos para leerlos en poco tiempo y tener una idea clara sobre un tema.
 
-* Máximo una hoja A4.
-
 * Trato de usar palabras simples/vulgares.
+
+* Se usa la palabra "aplicación" como sinonimo de sistema o programa.
 
 * Cada apunte tiene la fecha en que se terminó.
 
@@ -12,7 +12,11 @@ Apuntes cortos para leerlos en poco tiempo y tener una idea clara sobre un tema.
 
 * No contienen código, en todo caso usó analogías.
 
-* No contienen imágenes (Por el momento).
+* No contienen imágenes, pero si diagramas (Si es necesario).
+
+* Todos los apuntes están en un repositorio de GitHub llamado [Apuntes](https://github.com/CiroMirkin/Apuntes/).
+
+* Todos los apuntes están en formato Markdown.
 
 ## Preguntas clave
 
