@@ -35,7 +35,7 @@ fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
 
                 console.log(noteYear)
 
-                notes.push({
+                const note = {
                     title: noteTitle,
                     formattedDate,
                     date: formattedDate,
@@ -43,7 +43,9 @@ fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
                     contentPerLine: noteContentPerLine,
                     content: noteContent,
                     RELATIVE_PATH: RELATIVE_PATH_OF_NOTE_FILE
-                })
+                }
+
+                notes.push(`\t- [${note.title}](${note.RELATIVE_PATH.split(' ').join('%20')})`)
 
                 const isThisTheLastNote = (listOfNoteFiles.length - 1) === index;
                 if (isThisTheLastNote) {
