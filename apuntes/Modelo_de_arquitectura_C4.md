@@ -1,5 +1,5 @@
 # Modelo de arquitectura C4
-00_00_2024
+11_05_2024
 
 El modelo de arquitectura C4 consta de cuatro diagramas que nos permiten ver desde diferentes distancias la arquitectura de una aplicación, desde una vista amplia y general hasta una vista pequeña y concreta.
 
@@ -38,3 +38,9 @@ Los diagramas de código nos muestran las relaciones entre funciones o clases, g
 ## C4 sitio web
 
 Si te interesa este modelo, entonces puedes consultar su sitio web para una descripción más detallada: [c4model.com](https://c4model.com/)
+
+///
+https://youtu.be/cy_3qSA0a4s?si=0frwGrd7_u5kJK2d
+https://youtu.be/2IJ29e0xTDc?si=37FsPoAhZu8GhHtd
+https://c4model.com/
+///
