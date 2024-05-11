@@ -33,8 +33,6 @@ fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
 
                 let noteYear = noteContentPerLine[1].split('_').at(-1)
 
-                console.log(noteYear)
-
                 const note = {
                     title: noteTitle,
                     formattedDate,
@@ -52,13 +50,11 @@ fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
                     const header = "- [Introducción](README)\n- [Especificaciones](info.md)\n- Apuntes"
                     const content = `${header}\n${notes.join('\n')}`
                     // Now the whole notes are in notes array
-                    fs.appendFile('lista_apuntes.md', content, function (err) {
+                    fs.appendFile('lista_apuntes.md', content, (err) => {
                         if (err) {
-                            console.error('ERROR ', err)
-                        } else {
-                            console.info(':D')
-                        }
-
+                            return console.error('ERROR ', err)
+                        } 
+                        return console.info(':D')
                     });
                 }
             }
