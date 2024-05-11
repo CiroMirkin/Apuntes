@@ -49,8 +49,10 @@ fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
 
                 const isThisTheLastNote = (listOfNoteFiles.length - 1) === index;
                 if (isThisTheLastNote) {
+                    const header = "- [Introducción](README)\n- [Especificaciones](info.md)\n- Apuntes"
+                    const content = `${header}\n${notes.join('\n')}`
                     // Now the whole notes are in notes array
-                    fs.appendFile('lista_apuntes.json', JSON.stringify(notes), function (err) {
+                    fs.appendFile('lista_apuntes.md', content, function (err) {
                         if (err) {
                             console.error('ERROR ', err)
                         } else {
