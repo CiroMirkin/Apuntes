@@ -7,7 +7,7 @@ Empiezo de nuevo.
 
 El patrón MVC, es un patrón arquitectónico que separa un componente en tres partes: Vista, Modelo y Controlador, cada una con su objetivo y responsabilidad única.
 
-![Diagrama de la implementación del patrón MVC]()
+![Diagrama de la implementación del patrón MVC](../imagenes/Ejemplo_de_implementacion_del_patron_mvc.svg)
 
 * La vista se encarga de la parte visual de un componente que seria mostrar la información al usuario, generalmente eso es todo.
 
@@ -17,7 +17,7 @@ El patrón MVC, es un patrón arquitectónico que separa un componente en tres p
 
 	El controlador contiene los *eventos* necesarios para recoger las interacciones del usuario, puede llamar al modelo para actualizar y/o pedir la información que el usuario quiere para después adaptar dicha información y que la vista pueda mostrarla al usuario. Ya que el controlador se sitúa en medio generalmente nunca llegan a conocerse las demás partes, son tímidas y por ende están desacopladas.
 
->> El patrón MVC tiene tres partes: Los datos, los precentadores de datos y un intermediario que controla cuando y como se precentan los datos.
+> El patrón MVC tiene tres partes: Los datos, los precentadores de datos y un intermediario que controla cuando y como se precentan los datos.
 
 ## Ventajas y desventajas del patrón MVC
 
