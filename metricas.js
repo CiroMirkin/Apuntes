@@ -50,7 +50,7 @@ fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
                     const header = "- [Introducción](README)\n- [Especificaciones](info.md)\n- Apuntes"
                     const content = `${header}\n${notes.join('\n')}`
                     // Now the whole notes are in notes array
-                    fs.appendFile('lista_apuntes.md', content, (err) => {
+                    fs.appendFile('_sidebar.md', content, (err) => {
                         if (err) {
                             return console.error('ERROR ', err)
                         } 
