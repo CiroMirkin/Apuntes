@@ -1,35 +1,40 @@
 # Modelo de arquitectura C4
 00_00_2024
 
-El modelo de arquitectura C4 consta de cuatro diagramas que nos permiten ver a diferentes niveles la arquitectura de una aplicación.
+El modelo de arquitectura C4 consta de cuatro diagramas que nos permiten ver desde diferentes distancias la arquitectura de una aplicación, desde una vista amplia y general hasta una vista pequeña y concreta.
 
-Este grupo de diagramas no tiene reglas estrictas ni extremadamente tecnicos como los diagramas UML o las vistas de Kruchten. Todo lo contratrio, los diagramas C4 son flexibles, simples y faciles en todo sentido.
+Los diagramas C4 son flexibles, fáciles y simples, no tienen reglas estrictas ni son extremadamente técnicos como UML o las vistas de Kruchten.
 
 ## Diagramas
 
-Cada diagrama nos permite ver que responsabilidades y relaciones existen desde las de alto nivel hasta las de bajo nivel.
+Cada diagrama nos permite comunicar que responsabilidades y relaciones existen dentro de la arquitectura, ver estos cuatro diagramas uno detrás de otro es igual que hacer zoom y ver cada vez más detalles sobre la arquitectura.
 
-Los diagramas C4 no tienen un estandar, es por eso que no existe una forma exacta de como realizarlos, siente libre de agregar la información que creas necesaria y usar los colores y formas con las que te sientas comodo.
+No hace falta que usemos los cuatro diagramas, sino solo los que nos aportan valor, en muchos casos con los dos primero es suficiente.
+
+Los diagramas C4 no tienen un estándar, es por eso que no existe una forma exacta de como realizarlos, por ende podemos agregar la información que juzguemos necesaria y usar los colores y formas con las que nos sentimos cómodos nosotros y el resto del equipo.
 
 ### Diagrama de Contexto
 
-El diagrama de contexto nos permite ver una vista general de la aplicación. Al ser de alto nivel podemos ver con que entidades externas se relaciona nuestra aplicación.
-
-![Ejemplo de un diagrama de contexto en el modelo C4]()
+El diagrama de contexto nos permite ver una vista general de la aplicación. Al ser de alto nivel solo vemos con que entidades externas se relaciona nuestra aplicación, estas "entidades externas" son otras aplicaciones o sistemas sobre los cuales no tenemos control.
 
 ### Diagrama de Contenedor
 
-El diagrama de contenedores sigue siendo de alto nivel, pero ya es mas tecnico. Este diagrama nos muestra en cuantas partes se divide la aplicación, que responsabilidad tiene cada parte y las tegnologias que utilizan.
+El diagrama de contenedores es un diagrama técnico, pero sigue siendo de alto nivel. Este diagrama nos muestra en cuantas partes se divide la aplicación, que responsabilidad tiene cada parte y las tecnologías que utilizan.
 
-![Ejemplo de un diagrama de contenedor en el modelo C4]()
+Un contenedor puede ser una aplicación, una base de datos o un *Shell script* [Programa de consola]. Un contenedor necesita ejecutarse y mantenerse para que nuestro sistema funcione, por ejemplo, en una aplicación simple podríamos tener dos contenedores:
+
+* Primer contenedor: Una aplicación movil para Android o IOS.
+
+* Segundo contenedor: Una base de datos en MySQL o MongoDB.
 
 ### Diagrama de Componente
 
 El diagrama de componente es de bajo nivel y nos muestra los componente dentro de un contenedor. En este nivel ya vemos repositorios, controladores y algunos detalles de implementación.
 
-![Ejemplo de un diagrama de componente en el modelo C4]()
+### Diagrama de Código
 
-### Diagrama de Clase
+Los diagramas de código nos muestran las relaciones entre funciones o clases, generalmente se usa el típico UML para diagramar patrones de diseño y como se relacionan las clases dentro de un componente, por este motivo también se le suele decir "diagrama de clase". Este diagrama no suele ser necesario y es mejor usarlo solo cuando hay componentes complejos.
 
-Los diagramas de clase usan el tipico UML, para reprecentar patrones de diseño y en general como se relacionan las clases dentro de un componente. Este diagrama no suele ser necesario y es mejor usarlo solo cuando hay componentes complejos.
+## C4 sitio web
 
+Si te interesa este modelo, entonces puedes consultar su sitio web para una descripción más detallada: [c4model.com](https://c4model.com/)
