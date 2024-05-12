@@ -4,7 +4,7 @@ Apuntes cortos para leerlos en poco tiempo y tener una idea clara sobre un tema.
 
 * Trato de usar palabras simples/vulgares.
 
-* Se usa la palabra "aplicación" como sinonimo de sistema o programa.
+* Se usa la palabra "aplicación" como sinónimo de sistema o programa.
 
 * Cada apunte tiene la fecha en que se terminó.
 
@@ -33,3 +33,17 @@ Uso estas preguntas clave como guía:
 ## Edición
 
 Cada cierto tiempo reviso los apuntes para mejorarlos, en estas revisiones corrijo errores ortográficos y de tipeo; agrego contenido, ejemplos o reescribo oraciones para que sean más expresivas.
+
+## Comandos
+
+Iniciar servidor de desarrollo del sitio web:
+
+```
+docsify serve
+```
+
+Actualizar archivo `_sidebar-test.md`:
+
+```
+node generateSidebarFile
+```
