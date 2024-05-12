@@ -1,6 +1,5 @@
 const fs = require('fs');
 
-// Run file with node metricas.js
 // apunte = note
 
 const RELATIVE_PATH_OF_NOTES_FOLDER = 'apuntes/'
@@ -43,19 +42,22 @@ fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
                     RELATIVE_PATH: RELATIVE_PATH_OF_NOTE_FILE
                 }
 
-                notes.push(`\t- [${note.title}](${note.RELATIVE_PATH.split(' ').join('%20')})`)
+                notes.push(`- [${note.title}](${note.RELATIVE_PATH.split(' ').join('%20')})`)
 
                 const isThisTheLastNote = (listOfNoteFiles.length - 1) === index;
                 if (isThisTheLastNote) {
-                    const header = "- [Introducción](README)\n- [Especificaciones](info.md)\n- Apuntes"
-                    const content = `${header}\n${notes.join('\n')}`
                     // Now the whole notes are in notes array
-                    fs.appendFile('_sidebar.md', content, (err) => {
+                    fs.readFile('README.md', 'utf-8', (err, readmeContent) => {
                         if (err) {
-                            return console.error('ERROR ', err)
+                            return console.error('Error al leer apunte (note) ', err);
                         } 
-                        return console.info(':D')
-                    });
+                        const readmeContentWithoutNoteList = readmeContent.split('<!--lista_apuntes-->')[0]
+                        const content = `${readmeContentWithoutNoteList}<!--lista_apuntes-->\n## Lista de apuntes\n${notes.join('\n')}\n<!--lista_apuntes-->`
+                        fs.writeFile('README.md', content, (err) => {
+                            return err ? console.error('ERROR ', err) : console.info(':D')
+                        });
+                        
+                    })
                 }
             }
         })

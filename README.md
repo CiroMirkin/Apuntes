@@ -3,7 +3,7 @@
 Escribo un apunte por mes mientras estudio. 
 
 Con estos apuntes no busco compartir un conocimiento profundo, sino, busco compartir una idea clara sobre un tema, para que cada uno pueda profundizar en los temas que le llaman la atención.
-
+<!--lista_apuntes-->
 ## Lista de apuntes
 
 - [Algoritmos](apuntes/Algoritmos.md)
@@ -64,3 +64,4 @@ Con estos apuntes no busco compartir un conocimiento profundo, sino, busco compa
 - [Tipos de relaciones entre clases](apuntes/Tipos%20de%20relaciones%20entre%20clases.md)
 - [Tipos](apuntes/Tipos.md)
 - [Value object](apuntes/Value_object.md)
+<!--lista_apuntes-->
