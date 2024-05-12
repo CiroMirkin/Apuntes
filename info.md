@@ -42,8 +42,8 @@ Iniciar servidor de desarrollo del sitio web:
 docsify serve
 ```
 
-Actualizar archivo `_sidebar-test.md`:
+Actualizar lista de apuntes en el archivo `README.md`:
 
 ```
-node generateSidebarFile
+node generarListaDeApuntes
 ```
