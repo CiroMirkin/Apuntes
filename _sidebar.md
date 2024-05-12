@@ -30,6 +30,7 @@
 	- [Leyes en la evolución de aplicaciones](apuntes/Leyes_en_la_evolucion_de_aplicaciones.md)
 	- [Más fácil de cambiar (ETC)](apuntes/Mas%20facil%20de%20cambiar%20(STR).md)
 	- [Método de trabajo Kanban](apuntes/Metodo%20de%20trabajo%20Kanban.md)
+	- [Modelo de arquitectura C4](apuntes/Modelo_de_arquitectura_C4.md)
 	- [Modelo Kano](apuntes/Modelo_kano.md)
 	- [Niveles de abstracción](apuntes/Niveles%20de%20abstraccion.md)
 	- [No me hagas pensar ni me des sorpresas](apuntes/No%20me%20hagas%20pensar%20ni%20me%20des%20sorpresas.md)
