@@ -1,13 +1,13 @@
 # Patrón entidad-control-limite
 27_08_2023
 
-Este patrón arquitectónico busca desacoplar al dominio de cualquier cosa externo como una API web, bases de datos, componentes de hardware e incluso del entorno en el que se muestra al usuario que podría ser gráfico o de consola. El patrón puede ser usado dentro de arquitecturas limpias como la hexagonal debido al potencial que tiene para separar asuntos externos al dominio.
+Este patrón arquitectónico busca desacoplar al dominio de cualquier cosa externo como una API web, una base de datos, un componente de hardware e incluso del entorno en el que se muestra al usuario que podría ser gráfico o de consola. Este patrón puede ser usado dentro de arquitecturas limpias debido a su potencial para separar asuntos externos al dominio.
 
 ## Implementación
 
 Este patrón se divide en cuatro clases, cada clase con un rol fundamental.
 
-![Diagrama de relacion de las clases]()
+![Diagrama de relacion de las clases](../Imagenes/Diagrama_del_patron_entidad_control_limite.svg)
 
 * Actor externo: Un actor externo es cualquier cosa externa al dominio de una aplicación como un framework, base de datos o un componente de hardware.
 
