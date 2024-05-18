@@ -7,9 +7,11 @@ Cuando desarrollamos una aplicación su complejidad aumenta inevitablemente mien
 
 La complejidad absurda no aparece de un dia para otro, es la acumulación de pequeños descuidos, como si fuera una bola de nieve, poco a poco la complijidad del proyecto crece hasta ser absurda. Es en este punto donde agregar o cambiar algo relativamente simple lleva dias o semanas, pero todo esto **se puede evitar si pensamos y mejoramos continuamente el diseño interno de nuestra aplicación**. Con este enfoque reducimos la complejidad a medida que esta surge y facilitamos tanto la expanción como modificación de nuestra apliocación a largo plazo.
 
-Este "Diseño interno" del que hablamos no es mas que la forma en que se relacionan las diferentes partes de nuestra aplicación, mas concretamente hablamos de "las dependencias" dentro de una aplicación, el nivel de dependencia de dos componente puede facilitar o fastidiar todo.
+Este "Diseño interno" del que hablamos no es mas que la forma en que se relacionan las diferentes partes de nuestra aplicación y mas concretamente hablamos de las dependencias entre componentes ya que el nivel de dependencia de dos componente puede facilitar o fastidiar muchas cosas. Antes de seguir refresquemos el concepto de *dependencia*:
 
-> La depencia se da cuando una parte no puede entenderce o cambiarse por si sola. Si para cambiar una clase A también tengo que cambiar una clase C, entonces A depende de C.
+> La depencia se da cuando una parte no puede entenderce o cambiarse por si sola. Si para cambiar una clase A también tengo que cambiar una clase C, entonces A depende de C. 
+
+No importa si son clases, modulos o funciones la dependencia siempre existe en mayor o menor medida, hay que entender bien el concepto de dependencia para poder decidir que es lo mas conveniente.
 
 Podemos reducir la complejidad haciendo refactorizaciones y rediseñando partes de código, en resumen:
 
