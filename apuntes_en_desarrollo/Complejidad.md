@@ -1,11 +1,9 @@
 # Complejidad
 00_00_2024
 
-Algo complejo es dificil de entender y modificar. Dentro de una aplicación hay muchas cosas que pueden ser complejas, ya sea por tomar malas deciciones o directamente por no tomarlas.
+Algo complejo es dificil de entender y modificar. Dentro de una aplicación hay muchas cosas que pueden ser complejas, ya sea por tomar malas deciciones o directamente por no tomarlas. 
 
-Cuando desarrollamos una aplicación su complejidad aumenta inevitablemente mientras agregamos caracteristicas y funcionalidades. 
-
-Si no pensamos en el diseño interno de nuestra aplicación, esta en poco tiempo comenzara a ser desamasiado compleja en comparación con su tamaño, con solo un puñado de caracteristicas sera difícil hacer pequeños cambios. 
+Cuando desarrollamos una aplicación su complejidad aumenta inevitablemente mientras agregamos caracteristicas y funcionalidades. Si no pensamos en el diseño interno de nuestra aplicación esta en poco tiempo sera desamasiado compleja en comparación con su tamaño, con solo un puñado de caracteristicas sera difícil hacer cambios. 
 
 La velocidad de desarrollo y crecimiento que comenzo siendo muy rapida empezara a caer dando lugar a una complejidad absurda fruto de programar lo primero que se nos paso por la cabeza sin pensar en cuestiones de diseño.
 
@@ -19,30 +17,30 @@ Este "Diseño interno" del que hablamos no es mas que la forma en que se relacio
 
 No importa si son clases, modulos o funciones, las dependencias siempre existen en mayor o menor medida, por eso entender bien este concepto es importante para poder decidir que es lo mas conveniente según nuestro contexto.
 
-Podemos reducir la complejidad haciendo refactorizaciones y rediseñando partes de código diariamente:
+Podemos reducir la complejidad haciendo refactorizaciones y rediseñando partes de nuestra aplicación diariamente, en mejoras de diseño buscamos:
 
-* Buscando facilitar futuros cambios dentro de la aplicación (Sin exagerar).
+* Facilitar futuros cambios dentro de la aplicación (Sin exagerar).
 
-* Buscando reducir la carga cognitiva, la cantidad de esfuerzo mental necesaria para entender una porcion de código.
+* Reducir la carga cognitiva, reducir la cantidad de esfuerzo mental que necesita un programador para entender una porción de código o el funcionamiento de una parte de la aplicación.
 
-* Buscando que el código sea lo mas simple y obio posible (Exagerando).
+* Que el código sea lo mas simple y obio posible (Exagerando).
 
-* Buscando encapsular la complejidad, buscando ocultarla detras de algo simple.
+* Encapsular la complejidad, en este punto buscamos ocultar la complejidad detras de algo mas simple.
 
 ## Sintomas y causas
 
 Una porcion de código puede ser **compleja si**:
 
-* Al hacer un cambio este tiene muchas repercusiones, por ejemplo al cambiar el contenido del método de una clase se rompe **toda** la aplicación o una parte considerable de ella.
+* Al hacer un cambio este tiene muchas repercusiones, por ejemplo si al cambiar el contenido del método de una clase se rompe **toda** la aplicación o una parte considerable de ella.
 
-* Hay una carga cognitiva exesiva y cuesta entender la función o proposito de una porción de codigo.
+* Hay una carga cognitiva exesiva y cuesta entender el proposito de una porción de codigo.
 
 * No sabemos por donde empezar a resolver una tarea o hacer un cambio.
 
 Estos tres indicadores suelen ser **causados por**:
 
-* Una mala administracion de las dependencias y abstracciones en las relaciones entre porciones de código.
+* Una mala administracion de las dependencias y abstracciones en las relaciones entre partes de código.
 
-* La sobre ingenieria que surge cuando hacemos mas de lo necesario sin seguir el principio YANGI.
+* La sobre ingenieria que surge cuando hacemos mas de lo necesario, en este punto nos puede ayudar seguir el principio YANGI.
 
-* La falta de información, ya sea como documentación o información explicita en el código, no solo el nombre de las variables y funciones es importante también es necesario escribir comentarios explicando mas a fondo el proposito de una función, por ejemplo explicando en que circustancias se usaria.
+* La falta de información, ya sea como documentación o información explicita en el código, no solo el nombre de las variables y funciones son importante sino que también es necesario escribir comentarios explicando mas a fondo el proposito de una función, por ejemplo explicando en que circustancias se usaria o un pequeño documento explicando la arquitectura de la aplicación.
