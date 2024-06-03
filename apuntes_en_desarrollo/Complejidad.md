@@ -1,37 +1,37 @@
 # Complejidad
 00_00_2024
 
-Algo complejo es dificil de entender y modificar. Dentro de una aplicación hay muchas cosas que pueden ser complejas, ya sea por tomar malas deciciones o directamente por no tomarlas. 
+Algo complejo es dificil de entender y modificar. Dentro de una aplicación hay muchas cosas que pueden ser complejas, desde funciones hasta clases y modulos, esta "complejidad" ocurre porque se tomaron malas deciciones o directamente porque no se tomaron deciciones de diseño. 
 
-Cuando desarrollamos una aplicación su complejidad aumenta inevitablemente mientras agregamos caracteristicas y funcionalidades. Si no pensamos en el diseño interno de nuestra aplicación esta en poco tiempo sera desamasiado compleja en comparación con su tamaño, con solo un puñado de caracteristicas sera difícil hacer cambios. 
+Cuando desarrollamos una aplicación su complejidad aumenta inevitablemente mientras agregamos caracteristicas y funcionalidades. Si no pensamos en el diseño interno de nuestra aplicación esta en poco tiempo sera desamasiado compleja en comparación con su tamaño y con solo un puñado de caracteristicas sera difícil hacer cambios. 
 
-La velocidad de desarrollo y crecimiento que comenzo siendo muy rapida empezara a caer dando lugar a una complejidad absurda fruto de programar lo primero que se nos paso por la cabeza sin pensar en cuestiones de diseño.
+La velocidad de desarrollo y crecimiento que comenzo siendo muy rapida comenzara a caer dando lugar a una complejidad absurda fruto de programar lo primero que se nos paso por la cabeza sin pensar en cuestiones de diseño.
 
-Esta complejidad absurda no aparece de un dia para otro, es la acumulación de pequeños descuidos, como si fuera una bola de nieve, poco a poco la complejidad del proyecto crece hasta ser absurda. Es en este punto donde agregar o cambiar algo relativamente simple lleva dias o semanas, pero todo esto **se puede evitar si pensamos y mejoramos continuamente el diseño interno de nuestra aplicación**, tomando este enfoque reducimos la complejidad a medida que surge y facilitamos tanto la expanción como la modificación de nuestra aplicación a largo plazo.
+Esta complejidad absurda no aparece de un dia para otro, es la acumulación de pequeños descuidos, como si fuera una bola de nieve, poco a poco la complejidad del proyecto crece hasta ser absurda. Es en este punto donde agregar o cambiar algo relativamente simple lleva dias o semanas, pero todo esto se puede evitar si pensamos y mejoramos continuamente el diseño interno de nuestra aplicación, tomando este enfoque reducimos la complejidad a medida que surge y facilitamos tanto la expanción como la modificación de nuestra aplicación a largo plazo.
 
 ## Diseño interno
 
-Este "Diseño interno" del que hablamos no es mas que la forma en que se relacionan y dependen las diferentes partes de nuestra aplicación. Es en este punto donde el concepto de *dependencias* cobra importancia.
+Este "Diseño interno" del que hablamos no es mas que la forma en que se relacionan y dependen las diferentes partes de nuestra aplicación. Es en este punto donde el concepto de *dependencia* cobra importancia.
 
 > Una depencia se da cuando una parte no puede entenderce o cambiarse por si sola. Si para cambiar una clase A también tengo que cambiar una clase C, entonces A depende de C. 
 
-No importa si son clases, modulos o funciones, las dependencias siempre existen en mayor o menor medida, por eso entender bien este concepto es importante para poder decidir que es lo mas conveniente según nuestro contexto.
+No importa si son clases, modulos o funciones, las dependencias siempre existen en mayor o menor medida, por eso entender bien este concepto nos permitira decidir lo que es mas conveniente según nuestro contexto.
 
-Podemos reducir la complejidad haciendo refactorizaciones y rediseñando partes de nuestra aplicación diariamente, en mejoras de diseño buscamos:
+Podemos reducir la complejidad haciendo refactorizaciones y rediseñando partes de nuestra aplicación diariamente. En estas mejoras de diseño buscamos:
 
 * Facilitar futuros cambios dentro de la aplicación (Sin exagerar).
 
-* Reducir la carga cognitiva, reducir la cantidad de esfuerzo mental que necesita un programador para entender una porción de código o el funcionamiento de una parte de la aplicación.
+* Reducir la cantidad de esfuerzo mental necesaria para entender una porción de código o el funcionamiento de una parte de la aplicación.
 
 * Que el código sea lo mas simple y obio posible (Exagerando).
 
-* Encapsular la complejidad, en este punto buscamos ocultar la complejidad detras de algo mas simple.
+* Encapsular la complejidad buscando ocultar partes complejas detras de algo mas simple.
 
 ## Sintomas y causas
 
 Una porcion de código puede ser **compleja si**:
 
-* Al hacer un cambio este tiene muchas repercusiones, por ejemplo si al cambiar el contenido del método de una clase se rompe **toda** la aplicación o una parte considerable de ella.
+* Al hacer un cambio este tiene muchas repercusiones, por ejemplo, si al cambiar el contenido de un método se rompen varias clases.
 
 * Hay una carga cognitiva exesiva y cuesta entender el proposito de una porción de codigo.
 
@@ -43,4 +43,4 @@ Estos tres indicadores suelen ser **causados por**:
 
 * La sobre ingenieria que surge cuando hacemos mas de lo necesario, en este punto nos puede ayudar seguir el principio YANGI.
 
-* La falta de información, ya sea como documentación o información explicita en el código, no solo el nombre de las variables y funciones son importante sino que también es necesario escribir comentarios explicando mas a fondo el proposito de una función, por ejemplo explicando en que circustancias se usaria o un pequeño documento explicando la arquitectura de la aplicación.
+* La falta de información, ya sea como documentación o información explicita en el código. No solo el nombre de las variables y funciones son importantes sino que también es necesario escribir comentarios explicando mas a fondo el proposito de alguna parte de código, por ejemplo, explicando en que circustancias se usaria una funcion o un pequeño documento explicando la arquitectura de la aplicación.
