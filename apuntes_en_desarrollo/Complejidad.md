@@ -1,7 +1,7 @@
 # Complejidad
 00_00_2024
 
-En una aplicación nuestras funciones, clases y componentes pueden ser demasiado complejos si no pensamos en su diseño. Esta complejidad hace que sea difícil y arriesgado cambiar código *"legado"* o código que escribimos el mes pasado.
+En una aplicación nuestras funciones, clases y componentes pueden ser muy complejos si no pensamos en su diseño. Esta complejidad dificulta y hace arriesgado trajabar con código *"legado"* o código que escribimos el mes pasado.
 
 > Algo complejo es difícil de entender y modificar. 
 
@@ -9,7 +9,7 @@ Al desarrollar una aplicación su complejidad aumenta inevitablemente mientras a
 
 Si no pensamos en el diseño interno de nuestra aplicación esta en poco tiempo sera desamasiado compleja en comparación con su tamaño y con solo un puñado de caracteristicas sera difícil agregar mas o cambiar las que ya existen. 
 
-La velocidad de desarrollo y crecimiento que comenzo siendo muy rapida, empezara a caer dando lugar a una complejidad absurda fruto de programar lo primero que se nos paso por la cabeza sin pensar en cuestiones de diseño.
+La velocidad de desarrollo y crecimiento que comenzo siendo muy rapida, empezara a caer dando lugar a una complejidad absurda, fruto de programar lo primero que se nos paso por la cabeza sin pensar en cuestiones de diseño.
 
 Esta *complejidad absurda* no aparece de un dia para otro, es la acumulación de pequeños descuidos, como si fuera una bola de nieve, poco a poco la complejidad del proyecto crecio hasta ser absurda. Es en este punto donde agregar o cambiar algo relativamente simple lleva dias o semanas, pero si pensamos y mejoramos continuamente el diseño interno de nuestra aplicación reduciendo la complejidad a medida que esta surge, podemos facilitar tanto la expanción como la modificación de nuestra aplicación a largo plazo.
 
@@ -47,8 +47,8 @@ Estos tres indicadores suelen ser **causados por**:
 
 * Una mala administracion de las dependencias y abstracciones entre componentes de código (Clases, funciones, modulos, etc).
 
-* La sobre ingenieria que surge cuando hacemos mas de lo necesario, en este punto nos puede ayudar seguir el principio YANGI.
+* La sobre ingenieria que surge cuando hacemos mas de lo necesario, en este punto nos puede ayudar seguir el principio YANGI o el principio KISS.
 
 * La falta de información, ya sea como documentación o información explicita en el código. 
 	
-	No solo el nombre de las variables y funciones son importantes, también los son loscomentarios explicando mas a fondo el proposito de alguna parte de código, por ejemplo, explicando en que circustancias se usaria una funcion o un pequeño documento explicando la arquitectura de la aplicación.
+	No solo el nombre de las variables y funciones son importantes, también lo son los comentarios explicando mas a fondo el proposito de alguna parte de código, por ejemplo, explicando en que circustancias se usaria una funcion, o un pequeño documento explicando la arquitectura de la aplicación.
