@@ -1,5 +1,5 @@
 # Complejidad
-00_00_2024
+15_06_2024
 
 En una aplicación nuestras funciones, clases y componentes pueden ser muy complejos si no pensamos en su diseño. Esta complejidad dificulta y hace arriesgado trabajar con código *"legado"* o código que escribimos el mes pasado.
 
@@ -52,3 +52,7 @@ Estos tres indicadores suelen ser **causados por**:
 * La falta de información, ya sea como documentación o información explicita en el código. 
 	
 	No solo el nombre de las variables y funciones son importantes, también lo son los comentarios explicando mas a fondo el propósito de alguna parte de código, por ejemplo, explicando en que circunstancias se usaría una función, o un pequeño documento explicando la arquitectura de la aplicación.
+
+///
+El libro "A philosophy of software desing" de John Ousterhout.
+///
