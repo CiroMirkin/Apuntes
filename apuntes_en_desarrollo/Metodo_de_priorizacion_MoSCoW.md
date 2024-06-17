@@ -1,11 +1,9 @@
 # Método de priorización MoSCoW
 00_00_2024
 
-El método de priorización MoSCoW nos ayuda a priorizar trabajo, tareas, sprints o el desarrollo de funcionalidades basandose en su importancia y la cantidad de recursos disponibles, principalmente dinero y tiempo.
+El método de priorización MoSCoW nos ayuda a priorizar trabajo, tareas, sprints o el desarrollo de funcionalidades basandonos en su importancia y en la cantidad de recursos disponibles, principalmente dinero y tiempo.
 
-Este método es simple y rapido, pero en algunos casos puede quedarce corto.
-
-Un sistema de puntuación puede ayudar mucho a visualizar el tamaño de cada tarea, esta puntuación puede seguir la secuencia de Fibonacci: 1, 2, 3, 5 y 8.
+Este método es simple y rapido, pero en proyectos grandes o donde necesitamos mayor precision puede quedarce corto.
 
 ## Implementación
 
@@ -14,6 +12,8 @@ Al usar este método tenemos cuatro categorias, cada una de ellas indica la impo
 Podemos organizar las tareas dentro de un cuadro o lista como los siguientes:
 
 ![Formas de organizar las tareas al implementar el método MoSCoW.]()
+
+Un sistema de puntuación puede ayudarnos a visualizar el tamaño de cada tarea, esta puntuación puede seguir la secuencia de Fibonacci: 1, 2, 3, 5 y 8.
 
 ### Must-have
 
@@ -31,5 +31,4 @@ Estas tareas son interesantes, pero no importantes. Son un extra que deseamos es
 
 ### Won´t-have o Wishes
 
-Estas son tareas que no se haran en un futuro inmediato por falta de recursos, pero en un futuro cuando el proyecto ya este en el mercado se invertira en ellas.
-
+Estas son tareas que no se haran en un futuro inmediato por falta de recursos, pero en un futuro cuando el proyecto ya este en el mercado se considerara invertir en ellas.
