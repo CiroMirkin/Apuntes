@@ -1,5 +1,5 @@
 # Método de priorización MoSCoW
-00_00_2024
+23_06_2024
 
 El método de priorización MoSCoW nos ayuda a priorizar trabajo, tareas, sprints o el desarrollo de funcionalidades basándonos en su importancia y en la cantidad de recursos disponibles, principalmente dinero y tiempo.
 
@@ -28,3 +28,11 @@ Los *Could-have* son tareas interesantes, pero no importantes. Son un extra que 
 ### Won´t-have o Wishes
 
 Por último, los *Wont-have* son esas tareas que no se harán en un futuro inmediato por falta de recursos, pero en un futuro cuando el proyecto ya este en el mercado se considerara invertir en ellas.
+
+///
+https://www.uifrommars.com/priorizacion-metodo-moscow/
+https://soka.gitlab.io/blog/post/2019-06-05-tecnicas-metodologias-priorizacion/
+https://www.laboratorioti.com/2016/09/26/tecnica-priorizacion-moscow/
+https://blog.agilar.com/2021/04/20/el-metodo-moscow-una-sprint-planning-a-lo-ruso/?amp
+Video de Globant: https://youtu.be/OYApteHOHEI?si=aly1Q91JyOdEIfHb
+///
