@@ -1,5 +1,5 @@
 # Normalización
-00_07_2024
+29_07_2024
 
 Cuando usamos una base de datos relacional tenemos que definir como son las tablas y sus relaciones. 
 
@@ -81,3 +81,11 @@ Podríamos aplicar esta forma normal a la *"ubicación"* en la tabla cliente cre
 
 La cuarta forma tiene que ver con las relaciones de N:N (muchos-muchos) y la quinta forma nos permite asegurarnos de que no existen columnas extrañas, esto puede ser util al tener una estructura de datos muy grande.
 
+///
+https://www.freecodecamp.org/espanol/news/normalizacion-de-base-de-datos-formas-normales-1nf-2nf-3nf-ejemplos-de-tablas/
+https://youtu.be/fxbC4cwnb1U?si=CO0QLwFV-ksCJg8M
+https://platzi.com/tutoriales/1566-fundamentos-db/9342-normalizacion/
+https://platzi.com/blog/normalizar-una-base-de-datos-y-no-morir-en-el-intento/
+https://www.cs.upc.edu/~bcasas/docencia/pfc/NormalitzacioBD.pdf
+https://bookdown.org/paranedagarcia/database/normalizacion.html
+///
