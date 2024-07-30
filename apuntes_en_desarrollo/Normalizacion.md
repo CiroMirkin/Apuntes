@@ -3,7 +3,7 @@
 
 Cuando usamos una base de datos relacional tenemos que definir como son las tablas y sus relaciones. 
 
-Una vez esten mas o menos definidos los datos que guardaremos, podemos hacer un "diseño" mostrando como son las tablas y sus relaciones, es ahora donde entra la normalización que nos permitira mejorar el diseño o en todo caso comprobar que es optimo.
+Una vez estén mas o menos definidos los datos que guardaremos, podemos hacer un "diseño" mostrando como son las tablas y sus relaciones, es ahora donde entra la normalización que nos permitirá mejorar el diseño o en todo caso comprobar que es optimo.
 
 La normalización de una base de datos se basa en una serie de reglas y etapas las cuales aplicamos ordenadamente para evitar que la información se repita, facilitando su mantenimiento y reduciendo el espacio que ocupa.
 
@@ -61,11 +61,11 @@ En esta etapa podríamos separar la tabla cafe en dos:
 
 ### Tercera forma normal
 
-La tercera forma normal nos dice que si en una tabla hay información que no dependa de la *primary key*, debemos separar esta información en una nueva tabla y relacionarla mediante llaves, ya que podría cambiar idependientemente del resto de información en la tabla.
+La tercera forma normal nos dice que si en una tabla hay información que no dependa de la *primary key*, debemos separar esta información en una nueva tabla y relacionarla mediante llaves, ya que podría cambiar independientemente del resto de información en la tabla.
 
 Podríamos aplicar esta forma normal a la *"ubicación"* en la tabla cliente creando una nueva tabla:
 
-**Tabla ubicacion del cliente:**
+**Tabla ubicación del cliente:**
 
 | Ubicacion_id (*primary key*) | Pais | Provincia |  Ciudad |
 |--|--|--|--|
