@@ -3,15 +3,15 @@
 
 Cuando usamos una base de datos relacional tenemos que definir como son las tablas y sus relaciones. 
 
-Una vez esten mas o menos definidos los datos guardaremos podemos hacer un "diseño" mostrando como son las tablas y sus relaciones, es ahora donde entra la normalización que nos permitira mejorar el diseño o en todo caso comprobar que es optimo.
+Una vez esten mas o menos definidos los datos que guardaremos, podemos hacer un "diseño" mostrando como son las tablas y sus relaciones, es ahora donde entra la normalización que nos permitira mejorar el diseño o en todo caso comprobar que es optimo.
 
 La normalización de una base de datos se basa en una serie de reglas y etapas las cuales aplicamos ordenadamente para evitar que la información se repita, facilitando su mantenimiento y reduciendo el espacio que ocupa.
 
 ## Formas normales
 
-Cada forma normal es una etapa en la cuál aplicamos ciertas reglas buscamos la atomicidad de la información, buscando llegar hasta el punto donde los datos no se puedan dividir, como cada etapa se apoya sobre la anterior debemos aplicarlas de forma ordenada.
+Cada forma normal es una etapa en la cuál aplicamos ciertas reglas buscamos la atomicidad de la información, dicho de otra forma, buscando llegar hasta el punto donde los datos no se puedan dividir, como cada etapa se apoya sobre la anterior debemos aplicarlas de forma ordenada.
 
-Si bien existen cinco formas normales, es recomendable y suele ser suficiente llegar hasta la tercera, incluso a veces la tercera tambien es innecesaria. Hasta donde llegar se debe decidir teniendo en cuenta la cantidad de información que debemos guardar y la complejidad en las relaciones.
+Si bien existen cinco formas normales, es recomendable y suele ser suficiente llegar hasta la tercera, incluso a veces la tercera también es innecesaria. Hasta donde llegar se debe decidir teniendo en cuenta la cantidad de información que debemos guardar y la complejidad de las relaciones entre tablas.
 
 Cada tabla en nuestra base de datos guarda información la cual debería estar relacionada de alguna forma, a su vez cada tabla debería ser lo mas pequeña y concreta posible, es ahí donde las formas normales nos ayudan.
 
@@ -19,7 +19,7 @@ Cada tabla en nuestra base de datos guarda información la cual debería estar r
 
 En esta primera forma normal vamos a hacer dos cosas fundamentales:
 
-1. Identificar y separar cada grupo de datos relacionados en una tabla.
+1. Identificar y separar cada grupo de datos relacionados dentro de una tabla.
 
 2. Establecer una *primary key* [Llave primaria] para cada tabla.
 
@@ -43,7 +43,7 @@ Todas las columnas de la tabla deberían depender de la *primary key* [Llave pri
 
 Pueden existir columnas con datos que se repitan y puedan cambiar en un futuro. Este tipo de columnas son las que debemos separar en una nueva tabla la cual vamos a relacionar mediante llaves.
 
-Las columnas no deben ser variantes, por ejemplo: *camion_de_carga* y *camion_pequeño*, son columnas que deberían estar en una tabla a parte que en este caso podría ser *tipos_de_camiones*.
+Las columnas no deben ser variantes porque esto dificulta la administración de dichas variantes, por ejemplo: *camion_de_carga* y *camion_pequeño*, son columnas que deberían estar en una tabla a parte con el nombre *tipos_de_camiones*.
 
 En esta etapa podríamos separar la tabla cafe en dos:
 
@@ -79,5 +79,5 @@ Podríamos aplicar esta forma normal a la *"ubicación"* en la tabla cliente cre
 
 ### Cuarta y quinta forma normal
 
-La cuarta forma tiene que ver con las relaciones de N:N (muchos-muchos) y la quinta forma nos permite asegurarnos que no existen columnas extraña, este puede ser util al tener una estructura de datos muy grande.
+La cuarta forma tiene que ver con las relaciones de N:N (muchos-muchos) y la quinta forma nos permite asegurarnos de que no existen columnas extrañas, esto puede ser util al tener una estructura de datos muy grande.
 
