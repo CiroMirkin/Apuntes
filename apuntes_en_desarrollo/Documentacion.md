@@ -1,7 +1,7 @@
 # Documentación
 00_00_2024
 
-La documentación de los proyectos es importante, pero ¿Que y como se debería documentar? Hay dos tipos principales de documentacion, la del código y la del equipo, en ambas buscamos aportar información que no es obia y explicar cual es proposito de las cosas dentro del proyecto.
+La documentación de los proyectos es importante, pero ¿Que y como se debería documentar? Hay dos tipos principales de documentacion, la del código y la del equipo, en ambas buscamos aportar información que no es obia y explicar cual es proposito de cada cosas dentro del proyecto.
 
 Documentación del código:
 
@@ -18,15 +18,15 @@ Documentación del equipo y/o proyecto:
 
 ## Documentación del código en el código
 
-Los comentarios sirven para documentar el código, muchas veces estos son menospreciados por no saber realmente que escribir en ellos, pero realmente son utiles si sabemos que es lo debemos escribir.
+Los comentarios sirven para documentar el código y son realmente son utiles si sabemos que debemos escribir.
 
 La clave para escribir comentarios de calidad que realmente ayuden esta en escribirlos antes que el mismo código, escribimos lo que tenemos que hacer y los detalles mas importantes que conocemos, de esta forma dejamos claro el comportamiento que esperamos del codigo y toda la información que es clave a la hora de entender su futuro funcionamiento.
 
+Los comentarios de un bloque de código deben dejar claro **que hace y porque lo hace**, nunca deberían decir como lo hace. Dicho de otra forma los comentarios nos sirven como una forma de abstración del código donde dejamos de lado su implementación concreta.
+
 ### Comentarios de alto nivel
 
-Los comentarios de alto nivel nos van a permitir describir el proposito de funciones, clases, métodos o modulos.
-
-Al crear este tipo de comentarios deberíamos describir toda la información necesaria para usar una función, clase, etc. Algunas preguntas clave para lograr esto son:
+Los comentarios de alto nivel nos van a permitir documentar funciones, clases, métodos o modulos. Al crear este tipo de comentarios describimos toda la información necesaria para usar una función, clase, etc. Algunas preguntas clave para lograr esto son:
 
 * ¿Que esta tratando de hacer esta porción de código?
 
@@ -34,15 +34,15 @@ Al crear este tipo de comentarios deberíamos describir toda la información nec
 
 * ¿Que es lo más importante acerca de esta porción de código?
 
-Con estas preguntas tratamos de encontrar las caracteristicas fundamentales, ¿Porque se ejecuta este codigo? ¿Hay efectos secundarios (Los cambios se ven reflejados o afectan a otras partes de la aplicación)? ¿Hay exepciones? ¿Cual es la condición para que se ejecute? ¿Hay alguna pre-condición?
+Con estas preguntas tratamos de encontrar las caracteristicas fundamentales, ¿Porque se ejecuta este código? ¿Hay efectos secundarios (Los cambios se ven reflejados o afectan a otras partes de la aplicación)? ¿Hay exepciones? ¿Cual es la condición para que se ejecute? ¿Hay alguna pre-condición?
 
 ### Comentarios de bajo nivel
 
-En este tipo de comentarios vamos a describir los detalles que no quedan claros en el código agregando precision al proposito de ciertas partes de código.
+Estos comentarios de bajo nivel son los que escribimos dentro de funciones o métodos para describir los detalles que no quedan claros en el código, muchas veces estos comentarios no son necesarios sobre todo si las funciones son simples y cortitas.
+
+ejemplo:
 
 Los nombres de las variables deberían ser los descriptivos y autoexplicativos, deberian dejar claro que es lo que almacenan, aun asi no podemos escribir nombres largisimos, deberíamos centrarnos solo en lo mas importante, ahi es donde entran los comentarios que nos van a permitir no solo describir que es lo que reprecenta una variable sino también agregando detalles, por ejemplo, podríamos tener una variable llamada *rango* la cual podria tener un comentario como el siguiente: *El rango en que el usuario tiene permitido moverce dentro del mapa medido en kilometros*.
-
-Con estos comentarios nos importa dejar claro **que hace** un bloque de código, **no el como** lo hace.
 
 Los comentarios de bajo nivel también podrían: 
 
