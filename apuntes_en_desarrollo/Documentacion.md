@@ -18,29 +18,29 @@ Documentación del equipo y/o proyecto:
 
 ## Documentación del código en el código
 
-Los comentarios sirven para documentar el código y son realmente son utiles si sabemos que debemos escribir.
+Los comentarios sirven para documentar el código y son muy utiles si sabemos que escribir en ellos.
 
-La clave para escribir comentarios de calidad que realmente ayuden esta en escribirlos antes que el mismo código, escribimos lo que tenemos que hacer y los detalles mas importantes que conocemos, de esta forma dejamos claro el comportamiento que esperamos del codigo y toda la información que es clave a la hora de entender su futuro funcionamiento.
+La clave para escribir comentarios de calidad que realmente ayuden esta en escribirlos antes que el mismo código, escribimos lo que tenemos que hacer y los detalles mas importantes que conocemos, de esta forma dejamos claro el comportamiento que esperamos del codigo y toda la información que es clave a la hora de entender su futuro funcionamiento. 
 
-Los comentarios de un bloque de código deben dejar claro **que hace y porque lo hace**, nunca deberían decir como lo hace. Dicho de otra forma los comentarios nos sirven como una forma de abstración del código donde dejamos de lado su implementación concreta.
+Los comentarios de un bloque de código deben dejar claro **que hace y porque hace lo que hace**, nunca deberían decir como lo hace. Dicho de otra forma los comentarios nos sirven como una forma de abstración del código donde dejamos de lado su implementación concreta. Para saber que hace un bloque de cédigo leemos su comentario y para saber como lo hace leemos el mismo código, esa es la idea de los comentarios.
 
 ### Comentarios de alto nivel
 
-Los comentarios de alto nivel nos van a permitir documentar funciones, clases, métodos o modulos. Al crear este tipo de comentarios describimos toda la información necesaria para usar una función, clase, etc. Algunas preguntas clave para lograr esto son:
+Los comentarios de alto nivel nos van a permitir documentar toda la información necesaria para usar las funciones, clases, métodos o modulos que programemos.
 
-* ¿Que esta tratando de hacer esta porción de código?
+Algunas preguntas clave para lograr esto son:
 
-* ¿Que es lo más simple que puedo decir que explique todo en esta porción de código?
+* ¿Que trata de hacer esta función?
 
-* ¿Que es lo más importante acerca de esta porción de código?
+* ¿Que es lo más simple que podemos decir que explique todo en esta función?
 
-Con estas preguntas tratamos de encontrar las caracteristicas fundamentales, ¿Porque se ejecuta este código? ¿Hay efectos secundarios (Los cambios se ven reflejados o afectan a otras partes de la aplicación)? ¿Hay exepciones? ¿Cual es la condición para que se ejecute? ¿Hay alguna pre-condición?
+* ¿Que es lo más importante acerca de esta función?
+
+Y con estas otras preguntas tratamos de encontrar las caracteristicas fundamentales, ¿Porque se ejecuta este código? ¿Hay efectos secundarios (Los cambios se ven reflejados o afectan a otras partes de la aplicación)? ¿Hay exepciones? ¿Cual es la condición para que se ejecute? ¿Hay alguna pre-condición?
 
 ### Comentarios de bajo nivel
 
-Estos comentarios de bajo nivel son los que escribimos dentro de funciones o métodos para describir los detalles que no quedan claros en el código, muchas veces estos comentarios no son necesarios sobre todo si las funciones son simples y cortitas.
-
-ejemplo:
+Estos comentarios de bajo nivel son los que escribimos dentro de funciones o métodos para describir los detalles que no quedan claros en el código, muchas veces estos comentarios no son necesarios sobre todo si las funciones son simples y cortitas, donde suelen ser mas utiles es en variables.
 
 Los nombres de las variables deberían ser los descriptivos y autoexplicativos, deberian dejar claro que es lo que almacenan, aun asi no podemos escribir nombres largisimos, deberíamos centrarnos solo en lo mas importante, ahi es donde entran los comentarios que nos van a permitir no solo describir que es lo que reprecenta una variable sino también agregando detalles, por ejemplo, podríamos tener una variable llamada *rango* la cual podria tener un comentario como el siguiente: *El rango en que el usuario tiene permitido moverce dentro del mapa medido en kilometros*.
 
@@ -54,7 +54,7 @@ Los comentarios de bajo nivel también podrían:
 
 ### Los comentarios son muy largos
 
-Si un comentario es muy largo o nos cuesta mucho escibirlo esto quiere decir que hay un posible fallo en el diseño del código, por ejemplo, podría indicar que una variable tiene multiples usos o que un método hace demasiadas cosas. Los comentarios no pueden ayudar a identidicar estas fallas de diseño, pero solo si estan bien escritos.
+Si un comentario es muy largo o nos cuesta mucho escibirlo esto quiere decir que hay un posible fallo en el diseño del código, por ejemplo, podría indicar que una variable tiene multiples usos o que un método hace demasiadas cosas. Los comentarios nos pueden ayudar a identidicar estas fallas de diseño, pero solo si estan bien escritos.
 
 ## Documentación del equipo y proyecto
 
