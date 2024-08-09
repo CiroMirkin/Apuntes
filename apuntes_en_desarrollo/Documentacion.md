@@ -56,6 +56,22 @@ Los comentarios de bajo nivel también podrían:
 
 Si un comentario es muy largo o nos cuesta mucho escibirlo esto quiere decir que hay un posible fallo en el diseño del código, por ejemplo, podría indicar que una variable tiene multiples usos o que un método hace demasiadas cosas. Los comentarios nos pueden ayudar a identidicar estas fallas de diseño, pero solo si estan bien escritos.
 
+### Mantenimiento de los comentarios
+
+Al hacer cambios en el código es posible que algo de la información de los comentarios quede obsoleta. 
+
+La documentación desactualizada esun dolor de cabeza, confunde y frustra al programador que la lee, por eso es importante mantenerla actualizada.
+
+Los comentarios de alto nivel al no tener detalles sobre el código son más faciles de mantener, solo son afectados por los cambios en el comportamiento general del código. Por otro lado los comentarios de bajo nivel al contener detalles y ser precisos son sensibles a los pequeños cambios en el código. Ninguno es mejor que otro ambos son necesarios para informar cosas diferentes.
+
+Algunos consejos para mantener la documentacion actualizada son:
+
+* Mantener los comentarios lo mas cerca posible del código que documenta, esto no solo facilita su actualizacion sino también facilita su lectura.
+
+* Eliminar completamente la información duplicada, la documentacion deberia estar en un solo sitio y si no es posible que este cerca del código se puede referenciar con un comentario, pero nunca duplicarce.
+
+* Una buena practica antes de hacer un *commit* de los cambios en el codigo, es revisar la documentación y asegurarse de que no este desactualisada.
+
 ## Documentación del equipo y proyecto
 
 Hay muchas formas de documentar un proyecto y las practicas del equipo, la mas simple es usando documentos Markdown y lo que vamos a documentar es:
