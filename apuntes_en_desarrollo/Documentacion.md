@@ -1,7 +1,7 @@
 # Documentación
 00_00_2024
 
-La documentación de los proyectos es importante, nos permite dejar clara toda la información que un desarrollador podría necesitar en el futuro, podriamos ser nosotros mismos o un equipo completamente nuevo. Hay dos tipos principales de documentacion, la del código y la del equipo, en ambas buscamos aportar información que no es obia y explicar cual es proposito de cada cosas dentro del proyecto.
+La documentación de los proyectos es importante, nos permite dejar clara toda la información que un desarrollador podría necesitar en el futuro, podriamos ser nosotros mismos o un equipo completamente nuevo. Hay dos tipos principales de documentacion, la del código y la del equipo, en ambas buscamos aportar información que no es obia y explicar cual es proposito de cada cosa dentro del proyecto.
 
 Documentación del código:
 
@@ -74,7 +74,7 @@ Algunos consejos para mantener la documentación actualizada son:
 
 ## Documentación del equipo y proyecto
 
-Hay muchas formas de documentar un proyecto y las practicas del equipo, la mas simple es usando documentos Markdown y lo que vamos a documentar es:
+Hay muchas formas de documentar un proyecto y las practicas del equipo, la mas simple es usando documentos Markdown, pero sea cúal sea el medio que elijamos la documentación debe ser facilmente accecible para todo el equipo. Lo que vamos a documentar es:
 
 * La arquitectura de la aplicación.
 
@@ -86,5 +86,5 @@ Hay muchas formas de documentar un proyecto y las practicas del equipo, la mas s
 
 * Los casos de uso e historias de usuario.
 
-En este tipo de documentacion es recomendable agregar diagramas si ayudan a entender el funcionamiento de la aplicación.
+En este tipo de documentacion es recomendable agregar diagramas si estos ayudan a entender el funcionamiento de la aplicación, no sirve de nada hacer diagramas que nadie entiende. El diagrama mas recomentable para documentar podría ser el C4.
 
