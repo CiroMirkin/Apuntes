@@ -1,7 +1,7 @@
 # Documentación
 00_00_2024
 
-La documentación de los proyectos es importante, nos permite dejar clara toda la información que un desarrollador podría necesitar en el futuro, podriamos ser nosotros mismos o un equipo completamente nuevo. Hay dos tipos principales de documentacion, la del código y la del equipo, en ambas buscamos aportar información que no es obia y explicar cual es proposito de cada cosa dentro del proyecto.
+La documentación de los proyectos es importante porque nos permite dejar clara toda la información que un desarrollador podría necesitar en el futuro, podriamos ser nosotros mismos o un equipo completamente diferente. Hay dos tipos principales de documentación, la del código y la del equipo, en ambas buscamos aportar información que no es obia y explicar cual es proposito de cada cosa dentro del proyecto.
 
 Documentación del código:
 
@@ -20,7 +20,7 @@ Documentación del equipo y/o proyecto:
 
 Los comentarios sirven para documentar el código y son muy efectivos si sabemos que escribir en ellos.
 
-La clave para escribir comentarios de calidad que realmente ayuden esta en escribirlos antes que el mismo código. Describimos lo que tenemos que hacer y los detalles mas importantes que conocemos, de esta forma dejamos claro el comportamiento que esperamos del código y toda la información que es clave a la hora de entender su futuro funcionamiento. 
+La clave para escribir comentarios de calidad que ayuden esta en escribirlos antes que el mismo código. Describimos lo que tenemos que hacer y los detalles mas importantes que conocemos, de esta forma dejamos claro cual es el comportamiento que esperamos del código y toda la información que es clave a la hora de entender su futuro funcionamiento. 
 
 Los comentarios de un bloque de código deben dejar claro **que hace y porque hace lo que hace**, nunca deberían decir como lo hace. Para saber que hace un bloque de código leemos su comentario y para saber como lo hace leemos el mismo código, esa es la idea de los comentarios. Dicho de otra forma los comentarios nos sirven como una abstración del código donde dejamos de lado su implementación.
 
@@ -36,11 +36,11 @@ Algunas preguntas clave para lograr esto son:
 
 * ¿Que es lo más importante acerca de esta función?
 
-Y con estas otras preguntas tratamos de encontrar las caracteristicas fundamentales, ¿Porque se ejecuta este código? ¿Hay efectos secundarios (Los cambios se ven reflejados o afectan a otras partes de la aplicación)? ¿Hay exepciones? ¿Cual es la condición para que se ejecute? ¿Hay alguna pre-condición?
+Y con estas otras tratamos de encontrar las caracteristicas fundamentales, ¿Porque se ejecuta este código? ¿Hay efectos secundarios (Los cambios se ven reflejados o afectan a otras partes de la aplicación)? ¿Hay exepciones? ¿Cual es la condición para que se ejecute? ¿Hay alguna pre-condición?
 
 ### Comentarios de bajo nivel
 
-Estos comentarios de bajo nivel son los que escribimos dentro de funciones o métodos para describir los detalles que no quedan claros en el código, muchas veces estos comentarios no son necesarios sobre todo si las funciones son simples y cortitas, donde suelen ser mas utiles estos comentarios es en variables.
+Estos comentarios de bajo nivel son los que escribimos dentro de funciones o métodos para describir los detalles que no quedan claros en el código, muchas veces estos comentarios no son necesarios sobre todo si las funciones son simples y cortitas, donde suelen ser mas utiles es en variables.
 
 Los nombres de las variables deberían ser descriptivos y autoexplicativos, deberían dejar claro que es lo que almacenan, aun asi no podemos escribir nombres largisimos, deberíamos centrarnos solo en lo mas importante, ahi es donde entran los comentarios que nos van a permitir no solo describir que es lo que reprecenta una variable sino también agregar detalles, por ejemplo, podríamos tener una variable llamada *rango* la cuál podría tener un comentario como el siguiente: *El rango en que el usuario tiene permitido moverce dentro del mapa medido en kilometros*.
 
@@ -50,11 +50,11 @@ Los comentarios de bajo nivel también podrían:
 
 * Avisar de algun cambio que no debe hacerce y el motivo de esto.
 
-* Dejar claro que la solución implementada es provisoria.
+* Dejar claro que la solución implementada es provisoria o cuales son sus limitaciones.
 
 ### Los comentarios son muy largos
 
-Si un comentario es muy largo o nos cuesta mucho escribirlo esto quiere decir que hay un posible fallo en el diseño del código, por ejemplo, podría indicar que una variable tiene multiples usos o que un método hace demasiadas cosas. 
+Si un comentario es muy largo o nos cuesta escribirlo quiere decir que hay un posible fallo en el diseño del código, por ejemplo, podría indicar que una variable tiene multiples usos o que un método hace demasiadas cosas. 
 
 ### Mantenimiento de los comentarios
 
@@ -62,7 +62,7 @@ Al hacer cambios en el código es posible que algo de la información de los com
 
 La documentación desactualizada es un dolor de cabeza, confunde y frustra al programador que la lee, por eso es importante mantenerla actualizada.
 
-Los comentarios de alto nivel al no tener detalles sobre el código son más faciles de mantener, solo son afectados por los cambios en el comportamiento general del código. Por otro lado los comentarios de bajo nivel al contener detalles y ser precisos son sensibles a los pequeños cambios en el código. Ninguno es mejor que otro ambos son necesarios para informar cosas diferentes.
+Los comentarios de alto nivel al no tener detalles sobre el código son más faciles de mantener, solo son afectados por los cambios en el comportamiento general del código. Por otro lado los comentarios de bajo nivel al contener detalles y ser precisos son sensibles pequeños cambios en el código. Ninguno es mejor que otro ambos son necesarios para informar cosas diferentes.
 
 Algunos consejos para mantener la documentación actualizada son:
 
@@ -70,11 +70,13 @@ Algunos consejos para mantener la documentación actualizada son:
 
 * Eliminar completamente la información duplicada, la documentación debería estar en un solo sitio y si no es posible que este cerca del código se puede referenciar con un comentario, pero nunca duplicarce.
 
-* Una buena practica antes de hacer un *commit* de los cambios en el codigo, es revisar la documentación y asegurarse de que no este desactualisada.
+* Una buena practica antes de hacer un *commit* de los cambios en el código, es revisar la documentación y asegurarse de que no este desactualisada.
 
 ## Documentación del equipo y proyecto
 
-Hay muchas formas de documentar un proyecto y las practicas del equipo, la mas simple es usando documentos Markdown, pero sea cúal sea el medio que elijamos la documentación debe ser facilmente accecible para todo el equipo. Lo que vamos a documentar es:
+Hay muchas formas de documentar un proyecto y las practicas del equipo, la mas simple es usando documentos Markdown, pero sea cúal sea el medio que elijamos la documentación debe ser de facil acceso para todo el equipo. 
+
+Lo que podemos documentar es:
 
 * La arquitectura de la aplicación.
 
@@ -86,5 +88,5 @@ Hay muchas formas de documentar un proyecto y las practicas del equipo, la mas s
 
 * Los casos de uso e historias de usuario.
 
-En este tipo de documentacion es recomendable agregar diagramas si estos ayudan a entender el funcionamiento de la aplicación, no sirve de nada hacer diagramas que nadie entiende. El diagrama mas recomentable para documentar podría ser el C4.
+En este tipo de documentacion es recomendable agregar diagramas si estos ayudan a entender el funcionamiento de la aplicación, no sirve de nada hacer diagramas que nadie entiende, estos deben adecuarse a la complejidad del proyecto y los conocimientos del equipo. El diagrama mas recomentable para documentar podría ser el diagrama de arquitectura C4.
 
