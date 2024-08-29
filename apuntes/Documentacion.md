@@ -90,3 +90,7 @@ Lo que podemos documentar es:
 
 En este tipo de documentación es recomendable agregar diagramas si estos ayudan a entender el funcionamiento de la aplicación, no sirve de nada hacer diagramas que nadie entiende, estos deben adecuarse a la complejidad del proyecto y los conocimientos del equipo. Un diagrama recomendable para documentar podría ser el modelo de arquitectura C4.
 
+///
+El Libro "A philosophy of software desing" de John Ousterhout.
+El libro "Código sostenible" de Carlos Blé Jurado.
+///
