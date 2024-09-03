@@ -1,0 +1,36 @@
+name: Actualizar lista de apuntes
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+    if: github.repository == 'CiroMirkin/Apuntes' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x, 22.x]
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Run script
+        run: node generarListaDeApuntes
+
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Actualiza lista de apuntes
+          commit_user_name: Ciro Mirkin [GitHub Actions]
+          commit_user_email: ciromirkin@gmail.com
+          commit_author: CiroMirkin <ciromirkin@gmail.com>
