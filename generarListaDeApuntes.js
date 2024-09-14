@@ -36,6 +36,7 @@ fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
 
                 let noteYear = noteContentPerLine[1].split('_').at(-1)
 
+                // We only use the title and RELATIVE_PATH attributes, but we may use the rest in the future
                 const note = {
                     title: noteTitle,
                     formattedDate,
@@ -48,13 +49,15 @@ fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
 
                 notes.push(`- [${note.title}](${note.RELATIVE_PATH.split(' ').join('%20')})`)
 
+                // Checks if all the notes are in notes array
                 const isThisTheLastNote = (listOfNoteFiles.length - 1) === index;
                 if (isThisTheLastNote) {
-                    // Now the whole notes are in notes array
+                    // Modify the README.md file to include the list of notes
                     fs.readFile('README.md', 'utf-8', (err, readmeContent) => {
                         if (err) {
                             return console.error('Error al leer apunte (note) ', err);
                         } 
+                        
                         const readmeContentWithoutNoteList = readmeContent.split('<!--lista_apuntes-->')[0]
                         const content = `${readmeContentWithoutNoteList}<!--lista_apuntes-->\n## Lista de apuntes\n${notes.join('\n')}\n<!--lista_apuntes-->`
                         fs.writeFile('README.md', content, (err) => {
