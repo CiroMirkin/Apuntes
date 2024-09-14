@@ -15,6 +15,7 @@ fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
 
     const notes = []
     
+    listOfNoteFiles.sort()
     listOfNoteFiles.forEach((nameOfNoteFile, index) => {
         const RELATIVE_PATH_OF_NOTE_FILE = `${RELATIVE_PATH_OF_NOTES_FOLDER}${nameOfNoteFile}`;
 
