@@ -4,6 +4,7 @@ const fs = require('fs');
 
 const RELATIVE_PATH_OF_NOTES_FOLDER = 'apuntes/'
 
+// Gets the list of the notes inside the 'apuntes/' folder
 fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
     if (err) {
         console.error('Error al leer directorio ', err)
@@ -13,9 +14,11 @@ fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
     console.table(listOfNoteFiles);
 
     const notes = []
+    
     listOfNoteFiles.forEach((nameOfNoteFile, index) => {
         const RELATIVE_PATH_OF_NOTE_FILE = `${RELATIVE_PATH_OF_NOTES_FOLDER}${nameOfNoteFile}`;
 
+        // Gets the content of each note
         fs.readFile(RELATIVE_PATH_OF_NOTE_FILE, 'utf-8', (err, noteContent) => {
             if (err) {
                 console.error('Error al leer apunte (note) ', err);
