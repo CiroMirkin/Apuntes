@@ -1,7 +1,7 @@
 # Estadistica
 00_00_2024
 
-## Tablas de frecuencia
+## Tabla de frecuencia
 
 * La frecuencia absoluta (Fa) es la cantidad de veces que aparece un dato.
 
@@ -9,7 +9,7 @@
 
 * La frecuencia procental (f%) es el porcentaje de veces que aparece un dato. Se calcula: `F% = Fr . 100`.
 
-Datos: 1,4,2,3,3,1,5,4,2,2,3,2,2,1,3,2,2,1,3,3,4,5,1,1,3,2,2,5,4,4
+Datos: 1,4,2,3,3,1,5,4,2,2,3,2,2,1,3,2,2,1,3,3,4,5,1,1,3,2,2,5,4,4.
 
 Tabla de frecuencia:
 
@@ -21,6 +21,8 @@ Tabla de frecuencia:
 | 4 | 5 | 0,2 | 16% |
 | 5 | 3 | 0,1 | 10% |
 | Total: | 30 | 1 | 100% |
+
+En este ejemplo tenemos 30 datos, por eso al sumar todos los *Fa* nos debe dar 30.
 
 ## Graficos estadisticos
 
@@ -38,37 +40,33 @@ Son valores que nos permiten describir un grupo de datos dandonos una idea gener
 
 * Mediana (Me): Es el valor central al ordenar todos los datos de **menor a mayor**.
 
-## Distribucion de frecuencias para datos agrupados
+## Intervalos
 
-165, 163, 164, 156, 157, 168,
+Datos: 165, 163, 164, 156, 157, 168,
 168, 173, 158, 159, 159, 162,
 165, 160, 160, 161, 169, 171,
 163, 167, 162, 164, 160, 166,
-162, 166, 161, 162, 170, 164
+162, 166, 161, 162, 170, 164.
 
-N = 30
+`Cantidad de datos (N) = 30`
 
-El *Limite superior* es el numero mas chico dentro del grupo y el *Limite superior* es el mas grande.
+El *Limite inferior* es el numero mas chico dentro del grupo y el *Limite superior* es el mas grande, en este caso *el limite superior* es **173** y *el limite inferior* es **156**.
 
-Limite Superior = 173
-
-Limite Inferior = 156
-
-N° de intervalos (I)= Raiz cuadrada(N)
+* ` N° de intervalos (I) = [1 + 3,322 . Log N]`
 
 I = 6
 
-Rango ( R ) = Limite superior - Limite Inferior
+* `Rango ( R ) = Limite superior - Limite Inferior`
 
 R = 173 - 156 = 17
 
-Amplitud (A) = R /I
+* `Amplitud (A) = R /I`
 
 A = 17 / 6 = 2,8 = 3
 
-Marca de clase = (Limite Inferior + Limite Superior) / 2
+* `Marca de clase = (Limite Inferior + Limite Superior) / 2`
 
-Para el *Fa* se cuenta la cantidad de numeros desde el 156 al 159 sin contar el 159.
+En el *Fa* contamos la cantidad de numeros desde el 156 al 159 sin contar el 159.
 
 | Altura | Marca de clase | Fa | Fr |
 |--|--|--|--|
