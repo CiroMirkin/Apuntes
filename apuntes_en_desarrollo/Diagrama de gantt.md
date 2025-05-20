@@ -1,54 +1,53 @@
 # Diagrama de Gantt
 00_02_2025
 
-El diagrama de Gantt nos permite organizar las tareas y plazos que deben seguir los miembros de un equipo para llevar a cabo un proyecto, podriamos decir que es una forma de hacer mas amigable un cronograma para un equipo.
+El diagrama de Gantt nos permite organizar las tareas y plazos que deben seguir los miembros de un equipo para llevar a cabo un proyecto, es una forma de hacer más amigable el cronograma de tareas para un equipo chico de 5 u 8 miembros.
 
-Otros dos elementos del diagrama ademas de las tareas son las dependencias y los hitos:
+Dos elementos importantes en este diagrama ademas de las tareas son las dependencias y los hitos:
 
-* Dependencias: Las dependencias nos indican cuando una tarea depende de que otra este terminada para llevarce a cabo, por ejemplo: La tarea "Hornear pan" depende de la tarea "Amasar pan", al igual que la tarea "Diseñar Interfaz grafica" depende de la tarea "Definir datos".
+* Las Dependencias que nos indican que una tarea depende de que otra este terminada para llevarse a cabo, por ejemplo: La tarea "Hornear pan" depende de la tarea "Amasar pan".
 
-* Hitos: Los Hitos son fechas importante para el proyecto como una visita de revicion por parte del cliente, el fin del desarrollo del producto, el fin de la campaña de marketing o el lanzamiento del producto al mercado.
+* Los Hitos, fechas importantes para el proyecto como una visita de revision por parte del cliente, desplegar a producción una aplicación o el fin de la campaña de marketing.
+
+## Creación del diagrama
+
+1. Definir el plazo del proyecto, cuando inicia y *aproximadamente* cuando debería estar terminado.
+
+2. Agregar tareas con sus respectivos plazos (Cuando deberían empezar y terminar).
+
+3. Definir que tareas dependen de otras para comenzarse y los hitos del proyecto.
+
+4. Realizar las modificaciones y ajustes necesarios cuando sea necesario a medida que avance el proyecto, como cambiar los plazos que no fueron realistas en su estimación al igual que definir o eliminar dependencias.
 
 ## Ejemplo de diagramas
 
-Hay varias formas de hacer este diagrama, pero todas muestran graficamente las tareas y el plazo que tienen para llevarce a cabo.
-
-En este ejemplo las tareas son los rectangulos y su longitud indica el plazo.
+Hay varias formas de hacer este diagrama, pero todas muestran gráficamente las tareas y sus plazos:
 
 ![diagra](../imagenes/Diagrama_de_gantt_1.png)
 
-Y en este otro ejemplo donde se muestra más información las tareas estan a la izquierda y su plazo se muestra a la derecha.
+En este ejemplo las tareas son los rectángulos y su longitud indica el plazo. Si creamos un proyecto en GitHub esta seria la vista llamada "Roadmap".
 
 ![diagra](../imagenes/Diagrama_de_Gantt_2.png)
 
-## Uso
-
-1. **Plazo del proyecto**: Definir el periodo del proyecto, cuando inica y aproximadamente cuando deberia estar terminado.
-
-2. **Tareas**: Agregar las tareas con periodos con sus periodos de tiempo (Cuando deberían empezar y cuando deberían terminar).
-
-3. **Dependencias**: Definir que tareas no pueden dependen de otras para iniciarce.
-
-4. **Hitos**: Definir las fechas importantes para el proyecto.
-
-5. Realiazar las modificaciones necesarias cuando sea necesario.
+Y en este otro ejemplo donde se muestra más información las tareas están a la izquierda y su plazo se muestra a la derecha.
 
 ## Ventajas
 
-* Permite gestinar tareas y planificar los tiempos.
+* Permite gestionar tareas y planificar los tiempos lo cual nos permite visualizar fácilmente el cronograma, el progreso e identificar "tiempos muertos" que se pueden aprovechar.
 
-* Nos brinda programacion, control y seguimiento de los avances y las fechas.
+* Nos brinda control sobre las fechas y seguimiento de los avances.
 
 ## Desventajas
 
-* Puede dar muchas complicaciones en proyectos muy grandes con largos plazos de tiempo (2 o 3 años), y si bien podriamos dividir el proyecto en sub proyectos mas chicos esto tambien podria dar complicaciones. 
+* Puede dar muchas complicaciones en proyectos muy grandes con largos plazos de tiempo (2 o 3 años), y si bien podríamos dividir el proyecto en sub proyectos mas chicos esto también podría dar complicaciones. 
 
-* Este diagrama sigue un modelo en cascada, donde una cosa se lleva a cabo despues de otra, esta rigidez podria dar complicaciones en algunos proyectos que necesiten menos rigidez en los plazos de tiempo.
+* Este diagrama sigue un modelo en cascada, donde una cosa se lleva a cabo después de otra, esta rigidez podría dar complicaciones en algunos proyectos que necesiten menos rigidez en cuanto a los plazos de tiempo.
 
-* Requiere actualizaciones constantes, esto podria o no considerance una desventaja.
+* Requiere ajustes constantes, esto podría o no considerarse una desventaja.
 
 ///
 https://asana.com/es/resources/gantt-chart-basics
 https://blog.ganttpro.com/es/guia-completa-para-los-diagramas-de-gantt/
 https://www.leanmanufacturingweb.com/diagrama-de-gantt/
+https://github.blog/changelog/2023-03-23-roadmaps-in-projects-are-now-generally-available/
 ///
