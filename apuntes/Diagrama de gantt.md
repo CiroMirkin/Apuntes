@@ -1,5 +1,5 @@
 # Diagrama de Gantt
-00_02_2025
+20_05_2025
 
 El diagrama de Gantt nos permite organizar las tareas y plazos que deben seguir los miembros de un equipo para llevar a cabo un proyecto, es una forma de hacer más amigable el cronograma de tareas para un equipo chico de 5 u 8 miembros.
 
@@ -23,11 +23,11 @@ Dos elementos importantes en este diagrama ademas de las tareas son las dependen
 
 Hay varias formas de hacer este diagrama, pero todas muestran gráficamente las tareas y sus plazos:
 
-![diagra](../imagenes/Diagrama_de_gantt_1.png)
+![diagrama de gantt](../imagenes/Diagrama_de_gantt_1.png)
 
 En este ejemplo las tareas son los rectángulos y su longitud indica el plazo. Si creamos un proyecto en GitHub esta seria la vista llamada "Roadmap".
 
-![diagra](../imagenes/Diagrama_de_Gantt_2.png)
+![diagrama de gantt](../imagenes/Diagrama_de_Gantt_2.png)
 
 Y en este otro ejemplo donde se muestra más información las tareas están a la izquierda y su plazo se muestra a la derecha.
 
