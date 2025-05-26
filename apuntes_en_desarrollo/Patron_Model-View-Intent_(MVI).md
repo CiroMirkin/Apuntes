@@ -1,27 +1,31 @@
 # Patrón Model-View-Intent (MVI)
 00_00_2025
 
-Este patrón arquitectónico ademas de proveernos una forma de organizar la presentación de los datos y las interacción del usuario, también nos provee un forma de manejar un flujo de datos asíncrono (No secuencial), ya que aplica el paradigma de programación reactiva el cual se base en los patrones de diseño _Observer_ e _Interator_.
+Este patrón arquitectónico ademas de proveernos una forma de organizar la presentación de los datos y las interacción del usuario, también busca ofrecer una solución para manejar un flujos de datos asíncronos (No secuenciales, con tiempos de espera para respuestas). 
 
-![Diagrama base MVI](../imagenes/)
+> Este patrón esta dentro de la programación reactiva la cual se basa en los patrones de diseño _Observer_ e _Interator_.
 
-El **Modelo** define como son los datos, estos datos son entregados a la **Vista** quien los muestra al usuario.
+![Diagrama base MVI](../imagenes/diagrama_base_mvi.svg)
 
-Cuando el usuario hace una interacción esta es recibida por la **Vista** y enviada a una **Intencion** la cual crear un nuevo estado que remplazará al estado actual. Por último para finalizar el ciclo la **Vista** se actualizaría mostrar el nuevo estado.
+El flujo seguido en resumen es el siguiente y se puede separar en dos partes:
 
-Veamos en detalle cada cada elemento:
+1. El **Modelo** define como son los datos y estos datos son entregados a la **Vista** quien los muestra al usuario.
 
-* El Modelo (Model) es un objeto único en el sistema que define cuales son los datos que se mostraran al usuario o los que podrá usar.
+2. Cuando el usuario hace una interacción esta es recibida por la **Vista** y enviada/recibida **Intencion** la cual crea nuevos datos que remplazarán a los datos actuales, por último para finalizar el ciclo la **Vista** se actualizaría mostrando los nuevos datos. Este segundo flujo puede cambiar dependiendo de la implementación.
 
-* El Estado (State) es quien tiene los datos definidos por el modelo. Este mismo es inmutable, no debería ser posible poder modificarlo directamente, en su lugar se debería crear una nuevo estado el cual remplazaría al estado actual.
+Veamos en detalle cada elemento:
 
-* La Vista (View) unicamente se encarga de mostrar el modelo de los datos, de ser una una función esta no retornaría nada.
+* El Modelo (Model) es un objeto único en el sistema que define cuales y como son los datos que se mostraran o usara el usuario.
 
-* La Intención (Intent) son acciones las cuales se producen a traves de la vista, al producirse una interacción por parte del usuario la intención puede crear un nuevo modelo de datos basándose en la interacción recibida. 
+* El Estado (State) o *ViewModel* es quien almacena los datos definidos por el modelo. El estado es inmutable, por ende no debería ser posible modificarlo directamente, en su lugar se debería crear nuevos datos los cuales remplazaran a los actuales.
 
-![Diagrama de MVI con un ViewModel o ViewController](../imagenes/)
+* La Vista (View) unicamente se encarga de mostrar el modelo de los datos.
 
-El determinismo es un concepto muy importante a la hora de implementar este patron ya que establece que la misma acción con el mismo estado inicial debería dar el mismo resultado. Buscamos que la información fluya en una sola dirección y para obtener una secuencia clara y trasparente de eventos.
+* Una Intención (Intent) permite gestionar o traducir una interacción producida en la vista, al producirse dicha interacción la intención puede crear nuevos datos basándose en la interacción recibida. 
+
+![Diagrama de MVI con un ViewModel o ViewController](../imagenes/diagrama_mvi_con_state.svg)
+
+El determinismo es un concepto muy importante a la hora de implementar este patron ya que establece que la misma acción con el mismo estado inicial debería dar el mismo resultado. Buscamos que la información fluya en una sola dirección en una secuencia clara y trasparente de eventos.
 
 ///
 
