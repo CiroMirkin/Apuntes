@@ -1,5 +1,5 @@
 # Patrón Model-View-Intent (MVI)
-00_00_2025
+05_26_2025
 
 Este patrón arquitectónico ademas de proveernos una forma de organizar la presentación de los datos y las interacción del usuario, también busca ofrecer una solución para manejar un flujos de datos asíncronos (No secuenciales, con tiempos de espera para respuestas). 
 
@@ -28,5 +28,9 @@ Veamos en detalle cada elemento:
 El determinismo es un concepto muy importante a la hora de implementar este patron ya que establece que la misma acción con el mismo estado inicial debería dar el mismo resultado. Buscamos que la información fluya en una sola dirección en una secuencia clara y trasparente de eventos.
 
 ///
-
+https://thenewstack.io/developers-need-know-mvi-model-view-intent/
+https://hackernoon.com/lang/es/esta-pequena-biblioteca-de-kotlin-podria-ser-la-forma-mas-limpia-de-construir-aplicaciones-cross-platform
+https://ichi.pro/es/patron-de-arquitectura-reactiva-de-android-mvi-128530942790279
+https://dev.to/josegermanx/flux-manteniendo-el-control-del-flujo-en-el-cambio-de-un-estado-react-5ckn
+https://devexpert.io/mvi-android/
 ///
