@@ -1,5 +1,5 @@
 # Patrón Model-View-Intent (MVI)
-05_26_2025
+26_05_2025
 
 Este patrón arquitectónico ademas de proveernos una forma de organizar la presentación de los datos y las interacción del usuario, también busca ofrecer una solución para manejar un flujos de datos asíncronos (No secuenciales, con tiempos de espera para respuestas). 
 
