@@ -1,6 +1,6 @@
 # Apuntes de programación
 
-Escribo estos apuntes y los publico a como un diario de estudio. Con estos apuntes no busco compartir un conocimiento profundo, sino, compartir una idea clara sobre un tema, para que cada uno pueda profundizar por su cuenta.
+Escribo estos apuntes y los publico como un diario de estudio. No busco compartir un conocimiento profundo, sino, una idea clara sobre un tema para que cada uno pueda profundizar por su cuenta.
 <!--lista_apuntes-->
 ## Lista de apuntes
 - [Acoplamiento entre componentes](apuntes/Acoplamiento%20entre%20componentes.md)
