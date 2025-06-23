@@ -1,5 +1,5 @@
 # Matriz de gestión del tiempo
-00_06_2025
+23_06_2025
 
 Esta matriz también conocida como *La matriz de Eisenhower* nos permite priorizar tareas orientando nuestro tiempo y esfuerzo hacia un objetivo. Al utilizar esta matriz como un método para priorizar tareas usamos dos variables _la urgencia_ y _la importancia_ las cueles crean 4 categorías que definen el tiempo y esfuerzo que debemos dedicar a cada una:
 
@@ -22,5 +22,6 @@ O también podemos hacerlo de forma lineal:
 ![Matriz de forma visual](../imagenes/Matriz_de_gestion_del_tiempo_lineal.svg)
 
 ///
-
+https://revistamarina.cl/es/articulo/la-matriz-eisenhower-una-herramienta-de-planificacion-y-gestion
+https://asana.com/es/resources/eisenhower-matrix
 ///
