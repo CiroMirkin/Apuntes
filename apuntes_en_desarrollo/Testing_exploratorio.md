@@ -73,8 +73,37 @@ Podriamos crear "personas" para guiar la forma de interaccion, alguien de 65 añ
 
 ## Entidades y sus relaciones
 
+Explorar las diferentes entidades (Si trabajamos con POO), funciones, componente o modulos junto con su relacion para con el resto de elementos dentro del sistema nos puede ayudar a identificar fallas, inconsistencias, malas dependencias, problemas de optimizacion. Algunas recomendaciones en este puntos son:
+
+* Identificar entidades a partir de atributo dentro de la aplicación o grandes porciones de informacion.
+
+* Relacionar las entidades segun la forma en la que se habla sobre dicha entidad o los verbos que utilizan para describit la relacion entre entidades.
+
+* Seguir el ciclo de vida de un dato o entidad (cuando nace, cuando muere, su cantidad de apariciones, recorrido y puntos de quiebre).
+
+* Operaciones CRUD, variar datos de entrada, edicion, eliminacion, prueba crear una entidad sin dependencias?
+
+* Prueba creando un diagrama Entidad-Relacion (ERD).
 
 ## Estados y transiciones
+
+Siempre dentro de toda aplicación existen errores esporadicos y dificiles de reproducir los cuales suceden durante un breve periodo de tiempo, en estos casos es importante hacer foco en el comportamiento observable mas alla del conocimiento tecnico debemos reconocer _estados y eventos_. Es importante encontrar y enumerar los cambios de estado juntos con los eventos que accionan dichos cambios, ahi veces en que los estados son alterados por eventos sutiles o incluso por eventos sobre los cuales no tenemos control.
+
+> Eventos ---> Estado
+
+Puntos importantes para detectar estado:
+
+* Hay algo que podria hacer ahora que antes no podia hacer? Y su contrario hay algo que no puedo hacer ahora que antes podia?
+
+* Tienen mis acciones resultados distintos ahora en comparacion a los resultados anteriores?
+
+* Prestar a como hablamos al describir la aplicacion y sus caracteristicas.
+
+* Crear diagramas del modelo del estado. Identificar todas las formas de ir desde un estado A hacia un estado B, identificando eventos y entidades involucradas, ademas si al diagrama no podemos darle un nombre propio sin el uso de "Y" posiblemente exista mas de n estado involucrado.
+
+Las acciones del usuario son eventos, existen eventos externos que accionan eventos internos, existen eventos de tiempo (timeouts) y tambien existen eventos que se accionan al cambiar estados internos los cuales pueden ser ajenos o no.
+
+Puede ser bueno experimentar creando interrupciones en los eventos para observar el comportamiento: la interrupcion se gestiono como debebia? se recompuso el sistema y funciona con normalidad? existe perdida de información? se corrompio la información? 
 
 
 ## Ecosistema y contexto
