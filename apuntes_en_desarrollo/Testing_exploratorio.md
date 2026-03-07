@@ -1,22 +1,16 @@
 # Testing exploratorio
 00_00_2026
 
-Ver algo que esperas ver no quiere decir que todo esta bien, debemos comprobarlo para estar seguro.
+Ver algo que esperas ver no quiere decir que todo esta bien, debemos comprobarlo para estar seguro, siempre mas allá del numero de pruebas escritas y ejecutadas aparecen nuevos _bug_ y fallos, esa es una realidad.
 
 > "Everything you think you know about it is mere speculation".
+> Debemos trabajar sobre echos, no sobre especulaciones o suposiciones.
 
-Mas alla de cuantas pruebas se escriban y ejecuten siembre aparecen nuevos bug
-
-1. el Software se comporta como esperamos bajo las condiciones que se supone debe ser capaz de manejar?
-2. Hay algun otro riesgo?
-
-La exploracion va sobre experimentar con las zonas que no estan cubiertas por la red de pruebas
+La exploración consiste en experimentar con las zonas que no están cubiertas por la red de pruebas, para organizar la exploración y guiarla definimos _sesiones de exploración_ en las cuales buscamos obtener información que aporte valor al producto, aprender sobre sus capacidades y limitaciones.
 
     Tested = Checked + Explored
-
-Las sesiones de exploracion deben tener un objetivo definido, dentro de cada sesion diseñamos y llevamos a cabo pequeños experimentos, esto con el fin de aprender sobre las capacidades y limitaciones del software.
-
-La idea es obtener información que aporte valor al producto, cada sesion debe tener un objetivo, se puede realizar una lluvia de ideas de preguntas acerca del comportamiento del software.
+    
+Para dar comienzo a una sesión primero debemos definir un objetivo para luego diseñar y llevar a cabo pequeños experimentos en buscando ir mas alla de las pruebas y observaciones superficiales para llegar a puntos dificiles de descubrir pero interesantes y significativos.
 
     Explorar [...]
     Con [...]
@@ -26,29 +20,24 @@ La idea es obtener información que aporte valor al producto, cada sesion debe t
     Con (Herramientas, datos de prueba, configuraciones, etc)
     Para descubrir (Vulnerabilidades, Bugs, etc)
 
-* Este es un buen objetivo: Explorar la edición de perfiles con varios metodos para descibrir sorpresas.
-* Este *No* es un buen objetivo, es un caso de prueba: Explorar la edicion del apellido con el valor O'Male para descubrir si la caracteristica de edicion de perdile puede maenejar nombres con apostrofes.
+* Este es un buen objetivo: 
+```
+Explorar la edición de perfiles con varios métodos para descubrir sorpresas.
+```
+* Este *No* es un buen objetivo, es un caso de prueba:
+```
+Explorar la edición del apellido con el valor _"O'Male"_ para descubrir si la característica de edición puede gestionar correctamente nombres con apostrofes.
+```
 
-Cada que una pregunta revela ambiguedad o dependencias hay algo que puede ser explorado.
-Las sesiones de exploracion pueden revelar oportunidades para añadir requerimientos.
+> Por ejemplo, yo personalmente testeaba el funcionamiento de una app web con una cuenta que habia creado inicialmente, al mes de desarrollo la aplicacion crecio y no me di cuenta que la creacion de usuario no funcionaba porque solo explore esa caracteristica una vez y no volvi a preguntarme si seguia funcionando. (de haber tenido una prueba E2E esto no habria sucedido, pero ese es otro tema).
 
+Lo mas importante al explorar es realizar preguntas acerca del comportamiento del software, cada una de estas preguntas puede revelar ambigüedad o dependencias y es ahi cuando debemos explorar para encontrar oportunidades para añadir requerimientos, por ejemplo ¿Que sucede si al instalar una aplicación cierro de improvisto la ventana? ¿Me es posible retomar la instalación o el instalador queda obsoleto?
 
-## El iceberg dentro del sistema
-
-> Se trabaja sobre echos, no sobre asumciones
-
-Ver algo que esperas ver no quierre decir que todo esta bien, debemos comprobar que realmente es asi usando querys en la base de datos o aplicaciones de monitoreo. Mas alla de lo que veamos necesitamos hacer preguntas que nos lleven mas profundo dentro del sistema para obtener mas informacion sobre el comportamiento del sistema, la idea es **ir mas alla de las pruebas y observaciones superficiales** para llegar a puntos dificiles de descubrir pero mas interesantes y significativos.
-
-> Por ejemplo, yo personalmente testeaba la el funcionamiento de una app web con una cuenta que habia creado inicialmente, al mes de desarrollo la aplicacion cambio y no me di cuenta que la creacion de usuario no funcionaba porque solo explore esa caracteristica una vez y no volvi a preguntarme si seguia funcionando. (de haber tenido una prueba E2E esto no habria sucedido, pero ese es otro tema).
-
-> que sucede si al instalar una aplicacion cierro de inprovisto la ventana? me es posible retormar la instalacion o el instalador queda obsoleto?
-
+## Evaluar comportamientos y variantes
 
 Es necesario tambien pensar y encontrar variables dentro del comportamiento del sistema, generalmente estas variables pueden contabilizarse en cantidades y es esa variante la que puede ocasionar problemas. por ejemplo, archivos que la aplicacion crea, tiempo de que utiliza, formatos especificos de textos, configuraciones ocultas al usuarios, posiciones, ubicaciones, etc.
 
 Dentro del libro proponen una euristica muy interesante y es identificar cambios de estado: cero/uno/muchos, valido/invalido, vacio/lleno/saturado. Cada uno de variantes en el estado deberian ser exploradas.
-
-## Evaluar comportamiento
 
 Como se si el comportamiento que obtuve es el correcto? En estos casos se pueden tener en cuenta algunos factores:
 
