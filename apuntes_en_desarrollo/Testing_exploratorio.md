@@ -5,18 +5,20 @@ Ver algo que esperas ver no quiere decir que todo esta bien, debemos comprobarlo
 
 > "Everything you think you know about it is mere speculation".
 
-Mas alla de cuantas pruebas se escriban y ejecuten siembre aparecen nuevos bug
+Mas alla del numero pruebas existentes siempre aparecen nuevos bugs y fallos, la exploracion va sobre experimentar con las zonas que no estan cubiertas por la red de pruebas.
 
-1. el Software se comporta como esperamos bajo las condiciones que se supone debe ser capaz de manejar?
-2. Hay algun otro riesgo?
+La idea es obtener información que aporte valor al producto, recorrer el sistema buscando formas de romper la integridad del sistema, y hacer diferentes preguntas como pueden ser ¿Que sucede si pierdo la conexion con el servidor?  ¿Que pasa si elimino este archivo temporal?
 
-La exploracion va sobre experimentar con las zonas que no estan cubiertas por la red de pruebas
+ Es necesario definir un limite, hay preguntas y respuestas que no son relevantes segun los requerimientos establecidos, nunca hay que perder de vista los objetivos del sistema.
 
-    Tested = Checked + Explored
+    Testado = Comprobado + Explorado
+
+1. ¿El Software se comporta como esperamos bajo las condiciones que se supone debe ser capaz de manejar?
+2. ¿Hay algun otro riesgo?
+
+> "sometimes you explore to find problems, other times you explore because you already know theres a problem and you need to characterize it in more depth"
 
 Las sesiones de exploracion deben tener un objetivo definido, dentro de cada sesion diseñamos y llevamos a cabo pequeños experimentos, esto con el fin de aprender sobre las capacidades y limitaciones del software.
-
-La idea es obtener información que aporte valor al producto, cada sesion debe tener un objetivo, se puede realizar una lluvia de ideas de preguntas acerca del comportamiento del software.
 
     Explorar [...]
     Con [...]
@@ -29,24 +31,23 @@ La idea es obtener información que aporte valor al producto, cada sesion debe t
 * Este es un buen objetivo: Explorar la edición de perfiles con varios metodos para descibrir sorpresas.
 * Este *No* es un buen objetivo, es un caso de prueba: Explorar la edicion del apellido con el valor O'Male para descubrir si la caracteristica de edicion de perdile puede maenejar nombres con apostrofes.
 
-Cada que una pregunta revela ambiguedad o dependencias hay algo que puede ser explorado.
+Cada pregunta que revele ambiguedad o saque a relucir dependencias indica que existe algo que puede ser explorado.
 Las sesiones de exploracion pueden revelar oportunidades para añadir requerimientos.
-
 
 ## El iceberg dentro del sistema
 
-> Se trabaja sobre echos, no sobre asumciones
+> Debemos trabajar sobre echos, no sobre asumciones.
 
-Ver algo que esperas ver no quierre decir que todo esta bien, debemos comprobar que realmente es asi usando querys en la base de datos o aplicaciones de monitoreo. Mas alla de lo que veamos necesitamos hacer preguntas que nos lleven mas profundo dentro del sistema para obtener mas informacion sobre el comportamiento del sistema, la idea es **ir mas alla de las pruebas y observaciones superficiales** para llegar a puntos dificiles de descubrir pero mas interesantes y significativos.
+Ver algo que esperas ver no quierre decir que todo esta bien, debemos comprobar que realmente es asi usando queries en la base de datos o aplicaciones de monitoreo. Mas alla de lo que veamos necesitamos hacer preguntas que nos lleven a las profundidades del sistema para obtener informacion sobre el comportamiento del mismo, la idea es **ir mas alla de las pruebas y observaciones superficiales** para llegar a puntos con incoherencias o fallos dificiles de descubrir pero tambien mas interesantes y significativos.
 
 > Por ejemplo, yo personalmente testeaba la el funcionamiento de una app web con una cuenta que habia creado inicialmente, al mes de desarrollo la aplicacion cambio y no me di cuenta que la creacion de usuario no funcionaba porque solo explore esa caracteristica una vez y no volvi a preguntarme si seguia funcionando. (de haber tenido una prueba E2E esto no habria sucedido, pero ese es otro tema).
 
 > que sucede si al instalar una aplicacion cierro de inprovisto la ventana? me es posible retormar la instalacion o el instalador queda obsoleto?
 
 
-Es necesario tambien pensar y encontrar variables dentro del comportamiento del sistema, generalmente estas variables pueden contabilizarse en cantidades y es esa variante la que puede ocasionar problemas. por ejemplo, archivos que la aplicacion crea, tiempo de que utiliza, formatos especificos de textos, configuraciones ocultas al usuarios, posiciones, ubicaciones, etc.
+Pensar y encontrar variables dentro del comportamiento del sistema es un buen punto de inicio para una sesion de exploracion, generalmente las variables se pueden contabilizar en cantidades y dichas cantidades pueden ocasionar problemas. Por ejemplo, los archivos que una aplicacion crea, el tiempo que se utiliza, los formatos especificos que puede tener un texto, las configuraciones ocultas al usuarios, posiciones, ubicaciones, etc. Dentro de cada variante puede existir una poco frecuente que cause errores importantes.
 
-Dentro del libro proponen una euristica muy interesante y es identificar cambios de estado: cero/uno/muchos, valido/invalido, vacio/lleno/saturado. Cada uno de variantes en el estado deberian ser exploradas.
+Dentro del libro _Elisabeth Hendrickson_ propone una euristica muy interesante que consiste en identificar y clasificar los cambios de estado en: Cero-Uno-Muchos, Valido/Invalido o Vacio/Lleno/Saturado. Cada una de estas variantes debe ser explorada.
 
 ## Evaluar comportamiento
 
@@ -107,6 +108,20 @@ Puede ser bueno experimentar creando interrupciones en los eventos para observar
 
 
 ## Ecosistema y contexto
+
+El sistema operativo, las librerias, el sistema de archivos o incluso en hardware son dependencias externas las cuales tambien es importante explorar en relacion a nuestra aplicacion.
+
+En este punto existen dos diagramas utiles, un diagrama de contexto de sistema para visualizar las conexiones externas y un diagrama de despliege para visualizar los componentes y archivos de configuracion que permiten poner en produccion la aplicacion. La idea de estos diagramas no es que sean detallados sino que sean utiles.
+
+## Trust boundaries
+
+Dentro de una aplicacion existen limites dentro de los cuales nuestra aplicacion se comunica con otro sistema del cual no podemos asumir que usa las mismas reglas que nuestro sistema, es una dependencia fuera de nuestro control.
+
+Son puntos muy importantes donde el sistema puede fallar o comprometerce.
+
+## Interfaces
+
+Mas alla de las interfaces graficas para usuarios, tambien existen otro tipo de interfaces como los endpoints de una API REST o los parametros de una clase.
 
 ///
 Libro "Explore It!" de Elisabeth Hendrickson.
