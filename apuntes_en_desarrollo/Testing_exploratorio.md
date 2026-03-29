@@ -35,13 +35,13 @@ Lo mas importante al explorar es realizar preguntas acerca del comportamiento de
 
 ## Evaluar comportamientos y variantes
 
-Pensar y encontrar variables dentro del comportamiento del sistema es un buen punto de inicio para una sesion de exploracion, generalmente las variables se pueden contabilizar en cantidades y dichas cantidades pueden ocasionar problemas. Por ejemplo, los archivos que una aplicacion crea, el tiempo que se utiliza, los formatos especificos que puede tener un texto, las configuraciones ocultas al usuarios, posiciones, ubicaciones, etc. Dentro de cada variante puede existir una poco frecuente que cause errores importantes.
+Pensar y encontrar variables dentro del comportamiento del sistema es un buen punto de partida para una sesion de exploracion, generalmente las variables se pueden contabilizar en cantidades y dichas cantidades pueden ocasionar problemas. Por ejemplo, los archivos que una aplicación crea, el tiempo que se utiliza, los formatos específicos que puede tener un texto, las configuraciones ocultas al usuarios, posiciones, ubicaciones, etc. Dentro de todas las variantes puede existir una que cause bugs o errores, que por poco frecuente que sea debería controlarse para evitar fallos.
 
 Dentro del libro _Elisabeth Hendrickson_ propone una euristica muy interesante que consiste en identificar y clasificar los cambios de estado en: Cero-Uno-Muchos, Valido/Invalido o Vacio/Lleno/Saturado. Cada una de estas variantes debe ser explorada.
 
-Como se si el comportamiento que obtuve es el correcto? En estos casos se pueden tener en cuenta algunos factores:
+Como puedo saber si el comportamiento que obtuve es el correcto? Para estos casos se pueden tener en cuenta algunos factores:
 
-* _Never & Always_: Requisitos especificados por el cliente de cosas que si o si deben funcionar o que nunca deben suceder, estos reprecentan los intereses del cliente y sin criticos para la calidad del software, es importante tener en cuenta que pueden no ser funcionales como cuestiones de accesibilidad, disponibilidad, seguridad o precision.
+* _Never & Always_: Requisitos especificados por el cliente sobre cosas que si o si deben funcionar o nunca deben suceder, estos requisitos representan los intereses del cliente y sus criterios sobre la calidad del software. Es importante tener en cuenta que estos requisitos pueden no ser funcionales como cuestiones de accesibilidad, disponibilidad, seguridad o precision.
 
 Funcionalidades y capacidades fundamentales para el cliente.
 
@@ -55,7 +55,7 @@ Es importante conocer al usuario y su proposito dentro de la aplicacion.
 
 * Secuencias e interacciones
 
-Otra cosa que podemos hacer es variar la forma que usamos el sistema, por ejemplo si en una app web utilizamos las navegacion probar utilizar solamente la URL, buscariamos cosas dentro del sistema y cambiariamos sus acciones relacionadas. Si no tenemos ideas podemos empezar una lista de la posibles acciones o pasos siguiente que se pueden efectar, que pasa si e este punto de la aplicacion cierro la ventana, vuelvo para atraso aprieto el boton "cancelar"?
+Otra forma interesante de explorar es variar la forma en que usamos el sistema, por ejemplo, dentro de una aplicación web podemos dejar de usar la navegación y cambiar directamente la ruta desde la URL. En caso de no tener ideas podemos empezar redactando una lista con las posibles acciones y pasos siguientes, por ejemplo, que pasa si en este punto de la aplicación cierro la ventana, que pasa si en vez de precionar el  botón "cancelar" directamente cierro la ventana?
 
 Podriamos crear "personas" para guiar la forma de interaccion, alguien de 65 años no piensa de la misma forma que alguien de 15, alguien dislexico o daltonico, si son personas apuradas o cansadas, etc.
 
@@ -76,7 +76,7 @@ Explorar las diferentes entidades (Si trabajamos con POO), funciones, componente
 
 ## Estados y transiciones
 
-Siempre dentro de toda aplicación existen errores esporadicos y dificiles de reproducir los cuales suceden durante un breve periodo de tiempo, en estos casos es importante hacer foco en el comportamiento observable mas alla del conocimiento tecnico debemos reconocer _estados y eventos_. Es importante encontrar y enumerar los cambios de estado juntos con los eventos que accionan dichos cambios, ahi veces en que los estados son alterados por eventos sutiles o incluso por eventos sobre los cuales no tenemos control.
+Siempre dentro de toda aplicación existen errores esporádicos y difíciles de reproducir los cuales suceden durante un breve periodo de tiempo, en estos casos es importante hacer foco en el comportamiento observable mas allá de nuestro conocimiento técnico sobre el sistema. Dentro de los comportamientos observables tenemos que encontrar eventos y los cambios de estado que realizan, existen veces en que los estados son alterados por eventos sutiles o incluso por eventos sobre los cuales no tenemos control.
 
 > Eventos ---> Estado
 
