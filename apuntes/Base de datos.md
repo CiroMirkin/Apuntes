@@ -1,7 +1,7 @@
 # Base de datos
 30_10_2021
 
-Las bases de datos son partes fundamentales en la persistencia de los datos y hay que sopesar bial al elegir una que se amolde a los datos y su uso. 
+Las bases de datos son una parte fundamental dentro de un sistema y es importante elegir una adecuada, ya que cada base de datos cuenta con características y beneficios específicos según el tipo y volumen de datos que organizan y gestionan, es por esto mismo que dentro de un sistema también es posible usar varias bases de datos.
 
 ## Relacionales 
 
