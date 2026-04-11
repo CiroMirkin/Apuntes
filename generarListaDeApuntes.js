@@ -13,8 +13,9 @@ fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
 
     console.table(listOfNoteFiles);
 
-    const notes = []
-    
+    const notes = new Array(listOfNoteFiles.length)
+    let notesLoaded = 0
+
     listOfNoteFiles.sort()
     listOfNoteFiles.forEach((nameOfNoteFile, index) => {
         const RELATIVE_PATH_OF_NOTE_FILE = `${RELATIVE_PATH_OF_NOTES_FOLDER}${nameOfNoteFile}`;
@@ -47,19 +48,25 @@ fs.readdir(RELATIVE_PATH_OF_NOTES_FOLDER, (err, listOfNoteFiles) => {
                     RELATIVE_PATH: RELATIVE_PATH_OF_NOTE_FILE
                 }
 
-                notes.push(`- [${note.title}](${note.RELATIVE_PATH.split(' ').join('%20')})`)
+                notes[index] = `- [${note.title}](${note.RELATIVE_PATH.split(' ').join('%20')})`
+                notesLoaded++
 
-                // Checks if all the notes are in notes array
-                const isThisTheLastNote = (listOfNoteFiles.length - 1) === index;
-                if (isThisTheLastNote) {
-                    // Modify the README.md file to include the list of notes
+                const allNotesLoaded = notesLoaded === listOfNoteFiles.length
+                if (allNotesLoaded) {
                     fs.readFile('README.md', 'utf-8', (err, readmeContent) => {
                         if (err) {
                             return console.error('Error al leer apunte (note) ', err);
-                        } 
-                        
+                        }
+
+                        const newNoteList = notes.join('\n')
+                        const currentNoteList = readmeContent.split('<!--lista_apuntes-->')[1].split('## Lista de apuntes\n')[1].trimEnd()
+
+                        if (currentNoteList === newNoteList) {
+                            return console.info('Sin cambios, no se modifica el README.')
+                        }
+
                         const readmeContentWithoutNoteList = readmeContent.split('<!--lista_apuntes-->')[0]
-                        const content = `${readmeContentWithoutNoteList}<!--lista_apuntes-->\n## Lista de apuntes\n${notes.join('\n')}\n<!--lista_apuntes-->`
+                        const content = `${readmeContentWithoutNoteList}<!--lista_apuntes-->\n## Lista de apuntes\n${newNoteList}\n<!--lista_apuntes-->`
                         fs.writeFile('README.md', content, (err) => {
                             return err ? console.error('ERROR ', err) : console.info(':D')
                         });
