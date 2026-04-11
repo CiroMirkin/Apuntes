@@ -9,11 +9,9 @@ Toda organizacion tiene un fin, una razon de ser, una mision que responde a las 
 
 ### Desempeño
 
-Existen dos dimenciones de desempeño: La eficacia y la eficiencia. 
+Existen dos dimenciones de desempeño: La eficacia y la eficiencia. La eficacia es la medida en que las acciones realizadas logran los objetivos propuestos independientemente de los recursos usados siendo una preocupacion estrategica, miestras que la eficiencia es la cantidad de recursos utilizados para obtener resultados, podemos decir que se aboca a la busqueda de medios, metodos y procesos siendo una preocupacion operativa.
 
-La eficacia es la medida en que las acciones realizadas logran los objetivos propuestos independientemente de los recursos usados siendo una preocupacion estrategica, miestras que la eficiencia es la cantidad de recursos utilizados para obtener resultados, podemos decir que se aboca a la busqueda de medios, metodos y procesos siendo una preocupacion operativa.
-
-Ambas medidas son importantes, pero no siempre se pueden cumplir ambas. Podemos suponer que es deseable la eficiencia, la cual se traduce en productividad, pero centrarse solo en la productividad puede tener un impacto en la calidad, ya que son medidas de resultados y no medidas de calidad. Para _Russell Ackoff_ la eficiencia es independiente del valor del resultado y por eso dice: "es mejor hacer lo correcto que hacer de la mejor manera lo incorrecto", al igual que dice "hay que hacer lo correcto aunque no sea de la mejor manera". Para _Peter Drucker_ la eficiencia es "hacer las cosas bien" ya que solo se centra en minimizar los costos mientras que la eficacia es "hacer las cosas correctas" ya que se aboca a identificar los factores que generan valor para el cliente o negocio.
+Ambas medidas son importantes, pero no siempre se pueden cumplir ambas. Podemos suponer que es deseable la eficiencia, la cual se traduce en productividad, pero centrarse solo en la productividad puede tener un impacto en la calidad, ya que son medidas de resultados y no medidas de calidad. Para _Russell Ackoff_ la eficiencia es independiente del valor del resultado y por eso dice: "es mejor hacer lo correcto que hacer de la mejor manera lo incorrecto", tambien  dice "hay que hacer lo correcto aunque no sea de la mejor manera". Para _Peter Drucker_ la eficiencia es "hacer las cosas bien" ya que solo se centra en minimizar los costos mientras que la eficacia es "hacer las cosas correctas" ya que se aboca a identificar los factores que generan valor para el cliente o negocio.
 
 ### Desplazamiento de fines
 
@@ -21,17 +19,13 @@ El desplazamiento de fines sucede cuando las prioridades de una organizacion se 
 
 ### Organizacion real
 
-Dentro de una organizacion la coordinacion es fundamental, la misma se produce cuando cada parte interna y externa sabe como se comportan las demas.
+Lo que llamamos organizacion real es la suma de la organizacion formal y la organizacion informal. La primera define reglas, jerarquias, estructuras, como se divide el trabajo y como se relacionan las diferentes areas, mientras que la segunda abarca todo lo imprevisto, el factor humano, las amistades, simpatias, desconfianzas, etc. La organizacion formal es la parte racional que delimita a la irracionalidad de la organizacion informal.
 
-Lo que llamamos organizacion real es la suma de la organizacion formal y la organizacion informal. La primera define reglas, jerarquias, estructuras, como se divide el trabajo y como se relacionan las diferentes areas, mientras que la segunda abarca todo lo que puede ser previsto, el factor humano, las amistades, simpatias, desconfianzas, etc. La organizacion formal es la parte racional que delimita a la irracionalidad de la organizacion informal.
+En toda organizacion la coordinacion es fundamental, se produce cuando cada parte interna y externa sabe como se comportan las demas. A medida que una organizacion crece se agregar progresivamente tres mecanismos de coordinacion y control: la adaptacion mutua, una comunicacion informal y directa; la supervicion directa donde una autoridad es responsable de las tareas de otros, y por último, la normalizacion, la cual define normas para los procesos de trabajo, los resultados y las habilidades necesarias para un puesto de trabajo. Ademas de estos tres mecanismos tembien crece la divicion y especializacion del trabajo al igual que crece horizontalmente (agregando departamentos) y verticalmente (ampliando la jerarquia), ambas areas (acciones y deciciones) se integran formando una estructura organizacional.
 
-Como parte de la organizacion formal existen tres mecanismos de coordinacion y control: La adaptacion mutua, una comunicacion informal y directa; la supervicion directa donde una autoridad es responsable de las tareas de otros, por último, la normalizacion, la cual define normas para los procesos de trabajo, los resultados y las habilidades necesarias para un puesto de trabajo. 
+Por otro lado, la cultura organizacional forma parte del ambito informal, un conjunto de normas, valores, creencias y habitos compartidos. Para definirla podemos usar diferentes criterios como: la identificacion de los empleados con la organizacion, el enfasis en la grupalidad, la consideracion en las personas internas y externas al tomar deciciones, la tolerancia a riesgos, los criterios de recompensa o el enfasis en los resultados entre otros.
 
-A medida que una organizacion crece se agregan los mecanismos de uno en uno, crece la divicion y especializacion del trabajo al igual que crece horizontalmente (agregando departamentos) y verticalmente (ampliando la jerarquia), ambas areas (acciones y deciciones) se integran formando una estructura organizacional.
-
-Por otro lado, la cultura organizacional forma parte del ambito informal, un conjunto de normas, valores, creencias y habitos compartidos. Diferentes criterios como: si los empleados se identifican con la organizacion, el enfasis en la grupalidad, la consideracion en las personas internas y externas al tomar deciciones, la tolerancia a riesgos, los criterios de recompensa o el enfasis en los resultados entre otros.
-
-Existen culturas fuertes donde los valores se sostienen fuertemente siendo apreciados y compartidos por los miembros, tambien existen culturas tradicionales con jerarquias y accionar rigido donde las deciones son centralizadas y culturas adaptativas donde se debaten ideas generando una adaptacion mutua.
+Existen culturas debiles y culturas fuertes donde los valores se sostienen al ser apreciados y compartidos por sus miembros. Ademas existen culturas tradicionales con jerarquias y accionar rigido donde las deciones son centralizadas y culturas adaptativas donde se pueden debatir ideas y desiciones.
 
 ## Organizaciones como sistemas
 
@@ -39,47 +33,37 @@ Dentro de la teoria general de sistemas (TGS) todo sistema forma parte de uno ma
 
 Vemos a cada subsistema como "una caja negra" donde solo interesan las entradas y salidas mas no sus detalles o procesos internos, al analizar un sistema la delimitacion del mismo depende de nosotros, osea donde termina nuestro sistema y donde comienza el ambiente.
 
-Siguiendo con el analisis de sistemas podemos definir los siguientes tipos de interacciones: las entradas que se dan cuando elementos del ambiente se incorporan al sistema, las transformacion y procesos internos que se generan internamente dando como resultado productos, una salida que va a interactuar con el ambiente, y por ultimo para cerrar el ciclo existe una retroalimentacion donde el sistema analiza el resultado que produjo buscando puntos de mejora.
+Siguiendo con el analisis de sistemas podemos definir los siguientes tipos de interacciones: las entradas que se dan cuando elementos del ambiente se incorporan al sistema, las transformacion y procesos internos que generan resultados, una salida que va a interactuar con el ambiente, y por ultimo la retroalimentacion donde el sistema analiza el resultado buscando puntos de mejora.
 
 ### Contexto
 
-El contexto es el lugar que habita un sistema y existen dos tipos de contextos el inmediato y el mediato, el inmediato contiene los elementos especificos que afectan de forma rapida y directa a una organizacion, ahora bien el mediato contiene elementos generales que influyen a una organizacion, pero que no la afectan directamente como pueden ser cuestiones legales, economicas o politicas dentro del ambiente de la empresa, podemos decir que es un ambiente general o global.
+El contexto es el ambiente, lugar que habita un sistema. En una organizacion existen dos tipos de contextos el inmediato y el mediato, el inmediato contiene los elementos especificos que la afectan de forma rapida y directa, mientras que el mediato los elementos generales que la influyen, pero que no la afectan directamente como pueden ser cuestiones legales, economicas o politicas, podemos decir que es un ambiente general o global.
 
-Ademas existen diferentes modelos que definen que y como compredemos al _contexto_: dentro del modelo estructural comprendemos al contexto como un conjunto de estructuras sociales donde los cambios internos ocurren luego de un cambio externo; dentro del modelo cuantitativo el contexto es un conjunto de recursos, insumos, productos y organizaciones vinculadas; por último, dentro del modelo sectorial el contexto se comprende como un conjunto de cinco fuerzas competitivas que determinan oportunidades o amenzas, estas fuerzas son: los clientes, los participantes potenciales, los proveedores y los productos sustitutos (competencia), todas estas fuerzas actuan y generan la rivalidad entre competidores.
+Existen modelos que definen que y como compredemos al _contexto_: dentro del modelo estructural comprendemos al contexto como un conjunto de estructuras sociales donde los cambios internos ocurren luego de un cambio externo; dentro del modelo cuantitativo el contexto es un conjunto de recursos, insumos, productos y organizaciones vinculadas; por último, dentro del modelo sectorial el contexto se comprende como un conjunto de cinco fuerzas competitivas que determinan oportunidades o amenzas, estas fuerzas son: los clientes, los participantes potenciales, los proveedores y los productos sustitutos (competencia), todas estas fuerzas actuan y generan la rivalidad entre competidores.
 
 ## Administracion
 
-Ademas del estudio general de las organizaciones también existe la teoria general de la administracion con diversas definiciones y variables de estudio, en este punto nos guiaremos por 3 definiciones de administracion:
+Ademas del estudio general de las organizaciones también existe la teoria general de la administracion con diversas definiciones y variables de estudio, en este punto nos guiaremos por tres definiciones de administracion: para Fayol es  _"Planear, organizar, dirigir y controlar"_, para _"La administración se define como el proceso de diseñar y mantener un medio ambiente en el cual los individuos, que trabajan juntos en grupos, logren eficiente mente los objetivos seleccionados"_ y Terry y Rue es el  _"Proceso de guiar a un grupo de personar hacia las metas de una organizacion"_.
 
-> "Planear, organizar, dirigir y controlar."
-
-> "La administración se define como el proceso de diseñar y mantener un medio ambiente en el cual los individuos, que trabajan en grupos, logren eficientemente los objetivos selecionados".
-
-> "Proceso de guiar a un grupo de personar hacia las metas de una organizacion". Terry y Rue.
-
-La primera descripcion nos permite definir cuatro funciones administrativas las cuales podemos dividir en diseño y accion, donde la parte de diseño comprende la planificación y organización (definicion de criterios, objetivos, cursos de accion al igual que divir el trabajo, agrupar, coordinar, definir autoridades y responsabilidades), y por otro lado la parte activa donde estan las actividades de direccion y control (identificar causas de desvios para poder rectificar el accionar).
+La primera descripcion define cuatro funciones administrativas las cuales podemos dividir en diseño que comprende la planificación y organización (definicion de criterios, objetivos, cursos de accion al igual que divir el trabajo, agrupar, coordinar, definir autoridades y responsabilidades), y por otro lado la accion con actividades de direccion y control, como identificar causas de desvios para poder rectificar el accionar.
 
 Estas funciones forman un ciclo administrativo el cual no es lineal, sino que cada fase sirve de retroalimentacion a la siguiente permitiendo realizar ajustes y mejoras, pudiendo existir retrocesos o saltos en las fases.
 
 ### Administrar
 
-Al administrar podemos seleccionar tres capacidades: Las capacidades conceptuales y de decision las cuales permiten analizar una situacion y/o problema para encontrar un curso de accion resolutivo; las capacidades tecnicas que son los conocimientos especificos para un puesto de trabajo, y por último las capacidades interpersonales y humanas que comprenden actividades como coordinar trabajos en equipo, comunicación eficiente, liderzgo, etc. Estas tres capacidades de encuentran cada una en un nivel diferente de "la piramide organizacional".
+Al administrar podemos seleccionar tres capacidades: Las conceptuales y de decision las cuales permiten analizar una situacion y/o problema para encontrar un curso de accion resolutivo; las tecnicas que son los conocimientos especificos para un puesto de trabajo, y por último las interpersonales y humanas que comprenden actividades como coordinar trabajos en equipo, comunicación eficiente, liderzgo, etc. Estas tres capacidades se encuentran en diferentes niveles de _"la piramide organizacional"_.
 
 ### Roles administrativos
 
-Dentro de cada unidad de trabajo de una organizacion existe un administrador o _manager_ que debe atender en mayor o menor medida a tres roles administrativos relacionados entre si.
+En cada unidad de trabajo de una organizacion existe un administrador o _manager_ que debe atender en mayor o menor medida a tres roles administrativos relacionados entre si.
 
-El rol interpersonal se avoca a establecer relaciones humanas dentro y fuera de la organizacion teniendo funciones representativas, de liderezgo y de enlace para motivar, orientar hacia los objetivos y tambien coordinar trabajor en conjunto.
-
-El rol de decision se enfoca en resolver problemas, asignar recursos como tiempo o la coordinarcion de tareas, emprender para buscar o iniciar nuevos proyectos, y negociar al existir intereses en conflicto.
-
-Por úlitmo, el rol informativo es aquel encargado de recibir, procesar y transimitir informacion, es alguien de difunde aportando informacion de valor a quien no tiene acceso directo, es un portavoz que transmite y anuncia al exterior de la organizacion y tambien es un monitor que busca informacion relevante no solo dentro sino tambien fuera de la organizacion.
+El rol interpersonal se avoca a establecer relaciones humanas dentro y fuera de la organizacion teniendo funciones representativas, de liderezgo y de enlace para motivar, orientar hacia los objetivos y tambien coordinar trabajor en conjunto; el rol de decision se enfoca en resolver problemas, asignar recursos como tiempo o la coordinarcion de tareas, emprender para buscar o iniciar nuevos proyectos, y negociar al existir intereses en conflicto; por úlitmo, el rol informativo es aquel encargado de recibir, procesar y transimitir informacion dentro y fuera de la organizacion a quien no tiene acceso a ella, siendo un portavoz y tambien un monitor que busca información.
 
 ## Formas de pensar y organizar el trabajo
 
-Existen diferentes "escuelas" que definen como se puede organizar una organizacion para ser eficientes y eficaces. La escuela clasica, la administracion cientifica cuya base es la regulacion y control; La escual humanista mas centrada en el comportamiento humano y por úlitmo la escuela estructuralista la cual intruce el concepto de _burogracia_ donde todo debe ser predecible definiendo comportamientos esperados y resultados deseados.
+Existen diferentes "escuelas" que definen como se puede gestionar una organizacion para ser eficiente y eficaz. La escuela clasica es la administracion cientifica cuya base es la regulacion y el control; la escual humanista centrada en el comportamiento humano y por úlitmo la escuela estructuralista la cual introduce el concepto de _burocracia_ donde todo debe ser predecible esperando comportamientos definidos y resultados deseados.
 
-Ademas existen diferentes formas de organizarce para adaptarse al cambio: las organizaciones como maquinarias donde se diseñan los procesos de trabajo orientandose meramente hacia la eficiencia, podemos decir que es parte de la escuela estructuralista; las organizaciones como un ser vivo donde pensamos en sistemas abiertos a su entorno con el cual establece una relacion sana logrando un equilibrio interno y externo, las organizaciones como una red de vinculos de confienza e intercambio de informacion entre personas, definiendo tipos de relaciones internas y externas; por último, las empresas como cerebros o _learning organization_ donde se busca distribuir las capacidades de pensamiento y control permitiendo actal desde un conjunto minimo de reglas principales.
+Ademas existen diferentes formas de organizarce para adaptarse al cambio: las organizaciones como maquinarias donde se diseñan los procesos de trabajo orientandose meramente hacia la eficiencia, podemos decir que es parte de la escuela estructuralista; las organizaciones como un ser vivo donde pensamos en sistemas abiertos a su entorno, estableciendo una relación sana que logra un equilibrio interno y externo; las organizaciones como una red de vinculos internos y externos de confianza e intercambio de información entre personas; por último, las empresas como cerebros o _learning organization_ donde se busca distribuir las capacidades de pensamiento y control permitiendo actuar desde un conjunto minimo de reglas principales.
 
 """
 
