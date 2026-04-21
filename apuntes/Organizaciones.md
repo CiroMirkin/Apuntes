@@ -1,11 +1,11 @@
 # Organizaciones
-00_00_2026
+21_04_2026
 
 Las organizaciones son formaciones sociales, grupos de personas que dividen el trabajo para lograr un objetivo en común.
 
 Existen varias formas de clasificar a una organización: según su naturaleza (si es lucrativa o sin fines de lucro), según su forma jurídica o propiedad (si es pública, si es privada, una S.A, una S.R.L, una cooperativa o una org mixta) o según su rubro de actividad (si es industrial, proveedora de servicios, comercial, etc), ademas las organizaciones pueden tener varios fines como es el caso de las universidades que funcionan como organizaciones de educación y de investigación.
 
-Toda organización tiene un fin, una necesidad social que justifica sus acciones y asegura su existencia, una misión que responde a las siguientes preguntas ¿Quienes somos? ¿Que hacemos? ¿Cual es nuestra rama de actividad? y ¿Quienes son nuestros beneficiarios o clientes? Esta misión es complementada por la visión (una imagen a futuro), entre ambas crean un marco de acciones al igual que representan sus valores y principios.
+Toda organización tiene un fin, una necesidad social que justifica sus acciones y asegura su existencia, una misión que responde a las siguientes preguntas ¿Quienes somos? ¿Que hacemos? ¿Cual es nuestra rama de actividad? y ¿Quienes son nuestros beneficiarios o clientes? Esta misión es complementada por la visión (una imagen deseada a futuro), entre ambas se representan valores y principios que guiaran el accionar.
 
 ### Desempeño
 
@@ -41,9 +41,9 @@ Existen modelos que definen qué y como comprendemos al _contexto_: dentro del m
 
 ## Administración
 
-Ademas del estudio general de las organizaciones también existe la teoría general de la administración con diversas definiciones y variables de estudio, para Terry y Rue es el  _"Proceso de guiar a un grupo de personar hacia las metas de una organización"_ y para _"La administración se define como el proceso de diseñar y mantener un medio ambiente en el cual los individuos, que trabajan juntos en grupos, logren eficientemente los objetivos seleccionados"_.
+Además del estudio general de las organizaciones también existe la teoría general de la administración con diversas definiciones y variables de estudio, para Terry y Rue es el  _"Proceso de guiar a un grupo de personar hacia las metas de una organización"_ y para Koontz y Weihrich _"La administración se define como el proceso de diseñar y mantener un medio ambiente en el cual los individuos, que trabajan juntos en grupos, logren eficientemente los objetivos seleccionados"_.
 
- Fayol lo define como  _"Planear, organizar, dirigir y controlar"_, estas funciones administrativas podemos dividirlas en diseño que comprende la planificación y organización (definición de criterios, objetivos, cursos de acción al igual que dividir el trabajo, agrupar, coordinar, definir autoridades y responsabilidades), y por otro lado en acción, con actividades de dirección y control, por ejemplo identificar causas de desvíos para poder rectificar el accionar. Estas funciones forman un ciclo administrativo no lineal, donde cada fase sirve de retroalimentación a la siguiente permitiendo realizar ajustes y mejoras, pudiendo existir retrocesos o saltos en las fases.
+ Fayol define el acto de administrar como  _"Planear, organizar, dirigir y controlar"_, estas funciones administrativas podemos dividirlas en diseño que comprende la planificación y organización (definición de criterios, objetivos, cursos de acción al igual que dividir el trabajo, agrupar, coordinar, definir autoridades y responsabilidades), y por otro lado en acción, con actividades de dirección y control, por ejemplo identificar causas de desvíos para poder rectificar el accionar. Estas funciones forman un ciclo administrativo no lineal, donde cada fase sirve de retroalimentación a la siguiente permitiendo realizar ajustes y mejoras, pudiendo existir retrocesos o saltos en las fases.
 
 ### Administrar
 
@@ -62,5 +62,6 @@ Existen diferentes "escuelas" que definen como se puede gestionar una organizaci
 Ademas existen diferentes formas de organizarse para adaptarse al cambio: como maquinarias donde se diseñan los procesos de trabajo orientándose meramente hacia la eficiencia; como un ser vivo donde pensamos en sistemas abiertos a su entorno, estableciendo una relación sana que logra un equilibrio interno y externo; como una red de vínculos internos y externos de confianza e intercambio de información entre personas; por último, como cerebros o _learning organization_ donde se busca distribuir las capacidades de pensamiento y control permitiendo actuar desde un conjunto mínimo de reglas principales.
 
 """
-
+Apuntes personales sobre "Emprendedurismo" - Tecnicatura Universitaria en Programación Fullstack - Universidad Provincial de Córdoba. 
+Marco, F., Loguzzo, H. A., & Fedl, J. L. (2016). Introducción a la gestión y administración en las organizaciones (2ª ed., 1ª reimp.). Universidad Nacional Arturo Jauretche. https://biblioteca.unaj.edu.ar/wp-content/uploads/sites/8/2017/02/Introduccion-gestion-y-administracion-organizaciones.pdf
 """
