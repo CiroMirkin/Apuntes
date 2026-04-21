@@ -45,6 +45,7 @@ Escribo estos apuntes y los publico como un diario de estudio. No busco comparti
 - [No vas a necesitarlo (YANGI)](apuntes/No%20vas%20a%20necesitarlo%20(YANGI).md)
 - [Normalización](apuntes/Normalizacion.md)
 - [Notación Big O](apuntes/Notacion%20Big%20O.md)
+- [Organizaciones](apuntes/Organizaciones.md)
 - [Ortogonalidad](apuntes/Ortogonalidad.md)
 - [Paradigmas de programación](apuntes/Paradigmas%20de%20programacion.md)
 - [Patrón MVC (Modelo, Vista y Controlador)](apuntes/Patron%20MVC%20(Modelo,%20vista%20y%20controlador).md)
