@@ -1,7 +1,7 @@
 # Análisis sistémico
 00_00_2026
 
-Según la teoría general de sistemas un sistema es un conjunto de elementos relacionados que trabajan juntos para lograr un objetivo común, utilizando este fundamento el análisis sistémico entiende y analiza problemas en busca de una solución a largo plazo. Un problema no es un elemento aislado sino que abita dentro de un ambiente donde existen varios elementos relacionados directa e indirectamente, cada problema se convierte en un sistema que debemos comprender.
+La base teorica del analisis sistemico es la teoria general de sistemas, la cual establece que un sistema es un conjunto de elementos relacionados que trabajan juntos para lograr un objetivo común. Entonces un problema o una situacion no es un elemento aislado con una solucion directa sino un elemento relacionado directa e indirectamente con otros. 
 
 ## Pensamiento tradicional y pensamiento sistémico
 
@@ -15,9 +15,9 @@ Por ejemplo el siguiente problema: en un supermercado cuando se acaba un product
 
 ## Modelos
 
-Los modelos son representaciones intencionada donde nos enfocamos en lo importante dentro de un sistema según nuestro objetivo, permitiéndonos entender las características y estructura de un sistema. Estos modelos pueden ser estáticos cuando muestran al sistema congelado en el tiempo o dinámicos cuando muestran como este evoluciona a traves del tiempo. 
+Los modelos son representaciones intencionadas de un sistema donde nos enfocamos en lo importante según nuestro objetivo, permitiéndonos entender sus características y su estructura, por ejemplo, el plano que hace un arquitecto sobre una casa. Estos modelos pueden ser estáticos cuando muestran al sistema congelado en el tiempo o dinámicos cuando muestran como este evoluciona a traves del tiempo. 
 
-La naturaleza de los modelos puede ser conceptual o formal: los conceptuales buscan comunicar y explorar ideas sobre un sistema, representan la realidad para comprenderla; por otro lado, los modelos formales dejan de ser ideas para ser echos, son representaciones matemáticas basada en datos, lo cual permite ejecutarlos, realizar simulaciones y experimentar para evaluar su comportamiento y evolución.
+La naturaleza de un modelo puede ser conceptual o formal: los conceptuales buscan comunicar y explorar ideas, nos ayudan a representan la realidad para comprenderla, en cambio, los modelos formales dejan de ser ideas y pasan a ser echos, son representaciones matemáticas basadas en datos, esto permite ejecutarlos, realizar simulaciones y experimentar para evaluar su comportamiento y evolución.
 
 ///
 Apuntes personales sobre "Introducción al Análisis Sistémico" - Tecnicatura Universitaria en Programación Fullstack - Universidad Provincial de Córdoba.
