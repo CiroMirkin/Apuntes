@@ -17,6 +17,14 @@ Los modelos son representaciones intencionadas de un sistema donde nos enfocamos
 
 La naturaleza de un modelo puede ser conceptual o formal: los conceptuales buscan comunicar y explorar ideas, ayudandonos a representan la realidad para comprenderla, en cambio, los modelos formales dejan de ser ideas y pasan a ser echos, son representaciones matemáticas basadas en datos, esto permite ejecutarlos, realizar simulaciones y experimentar para evaluar su comportamiento y evolución.
 
+## Ciclos causales
+
+Dentro de un sistema la realimentacion es el efecto que causa la salida del sistema sobre el sistema mismo, esta realimentacion o _feedback_ permite al sistema ajustar sus procesos para producir una mejor salida.
+
+Los procesos de realimentacion pueden ser modelados mediante diagramas causales o diagramas de influencias que nos permiten analisar un sistema en base a las relaciones e influencias de sus elementos poniendo el enfasis en como se relacionan y los efectos que causan estas relaciones.
+
+Los ciclos de realimenacion negativa estabilizan a un sistema ante perturbaciones externas reaccionando y anulando dicha perturbacion, por otro lado los ciclos de realimentacion positiva desestabilizan a un sistema propagando y reforzando pertubaciones externas. Estos ciclos son acompañados de tres tipos de variables las de nivel que acumulan valores, las de flujo que cambian sus valores y controlan a las de nivel, y por ultimo las variables auxiliares que sirven como paso intermedio entre flujos y niveles. Convinando estos dos ciclos basicos y variables podemos definir sistemas complejos e identificar arquetipos sistemicos.
+
 ///
 Apuntes personales sobre "Introducción al Análisis Sistémico" - Tecnicatura Universitaria en Programación Fullstack - Universidad Provincial de Córdoba.
 Delgado Gutiérrez, J. A. (2005). El análisis sistémico y su proyección multidisciplinar. Encuentros multidisciplinares. https://repositorio.uam.es/server/api/core/bitstreams/9d19f658-d618-4fa4-873d-c7ea73ef331e/content
