@@ -23,7 +23,13 @@ La realimentacion dentro de un sistema sucede cuando la salida del sistema vuelv
 
 Los procesos de realimentacion pueden ser modelados mediante diagramas causales o diagramas de influencias que nos permiten analisar un sistema en base a las relaciones e influencias de sus elementos. Todo el enfasis se coloca en como se relacionan los elementos y los efectos que causan estas relaciones.
 
-Existen dos ciclos basicos de realimentacion, los negativos y los positivos. Dentro de un sistema los ciclos de realimenacion negativa lo estabilizan ante perturbaciones externas reaccionando y anulando dicha perturbacion, por otro lado los ciclos de realimentacion positiva lo desestabilizan propagando y reforzando pertubaciones externas. Estos ciclos son acompañados de tres tipos de variables, las de nivel que acumulan valores, las de flujo que cambian sus valores y controlan a las de nivel, y por último las variables auxiliares que sirven como paso intermedio entre flujos y niveles. Convinando estos dos ciclos basicos y variables podemos definir sistemas complejos e identificar arquetipos sistemicos que nos permiten modelar y comprender sistemas a nivel conceptual.
+Existen dos ciclos basicos de realimentacion, los negativos y los positivos. Dentro de un sistema los ciclos de realimenacion negativa lo estabilizan ante perturbaciones externas reaccionando y anulando dicha perturbacion, por otro lado los ciclos de realimentacion positiva lo desestabilizan propagando y reforzando pertubaciones externas. Estos ciclos son acompañados de tres tipos de variables, las de nivel que acumulan valores, las de flujo que cambian sus valores y controlan a las de nivel, y por último las variables auxiliares que sirven como paso intermedio entre flujos y niveles. 
+
+![Ejemplo de ciclo causal]()
+
+Las reglas y la realimentacion controlan a las variables de flujo, las interacciones con el flujo cambian la acumulacion en las variables de nivel, este cambio produce una salida y una realimentacion que controla al flujo cerrado el circulo causa-efecto.
+
+Convinando estos dos ciclos basicos y variables podemos definir sistemas complejos e identificar arquetipos sistemicos que nos permiten modelar y comprender sistemas a nivel conceptual.
 
 ## Dinamica de sistemas
 
