@@ -19,17 +19,17 @@ La naturaleza de un modelo puede ser conceptual o formal: los conceptuales busca
 
 ## Ciclos causales
 
-Dentro de un sistema la realimentacion es el efecto que causa la salida del sistema sobre el sistema mismo, esta realimentacion o _feedback_ permite al sistema ajustar sus procesos para producir una mejor salida.
+La realimentacion dentro de un sistema sucede cuando la salida del sistema vuelve a entrar al sistema permitiendo realizar ajustes en su funcionamiento interno para producir una mejor salida.
 
-Los procesos de realimentacion pueden ser modelados mediante diagramas causales o diagramas de influencias que nos permiten analisar un sistema en base a las relaciones e influencias de sus elementos poniendo el enfasis en como se relacionan y los efectos que causan estas relaciones.
+Los procesos de realimentacion pueden ser modelados mediante diagramas causales o diagramas de influencias que nos permiten analisar un sistema en base a las relaciones e influencias de sus elementos. Todo el enfasis se coloca en como se relacionan los elementos y los efectos que causan estas relaciones.
 
-Los ciclos de realimenacion negativa estabilizan a un sistema ante perturbaciones externas reaccionando y anulando dicha perturbacion, por otro lado los ciclos de realimentacion positiva desestabilizan a un sistema propagando y reforzando pertubaciones externas. Estos ciclos son acompañados de tres tipos de variables las de nivel que acumulan valores, las de flujo que cambian sus valores y controlan a las de nivel, y por ultimo las variables auxiliares que sirven como paso intermedio entre flujos y niveles. Convinando estos dos ciclos basicos y variables podemos definir sistemas complejos e identificar arquetipos sistemicos.
+Existen dos ciclos basicos de realimentacion, los negativos y los positivos. Dentro de un sistema los ciclos de realimenacion negativa lo estabilizan ante perturbaciones externas reaccionando y anulando dicha perturbacion, por otro lado los ciclos de realimentacion positiva lo desestabilizan propagando y reforzando pertubaciones externas. Estos ciclos son acompañados de tres tipos de variables, las de nivel que acumulan valores, las de flujo que cambian sus valores y controlan a las de nivel, y por último las variables auxiliares que sirven como paso intermedio entre flujos y niveles. Convinando estos dos ciclos basicos y variables podemos definir sistemas complejos e identificar arquetipos sistemicos que nos permiten modelar y comprender sistemas a nivel conceptual.
 
 ## Dinamica de sistemas
 
-Forrester se da cuenta que la estructura impulsa al comportamiento y que la realimentacion moldea los resultados de un sistema, partiendo de esta base la dinamica de sistemas analiza como las relaciones dentro de un sistema permiten explicar su comportamiento.
+Jay Forrester, un ingeniero, se da cuenta que la estructura impulsa al comportamiento y que la realimentacion moldea los resultados de un sistema, partiendo de esta base desarrolla la dinamica de sistemas que analiza como las relaciones dentro de un sistema permiten explicar su comportamiento.
 
-Los diagramas de forrester nos permiten modelar un ciclo causal grafica y matematicamente, permitiendonos programar simulaciones para visualizar su comportamiento y su evolucion.
+Los diagramas de forrester nos permiten modelar un ciclo causal a nivel conceptual con diagramas completos y a nivel formal describiendo matematicamente los procesos del sistema, esto úlitmo nos da la posibilidad de programar simulaciones para visualizar el comportamiento y la evolucion del sistema.
 
 ///
 Apuntes personales sobre "Introducción al Análisis Sistémico" - Tecnicatura Universitaria en Programación Fullstack - Universidad Provincial de Córdoba.
