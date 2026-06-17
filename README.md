@@ -45,6 +45,7 @@ Escribo estos apuntes y los publico como un diario de estudio. No busco comparti
 - [No vas a necesitarlo (YANGI)](apuntes/No%20vas%20a%20necesitarlo%20(YANGI).md)
 - [Normalización](apuntes/Normalizacion.md)
 - [Notación Big O](apuntes/Notacion%20Big%20O.md)
+- [Open Source y Free Software](apuntes/Open_Source_y_Free_Software.md)
 - [Organizaciones](apuntes/Organizaciones.md)
 - [Ortogonalidad](apuntes/Ortogonalidad.md)
 - [Paradigmas de programación](apuntes/Paradigmas%20de%20programacion.md)
