@@ -27,15 +27,19 @@ Existen dos ciclos basicos de realimentacion, los negativos y los positivos. Den
 
 ![Ejemplo de ciclo causal]()
 
-Las reglas y la realimentacion controlan a las variables de flujo. Las interacciones con el flujo cambian la acumulacion en las variables de nivel. Este cambio produce una salida y una realimentacion que controla al flujo cerrado el circulo causa-efecto.
+Cualquier interaccion con el flujo cambia la acumulacion en las variables de nivel. Este cambio produce una salida y una realimentacion que controla al flujo cerrado el circulo causa-efecto.
 
-Convinando estos conceptos (ciclos y variables) podemos definir sistemas complejos e identificar arquetipos sistemicos que nos permiten modelar y comprender sistemas a nivel conceptual.
+Por ejemplo, en un diagrama sobre la difusion de una enferemedad podriamos tener 3 variables principales: _población infectada (nivel), tasa de contagio (flujo) y población vulnerable (axiliar)_.  Un cambio en cualquiera de estas variables afecta al resto, estas son las reñacopmes de influencia, por ejemplo: a mayor rasa de contagio, mayor es la población infectada; a mayor poblacion infectada, menor poblacion vulnerable y asi con el resto.
+
+_Las interacciones con el flujo cambian la acumulacion en las variables de nivel_, al subir la tasa de contagio (flujo) creace la poblacion infectada (nivel), este cambio se propaga disminuyendo la poblacion vulnerable que a su vez aumenta la tasa de contagio, _la realimentacion controla a las variables de flujo_.
+
+Convinando estos conceptos (ciclos y variables) podemos definir sistemas complejos e identificar arquetipos sistemicos que nos permiten modelar y comprender el comportamiento del sistema y las relaciones entre sus elementos.
 
 ## Dinamica de sistemas
 
-Jay Forrester, un ingeniero, se da cuenta que la estructura impulsa al comportamiento y que la realimentacion moldea los resultados de un sistema, partiendo de esta base desarrolla la dinamica de sistemas que analiza como las relaciones dentro de un sistema permiten explicar su comportamiento.
+Jay Forrester, un ingeniero, se da cuenta que la estructura impulsa al comportamiento y que la realimentacion moldea los resultados de un sistema, partiendo de esta base desarrolla la dinamica de sistemas que analiza como las relaciones dentro de un sistema permiten describir su estructura y explicar su comportamiento.
 
-Los diagramas de forrester nos permiten modelar un ciclo causal a nivel conceptual con diagramas completos y a nivel formal con formulas matematicas que describen los procesos del sistema, esto último nos da la posibilidad de programar simulaciones para visualizar el comportamiento y la evolucion del sistema.
+Los diagramas de forrester permiten pasar de un modelo conceptual a uno matematico que nos da la posibilidad de programar simulaciones para visualizar el comportamiento y la evolucion del sistema.
 
 ///
 Apuntes personales sobre "Introducción al Análisis Sistémico" - Tecnicatura Universitaria en Programación Fullstack - Universidad Provincial de Córdoba.
