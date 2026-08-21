@@ -63,6 +63,7 @@ Escribo estos apuntes y los publico como un diario de estudio. No busco comparti
 - [Pruebas unitarias](apuntes/Pruevas%20unitarias.md)
 - [Refactorización](apuntes/Refactorizacion.md)
 - [Sincronía y asincronía](apuntes/Sincronia%20y%20asincronia.md)
+- [Sistemas](apuntes/Sistemas.md)
 - [TDD y BDD diferencias](apuntes/TDD%20y%20BDD%20diferencias.md)
 - [Tell don´t ask](apuntes/Tell%20dont%20ask.md)
 - [Teoría de conjuntos](apuntes/Teoria%20de%20conjuntos.md)
