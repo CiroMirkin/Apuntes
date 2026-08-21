@@ -1,7 +1,7 @@
 # Open Source y Free Software
 16_06_2026
 
-Cuando el código funete de un sistema es público, cualquier persona en el mundo puede auditarlo, encontrar errores y proponer mejoras desde su propio conocimiento y necesidad, lo que significa no solo que los problemas se detectan y corrigen rápido sino también la creación de sistemas más accesibles. El software libre va más allá de un código público, lo que se busca es la libertad de elegir, usar, mejorar y compartir un sistema más allá de la calidad y la seguridad del software.
+Cuando el código fuente de un sistema es público, cualquier persona en el mundo puede auditarlo, encontrar errores y proponer mejoras desde su propio conocimiento y necesidad, lo que significa no solo que los problemas se detectan y corrigen rápido sino también la creación de sistemas más accesibles. El software libre va más allá de un código público, lo que se busca es la libertad de elegir, usar, mejorar y compartir un sistema más allá de la calidad y la seguridad del software.
 
 En contraposición al software libre existe el software propietario, cuyo código fuente es privado y está bajo el control exclusivo de la empresa o persona que lo desarrolla. El usuario no accede al código ni tiene libertad de modificarlo o redistribuirlo, sino que adquiere únicamente el derecho a utilizarlo bajo las condiciones que el propietario establece, generalmente a través del pago de una licencia o una suscripción mensual.
 
