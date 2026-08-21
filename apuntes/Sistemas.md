@@ -1,5 +1,5 @@
 # Sistemas
-00_00_2026
+21_08_2026
 
 La teoría general de sistemas establece que un sistema es un conjunto de elementos relacionados que trabajan juntos para lograr un objetivo común. Todo sistema tiene un contexto, el entorno que lo rodea y con el cual intercambia recursos o información. Ningún sistema existe de forma aislada, este influye sobre su entorno que a su vez también lo influye, por lo que comprender el contexto es tan importante como comprender los elementos internos de un sistema.
 
@@ -54,6 +54,7 @@ La dinámica de sistemas funciona como un puente entre la comprensión cualitati
 ///
 Apuntes personales sobre "Introducción al Análisis Sistémico" - Tecnicatura Universitaria en Programación Fullstack - Universidad Provincial de Córdoba.
 Delgado Gutiérrez, J. A. (2005). El análisis sistémico y su proyección multidisciplinar. Encuentros multidisciplinares. https://repositorio.uam.es/server/api/core/bitstreams/9d19f658-d618-4fa4-873d-c7ea73ef331e/content
+Aracil, J. (1995). *Dinámica de sistemas*. Isdefe.
 ///
 
 
