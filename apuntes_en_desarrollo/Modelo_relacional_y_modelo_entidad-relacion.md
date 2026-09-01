@@ -1,9 +1,9 @@
 # Modelo relacional y modelo entidad-relacion
 00_00_2026
 
-Las bases de datos relacionales se fundamentan sobre dos modelos, a nivel conceptual con el modelo entidad-relacion y a nivel formal con el modelo relacional.
+Las bases de datos relacionales se fundamentan sobre dos modelos, a nivel conceptual con el modelo entidad-relacion y a nivel formal con el modelo relacional. A diferentes niveles, ambos modelos permiten modelar relaciones entre entidades.
 
-Si bien a diferentes niveles, ambos modelos noer permiten lo mismo, modelar relaciones entre entidades. Una entidad es un grupo de datos, dato cada diferente es llamado "atributo" y la cantidad de atributos se denomina "grado". Por ejemplo, dentro de un sistema de transporte la entidad "conductor" contiene los atributos: nombre, DNI y fecha de nacimiento. Dentro de una base de datos vamos a tener muchos _registros_ bajo un misma entidad, es por esto que necesitamos un atributo (un dato) que sea unico y los identifique individualmente, a este atributo en concreto se le denomica "clave primaria", dentro de la entidad "conductor" la clave primaria podria ser el atributo _DNI_.
+Una entidad es un grupo de datos, cada dato diferente es llamado "atributo". Por ejemplo, dentro de un sistema de transporte la entidad "conductor" contiene los atributos: nombre, DNI y fecha de nacimiento. Dentro de una base de datos vamos a tener muchos _registros_ bajo un misma entidad, es por esto que necesitamos un atributo (un dato) que sea unico y los identifique individualmente, a este atributo en concreto se le denomica "clave primaria", dentro de la entidad "conductor" la clave primaria podria ser el atributo _DNI_.
 
 ## Modelo entidad-relacion
 
@@ -21,7 +21,9 @@ Por ejemplo, en el sistema de transporte la entidad "conductor" puede tener una 
 
 ## Modelo relacional
 
-Edgar Frank Codd desarrolla un modelo logico buscando que la forma de persistencia de los datos no influyera en como estos se manipulan o utilizan, para lograr esto agrupa los datos segun su relacion donde cada grupo conforma una tabla.
+Edgar Frank Codd desarrolla un modelo logico buscando que la forma de persistencia de los datos no influyera en como estos se manipulan o utilizan, para lograr esto agrupa los datos segun su relacion formando entidades que ahora seran tablas. Dentro de una tabla cada atributo pasa a ser la cabecera de una columna, la cantidad de columnas se denomina "grado" y no solo define el tamaño de una tabla sino tambien su complejidad.
+
+Ademas de las claves primarias existen otros tipos: las claves candidatas, atributos que podrian identidicar a un registro. De varias claves candidatas de elige una clave primaria y el resto pasan a ser claves alternativas. Todas estas claves pueden si es necesario se compuestas, por ejemplo una clave "codigo" de una tabla "zapatos" podria estar compuesta por los atributos tipo, talle y color.
 
 Las relaciones que antes eran un simple rombo con un verbo ahora pasan a ser definidos formalmente, cada entidad toma la forma de una tabla y las relaciones se convierten en tablas intermedias. Ademas se introduce el concepto de "clave foranea" o "clave secundaria".
 
