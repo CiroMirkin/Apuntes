@@ -1,15 +1,15 @@
-# Modelo relacional y modelo entidad-relacion
+# Modelo relacional y modelo entidad-relación
 00_00_2026
 
-Para poder utilizar los miles de datos que contiene una base de datos los relacionamos y los agrupamos dentro de entidades, cada una de estas entidades representa un objeto o persona de la realidad, por ejemplo, en un sistema para una empresa de transporte puede existir la entidad _conductor_, _camion_, _destino_ o _paquete_. Luego de que los datos esten agrupados en entidades procedemos a relacionarla.
+Para poder utilizar los miles de datos que contendrá una base de datos los relacionamos y agrupamos dentro de entidades, cada una de estas entidades representa un objeto o persona de la realidad, por ejemplo, en un sistema para una empresa de transporte podrían existir las entidades _conductor_, _camion_, _destino_ o _paquete_.
 
-Las bases de datos relacionales se fundamentan a nivel teorico sobre el modelo relacional, y el modelo entidad-relacion nos facilita rezona sobre las relaciones a nivel conceptual, basicamente bajar a tierra nuestras ideas y dialogar con nuestros compañeros
+Las bases de datos relacionales se fundamentan a nivel teórico sobre el modelo relacional, y el modelo entidad-relación nos facilita razonar sobre las relaciones a nivel conceptual, esto quiere decir que nos permite bajar a tierra nuestras ideas y dialogar con nuestros compañeros sobre como se deberían relacionar las entidades.
 
-Volviendo a las entidades. Son grupos un grupo de datos donde cada uno representa y contiene a un dato diferente, por un lado tenemos al dato concreto (1, 45, "Juan", etc) y por otro tenemos _atributos_ (edad, stock, nombre, etc). Dentro de un sistema de transporte una entidad "conductor" podria contener los atributos: nombre, DNI y fecha de nacimiento; y los datos serian "Juan Carlos", 4723456, 05/06/2003 este conjunto es un _registro_  almacenado dentro de una base de datos y asociado a una entidad, en este caso la entidad _Conductor_ y no solo tendremos este registro sino mucho mas, por este motivo para poder diferenciarlos necesitamos un tributo (un dato) que sea unico y los identifique individualmente, este atributo en concreto se le denomina "clave primaria", dentro de la entidad "conductor" la clave primaria podria ser el atributo _DNI_. 
+Los datos que una entidad agrupa son diferentes, cada uno representa algo diferente, por ejemplo, dentro de una entidad podríamos tener el siguiente registro de datos ["Juan Carlos", 47430440, 05/06/2003], por si solos no representan nada, pero si les asignamos un nombre se convierten en los atributos de la entidad _conductor_: nombre, DNI y fecha de nacimiento. Como dentro de una entidad podemos tener miles de registros necesitamos un atributo (un dato) que los identifique de forma única, para la entidad _conductor_ podemos utilizar el _DNI_, este atributo sera la clave primaria de la entidad y contendrá un valor único de cada conductor.
 
 > Si es necesario una clave primaria puede ser compuesta, por ejemplo, dentro una tabla "zapatos" podria existir una clave primaria compuesta por los datos talle, tipo y color.
 
-## Modelo entidad-relacion
+## Modelo entidad-relación
 
 Como su nombre lo indica este modelo se enfoca en las relaciones entre entidades dejando de lado el detalle de cada dato, en este modelo conceptual solo nos interesa saber que datos existen, como se agrupan y como se relacionan.
 
@@ -17,19 +17,21 @@ Para definir como se relacionan dos entidades entra en juego un nuevo concepto l
 
 Por ejemplo, en el sistema de transporte la entidad "conductor" puede tener una cardinalidad de **1:1** hacia la entidad "viaje" y esta a su vez tener una cardinalidad de **1:N** hacia la entidad "conductor". Esto debido a que un conductor puede realizar **varios viajes** y varios viajes pueden estar asociados a **un mismo conductor**. 
 
-> **1:1** se leeria como 1-conductor **:** 1-viaje. _Un viaje puede ser asignado a un conductor._
+> **1:1** se leería como 1-conductor **:** 1-viaje. _Un viaje puede ser asignado a un conductor._
 
-> **1:N** se leeria como 1-conductor **:** N-viajes. _Varios viajes pueden estar asignados a un mismo conductor._
+> **1:N** se leería como 1-conductor **:** N-viajes. _Varios viajes pueden estar asignados a un mismo conductor._
 
 ![Modelo entidad-relacion conductor-viaje.]()
 
+> Cuando una entidad depende de otra para tener sentido estamos ante una entidad débil, generalmente en una relación **1:1** hay una entidad que por si sola no tiene ninguna utilidad ni razón para existir.
+
 ### Tipos de relaciones
 
-- Tipos de relaciones (relacion reflexiva, doble, etc)
-- relaciones circulares
-- Entidad debil
-- una relacion puede tener atributos
-- relacion ISA ???
+Existen diferentes tipos de relaciones, tenemos relaciones binarias, ternarias, dobles y relaciones reflexivas cuando una entidad de relaciona con si misma y las relaciones
+
+Cuando podemos recorrer con el dedo un diagrama y llega al mismo punto de partida estamos ante una relación cíclica, debemos evitar en la medida de los posible este tipo de relaciones ya darán problemas a la hora de insertar y/o eliminar datos. Si encontramos que las entidades relacionadas tienen diferentes propósitos y cardinalidad podría no ser un peligro, para evaluar esto es importante comprender la forma en que se usaran los datos
+
+Otro punto importante a la hora de relacionar entidades es cuando tenemos datos que son importantes pero no parecen encajar en ninguna entidad, en estos casos es posible que el atributo deba ser asignado a la relación entre dos entidades en vez de estar asignado a una entidad especifica.
 
 ## Modelo relacional
 
@@ -46,5 +48,5 @@ Las relaciones que antes eran un simple rombo con un verbo ahora pasan a ser def
 ![Modelo relacional conductor-viaje.]()
 
 ///
-
+Apuntes personales sobre "Base de Datos I" - Tecnicatura Universitaria en Programación Fullstack - Universidad Provincial de Córdoba.
 ///
