@@ -1,11 +1,11 @@
 # Modelo relacional y modelo entidad-relación
 00_00_2026
 
-Para poder utilizar los miles de datos que contendrá una base de datos los relacionamos y agrupamos dentro de entidades, cada una de estas entidades representa un objeto o persona de la realidad, por ejemplo, en un sistema para una empresa de transporte podrían existir las entidades _conductor_, _camion_, _destino_ o _paquete_.
+Para poder utilizar los miles de datos que contendrá una base de datos los relacionamos y agrupamos dentro de entidades, cada una de estas entidades representa un objeto o persona de la realidad, por ejemplo, en un sistema para una empresa de transporte podrían existir las entidades *conductor*, *camion*, *destino* y *paquete*.
 
 Las bases de datos relacionales se fundamentan a nivel teórico sobre el modelo relacional, y el modelo entidad-relación nos facilita razonar sobre las relaciones a nivel conceptual, esto quiere decir que nos permite bajar a tierra nuestras ideas y dialogar con nuestros compañeros sobre como se deberían relacionar las entidades.
 
-Los datos que una entidad agrupa son diferentes, cada uno representa algo diferente, por ejemplo, dentro de una entidad podríamos tener el siguiente registro de datos ["Juan Carlos", 47430440, 05/06/2003], por si solos no representan nada, pero si les asignamos un nombre se convierten en los atributos de la entidad _conductor_: nombre, DNI y fecha de nacimiento. Como dentro de una entidad podemos tener miles de registros necesitamos un atributo (un dato) que los identifique de forma única, para la entidad _conductor_ podemos utilizar el _DNI_, este atributo sera la clave primaria de la entidad y contendrá un valor único de cada conductor.
+Los datos que una entidad agrupa son diferentes, cada uno representa algo diferente, por ejemplo, dentro de una entidad podríamos tener el siguiente registro de datos **["Juan Carlos", 47430440, 05/06/2003\]**, por si solos no representan nada, pero si les asignamos un nombre se convierten en los atributos de la entidad *conductor*: nombre, DNI y fecha de nacimiento. Como dentro de una entidad podemos tener miles de registros necesitamos un atributo (un dato) que los identifique de forma única, para la entidad *conductor* podemos utilizar el *DNI*, este atributo sera la clave primaria de la entidad y contendrá un valor único de cada conductor.
 
 > Si es necesario una clave primaria puede ser compuesta, por ejemplo, dentro una tabla "zapatos" podria existir una clave primaria compuesta por los datos talle, tipo y color.
 
@@ -23,13 +23,13 @@ Por ejemplo, en el sistema de transporte la entidad "conductor" puede tener una 
 
 ![Modelo entidad-relacion conductor-viaje.]()
 
-> Cuando una entidad depende de otra para tener sentido estamos ante una entidad débil, generalmente en una relación **1:1** hay una entidad que por si sola no tiene ninguna utilidad ni razón para existir.
+Cuando una entidad depende de otra para tener sentido estamos ante una entidad débil, generalmente aparecen en relaciones **1:1** donde hay una entidad que por si sola no tiene ninguna utilidad ni razón para existir.
 
 ### Tipos de relaciones
 
-Existen diferentes tipos de relaciones, tenemos relaciones binarias, ternarias, dobles y relaciones reflexivas cuando una entidad de relaciona con si misma y las relaciones
+Existen las relaciones binarias, las ternarias, las dobles y las relaciones reflexivas que se dan cuando una entidad de relaciona con si misma.
 
-Cuando podemos recorrer con el dedo un diagrama y llega al mismo punto de partida estamos ante una relación cíclica, debemos evitar en la medida de los posible este tipo de relaciones ya darán problemas a la hora de insertar y/o eliminar datos. Si encontramos que las entidades relacionadas tienen diferentes propósitos y cardinalidad podría no ser un peligro, para evaluar esto es importante comprender la forma en que se usaran los datos
+Cuando podemos recorrer con el dedo un diagrama y llega al mismo punto de partida estamos ante una relación cíclica, debemos evitar en la medida de los posible este tipo de relaciones porque dan problemas a la hora de insertar y/o eliminar datos. Si encontramos que las entidades relacionadas tienen diferentes propósitos y cardinalidad podría no ser un peligro, para evaluar esto es importante comprender la forma en que se usaran los datos
 
 Otro punto importante a la hora de relacionar entidades es cuando tenemos datos que son importantes pero no parecen encajar en ninguna entidad, en estos casos es posible que el atributo deba ser asignado a la relación entre dos entidades en vez de estar asignado a una entidad especifica.
 
